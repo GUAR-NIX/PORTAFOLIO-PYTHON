@@ -1,0 +1,266 @@
+{
+  "fuente": "Chicago Data Portal — Crimes 2001 to Present",
+  "dataset_id": "ijzp-q8t2",
+  "licencia": "Chicago Data Portal Terms of Use",
+  "consultado_utc": "2026-10-24T12:34:03.545890+00:00",
+  "conteo_api": 8665676,
+  "nota": "La fecha de cada archivo es su última modificación local. El portal se actualiza a diario, así que una descarga nueva tendrá otros hashes y conteos.",
+  "archivos": [
+    {
+      "archivo": "data/raw/crimes_2001.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2001&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T13:09:47+00:00",
+      "anio": 2001,
+      "filas": 485979,
+      "bytes": 132933095,
+      "sha256": "7631b52ea90197cb27a2d68607e526787cbc9a0f1ac6b163e6d048812e61fbd6"
+    },
+    {
+      "archivo": "data/raw/crimes_2002.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2002&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T13:07:57+00:00",
+      "anio": 2002,
+      "filas": 486843,
+      "bytes": 135999680,
+      "sha256": "ab13dee69a798c57282294ee8a9a49df618f6ac67a561bbb0fe014d9b8f24300"
+    },
+    {
+      "archivo": "data/raw/crimes_2003.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2003&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T13:04:19+00:00",
+      "anio": 2003,
+      "filas": 476013,
+      "bytes": 135454075,
+      "sha256": "2d73d65314045ff96686f4a95a3d24a9eee277c5eef2bac5a430b25aa20e4504"
+    },
+    {
+      "archivo": "data/raw/crimes_2004.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2004&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T13:02:48+00:00",
+      "anio": 2004,
+      "filas": 469447,
+      "bytes": 133824711,
+      "sha256": "8533ba78809d03b3637eb2076c8adf0143f9467fed7c2638f90fcd5ba37298ef"
+    },
+    {
+      "archivo": "data/raw/crimes_2005.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2005&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T13:01:56+00:00",
+      "anio": 2005,
+      "filas": 453803,
+      "bytes": 129377419,
+      "sha256": "83e108ddefbeab510543278ae72d055a452a06e53177f430218421c5516f0895"
+    },
+    {
+      "archivo": "data/raw/crimes_2006.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2006&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T13:00:58+00:00",
+      "anio": 2006,
+      "filas": 448211,
+      "bytes": 127887803,
+      "sha256": "801f37bf230cc40dcb276e55337cbf42ffd3c36f0742899542861a719a7ae04d"
+    },
+    {
+      "archivo": "data/raw/crimes_2007.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2007&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T12:59:07+00:00",
+      "anio": 2007,
+      "filas": 437117,
+      "bytes": 124714147,
+      "sha256": "0ae459d33ab85d350491117a7d7909cb566b68a7cca2a77823d8cb20d026008a"
+    },
+    {
+      "archivo": "data/raw/crimes_2008.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2008&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T12:57:24+00:00",
+      "anio": 2008,
+      "filas": 427231,
+      "bytes": 121381797,
+      "sha256": "61ea040aacffdf5d9e88a0f0e43c795032158b99b4e39c352e77b6eb5cf4d6fa"
+    },
+    {
+      "archivo": "data/raw/crimes_2009.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2009&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T12:55:26+00:00",
+      "anio": 2009,
+      "filas": 392879,
+      "bytes": 111735148,
+      "sha256": "1ad9c2611c20bf6932002776c82bd9d70f3eccdbfe6f7ff3b3346bc4bfa21fc2"
+    },
+    {
+      "archivo": "data/raw/crimes_2010.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2010&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T12:53:42+00:00",
+      "anio": 2010,
+      "filas": 370590,
+      "bytes": 105922652,
+      "sha256": "63d947bc02956266983e4777ad36c6c3b8c22a62bdb222f68912379eeb2457c5"
+    },
+    {
+      "archivo": "data/raw/crimes_2011.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2011&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T12:52:07+00:00",
+      "anio": 2011,
+      "filas": 352083,
+      "bytes": 100668707,
+      "sha256": "bc41aff2dc6ca55e0a649909e7557d8e3ccfc589d0dffccd425f1633e3ee642e"
+    },
+    {
+      "archivo": "data/raw/crimes_2012.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2012&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T12:50:37+00:00",
+      "anio": 2012,
+      "filas": 336406,
+      "bytes": 96160618,
+      "sha256": "4b99cf4f34c2f1d87d2c717d4082b025f6159234ff84f966e9c490670955bf4f"
+    },
+    {
+      "archivo": "data/raw/crimes_2013.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2013&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T12:49:13+00:00",
+      "anio": 2013,
+      "filas": 307646,
+      "bytes": 87987506,
+      "sha256": "deb6a971926694bb4e888c08d8156b70a475494933ab1c265f1ca822d1b95063"
+    },
+    {
+      "archivo": "data/raw/crimes_2014.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2014&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T12:47:55+00:00",
+      "anio": 2014,
+      "filas": 275916,
+      "bytes": 78872607,
+      "sha256": "462409ac3926895dfcf736c1f159bf52e5fd0d66cdefcc18bc44db6dfdabce21"
+    },
+    {
+      "archivo": "data/raw/crimes_2015.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2015&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T12:46:04+00:00",
+      "anio": 2015,
+      "filas": 264950,
+      "bytes": 75584831,
+      "sha256": "19637ed305f50568358d0d44e1c03d82235b6ffdbd6f6e6142d1cbd2f841b599"
+    },
+    {
+      "archivo": "data/raw/crimes_2016.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2016&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T12:44:59+00:00",
+      "anio": 2016,
+      "filas": 270035,
+      "bytes": 77390481,
+      "sha256": "95fccaeff20e6b184c521bc7f8e8021692af6b969288816add926574fb1a2444"
+    },
+    {
+      "archivo": "data/raw/crimes_2017.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2017&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T12:44:00+00:00",
+      "anio": 2017,
+      "filas": 269350,
+      "bytes": 77067264,
+      "sha256": "52629260a18fe72d2f00ff4b0147627fe27a2c23d2658e665e0d647af3f01dbf"
+    },
+    {
+      "archivo": "data/raw/crimes_2018.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2018&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T12:42:51+00:00",
+      "anio": 2018,
+      "filas": 269243,
+      "bytes": 76972236,
+      "sha256": "7b871cca2cf8076d92f214dc702234574aa6d0dda00c30f13be4325659b2814c"
+    },
+    {
+      "archivo": "data/raw/crimes_2019.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2019&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T12:41:37+00:00",
+      "anio": 2019,
+      "filas": 261942,
+      "bytes": 75182597,
+      "sha256": "964fb2003a1cc15d2a10eaff214abd2eeeff1d88341d0ea0c3e7514faff6e61f"
+    },
+    {
+      "archivo": "data/raw/crimes_2020.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2020&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T12:40:30+00:00",
+      "anio": 2020,
+      "filas": 213083,
+      "bytes": 61360736,
+      "sha256": "191e6e9a8ec09cbd43a6f14a8f4111b9ba30ca1e47ef64bfef5a4c6902a011ba"
+    },
+    {
+      "archivo": "data/raw/crimes_2021.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2021&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T12:39:39+00:00",
+      "anio": 2021,
+      "filas": 210017,
+      "bytes": 60299281,
+      "sha256": "3cb0a00407a48a4697a9f87d03d10439ad5b41c2f80d3642a5ba763e0702d90d"
+    },
+    {
+      "archivo": "data/raw/crimes_2022.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2022&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T12:38:56+00:00",
+      "anio": 2022,
+      "filas": 240506,
+      "bytes": 69060199,
+      "sha256": "91901a97b2ee2315d4c16f6cecfd50cb91b915aaed2597c6355f3c3154c26683"
+    },
+    {
+      "archivo": "data/raw/crimes_2023.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2023&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T12:38:03+00:00",
+      "anio": 2023,
+      "filas": 263863,
+      "bytes": 76082131,
+      "sha256": "42c31d6d2fce4c7675b4fc2b33cc0309e646ceb1ca2a62df5cd0b9567393ca0a"
+    },
+    {
+      "archivo": "data/raw/crimes_2024.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2024&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T12:36:59+00:00",
+      "anio": 2024,
+      "filas": 259670,
+      "bytes": 74899719,
+      "sha256": "b643864ad7f1456429874aed693061d84eef75dfe0df51bed59ef2f3480fb6ac"
+    },
+    {
+      "archivo": "data/raw/crimes_2025.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2025&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T12:35:51+00:00",
+      "anio": 2025,
+      "filas": 238176,
+      "bytes": 68747472,
+      "sha256": "33e59f37e6dd5ce00f6c05ae4d142a4cb15bd8e1ae5bc8e19b0a031e8bdd91c2"
+    },
+    {
+      "archivo": "data/raw/crimes_2026.csv",
+      "url": "https://data.cityofchicago.org/resource/ijzp-q8t2.csv?%24where=year%3D2026&%24order=id",
+      "fecha_descarga_utc": "2026-10-24T12:34:49+00:00",
+      "anio": 2026,
+      "filas": 184677,
+      "bytes": 53469320,
+      "sha256": "a44a90cf6fc29be4a15fd05ae55959a6ba97e72c9e37203291cc9e69a7fc4fc3"
+    },
+    {
+      "archivo": "data/raw/community_areas.geojson",
+      "url": "https://data.cityofchicago.org/resource/igwz-8jzy.geojson",
+      "fecha_descarga_utc": "2026-10-24T12:33:39+00:00",
+      "bytes": 2072102,
+      "sha256": "3468ac30bd813fa17d755b12a911a43c44f251465604bbe8e1ca1b1b540dca66"
+    },
+    {
+      "archivo": "data/raw/police_districts.geojson",
+      "url": "https://data.cityofchicago.org/resource/24zt-jpfn.geojson",
+      "fecha_descarga_utc": "2026-10-24T12:33:42+00:00",
+      "bytes": 1079769,
+      "sha256": "8e6e70087936f59bfce4d0596c72ff247d00746d8c3ae9541e4a6427884f9d81"
+    },
+    {
+      "archivo": "data/referencia/poblacion_areas_cmap_2020.csv",
+      "url": "https://services5.arcgis.com/LcMXE3TFhi1BSaCY/arcgis/rest/services/Community_Data_Snapshots_2026/FeatureServer/11/query?where=1%3D1&outFields=GEOG%2CF2010_POP%2CF2020_POP&returnGeometry=false&f=json",
+      "fecha_descarga_utc": "2026-10-26T22:09:05+00:00",
+      "nota": "CMAP Community Data Snapshots 2026, campo F2020_POP (censo 2020)",
+      "bytes": 2209,
+      "sha256": "aae6ce7602c6ac04993604598a24362349d8dda41226e822c894126e0c17af25"
+    }
+  ]
+}

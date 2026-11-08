@@ -1,0 +1,81 @@
+anio,indicador,dominio,estimacion_pct,ee_complejo_pct,n_muestral,serie_inec_pct,dif_pp,coincide
+2024,Empleo Bruto,Total,61.8486,0.4728,269916,61.8,0.0,True
+2024,Empleo Bruto,Urbano,57.9702,0.3002,199165,58.0,0.0,True
+2024,Empleo Bruto,Rural,70.5692,1.0784,70751,70.6,0.0,True
+2024,Empleo Bruto,Quito,59.1358,0.5473,27343,59.1,0.0,True
+2024,Empleo Bruto,Guayaquil,57.0514,0.5055,28776,57.1,0.0,True
+2024,Empleo Bruto,Cuenca,61.9296,0.7871,19542,61.9,0.0,True
+2024,Empleo Bruto,Machala,59.1298,0.5822,22150,59.1,0.0,True
+2024,Empleo Bruto,Ambato,68.3154,0.6717,16201,68.3,0.0,True
+2024,Empleo Global,Total,96.251,0.1394,173062,96.3,0.0,True
+2024,Empleo Global,Urbano,95.0499,0.1722,123469,95.0,0.0,True
+2024,Empleo Global,Rural,98.5512,0.1282,49593,98.6,0.0,True
+2024,Empleo Global,Quito,91.7987,0.3395,16840,91.8,0.0,True
+2024,Empleo Global,Guayaquil,96.6664,0.2536,16608,96.7,0.0,True
+2024,Empleo Global,Cuenca,95.0498,0.309,12078,95.0,0.0,True
+2024,Empleo Global,Machala,93.5945,0.3856,13593,93.6,0.0,True
+2024,Empleo Global,Ambato,94.8591,0.3244,11301,94.9,0.0,True
+2024,Empleo Adecuado/Pleno,Total,35.8762,0.6471,173062,35.9,0.0,True
+2024,Empleo Adecuado/Pleno,Urbano,44.4946,0.5216,123469,44.5,0.0,True
+2024,Empleo Adecuado/Pleno,Rural,19.3707,0.8439,49593,19.4,0.0,True
+2024,Empleo Adecuado/Pleno,Quito,51.5812,0.9614,16840,51.6,0.0,True
+2024,Empleo Adecuado/Pleno,Guayaquil,46.4996,0.885,16608,46.5,0.0,True
+2024,Empleo Adecuado/Pleno,Cuenca,58.9879,1.0679,12078,59.0,0.0,True
+2024,Empleo Adecuado/Pleno,Machala,44.746,1.3774,13593,44.7,0.0,True
+2024,Empleo Adecuado/Pleno,Ambato,43.1161,1.2774,11301,43.1,0.0,True
+2024,Subempleo,Total,21.022,0.3829,173062,21.0,0.0,True
+2024,Subempleo,Urbano,20.3985,0.4009,123469,20.4,0.0,True
+2024,Subempleo,Rural,22.216,0.8279,49593,22.2,0.0,True
+2024,Subempleo,Quito,14.7068,0.571,16840,14.7,0.0,True
+2024,Subempleo,Guayaquil,21.4658,0.7628,16608,21.5,0.0,True
+2024,Subempleo,Cuenca,12.0035,0.6447,12078,12.0,0.0,True
+2024,Subempleo,Machala,22.1578,1.109,13593,22.2,0.0,True
+2024,Subempleo,Ambato,20.1231,0.7171,11301,20.1,0.0,True
+2024,Empleo no Remunerado,Total,9.4522,0.5878,173062,9.5,0.0,True
+2024,Empleo no Remunerado,Urbano,3.9091,0.1505,123469,3.9,0.0,True
+2024,Empleo no Remunerado,Rural,20.0679,1.2046,49593,20.1,0.0,True
+2024,Empleo no Remunerado,Quito,3.6643,0.3872,16840,3.7,0.0,True
+2024,Empleo no Remunerado,Guayaquil,2.7022,0.2363,16608,2.7,0.0,True
+2024,Empleo no Remunerado,Cuenca,5.08,0.4466,12078,5.1,0.0,True
+2024,Empleo no Remunerado,Machala,4.0014,0.3328,13593,4.0,0.0,True
+2024,Empleo no Remunerado,Ambato,8.7525,0.5102,11301,8.8,0.0,True
+2024,Otro Empleo no pleno,Total,29.7566,0.349,173062,29.8,0.0,True
+2024,Otro Empleo no pleno,Urbano,26.061,0.3857,123469,26.1,0.0,True
+2024,Otro Empleo no pleno,Rural,36.8343,0.5763,49593,36.8,0.0,True
+2024,Otro Empleo no pleno,Quito,21.6102,0.8799,16840,21.6,0.0,True
+2024,Otro Empleo no pleno,Guayaquil,25.7932,0.6232,16608,25.8,0.0,True
+2024,Otro Empleo no pleno,Cuenca,18.9492,0.8422,12078,18.9,0.0,True
+2024,Otro Empleo no pleno,Machala,22.6893,0.9117,13593,22.7,0.0,True
+2024,Otro Empleo no pleno,Ambato,22.5306,0.7596,11301,22.5,0.0,True
+2024,Desempleo,Total,3.749,0.1394,173062,3.7,0.0,True
+2024,Desempleo,Urbano,4.9501,0.1722,123469,5.0,0.0,True
+2024,Desempleo,Rural,1.4488,0.1282,49593,1.4,0.0,True
+2024,Desempleo,Quito,8.2013,0.3395,16840,8.2,0.0,True
+2024,Desempleo,Guayaquil,3.3336,0.2536,16608,3.3,0.0,True
+2024,Desempleo,Cuenca,4.9502,0.309,12078,5.0,0.0,True
+2024,Desempleo,Machala,6.4055,0.3856,13593,6.4,0.0,True
+2024,Desempleo,Ambato,5.1409,0.3244,11301,5.1,0.0,True
+2024,Participación Global,Total,64.2576,0.4516,269916,64.3,0.0,True
+2024,Participación Global,Urbano,60.9892,0.3094,199165,61.0,0.0,True
+2024,Participación Global,Rural,71.6066,1.0487,70751,71.6,0.0,True
+2024,Participación Global,Quito,64.4189,0.5501,27343,64.4,0.0,True
+2024,Participación Global,Guayaquil,59.0189,0.5212,28776,59.0,0.0,True
+2024,Participación Global,Cuenca,65.1549,0.7612,19542,65.2,0.0,True
+2024,Participación Global,Machala,63.1766,0.5881,22150,63.2,0.0,True
+2024,Participación Global,Ambato,72.0178,0.6608,16201,72.0,0.0,True
+2024,Participación Bruta,Total,45.6673,0.2767,341394,45.7,0.0,True
+2024,Participación Bruta,Urbano,44.0076,0.2869,249569,44.0,0.0,True
+2024,Participación Bruta,Rural,49.2226,0.5879,91825,49.2,0.0,True
+2024,Participación Bruta,Quito,47.649,0.4604,33137,47.6,0.0,True
+2024,Participación Bruta,Guayaquil,41.1242,0.4912,36497,41.1,0.0,True
+2024,Participación Bruta,Cuenca,47.8515,0.4995,23671,47.9,0.0,True
+2024,Participación Bruta,Machala,44.8915,0.5784,27693,44.9,0.0,True
+2024,Participación Bruta,Ambato,54.1986,0.5998,19700,54.2,0.0,True
+2024,Sector informal,Total,52.3749,0.8027,164888,52.4,0.0,True
+2024,Sector informal,Urbano,40.8512,0.6258,116478,40.9,0.0,True
+2024,Sector informal,Rural,73.6601,1.1952,48410,73.7,0.0,True
+2024,Sector informal,Quito,27.1431,1.2465,15417,27.1,0.0,True
+2024,Sector informal,Guayaquil,46.5147,1.0601,16043,46.5,0.0,True
+2024,Sector informal,Cuenca,25.7978,1.3597,11446,25.8,0.0,True
+2024,Sector informal,Machala,37.317,1.5062,12725,37.3,0.0,True
+2024,Sector informal,Ambato,23.3018,0.9531,10755,23.3,0.0,True

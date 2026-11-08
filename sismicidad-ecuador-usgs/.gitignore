@@ -1,0 +1,19 @@
+# Datos crudos: se bajan con `python descargar_datos.py` (caché de la API del USGS + capas, ~25 MB)
+data/raw/
+
+# data/procesados (catálogos limpios en Parquet, pocos MB), data/muestra y reports/ SÍ se versionan
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Editores y sistema
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.pytest_tmp*/

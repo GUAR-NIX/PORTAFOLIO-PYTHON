@@ -1,0 +1,11 @@
+pandas>=2.2
+numpy>=1.26
+requests>=2.31
+statsmodels>=0.14
+scipy>=1.11
+matplotlib>=3.8
+altair>=5.0
+streamlit>=1.35
+jupyter>=1.0
+nbconvert>=7.0
+pytest>=8.0

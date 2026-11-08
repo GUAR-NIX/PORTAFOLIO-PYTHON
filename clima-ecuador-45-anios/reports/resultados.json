@@ -1,0 +1,1460 @@
+{
+  "calidad": {
+    "pct_completo_min": 100.0,
+    "saltos": 0,
+    "duplicadas": 0,
+    "fuera_de_rango": 0,
+    "rachas_pegadas": 0,
+    "hora_pico_radiacion": [
+      12,
+      13
+    ],
+    "radiacion_medianoche_max": 0.0,
+    "viento_espurio_horas": 209,
+    "viento_espurio_pct": 0.001765970840357081,
+    "viento_espurio_horas_utc": {
+      "9": 126,
+      "8": 69,
+      "6": 8
+    },
+    "inconsistencias_diarias": 0
+  },
+  "api_vs_propio": {
+    "tmed_celda": {
+      "variable_api": "temperature_2m_mean",
+      "dias": 16060,
+      "dif_media": -0.0005,
+      "dif_abs_media": 0.0248,
+      "dif_abs_p99": 0.05,
+      "correlacion": 1.0
+    },
+    "tmax_celda": {
+      "variable_api": "temperature_2m_max",
+      "dias": 16060,
+      "dif_media": -0.0559,
+      "dif_abs_media": 0.0559,
+      "dif_abs_p99": 0.3,
+      "correlacion": 0.9999
+    },
+    "tmin_celda": {
+      "variable_api": "temperature_2m_min",
+      "dias": 16060,
+      "dif_media": 0.0539,
+      "dif_abs_media": 0.0555,
+      "dif_abs_p99": 0.4,
+      "correlacion": 0.9999
+    },
+    "precip": {
+      "variable_api": "precipitation_sum",
+      "dias": 16060,
+      "dif_media": -0.0,
+      "dif_abs_media": 0.0,
+      "dif_abs_p99": 0.0,
+      "correlacion": 1.0
+    },
+    "humedad": {
+      "variable_api": "relative_humidity_2m_mean",
+      "dias": 16060,
+      "dif_media": -0.003,
+      "dif_abs_media": 0.2512,
+      "dif_abs_p99": 0.5,
+      "correlacion": 0.9992
+    },
+    "viento_max": {
+      "variable_api": "wind_speed_10m_max",
+      "dias": 16060,
+      "dif_media": -0.0153,
+      "dif_abs_media": 0.0387,
+      "dif_abs_p99": 0.05,
+      "correlacion": 0.988
+    },
+    "radiacion": {
+      "variable_api": "shortwave_radiation_sum",
+      "dias": 16060,
+      "dif_media": -0.0,
+      "dif_abs_media": 0.0,
+      "dif_abs_p99": 0.0,
+      "correlacion": 1.0
+    }
+  },
+  "nacional": {
+    "tmed": {
+      "pendiente_decada": 0.24,
+      "p_hr": 0.0023,
+      "p_original": 8.1e-05,
+      "cambio_total": 1.055
+    },
+    "tmax": {
+      "pendiente_decada": 0.228,
+      "p_hr": 0.0222,
+      "p_original": 0.001805,
+      "cambio_total": 1.004
+    },
+    "tmin": {
+      "pendiente_decada": 0.185,
+      "p_hr": 0.002,
+      "p_original": 0.000331,
+      "cambio_total": 0.812
+    },
+    "precip_pct": {
+      "pendiente_decada": 1.017,
+      "p_hr": 0.5377,
+      "p_original": 0.537706,
+      "cambio_total": 4.476
+    }
+  },
+  "regiones": {
+    "Amazonía|tmed": {
+      "pendiente_decada": 0.237,
+      "ic": [
+        0.105,
+        0.352
+      ],
+      "p_hr": 0.0006,
+      "p_original": 1e-05
+    },
+    "Amazonía|tmax": {
+      "pendiente_decada": 0.216,
+      "ic": [
+        0.038,
+        0.414
+      ],
+      "p_hr": 0.0225,
+      "p_original": 0.001689
+    },
+    "Amazonía|tmin": {
+      "pendiente_decada": 0.182,
+      "ic": [
+        0.079,
+        0.271
+      ],
+      "p_hr": 0.0007,
+      "p_original": 1.6e-05
+    },
+    "Amazonía|precip": {
+      "pendiente_decada": 72.143,
+      "ic": [
+        -36.241,
+        197.967
+      ],
+      "p_hr": 0.1965,
+      "p_original": 0.061703
+    },
+    "Amazonía|humedad": {
+      "pendiente_decada": -0.06,
+      "ic": [
+        -0.459,
+        0.327
+      ],
+      "p_hr": 0.798,
+      "p_original": 0.688365
+    },
+    "Amazonía|viento_max": {
+      "pendiente_decada": 0.035,
+      "ic": [
+        0.004,
+        0.068
+      ],
+      "p_hr": 0.0268,
+      "p_original": 0.014074
+    },
+    "Amazonía|radiacion": {
+      "pendiente_decada": -0.114,
+      "ic": [
+        -0.235,
+        0.013
+      ],
+      "p_hr": 0.0869,
+      "p_original": 0.086914
+    },
+    "Costa|tmed": {
+      "pendiente_decada": 0.257,
+      "ic": [
+        0.054,
+        0.468
+      ],
+      "p_hr": 0.011,
+      "p_original": 0.000912
+    },
+    "Costa|tmax": {
+      "pendiente_decada": 0.209,
+      "ic": [
+        -0.016,
+        0.43
+      ],
+      "p_hr": 0.0783,
+      "p_original": 0.02265
+    },
+    "Costa|tmin": {
+      "pendiente_decada": 0.238,
+      "ic": [
+        0.097,
+        0.345
+      ],
+      "p_hr": 0.0007,
+      "p_original": 0.000738
+    },
+    "Costa|precip": {
+      "pendiente_decada": -0.037,
+      "ic": [
+        -102.207,
+        95.983
+      ],
+      "p_hr": 1.0,
+      "p_original": 1.0
+    },
+    "Costa|humedad": {
+      "pendiente_decada": -0.063,
+      "ic": [
+        -1.331,
+        0.933
+      ],
+      "p_hr": 0.9301,
+      "p_original": 0.867921
+    },
+    "Costa|viento_max": {
+      "pendiente_decada": 0.017,
+      "ic": [
+        -0.119,
+        0.152
+      ],
+      "p_hr": 0.7661,
+      "p_original": 0.702825
+    },
+    "Costa|radiacion": {
+      "pendiente_decada": -0.068,
+      "ic": [
+        -0.453,
+        0.41
+      ],
+      "p_hr": 0.7107,
+      "p_original": 0.487341
+    },
+    "Galápagos|tmed": {
+      "pendiente_decada": 0.055,
+      "ic": [
+        -0.121,
+        0.221
+      ],
+      "p_hr": 0.4997,
+      "p_original": 0.499688
+    },
+    "Galápagos|tmax": {
+      "pendiente_decada": 0.048,
+      "ic": [
+        -0.109,
+        0.208
+      ],
+      "p_hr": 0.4631,
+      "p_original": 0.463147
+    },
+    "Galápagos|tmin": {
+      "pendiente_decada": 0.055,
+      "ic": [
+        -0.128,
+        0.21
+      ],
+      "p_hr": 0.5249,
+      "p_original": 0.524874
+    },
+    "Galápagos|precip": {
+      "pendiente_decada": -4.727,
+      "ic": [
+        -70.444,
+        52.333
+      ],
+      "p_hr": 0.8907,
+      "p_original": 0.867921
+    },
+    "Galápagos|humedad": {
+      "pendiente_decada": -0.3,
+      "ic": [
+        -0.745,
+        -0.022
+      ],
+      "p_hr": 0.0339,
+      "p_original": 0.009533
+    },
+    "Galápagos|viento_max": {
+      "pendiente_decada": 0.18,
+      "ic": [
+        -0.099,
+        0.511
+      ],
+      "p_hr": 0.2603,
+      "p_original": 0.129454
+    },
+    "Galápagos|radiacion": {
+      "pendiente_decada": -0.064,
+      "ic": [
+        -0.162,
+        0.028
+      ],
+      "p_hr": 0.1295,
+      "p_original": 0.129454
+    },
+    "Sierra|tmed": {
+      "pendiente_decada": 0.267,
+      "ic": [
+        0.134,
+        0.41
+      ],
+      "p_hr": 0.0004,
+      "p_original": 4e-06
+    },
+    "Sierra|tmax": {
+      "pendiente_decada": 0.259,
+      "ic": [
+        0.079,
+        0.455
+      ],
+      "p_hr": 0.0123,
+      "p_original": 0.000851
+    },
+    "Sierra|tmin": {
+      "pendiente_decada": 0.178,
+      "ic": [
+        0.08,
+        0.284
+      ],
+      "p_hr": 0.0012,
+      "p_original": 8.1e-05
+    },
+    "Sierra|precip": {
+      "pendiente_decada": 6.614,
+      "ic": [
+        -45.229,
+        60.631
+      ],
+      "p_hr": 0.7617,
+      "p_original": 0.761698
+    },
+    "Sierra|humedad": {
+      "pendiente_decada": 0.073,
+      "ic": [
+        -0.24,
+        0.335
+      ],
+      "p_hr": 0.6598,
+      "p_original": 0.659789
+    },
+    "Sierra|viento_max": {
+      "pendiente_decada": 0.119,
+      "ic": [
+        0.045,
+        0.195
+      ],
+      "p_hr": 0.0042,
+      "p_original": 0.004154
+    },
+    "Sierra|radiacion": {
+      "pendiente_decada": -0.012,
+      "ic": [
+        -0.122,
+        0.082
+      ],
+      "p_hr": 0.7917,
+      "p_original": 0.791685
+    }
+  },
+  "ciudades_tmed": {
+    "significativas_sube": 18,
+    "significativas_fdr": 18,
+    "total": 22,
+    "max": [
+      {
+        "punto": "Santo Domingo",
+        "pendiente_decada": 0.3477523543617943
+      }
+    ],
+    "min": [
+      {
+        "punto": "Puerto Ayora",
+        "pendiente_decada": 0.04105177792635831
+      }
+    ],
+    "significativas_sin_correccion": 20
+  },
+  "ciudades_lluvia": {
+    "sube": [
+      "Ambato",
+      "Latacunga",
+      "Macas"
+    ],
+    "baja": [
+      "Ibarra"
+    ],
+    "sin_tendencia": 18
+  },
+  "anios_mas_calidos": [
+    {
+      "anio": 2023,
+      "tmed": 1.4620000123977661
+    },
+    {
+      "anio": 2015,
+      "tmed": 1.2899999618530273
+    },
+    {
+      "anio": 2024,
+      "tmed": 1.2580000162124634
+    },
+    {
+      "anio": 2016,
+      "tmed": 1.100000023841858
+    },
+    {
+      "anio": 2020,
+      "tmed": 0.8050000071525574
+    }
+  ],
+  "pettitt": {
+    "con_tendencia": {
+      "2005": 9,
+      "2009": 8,
+      "2004": 2,
+      "2008": 1
+    },
+    "sin_tendencia_significativos": 0,
+    "sin_tendencia": {}
+  },
+  "hamed_rao_factor_menor_1": 26,
+  "tendencias_evaluadas": 154,
+  "extremos_regiones": {
+    "Amazonía|tx90p": {
+      "pendiente_decada": 4.294,
+      "p_hr": 0.0033
+    },
+    "Amazonía|tn90p": {
+      "pendiente_decada": 5.676,
+      "p_hr": 0.0002
+    },
+    "Amazonía|dias_ola_calor": {
+      "pendiente_decada": 6.823,
+      "p_hr": 0.0123
+    },
+    "Amazonía|olas_calor": {
+      "pendiente_decada": 1.771,
+      "p_hr": 0.0074
+    },
+    "Amazonía|wsdi": {
+      "pendiente_decada": 0.7,
+      "p_hr": 0.0168
+    },
+    "Amazonía|prcptot": {
+      "pendiente_decada": 70.759,
+      "p_hr": 0.1483
+    },
+    "Amazonía|dias_lluvia": {
+      "pendiente_decada": -4.428,
+      "p_hr": 0.0021
+    },
+    "Amazonía|r20mm": {
+      "pendiente_decada": 2.73,
+      "p_hr": 0.0814
+    },
+    "Amazonía|rx1day": {
+      "pendiente_decada": 4.496,
+      "p_hr": 0.0095
+    },
+    "Amazonía|rx5day": {
+      "pendiente_decada": 5.423,
+      "p_hr": 0.1359
+    },
+    "Amazonía|r95ptot": {
+      "pendiente_decada": 95.809,
+      "p_hr": 0.0574
+    },
+    "Amazonía|sdii": {
+      "pendiente_decada": 0.359,
+      "p_hr": 0.05
+    },
+    "Amazonía|cdd": {
+      "pendiente_decada": 0.057,
+      "p_hr": 0.8047
+    },
+    "Amazonía|rachas_secas_10": {
+      "pendiente_decada": 0.0,
+      "p_hr": 0.5267
+    },
+    "Costa|tx90p": {
+      "pendiente_decada": 3.583,
+      "p_hr": 0.0888
+    },
+    "Costa|tn90p": {
+      "pendiente_decada": 4.223,
+      "p_hr": 0.0064
+    },
+    "Costa|dias_ola_calor": {
+      "pendiente_decada": 3.767,
+      "p_hr": 0.1007
+    },
+    "Costa|olas_calor": {
+      "pendiente_decada": 0.966,
+      "p_hr": 0.119
+    },
+    "Costa|wsdi": {
+      "pendiente_decada": 0.518,
+      "p_hr": 0.1918
+    },
+    "Costa|prcptot": {
+      "pendiente_decada": -0.885,
+      "p_hr": 1.0
+    },
+    "Costa|dias_lluvia": {
+      "pendiente_decada": -0.155,
+      "p_hr": 0.9766
+    },
+    "Costa|r20mm": {
+      "pendiente_decada": 0.261,
+      "p_hr": 0.8068
+    },
+    "Costa|rx1day": {
+      "pendiente_decada": 0.513,
+      "p_hr": 0.8372
+    },
+    "Costa|rx5day": {
+      "pendiente_decada": 2.62,
+      "p_hr": 0.5266
+    },
+    "Costa|r95ptot": {
+      "pendiente_decada": 4.479,
+      "p_hr": 0.7917
+    },
+    "Costa|sdii": {
+      "pendiente_decada": 0.057,
+      "p_hr": 0.7795
+    },
+    "Costa|cdd": {
+      "pendiente_decada": 0.357,
+      "p_hr": 0.71
+    },
+    "Costa|rachas_secas_10": {
+      "pendiente_decada": 0.0,
+      "p_hr": 0.8488
+    },
+    "Galápagos|tx90p": {
+      "pendiente_decada": 1.117,
+      "p_hr": 0.0766
+    },
+    "Galápagos|tn90p": {
+      "pendiente_decada": 0.963,
+      "p_hr": 0.0426
+    },
+    "Galápagos|dias_ola_calor": {
+      "pendiente_decada": 3.125,
+      "p_hr": 0.0226
+    },
+    "Galápagos|olas_calor": {
+      "pendiente_decada": 0.714,
+      "p_hr": 0.0114
+    },
+    "Galápagos|wsdi": {
+      "pendiente_decada": 0.0,
+      "p_hr": 0.057
+    },
+    "Galápagos|prcptot": {
+      "pendiente_decada": -4.458,
+      "p_hr": 0.8155
+    },
+    "Galápagos|dias_lluvia": {
+      "pendiente_decada": 0.304,
+      "p_hr": 0.9532
+    },
+    "Galápagos|r20mm": {
+      "pendiente_decada": -0.25,
+      "p_hr": 0.2656
+    },
+    "Galápagos|rx1day": {
+      "pendiente_decada": -2.993,
+      "p_hr": 0.2952
+    },
+    "Galápagos|rx5day": {
+      "pendiente_decada": -5.59,
+      "p_hr": 0.3075
+    },
+    "Galápagos|r95ptot": {
+      "pendiente_decada": -6.258,
+      "p_hr": 0.2694
+    },
+    "Galápagos|sdii": {
+      "pendiente_decada": -0.204,
+      "p_hr": 0.384
+    },
+    "Galápagos|cdd": {
+      "pendiente_decada": -1.35,
+      "p_hr": 0.9262
+    },
+    "Galápagos|rachas_secas_10": {
+      "pendiente_decada": 0.145,
+      "p_hr": 0.2725
+    },
+    "Sierra|tx90p": {
+      "pendiente_decada": 4.54,
+      "p_hr": 0.019
+    },
+    "Sierra|tn90p": {
+      "pendiente_decada": 4.774,
+      "p_hr": 0.0011
+    },
+    "Sierra|dias_ola_calor": {
+      "pendiente_decada": 8.286,
+      "p_hr": 0.004
+    },
+    "Sierra|olas_calor": {
+      "pendiente_decada": 2.017,
+      "p_hr": 0.0038
+    },
+    "Sierra|wsdi": {
+      "pendiente_decada": 1.786,
+      "p_hr": 0.0015
+    },
+    "Sierra|prcptot": {
+      "pendiente_decada": 7.805,
+      "p_hr": 0.7174
+    },
+    "Sierra|dias_lluvia": {
+      "pendiente_decada": 2.009,
+      "p_hr": 0.2997
+    },
+    "Sierra|r20mm": {
+      "pendiente_decada": -0.252,
+      "p_hr": 0.411
+    },
+    "Sierra|rx1day": {
+      "pendiente_decada": 0.669,
+      "p_hr": 0.3231
+    },
+    "Sierra|rx5day": {
+      "pendiente_decada": 0.442,
+      "p_hr": 0.7468
+    },
+    "Sierra|r95ptot": {
+      "pendiente_decada": 1.613,
+      "p_hr": 0.9041
+    },
+    "Sierra|sdii": {
+      "pendiente_decada": 0.006,
+      "p_hr": 0.9143
+    },
+    "Sierra|cdd": {
+      "pendiente_decada": -0.647,
+      "p_hr": 0.0048
+    },
+    "Sierra|rachas_secas_10": {
+      "pendiente_decada": -0.11,
+      "p_hr": 0.0441
+    }
+  },
+  "extremos_1980s_vs_ultima_decada": {
+    "tx90p": {
+      "1981_1990": 10.639,
+      "2015_2024": 27.305,
+      "cambio": 16.665
+    },
+    "tn90p": {
+      "1981_1990": 9.43,
+      "2015_2024": 32.692,
+      "cambio": 23.262
+    },
+    "dias_ola_calor": {
+      "1981_1990": 13.473,
+      "2015_2024": 52.073,
+      "cambio": 38.6
+    },
+    "olas_calor": {
+      "1981_1990": 2.677,
+      "2015_2024": 10.382,
+      "cambio": 7.705
+    },
+    "wsdi": {
+      "1981_1990": 5.536,
+      "2015_2024": 21.927,
+      "cambio": 16.391
+    },
+    "prcptot": {
+      "1981_1990": 2006.635,
+      "2015_2024": 2091.426,
+      "cambio": 84.791
+    },
+    "dias_lluvia": {
+      "1981_1990": 240.791,
+      "2015_2024": 236.459,
+      "cambio": -4.332
+    },
+    "r20mm": {
+      "1981_1990": 17.714,
+      "2015_2024": 21.2,
+      "cambio": 3.486
+    },
+    "rx1day": {
+      "1981_1990": 60.824,
+      "2015_2024": 64.34,
+      "cambio": 3.516
+    },
+    "rx5day": {
+      "1981_1990": 124.182,
+      "2015_2024": 132.708,
+      "cambio": 8.526
+    },
+    "r95ptot": {
+      "1981_1990": 434.83,
+      "2015_2024": 566.549,
+      "cambio": 131.718
+    },
+    "sdii": {
+      "1981_1990": 7.638,
+      "2015_2024": 8.046,
+      "cambio": 0.408
+    },
+    "cdd": {
+      "1981_1990": 30.423,
+      "2015_2024": 30.927,
+      "cambio": 0.505
+    },
+    "rachas_secas_10": {
+      "1981_1990": 2.209,
+      "2015_2024": 2.082,
+      "cambio": -0.127
+    }
+  },
+  "enso_regiones": [
+    {
+      "region": "Amazonía",
+      "variable": "precip_pct",
+      "rezago": 4,
+      "r": -0.091,
+      "n": 540,
+      "n_efectivo": 278.344,
+      "p": 0.131,
+      "p_ingenuo": 0.035,
+      "significativa": false
+    },
+    {
+      "region": "Amazonía",
+      "variable": "tmax",
+      "rezago": 4,
+      "r": 0.321,
+      "n": 540,
+      "n_efectivo": 102.091,
+      "p": 0.001,
+      "p_ingenuo": 0.0,
+      "significativa": true
+    },
+    {
+      "region": "Amazonía",
+      "variable": "tmed",
+      "rezago": 3,
+      "r": 0.43,
+      "n": 540,
+      "n_efectivo": 75.257,
+      "p": 0.0,
+      "p_ingenuo": 0.0,
+      "significativa": true
+    },
+    {
+      "region": "Costa",
+      "variable": "precip_pct",
+      "rezago": 1,
+      "r": 0.344,
+      "n": 540,
+      "n_efectivo": 91.568,
+      "p": 0.001,
+      "p_ingenuo": 0.0,
+      "significativa": true
+    },
+    {
+      "region": "Costa",
+      "variable": "tmax",
+      "rezago": 0,
+      "r": 0.524,
+      "n": 540,
+      "n_efectivo": 42.628,
+      "p": 0.0,
+      "p_ingenuo": 0.0,
+      "significativa": true
+    },
+    {
+      "region": "Costa",
+      "variable": "tmed",
+      "rezago": 1,
+      "r": 0.6,
+      "n": 540,
+      "n_efectivo": 34.975,
+      "p": 0.0,
+      "p_ingenuo": 0.0,
+      "significativa": true
+    },
+    {
+      "region": "Galápagos",
+      "variable": "precip_pct",
+      "rezago": 1,
+      "r": 0.366,
+      "n": 495,
+      "n_efectivo": 80.712,
+      "p": 0.001,
+      "p_ingenuo": 0.0,
+      "significativa": true
+    },
+    {
+      "region": "Galápagos",
+      "variable": "tmax",
+      "rezago": 0,
+      "r": 0.693,
+      "n": 540,
+      "n_efectivo": 40.493,
+      "p": 0.0,
+      "p_ingenuo": 0.0,
+      "significativa": true
+    },
+    {
+      "region": "Galápagos",
+      "variable": "tmed",
+      "rezago": 0,
+      "r": 0.701,
+      "n": 540,
+      "n_efectivo": 39.321,
+      "p": 0.0,
+      "p_ingenuo": 0.0,
+      "significativa": true
+    },
+    {
+      "region": "Sierra",
+      "variable": "precip_pct",
+      "rezago": 2,
+      "r": -0.218,
+      "n": 540,
+      "n_efectivo": 379.692,
+      "p": 0.0,
+      "p_ingenuo": 0.0,
+      "significativa": true
+    },
+    {
+      "region": "Sierra",
+      "variable": "tmax",
+      "rezago": 2,
+      "r": 0.466,
+      "n": 540,
+      "n_efectivo": 69.05,
+      "p": 0.0,
+      "p_ingenuo": 0.0,
+      "significativa": true
+    },
+    {
+      "region": "Sierra",
+      "variable": "tmed",
+      "rezago": 2,
+      "r": 0.549,
+      "n": 540,
+      "n_efectivo": 50.019,
+      "p": 0.0,
+      "p_ingenuo": 0.0,
+      "significativa": true
+    }
+  ],
+  "enso_compuestos": [
+    {
+      "region": "Amazonía",
+      "fase": "El Niño",
+      "media": 3.640000104904175,
+      "mediana": 1.7000000476837158,
+      "meses": 49
+    },
+    {
+      "region": "Amazonía",
+      "fase": "La Niña",
+      "media": 10.0,
+      "mediana": 6.179999828338623,
+      "meses": 51
+    },
+    {
+      "region": "Amazonía",
+      "fase": "Neutral",
+      "media": 6.420000076293945,
+      "mediana": 7.110000133514404,
+      "meses": 80
+    },
+    {
+      "region": "Costa",
+      "fase": "El Niño",
+      "media": 29.559999465942383,
+      "mediana": 1.3600000143051147,
+      "meses": 49
+    },
+    {
+      "region": "Costa",
+      "fase": "La Niña",
+      "media": -12.739999771118164,
+      "mediana": -20.84000015258789,
+      "meses": 51
+    },
+    {
+      "region": "Costa",
+      "fase": "Neutral",
+      "media": -14.8100004196167,
+      "mediana": -25.600000381469727,
+      "meses": 80
+    },
+    {
+      "region": "Galápagos",
+      "fase": "El Niño",
+      "media": 63.599998474121094,
+      "mediana": -20.979999542236328,
+      "meses": 49
+    },
+    {
+      "region": "Galápagos",
+      "fase": "La Niña",
+      "media": -35.0099983215332,
+      "mediana": -56.970001220703125,
+      "meses": 51
+    },
+    {
+      "region": "Galápagos",
+      "fase": "Neutral",
+      "media": -38.2400016784668,
+      "mediana": -63.25,
+      "meses": 80
+    },
+    {
+      "region": "Sierra",
+      "fase": "El Niño",
+      "media": -7.019999980926514,
+      "mediana": -4.730000019073486,
+      "meses": 49
+    },
+    {
+      "region": "Sierra",
+      "fase": "La Niña",
+      "media": 12.399999618530273,
+      "mediana": 9.6899995803833,
+      "meses": 51
+    },
+    {
+      "region": "Sierra",
+      "fase": "Neutral",
+      "media": 0.9900000095367432,
+      "mediana": -3.7200000286102295,
+      "meses": 80
+    }
+  ],
+  "enso_episodios": [
+    {
+      "inicio": "1982-10",
+      "fin": "1983-03",
+      "oni_max": 2.14,
+      "region": "Amazonía",
+      "lluvia_pct_normal": 100.09,
+      "anomalia_tmed": 0.58
+    },
+    {
+      "inicio": "1982-10",
+      "fin": "1983-03",
+      "oni_max": 2.14,
+      "region": "Costa",
+      "lluvia_pct_normal": 349.34,
+      "anomalia_tmed": 1.43
+    },
+    {
+      "inicio": "1982-10",
+      "fin": "1983-03",
+      "oni_max": 2.14,
+      "region": "Galápagos",
+      "lluvia_pct_normal": 837.92,
+      "anomalia_tmed": 1.86
+    },
+    {
+      "inicio": "1982-10",
+      "fin": "1983-03",
+      "oni_max": 2.14,
+      "region": "Sierra",
+      "lluvia_pct_normal": 116.27,
+      "anomalia_tmed": 0.48
+    },
+    {
+      "inicio": "1992-01",
+      "fin": "1992-02",
+      "oni_max": 1.54,
+      "region": "Amazonía",
+      "lluvia_pct_normal": 97.39,
+      "anomalia_tmed": 0.64
+    },
+    {
+      "inicio": "1992-01",
+      "fin": "1992-02",
+      "oni_max": 1.54,
+      "region": "Costa",
+      "lluvia_pct_normal": 174.98,
+      "anomalia_tmed": 0.69
+    },
+    {
+      "inicio": "1992-01",
+      "fin": "1992-02",
+      "oni_max": 1.54,
+      "region": "Galápagos",
+      "lluvia_pct_normal": 286.32,
+      "anomalia_tmed": 0.66
+    },
+    {
+      "inicio": "1992-01",
+      "fin": "1992-02",
+      "oni_max": 1.54,
+      "region": "Sierra",
+      "lluvia_pct_normal": 98.89,
+      "anomalia_tmed": 0.52
+    },
+    {
+      "inicio": "1997-08",
+      "fin": "1998-02",
+      "oni_max": 2.37,
+      "region": "Amazonía",
+      "lluvia_pct_normal": 98.85,
+      "anomalia_tmed": 0.28
+    },
+    {
+      "inicio": "1997-08",
+      "fin": "1998-02",
+      "oni_max": 2.37,
+      "region": "Costa",
+      "lluvia_pct_normal": 414.09,
+      "anomalia_tmed": 1.44
+    },
+    {
+      "inicio": "1997-08",
+      "fin": "1998-02",
+      "oni_max": 2.37,
+      "region": "Galápagos",
+      "lluvia_pct_normal": 684.74,
+      "anomalia_tmed": 2.78
+    },
+    {
+      "inicio": "1997-08",
+      "fin": "1998-02",
+      "oni_max": 2.37,
+      "region": "Sierra",
+      "lluvia_pct_normal": 97.93,
+      "anomalia_tmed": 0.49
+    },
+    {
+      "inicio": "2009-12",
+      "fin": "2009-12",
+      "oni_max": 1.5,
+      "region": "Amazonía",
+      "lluvia_pct_normal": 87.61,
+      "anomalia_tmed": 1.22
+    },
+    {
+      "inicio": "2009-12",
+      "fin": "2009-12",
+      "oni_max": 1.5,
+      "region": "Costa",
+      "lluvia_pct_normal": 95.67,
+      "anomalia_tmed": 1.0
+    },
+    {
+      "inicio": "2009-12",
+      "fin": "2009-12",
+      "oni_max": 1.5,
+      "region": "Galápagos",
+      "lluvia_pct_normal": 79.89,
+      "anomalia_tmed": 0.55
+    },
+    {
+      "inicio": "2009-12",
+      "fin": "2009-12",
+      "oni_max": 1.5,
+      "region": "Sierra",
+      "lluvia_pct_normal": 84.79,
+      "anomalia_tmed": 1.39
+    },
+    {
+      "inicio": "2015-08",
+      "fin": "2016-03",
+      "oni_max": 2.59,
+      "region": "Amazonía",
+      "lluvia_pct_normal": 98.97,
+      "anomalia_tmed": 1.17
+    },
+    {
+      "inicio": "2015-08",
+      "fin": "2016-03",
+      "oni_max": 2.59,
+      "region": "Costa",
+      "lluvia_pct_normal": 100.1,
+      "anomalia_tmed": 1.67
+    },
+    {
+      "inicio": "2015-08",
+      "fin": "2016-03",
+      "oni_max": 2.59,
+      "region": "Galápagos",
+      "lluvia_pct_normal": 128.36,
+      "anomalia_tmed": 1.53
+    },
+    {
+      "inicio": "2015-08",
+      "fin": "2016-03",
+      "oni_max": 2.59,
+      "region": "Sierra",
+      "lluvia_pct_normal": 87.52,
+      "anomalia_tmed": 1.57
+    },
+    {
+      "inicio": "2023-09",
+      "fin": "2024-02",
+      "oni_max": 1.99,
+      "region": "Amazonía",
+      "lluvia_pct_normal": 102.37,
+      "anomalia_tmed": 1.44
+    },
+    {
+      "inicio": "2023-09",
+      "fin": "2024-02",
+      "oni_max": 1.99,
+      "region": "Costa",
+      "lluvia_pct_normal": 82.84,
+      "anomalia_tmed": 1.93
+    },
+    {
+      "inicio": "2023-09",
+      "fin": "2024-02",
+      "oni_max": 1.99,
+      "region": "Galápagos",
+      "lluvia_pct_normal": 204.58,
+      "anomalia_tmed": 1.51
+    },
+    {
+      "inicio": "2023-09",
+      "fin": "2024-02",
+      "oni_max": 1.99,
+      "region": "Sierra",
+      "lluvia_pct_normal": 97.09,
+      "anomalia_tmed": 1.68
+    }
+  ],
+  "enso_oni_vs_nino12": [
+    {
+      "region": "Costa",
+      "indice": "oni",
+      "n_anios": 45,
+      "r_pearson": 0.429,
+      "r_spearman": 0.191,
+      "p_spearman": 0.208
+    },
+    {
+      "region": "Costa",
+      "indice": "nino12",
+      "n_anios": 45,
+      "r_pearson": 0.839,
+      "r_spearman": 0.633,
+      "p_spearman": 0.0
+    },
+    {
+      "region": "Sierra",
+      "indice": "oni",
+      "n_anios": 45,
+      "r_pearson": -0.329,
+      "r_spearman": -0.411,
+      "p_spearman": 0.005
+    },
+    {
+      "region": "Sierra",
+      "indice": "nino12",
+      "n_anios": 45,
+      "r_pearson": 0.004,
+      "r_spearman": -0.077,
+      "p_spearman": 0.615
+    },
+    {
+      "region": "Amazonía",
+      "indice": "oni",
+      "n_anios": 45,
+      "r_pearson": -0.105,
+      "r_spearman": -0.151,
+      "p_spearman": 0.323
+    },
+    {
+      "region": "Amazonía",
+      "indice": "nino12",
+      "n_anios": 45,
+      "r_pearson": 0.134,
+      "r_spearman": 0.064,
+      "p_spearman": 0.678
+    },
+    {
+      "region": "Galápagos",
+      "indice": "oni",
+      "n_anios": 45,
+      "r_pearson": 0.473,
+      "r_spearman": 0.163,
+      "p_spearman": 0.285
+    },
+    {
+      "region": "Galápagos",
+      "indice": "nino12",
+      "n_anios": 45,
+      "r_pearson": 0.76,
+      "r_spearman": 0.504,
+      "p_spearman": 0.0
+    }
+  ],
+  "enso_temporada_fuertes": [
+    {
+      "anio": 1983,
+      "Amazonía": -4.110000133514404,
+      "Costa": 137.13999938964844,
+      "Galápagos": 326.9700012207031,
+      "Sierra": 5.260000228881836,
+      "oni": 1.7,
+      "nino12": 2.29
+    },
+    {
+      "anio": 1992,
+      "Amazonía": 2.869999885559082,
+      "Costa": 63.959999084472656,
+      "Galápagos": 160.8300018310547,
+      "Sierra": 4.46999979019165,
+      "oni": 1.44,
+      "nino12": 0.9
+    },
+    {
+      "anio": 1998,
+      "Amazonía": -7.78000020980835,
+      "Costa": 233.07000732421875,
+      "Galápagos": 403.6000061035156,
+      "Sierra": -12.4399995803833,
+      "oni": 1.64,
+      "nino12": 2.5
+    },
+    {
+      "anio": 2016,
+      "Amazonía": 8.920000076293945,
+      "Costa": 12.079999923706055,
+      "Galápagos": -72.11000061035156,
+      "Sierra": 2.9800000190734863,
+      "oni": 1.88,
+      "nino12": 1.1
+    },
+    {
+      "anio": 2024,
+      "Amazonía": -7.599999904632568,
+      "Costa": -19.510000228881836,
+      "Galápagos": 3.0299999713897705,
+      "Sierra": -4.960000038146973,
+      "oni": 1.33,
+      "nino12": 0.78
+    }
+  ],
+  "estacionalidad": [
+    {
+      "region": "Amazonía",
+      "lluvia_anual_mm": 2961.33,
+      "mes_mas_lluvioso": 3,
+      "mes_mas_seco": 8,
+      "pct_4_meses": 39.73,
+      "indice_estacionalidad": 0.13
+    },
+    {
+      "region": "Costa",
+      "lluvia_anual_mm": 1605.76,
+      "mes_mas_lluvioso": 2,
+      "mes_mas_seco": 8,
+      "pct_4_meses": 59.25,
+      "indice_estacionalidad": 0.53
+    },
+    {
+      "region": "Galápagos",
+      "lluvia_anual_mm": 441.81,
+      "mes_mas_lluvioso": 2,
+      "mes_mas_seco": 9,
+      "pct_4_meses": 75.63,
+      "indice_estacionalidad": 0.85
+    },
+    {
+      "region": "Sierra",
+      "lluvia_anual_mm": 2009.58,
+      "mes_mas_lluvioso": 3,
+      "mes_mas_seco": 8,
+      "pct_4_meses": 43.89,
+      "indice_estacionalidad": 0.29
+    }
+  ],
+  "validacion": [
+    {
+      "estacion": "ECM00084008",
+      "nombre": "San Cristóbal (Galápagos)",
+      "region": "Galápagos",
+      "altitud": 19,
+      "desde": 1985,
+      "hasta": 2024,
+      "dias_tmax": 2563,
+      "sesgo_tmax": -5.113,
+      "r_anom_tmax": 0.712,
+      "dias_tmin": 826,
+      "sesgo_tmin": 0.871,
+      "r_anom_tmin": 0.674,
+      "dias_precip": 523,
+      "lluvia_era5_mm_anio": 241.358,
+      "lluvia_est_mm_anio": 929.607,
+      "ratio_lluvia": 0.26,
+      "r_lluvia_mensual": NaN,
+      "dias_humedos_era5_pct": 11.855,
+      "dias_humedos_est_pct": 26.577,
+      "r_lluvia_diaria": 0.137
+    },
+    {
+      "estacion": "ECM00084050",
+      "nombre": "La Concordia",
+      "region": "Costa",
+      "altitud": 360,
+      "desde": 2005,
+      "hasta": 2024,
+      "dias_tmax": 2796,
+      "sesgo_tmax": -1.488,
+      "r_anom_tmax": 0.395,
+      "dias_tmin": 2755,
+      "sesgo_tmin": 0.127,
+      "r_anom_tmin": 0.517,
+      "dias_precip": 2300,
+      "lluvia_era5_mm_anio": 2324.102,
+      "lluvia_est_mm_anio": 4145.715,
+      "ratio_lluvia": 0.561,
+      "r_lluvia_mensual": 0.755,
+      "dias_humedos_era5_pct": 74.87,
+      "dias_humedos_est_pct": 58.304,
+      "r_lluvia_diaria": 0.315
+    },
+    {
+      "estacion": "ECM00084088",
+      "nombre": "Izobamba (Quito)",
+      "region": "Sierra",
+      "altitud": 3058,
+      "desde": 2005,
+      "hasta": 2024,
+      "dias_tmax": 2592,
+      "sesgo_tmax": -2.915,
+      "r_anom_tmax": 0.561,
+      "dias_tmin": 2608,
+      "sesgo_tmin": 2.367,
+      "r_anom_tmin": 0.41,
+      "dias_precip": 1720,
+      "lluvia_era5_mm_anio": 3577.9,
+      "lluvia_est_mm_anio": 2255.928,
+      "ratio_lluvia": 1.586,
+      "r_lluvia_mensual": 0.557,
+      "dias_humedos_era5_pct": 97.616,
+      "dias_humedos_est_pct": 67.151,
+      "r_lluvia_diaria": 0.253
+    },
+    {
+      "estacion": "ECM00084132",
+      "nombre": "Nuevo Rocafuerte",
+      "region": "Amazonía",
+      "altitud": 265,
+      "desde": 2005,
+      "hasta": 2024,
+      "dias_tmax": 1933,
+      "sesgo_tmax": -3.126,
+      "r_anom_tmax": 0.541,
+      "dias_tmin": 1904,
+      "sesgo_tmin": -0.152,
+      "r_anom_tmin": 0.598,
+      "dias_precip": 1575,
+      "lluvia_era5_mm_anio": 3132.106,
+      "lluvia_est_mm_anio": 3655.515,
+      "ratio_lluvia": 0.857,
+      "r_lluvia_mensual": 0.735,
+      "dias_humedos_era5_pct": 85.079,
+      "dias_humedos_est_pct": 68.381,
+      "r_lluvia_diaria": 0.268
+    },
+    {
+      "estacion": "ECM00084135",
+      "nombre": "Portoviejo",
+      "region": "Costa",
+      "altitud": 60,
+      "desde": 2001,
+      "hasta": 2024,
+      "dias_tmax": 1915,
+      "sesgo_tmax": -2.223,
+      "r_anom_tmax": 0.544,
+      "dias_tmin": 1876,
+      "sesgo_tmin": 1.664,
+      "r_anom_tmin": 0.706,
+      "dias_precip": 729,
+      "lluvia_era5_mm_anio": 2259.54,
+      "lluvia_est_mm_anio": 1517.616,
+      "ratio_lluvia": 1.489,
+      "r_lluvia_mensual": NaN,
+      "dias_humedos_era5_pct": 66.804,
+      "dias_humedos_est_pct": 47.051,
+      "r_lluvia_diaria": 0.333
+    },
+    {
+      "estacion": "ECM00084179",
+      "nombre": "Puyo",
+      "region": "Amazonía",
+      "altitud": 960,
+      "desde": 2011,
+      "hasta": 2024,
+      "dias_tmax": 1791,
+      "sesgo_tmax": -0.72,
+      "r_anom_tmax": 0.576,
+      "dias_tmin": 1746,
+      "sesgo_tmin": 0.752,
+      "r_anom_tmin": 0.437,
+      "dias_precip": 1677,
+      "lluvia_era5_mm_anio": 2449.876,
+      "lluvia_est_mm_anio": 4994.298,
+      "ratio_lluvia": 0.491,
+      "r_lluvia_mensual": 0.402,
+      "dias_humedos_era5_pct": 84.854,
+      "dias_humedos_est_pct": 76.983,
+      "r_lluvia_diaria": 0.24
+    },
+    {
+      "estacion": "ECM00084226",
+      "nombre": "Cañar",
+      "region": "Sierra",
+      "altitud": 3083,
+      "desde": 2001,
+      "hasta": 2024,
+      "dias_tmax": 1628,
+      "sesgo_tmax": -2.335,
+      "r_anom_tmax": 0.434,
+      "dias_tmin": 1616,
+      "sesgo_tmin": -0.2,
+      "r_anom_tmin": 0.34,
+      "dias_precip": 1048,
+      "lluvia_era5_mm_anio": 3364.413,
+      "lluvia_est_mm_anio": 736.564,
+      "ratio_lluvia": 4.568,
+      "r_lluvia_mensual": NaN,
+      "dias_humedos_era5_pct": 86.26,
+      "dias_humedos_est_pct": 45.706,
+      "r_lluvia_diaria": 0.257
+    },
+    {
+      "estacion": "ECM00084270",
+      "nombre": "Loja La Argelia",
+      "region": "Sierra",
+      "altitud": 2160,
+      "desde": 2001,
+      "hasta": 2024,
+      "dias_tmax": 2041,
+      "sesgo_tmax": -0.671,
+      "r_anom_tmax": 0.397,
+      "dias_tmin": 2029,
+      "sesgo_tmin": 1.324,
+      "r_anom_tmin": 0.271,
+      "dias_precip": 1641,
+      "lluvia_era5_mm_anio": 1555.417,
+      "lluvia_est_mm_anio": 1413.257,
+      "ratio_lluvia": 1.101,
+      "r_lluvia_mensual": 0.757,
+      "dias_humedos_era5_pct": 63.559,
+      "dias_humedos_est_pct": 57.465,
+      "r_lluvia_diaria": 0.327
+    }
+  ]
+}

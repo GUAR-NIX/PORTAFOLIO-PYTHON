@@ -1,0 +1,124 @@
+{
+  "proyecto": "PYTHON_03_delitos_chicago",
+  "periodo_datos": {
+    "primer_anio": 2001,
+    "ultimo_dato": "2026-10-16",
+    "ultimo_anio_completo": 2025,
+    "ultimo_mes_completo": "2026-09",
+    "registros_totales": 8665676,
+    "registros_anios_completos": 8480999,
+    "registros_anio_parcial": 184677
+  },
+  "calidad_datos": {
+    "archivos_evaluados": 26,
+    "total_registros_brutos": 8665676,
+    "duplicados_id": 0,
+    "fechas_invalidas": 0,
+    "sin_coordenadas": 100954,
+    "pct_sin_coordenadas": 1.16,
+    "coordenadas_fuera_chicago": 149,
+    "total_registros_limpios": 8665676
+  },
+  "armonizacion": {
+    "renombres": {
+      "CRIM SEXUAL ASSAULT": "CRIMINAL SEXUAL ASSAULT"
+    },
+    "categorias_desaparecidas": 3
+  },
+  "temporal": {
+    "patron_horario": {
+      "franja_pico_inicio": 18,
+      "franja_pico_fin": 22,
+      "franja_pico_pct": 22.0,
+      "hora_pico_sin_medianoche": 12,
+      "hora_minima": 5,
+      "pct_medianoche": 5.9,
+      "dia_maximo": "Vie",
+      "dia_minimo": "Dom",
+      "dif_dia_max_min_pct": 9.8
+    },
+    "estacionalidad_hurto": {
+      "mes_alto": "agosto",
+      "mes_bajo": "febrero",
+      "amplitud_pct_media": 37.6
+    },
+    "covid": {
+      "inicio_pre": "2015-01-01",
+      "fin_pre": "2020-02-01",
+      "intervencion": "2020-03-01",
+      "fin_evaluacion": "2021-12-01",
+      "meses_pre": 62,
+      "nivel_intervalo": 0.95,
+      "tendencia_pre_pct_anual": -0.3,
+      "mape_ajuste_pre_pct": 1.9,
+      "observado_total": 384717,
+      "contrafactual_total": 489595,
+      "diferencia_total": -104878,
+      "diferencia_inf": -116985,
+      "diferencia_sup": -93521,
+      "cambio_pct": -21.4,
+      "cambio_inf_pct": -23.3,
+      "cambio_sup_pct": -19.6,
+      "meses_fuera_intervalo": 22,
+      "meses_evaluados": 22
+    }
+  },
+  "espacial": {
+    "ventana": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "tam_celda_m": 1000.0,
+    "gi": {
+      "anios": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "celdas_area_estudio": 672,
+      "celdas_hotspot_todos_los_anios": 42,
+      "celdas_hotspot_alguna_vez": 100,
+      "pct_persistentes_sobre_alguna_vez": 42.0,
+      "pct_hotspots_primer_anio_que_siguen_ultimo": 77.2,
+      "jaccard_consecutivo_promedio": 0.791,
+      "jaccard_primer_vs_ultimo": 0.611,
+      "pct_delitos_ultimo_anio_en_persistentes": 18.7,
+      "pct_celdas_persistentes": 6.2
+    },
+    "poblacion_total_cmap_2020": 2784433
+  },
+  "policial": {
+    "tasa_arresto_global_pct": 25.17,
+    "proporcion_violencia_domestica_pct": 17.28
+  },
+  "pronostico": {
+    "configuracion": {
+      "cortes": 8,
+      "horizonte_meses": 3,
+      "primer_mes_evaluado": "2024-10",
+      "ultimo_mes_evaluado": "2026-09",
+      "meses_evaluados": 24,
+      "distritos": 22,
+      "nivel_intervalo": 0.9,
+      "meses_calibracion_intervalo": 12
+    },
+    "ganador": "Modelo_Ridge",
+    "mejora_ganador_vs_estacional_pct": 32.2
+  },
+  "tiempo_ejecucion_segundos": 36.2,
+  "artefactos": {
+    "figuras_png": 13,
+    "reportes_csv": 17,
+    "mapas_html": 2
+  },
+  "memoria_pico_mb": 2984
+}

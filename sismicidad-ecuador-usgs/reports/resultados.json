@@ -1,0 +1,1041 @@
+{
+  "calidad": {
+    "ecuador": {
+      "filas_crudas": 3215,
+      "duplicados_por_id": 0,
+      "tipos_evento": {
+        "earthquake": 3215
+      },
+      "sin_magnitud": 0,
+      "casi_duplicados": 1,
+      "sin_profundidad": 0,
+      "profundidad_fija": 830,
+      "profundidad_fija_pct": 25.8,
+      "familias_magnitud": {
+        "mb": 2674,
+        "Mw": 380,
+        "Local": 137,
+        "Ms": 21,
+        "Desconocida": 2
+      },
+      "tipos_magnitud_top": {
+        "mb": 2674,
+        "mww": 114,
+        "mw": 111,
+        "mwc": 96,
+        "md": 88,
+        "ml": 49,
+        "mwr": 35,
+        "mwb": 24,
+        "ms": 21,
+        "m": 2
+      },
+      "conversion_fuera_de_rango": 17,
+      "cambio_medio_mb_a_mw": 0.357,
+      "cambio_medio_ms_a_mw": 0.344,
+      "filas_limpias": 3214,
+      "anio_min": 1970,
+      "anio_max": 2025
+    },
+    "mundo_m5": {
+      "filas_crudas": 88359,
+      "duplicados_por_id": 0,
+      "tipos_evento": {
+        "earthquake": 87866,
+        "nuclear explosion": 425,
+        "volcanic eruption": 55,
+        "explosion": 10,
+        "rock burst": 1,
+        "mine collapse": 1,
+        "landslide": 1
+      },
+      "sin_magnitud": 0,
+      "casi_duplicados": 82,
+      "sin_profundidad": 0,
+      "profundidad_fija": 27543,
+      "profundidad_fija_pct": 31.4,
+      "familias_magnitud": {
+        "Mw": 43003,
+        "mb": 41179,
+        "Ms": 3241,
+        "Local": 337,
+        "Desconocida": 24
+      },
+      "tipos_magnitud_top": {
+        "mb": 41179,
+        "mwc": 18018,
+        "mww": 11674,
+        "mw": 9730,
+        "ms": 3239,
+        "mwb": 3172,
+        "mwr": 402,
+        "ml": 278,
+        "md": 52,
+        "m": 21,
+        "mwp": 7,
+        "mh": 4
+      },
+      "conversion_fuera_de_rango": 105,
+      "cambio_medio_mb_a_mw": 0.255,
+      "cambio_medio_ms_a_mw": 0.237,
+      "filas_limpias": 87784,
+      "anio_min": 1973,
+      "anio_max": 2025
+    },
+    "historico_m6": {
+      "filas_crudas": 139,
+      "duplicados_por_id": 0,
+      "tipos_evento": {
+        "earthquake": 139
+      },
+      "sin_magnitud": 0,
+      "casi_duplicados": 0,
+      "sin_profundidad": 1,
+      "profundidad_fija": 11,
+      "profundidad_fija_pct": 7.9,
+      "familias_magnitud": {
+        "Mw": 133,
+        "Ms": 4,
+        "mb": 2
+      },
+      "tipos_magnitud_top": {
+        "mw": 89,
+        "mww": 23,
+        "mwb": 12,
+        "mwc": 9,
+        "ms": 4,
+        "mb": 2
+      },
+      "conversion_fuera_de_rango": 1,
+      "cambio_medio_mb_a_mw": 0.015,
+      "cambio_medio_ms_a_mw": 0.012,
+      "filas_limpias": 139,
+      "anio_min": 1901,
+      "anio_max": 2025
+    }
+  },
+  "exploratorio": {
+    "eventos": 3214,
+    "eventos_m5": 1280,
+    "eventos_m6": 73,
+    "eventos_m7": 16,
+    "anio_mas_activo": 2016,
+    "eventos_anio_mas_activo": 201,
+    "eventos_por_anio_mediana": 48.0,
+    "profundidad_mediana_km": 35.0,
+    "pct_por_clase_profundidad_sin_fijas": {
+      "Superficial (<70 km)": 58.1,
+      "Intermedia (70–300 km)": 41.9,
+      "Profunda (>300 km)": 0.0
+    },
+    "mayor": {
+      "id": "us60003sc0",
+      "tiempo": "2019-05-26 07:41:15.073000+00:00",
+      "mw": "8.0",
+      "profundidad_km": "122.57",
+      "lugar": "78 km NE of Navarro, Peru"
+    },
+    "pendiente_placa": {
+      "n": 710,
+      "km_profundidad_por_km": 0.2962358492491478,
+      "angulo_grados": 16.501177483258175
+    }
+  },
+  "gutenberg_richter_ecuador": {
+    "n_total": 3214,
+    "anios": 56,
+    "mc_maxc": 5.0,
+    "mc_maxc_bootstrap_sd": 0.046,
+    "mc_mbs": 5.6,
+    "maxc": {
+      "mc": 5.0,
+      "n": 1280,
+      "b": 1.3049,
+      "a": 7.8836,
+      "sigma_shi_bolt": 0.0432,
+      "sigma_aki": 0.0365,
+      "ic95_bajo": 1.2203,
+      "ic95_alto": 1.3895,
+      "ic95_boot_bajo": 1.225,
+      "ic95_boot_alto": 1.3981,
+      "anios": 56,
+      "b_minimos_cuadrados": 0.9148
+    },
+    "mbs": {
+      "mc": 5.6,
+      "n": 179,
+      "b": 0.8473,
+      "a": 5.2495,
+      "sigma_shi_bolt": 0.065,
+      "sigma_aki": 0.0633,
+      "ic95_bajo": 0.7199,
+      "ic95_alto": 0.9747,
+      "ic95_boot_bajo": 0.7393,
+      "ic95_boot_alto": 0.9999,
+      "anios": 56,
+      "b_minimos_cuadrados": 0.8682
+    }
+  },
+  "gutenberg_richter_ecuador_magnitud_original": {
+    "n_total": 3214,
+    "anios": 56,
+    "mc_maxc": 4.6,
+    "mc_maxc_bootstrap_sd": 0.049,
+    "mc_mbs": 4.5,
+    "maxc": {
+      "mc": 4.6,
+      "n": 1490,
+      "b": 0.9737,
+      "a": 5.9039,
+      "sigma_shi_bolt": 0.0269,
+      "sigma_aki": 0.0252,
+      "ic95_bajo": 0.921,
+      "ic95_alto": 1.0263,
+      "ic95_boot_bajo": 0.9197,
+      "ic95_boot_alto": 1.0309,
+      "anios": 56,
+      "b_minimos_cuadrados": 0.8478
+    },
+    "mbs": {
+      "mc": 4.5,
+      "n": 1838,
+      "b": 0.9606,
+      "a": 5.8387,
+      "sigma_shi_bolt": 0.0233,
+      "sigma_aki": 0.0224,
+      "ic95_bajo": 0.915,
+      "ic95_alto": 1.0062,
+      "ic95_boot_bajo": 0.9136,
+      "ic95_boot_alto": 1.0097,
+      "anios": 56,
+      "b_minimos_cuadrados": 0.8512
+    }
+  },
+  "cinturon": {
+    "mc_comun": 5.5,
+    "zonas": [
+      {
+        "zona": "Ecuador",
+        "eventos_m5": 540,
+        "eventos_m7": 14,
+        "pct_profundos_70km": 28.0,
+        "mc_maxc": 5.5,
+        "mc_mbs": 5.2,
+        "b_mc_propio": 0.9709918900232428,
+        "b_mc_propio_ic95_bajo": 0.8797812797382665,
+        "b_mc_propio_ic95_alto": 1.0622025003082192,
+        "n_mc_propio": 476,
+        "b_mc_comun": 0.882962776446328,
+        "b_mc_comun_ic95_bajo": 0.76006189118982,
+        "b_mc_comun_ic95_alto": 1.005863661702836,
+        "b_mc_comun_boot_bajo": 0.7751878555999101,
+        "b_mc_comun_boot_alto": 1.0245330678559421,
+        "n_mc_comun": 215,
+        "tasa_m7_gr": 0.19218452985852588,
+        "retorno_m7_gr_anios": 5.203332446873517,
+        "tasa_m7_empirica": 0.2641509433962264
+      },
+      {
+        "zona": "México",
+        "eventos_m5": 765,
+        "eventos_m7": 23,
+        "pct_profundos_70km": 11.1,
+        "mc_maxc": 5.5,
+        "mc_mbs": 5.2,
+        "b_mc_propio": 0.9585303586975038,
+        "b_mc_propio_ic95_bajo": 0.8841744666984269,
+        "b_mc_propio_ic95_alto": 1.0328862506965806,
+        "n_mc_propio": 681,
+        "b_mc_comun": 0.9574771400960149,
+        "b_mc_comun_ic95_bajo": 0.8416450436852081,
+        "b_mc_comun_ic95_alto": 1.0733092365068218,
+        "b_mc_comun_boot_bajo": 0.8530432134155856,
+        "b_mc_comun_boot_alto": 1.0813382829889386,
+        "n_mc_comun": 335,
+        "tasa_m7_gr": 0.2315011897341793,
+        "retorno_m7_gr_anios": 4.319632228016831,
+        "tasa_m7_empirica": 0.4339622641509434
+      },
+      {
+        "zona": "Colombia–Panamá",
+        "eventos_m5": 842,
+        "eventos_m7": 7,
+        "pct_profundos_70km": 17.6,
+        "mc_maxc": 5.5,
+        "mc_mbs": 5.4,
+        "b_mc_propio": 1.1378586100313042,
+        "b_mc_propio_ic95_bajo": 1.0376060539469285,
+        "b_mc_propio_ic95_alto": 1.2381111661156798,
+        "n_mc_propio": 483,
+        "b_mc_comun": 1.0549540442452108,
+        "b_mc_comun_ic95_bajo": 0.954784523369775,
+        "b_mc_comun_ic95_alto": 1.1551235651206466,
+        "b_mc_comun_boot_bajo": 0.9694291615739079,
+        "b_mc_comun_boot_alto": 1.1632813246940756,
+        "n_mc_comun": 347,
+        "tasa_m7_gr": 0.17124682918581885,
+        "retorno_m7_gr_anios": 5.839524181291009,
+        "tasa_m7_empirica": 0.1320754716981132
+      },
+      {
+        "zona": "Chile centro-sur",
+        "eventos_m5": 1580,
+        "eventos_m7": 15,
+        "pct_profundos_70km": 11.5,
+        "mc_maxc": 5.5,
+        "mc_mbs": 5.6,
+        "b_mc_propio": 1.0665296329778093,
+        "b_mc_propio_ic95_bajo": 0.9665370257706862,
+        "b_mc_propio_ic95_alto": 1.1665222401849324,
+        "n_mc_propio": 472,
+        "b_mc_comun": 1.1277647030068312,
+        "b_mc_comun_ic95_bajo": 1.0339409949104272,
+        "b_mc_comun_ic95_alto": 1.2215884111032351,
+        "b_mc_comun_boot_bajo": 1.0400619899509596,
+        "b_mc_comun_boot_alto": 1.2288608076201017,
+        "n_mc_comun": 644,
+        "tasa_m7_gr": 0.24715132508809973,
+        "retorno_m7_gr_anios": 4.0461041414345615,
+        "tasa_m7_empirica": 0.2830188679245283
+      },
+      {
+        "zona": "Centroamérica",
+        "eventos_m5": 1299,
+        "eventos_m7": 14,
+        "pct_profundos_70km": 25.6,
+        "mc_maxc": 5.5,
+        "mc_mbs": 5.7,
+        "b_mc_propio": 1.0284198138583796,
+        "b_mc_propio_ic95_bajo": 0.9129860752947045,
+        "b_mc_propio_ic95_alto": 1.1438535524220546,
+        "n_mc_propio": 314,
+        "b_mc_comun": 1.1300166286933542,
+        "b_mc_comun_ic95_bajo": 1.0302580411947786,
+        "b_mc_comun_ic95_alto": 1.2297752161919298,
+        "b_mc_comun_boot_bajo": 1.0373543477858436,
+        "b_mc_comun_boot_alto": 1.2297651830734275,
+        "n_mc_comun": 571,
+        "tasa_m7_gr": 0.21743792532486672,
+        "retorno_m7_gr_anios": 4.5990137116417635,
+        "tasa_m7_empirica": 0.2641509433962264
+      },
+      {
+        "zona": "Perú",
+        "eventos_m5": 1292,
+        "eventos_m7": 21,
+        "pct_profundos_70km": 37.3,
+        "mc_maxc": 5.5,
+        "mc_mbs": 5.2,
+        "b_mc_propio": 1.1093366132318399,
+        "b_mc_propio_ic95_bajo": 1.0458461962270968,
+        "b_mc_propio_ic95_alto": 1.1728270302365829,
+        "n_mc_propio": 1181,
+        "b_mc_comun": 1.1321774648452305,
+        "b_mc_comun_ic95_bajo": 1.0190989710249965,
+        "b_mc_comun_ic95_alto": 1.2452559586654646,
+        "b_mc_comun_boot_bajo": 1.0285304877624033,
+        "b_mc_comun_boot_alto": 1.2554858187676396,
+        "n_mc_comun": 515,
+        "tasa_m7_gr": 0.19465482003605042,
+        "retorno_m7_gr_anios": 5.137298936727065,
+        "tasa_m7_empirica": 0.39622641509433965
+      },
+      {
+        "zona": "Alaska–Aleutianas",
+        "eventos_m5": 2098,
+        "eventos_m7": 17,
+        "pct_profundos_70km": 8.2,
+        "mc_maxc": 5.5,
+        "mc_mbs": 5.6,
+        "b_mc_propio": 1.0904661446600439,
+        "b_mc_propio_ic95_bajo": 1.0048627351347754,
+        "b_mc_propio_ic95_alto": 1.1760695541853123,
+        "n_mc_propio": 634,
+        "b_mc_comun": 1.1414830514572043,
+        "b_mc_comun_ic95_bajo": 1.0618374496634992,
+        "b_mc_comun_ic95_alto": 1.2211286532509094,
+        "b_mc_comun_boot_bajo": 1.0634773759589882,
+        "b_mc_comun_boot_alto": 1.2318582377698601,
+        "n_mc_comun": 860,
+        "tasa_m7_gr": 0.3147733850521805,
+        "retorno_m7_gr_anios": 3.176888668126209,
+        "tasa_m7_empirica": 0.32075471698113206
+      },
+      {
+        "zona": "Japón",
+        "eventos_m5": 3972,
+        "eventos_m7": 32,
+        "pct_profundos_70km": 11.8,
+        "mc_maxc": 5.5,
+        "mc_mbs": 5.5,
+        "b_mc_propio": 1.1564580632409414,
+        "b_mc_propio_ic95_bajo": 1.099726387550454,
+        "b_mc_propio_ic95_alto": 1.2131897389314288,
+        "n_mc_propio": 1625,
+        "b_mc_comun": 1.1564580632409414,
+        "b_mc_comun_ic95_bajo": 1.099726387550454,
+        "b_mc_comun_ic95_alto": 1.2131897389314288,
+        "b_mc_comun_boot_bajo": 1.1053735924203187,
+        "b_mc_comun_boot_alto": 1.2126961647783907,
+        "n_mc_comun": 1625,
+        "tasa_m7_gr": 0.5647944245352925,
+        "retorno_m7_gr_anios": 1.7705557217969894,
+        "tasa_m7_empirica": 0.6037735849056604
+      },
+      {
+        "zona": "Nueva Zelanda",
+        "eventos_m5": 600,
+        "eventos_m7": 7,
+        "pct_profundos_70km": 25.8,
+        "mc_maxc": 5.5,
+        "mc_mbs": 5.6,
+        "b_mc_propio": 1.0989295682183757,
+        "b_mc_propio_ic95_bajo": 0.9263688849598359,
+        "b_mc_propio_ic95_alto": 1.2714902514769155,
+        "n_mc_propio": 177,
+        "b_mc_comun": 1.2096678633023417,
+        "b_mc_comun_ic95_bajo": 1.0416307971044922,
+        "b_mc_comun_ic95_alto": 1.377704929500191,
+        "b_mc_comun_boot_bajo": 1.0622521970314507,
+        "b_mc_comun_boot_alto": 1.3974144212659847,
+        "n_mc_comun": 255,
+        "tasa_m7_gr": 0.07375008341849633,
+        "retorno_m7_gr_anios": 13.559306696990157,
+        "tasa_m7_empirica": 0.1320754716981132
+      },
+      {
+        "zona": "Chile norte",
+        "eventos_m5": 1949,
+        "eventos_m7": 16,
+        "pct_profundos_70km": 54.4,
+        "mc_maxc": 5.5,
+        "mc_mbs": 5.8,
+        "b_mc_propio": 1.0549663528014204,
+        "b_mc_propio_ic95_bajo": 0.9323115860649926,
+        "b_mc_propio_ic95_alto": 1.177621119537848,
+        "n_mc_propio": 300,
+        "b_mc_comun": 1.2117627067384769,
+        "b_mc_comun_ic95_bajo": 1.117262506502405,
+        "b_mc_comun_ic95_alto": 1.3062629069745486,
+        "b_mc_comun_boot_bajo": 1.122518273055975,
+        "b_mc_comun_boot_alto": 1.3039358546202242,
+        "n_mc_comun": 762,
+        "tasa_m7_gr": 0.21879381535437525,
+        "retorno_m7_gr_anios": 4.570513103308351,
+        "tasa_m7_empirica": 0.3018867924528302
+      },
+      {
+        "zona": "Kamchatka–Kuriles",
+        "eventos_m5": 4283,
+        "eventos_m7": 37,
+        "pct_profundos_70km": 13.8,
+        "mc_maxc": 5.5,
+        "mc_mbs": 6.2,
+        "b_mc_propio": 0.9277075843797236,
+        "b_mc_propio_ic95_bajo": 0.7947652155881897,
+        "b_mc_propio_ic95_alto": 1.0606499531712574,
+        "n_mc_propio": 204,
+        "b_mc_comun": 1.2805416145703374,
+        "b_mc_comun_ic95_bajo": 1.2125421808193866,
+        "b_mc_comun_ic95_alto": 1.3485410483212883,
+        "b_mc_comun_boot_bajo": 1.213123722541177,
+        "b_mc_comun_boot_alto": 1.350589890440624,
+        "n_mc_comun": 1751,
+        "tasa_m7_gr": 0.3964586105891455,
+        "retorno_m7_gr_anios": 2.5223313942254397,
+        "tasa_m7_empirica": 0.6981132075471698
+      },
+      {
+        "zona": "Filipinas",
+        "eventos_m5": 3644,
+        "eventos_m7": 37,
+        "pct_profundos_70km": 22.7,
+        "mc_maxc": 5.5,
+        "mc_mbs": 6.1,
+        "b_mc_propio": 0.969804352567965,
+        "b_mc_propio_ic95_bajo": 0.8523202468475313,
+        "b_mc_propio_ic95_alto": 1.0872884582883988,
+        "n_mc_propio": 229,
+        "b_mc_comun": 1.3082769765857423,
+        "b_mc_comun_ic95_bajo": 1.2296816871316554,
+        "b_mc_comun_ic95_alto": 1.3868722660398292,
+        "b_mc_comun_boot_bajo": 1.2383417553958571,
+        "b_mc_comun_boot_alto": 1.3934976324926636,
+        "n_mc_comun": 1419,
+        "tasa_m7_gr": 0.29193829075385974,
+        "retorno_m7_gr_anios": 3.42538143049938,
+        "tasa_m7_empirica": 0.6981132075471698
+      },
+      {
+        "zona": "Tonga–Kermadec",
+        "eventos_m5": 10062,
+        "eventos_m7": 60,
+        "pct_profundos_70km": 34.3,
+        "mc_maxc": 5.5,
+        "mc_mbs": 6.2,
+        "b_mc_propio": 1.1111317094030646,
+        "b_mc_propio_ic95_bajo": 1.007115792949451,
+        "b_mc_propio_ic95_alto": 1.2151476258566782,
+        "n_mc_propio": 443,
+        "b_mc_comun": 1.4155077643173077,
+        "b_mc_comun_ic95_bajo": 1.3688272189895865,
+        "b_mc_comun_ic95_alto": 1.462188309645029,
+        "b_mc_comun_boot_bajo": 1.366094079722941,
+        "b_mc_comun_boot_alto": 1.463293386864496,
+        "n_mc_comun": 4272,
+        "tasa_m7_gr": 0.6068672874706018,
+        "retorno_m7_gr_anios": 1.6478067291581318,
+        "tasa_m7_empirica": 1.1320754716981132
+      }
+    ],
+    "eventos_en_zonas": 32926,
+    "eventos_mundo": 87784,
+    "zonas_gr_subestima_m7": 12,
+    "mediana_cociente_empirica_gr_m7": 1.379777540621389
+  },
+  "retorno": {
+    "mc": 5.6,
+    "anios": 56,
+    "eventos_principales": 1658,
+    "pct_eliminados_desagrupar": 48.4,
+    "gr_completo": [
+      {
+        "magnitud": 6.0,
+        "tasa_anual": 1.464703222891103,
+        "tasa_ic95": [
+          1.192321864315914,
+          1.7515201425533737
+        ],
+        "periodo_retorno_anios": 0.6827321633294088,
+        "periodo_ic95": [
+          0.5709326291516098,
+          0.8386997084665078
+        ],
+        "prob_anual": 0.7688534196871347,
+        "prob_anual_ic95": [
+          0.6964842770281614,
+          0.8264900170360467
+        ],
+        "prob_50_anios": 1.0,
+        "prob_50_anios_ic95": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "magnitud": 7.0,
+        "tasa_anual": 0.20819064954055214,
+        "tasa_ic95": [
+          0.12536943507185888,
+          0.30560336478570665
+        ],
+        "periodo_retorno_anios": 4.803289687634201,
+        "periodo_ic95": [
+          3.2722152804214506,
+          7.976425828407242
+        ],
+        "prob_anual": 0.1879477954266363,
+        "prob_anual_ic95": [
+          0.11782906250685032,
+          0.26332124574764526
+        ],
+        "prob_50_anios": 0.9999698562356485,
+        "prob_50_anios_ic95": [
+          0.9981048774144453,
+          0.9999997688428927
+        ]
+      }
+    ],
+    "b_completo": {
+      "mc": 5.6,
+      "n": 179,
+      "b": 0.8473,
+      "a": 5.2495,
+      "sigma_shi_bolt": 0.065,
+      "sigma_aki": 0.0633,
+      "ic95_bajo": 0.7199,
+      "ic95_alto": 0.9747,
+      "ic95_boot_bajo": null,
+      "ic95_boot_alto": null,
+      "anios": 56
+    },
+    "gr_desagrupado": [
+      {
+        "magnitud": 6.0,
+        "tasa_anual": 1.0954230210369331,
+        "tasa_ic95": [
+          0.8608275305654893,
+          1.3282931659483754
+        ],
+        "periodo_retorno_anios": 0.9128893411911271,
+        "periodo_ic95": [
+          0.7528458518312254,
+          1.1616728839319141
+        ],
+        "prob_anual": 0.6656018804146435,
+        "prob_anual_ic95": [
+          0.577187952387341,
+          0.7350709344369446
+        ],
+        "prob_50_anios": 1.0,
+        "prob_50_anios_ic95": [
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "magnitud": 7.0,
+        "tasa_anual": 0.20046712619859414,
+        "tasa_ic95": [
+          0.117807068120742,
+          0.30341107980382837
+        ],
+        "periodo_retorno_anios": 4.988349057337926,
+        "periodo_ic95": [
+          3.295858544936968,
+          8.488455030347474
+        ],
+        "prob_anual": 0.181651608193939,
+        "prob_anual_ic95": [
+          0.1111324730449611,
+          0.26170446440303485
+        ],
+        "prob_50_anios": 0.9999556481576947,
+        "prob_50_anios_ic95": [
+          0.9972340009965828,
+          0.9999997420639085
+        ]
+      }
+    ],
+    "b_desagrupado": {
+      "mc": 5.6,
+      "n": 121,
+      "b": 0.7375,
+      "a": 4.4648,
+      "sigma_shi_bolt": 0.067,
+      "sigma_aki": 0.067,
+      "ic95_bajo": 0.6061,
+      "ic95_alto": 0.8689,
+      "ic95_boot_bajo": null,
+      "ic95_boot_alto": null,
+      "anios": 56
+    },
+    "empirica_1970": {
+      "m6": {
+        "conteo": 55,
+        "anios": 56,
+        "tasa_anual": 0.9821428571428571,
+        "tasa_ic95": [
+          0.7398844102042584,
+          1.2783939281421315
+        ],
+        "periodo_retorno_anios": 1.0181818181818183,
+        "prob_anual": 0.6254922781490811
+      },
+      "m7": {
+        "conteo": 16,
+        "anios": 56,
+        "tasa_anual": 0.2857142857142857,
+        "tasa_ic95": [
+          0.16331040095788435,
+          0.46398209995644535
+        ],
+        "periodo_retorno_anios": 3.5,
+        "prob_anual": 0.248522706924714
+      }
+    },
+    "empirica_1900_m7": {
+      "conteo": 25,
+      "anios": 126,
+      "tasa_anual": 0.1984126984126984,
+      "tasa_ic95": [
+        0.12840223688753435,
+        0.2928962833137331
+      ],
+      "periodo_retorno_anios": 5.04,
+      "prob_anual": 0.17996864234530585
+    },
+    "historico_m7": [
+      {
+        "tiempo": "1901-01-07 00:29:00+00:00",
+        "mw": "7.2",
+        "profundidad_km": NaN,
+        "lugar": "Near the coast of Ecuador"
+      },
+      {
+        "tiempo": "1906-01-31 15:36:10+00:00",
+        "mw": "8.8",
+        "profundidad_km": "20.0",
+        "lugar": "1906 Ecuador-Colombia Earthquake"
+      },
+      {
+        "tiempo": "1906-09-28 15:24:36.940000+00:00",
+        "mw": "7.4",
+        "profundidad_km": "100.0",
+        "lugar": "16 km W of Barranca, Peru"
+      },
+      {
+        "tiempo": "1928-05-14 22:14:48.040000+00:00",
+        "mw": "7.3",
+        "profundidad_km": "10.0",
+        "lugar": "23 km N of Bellavista, Peru"
+      },
+      {
+        "tiempo": "1942-05-14 02:13:27.010000+00:00",
+        "mw": "7.8",
+        "profundidad_km": "20.0",
+        "lugar": "12 km SE of Pedernales, Ecuador"
+      },
+      {
+        "tiempo": "1953-12-12 17:31:29.840000+00:00",
+        "mw": "7.3",
+        "profundidad_km": "25.0",
+        "lugar": "14 km NNE of Zorritos, Peru"
+      },
+      {
+        "tiempo": "1956-01-16 23:37:45.120000+00:00",
+        "mw": "7.0",
+        "profundidad_km": "20.0",
+        "lugar": "7 km NNE of Tosagua, Ecuador"
+      },
+      {
+        "tiempo": "1958-01-19 14:07:28.470000+00:00",
+        "mw": "7.6",
+        "profundidad_km": "27.5",
+        "lugar": "near the coast of Ecuador"
+      },
+      {
+        "tiempo": "1967-02-09 15:24:46.750000+00:00",
+        "mw": "7.0",
+        "profundidad_km": "35.0",
+        "lugar": "41 km SE of Baraya, Colombia"
+      },
+      {
+        "tiempo": "1970-12-10 04:34:40.150000+00:00",
+        "mw": "7.2",
+        "profundidad_km": "19.2",
+        "lugar": "9 km ENE of Papayal, Peru"
+      },
+      {
+        "tiempo": "1971-07-27 02:02:49.080000+00:00",
+        "mw": "7.4",
+        "profundidad_km": "113.3",
+        "lugar": "98 km ESE of Sucúa, Ecuador"
+      },
+      {
+        "tiempo": "1979-12-12 07:59:03.300000+00:00",
+        "mw": "7.7",
+        "profundidad_km": "24.0",
+        "lugar": "56 km NW of Valdez, Ecuador"
+      },
+      {
+        "tiempo": "1983-04-12 12:07:54.520000+00:00",
+        "mw": "7.0",
+        "profundidad_km": "104.2",
+        "lugar": "92 km NNE of La Peca, Peru"
+      },
+      {
+        "tiempo": "1987-03-06 04:10:41.960000+00:00",
+        "mw": "7.2",
+        "profundidad_km": "10.0",
+        "lugar": "29 km SSE of Pimampiro, Ecuador"
+      },
+      {
+        "tiempo": "1991-04-05 04:19:49.520000+00:00",
+        "mw": "7.1",
+        "profundidad_km": "19.8",
+        "lugar": "11 km NE of Rioja, Peru"
+      },
+      {
+        "tiempo": "1995-10-03 01:51:23.900000+00:00",
+        "mw": "7.0",
+        "profundidad_km": "24.4",
+        "lugar": "45 km SE of Sucúa, Ecuador"
+      },
+      {
+        "tiempo": "1997-10-28 06:15:17.330000+00:00",
+        "mw": "7.2",
+        "profundidad_km": "112.0",
+        "lugar": "51 km N of Barranca, Peru"
+      },
+      {
+        "tiempo": "1998-08-04 18:59:20.100000+00:00",
+        "mw": "7.2",
+        "profundidad_km": "33.0",
+        "lugar": "3 km E of Bahía de Caráquez, Ecuador"
+      },
+      {
+        "tiempo": "2005-09-26 01:55:37.670000+00:00",
+        "mw": "7.5",
+        "profundidad_km": "115.0",
+        "lugar": "39 km NW of Yurimaguas, Peru"
+      },
+      {
+        "tiempo": "2010-08-12 11:54:15.580000+00:00",
+        "mw": "7.1",
+        "profundidad_km": "206.7",
+        "lugar": "Ecuador"
+      },
+      {
+        "tiempo": "2012-09-30 16:31:35.970000+00:00",
+        "mw": "7.3",
+        "profundidad_km": "170.0",
+        "lugar": "11 km WNW of San Agustín, Colombia"
+      },
+      {
+        "tiempo": "2016-04-16 23:58:36.980000+00:00",
+        "mw": "7.8",
+        "profundidad_km": "20.59",
+        "lugar": "27 km SSE of Muisne, Ecuador"
+      },
+      {
+        "tiempo": "2019-02-22 10:17:23.770000+00:00",
+        "mw": "7.5",
+        "profundidad_km": "145.0",
+        "lugar": "115 km ESE of Palora, Ecuador"
+      },
+      {
+        "tiempo": "2019-05-26 07:41:15.073000+00:00",
+        "mw": "8.0",
+        "profundidad_km": "122.57",
+        "lugar": "78 km NE of Navarro, Peru"
+      },
+      {
+        "tiempo": "2021-11-28 10:52:14.579000+00:00",
+        "mw": "7.5",
+        "profundidad_km": "126.0",
+        "lugar": "43 km NNW of Barranca, Peru"
+      }
+    ],
+    "gr_superficiales": [
+      {
+        "magnitud": 6.0,
+        "tasa_anual": 0.606908408824038,
+        "tasa_ic95": [
+          0.4456864161118273,
+          0.7990112519061191
+        ],
+        "periodo_retorno_anios": 1.6476950812687319,
+        "periodo_ic95": [
+          1.2515468306790458,
+          2.243730039438962
+        ],
+        "prob_anual": 0.4549667128387994,
+        "prob_anual_ic95": [
+          0.3596154451424851,
+          0.550226543016457
+        ],
+        "prob_50_anios": 0.9999999999999337,
+        "prob_50_anios_ic95": [
+          0.9999999997900855,
+          1.0
+        ]
+      },
+      {
+        "magnitud": 7.0,
+        "tasa_anual": 0.09621775895772983,
+        "tasa_ic95": [
+          0.04557339346050526,
+          0.1673614204242617
+        ],
+        "periodo_retorno_anios": 10.393091782976548,
+        "periodo_ic95": [
+          5.975092691404011,
+          21.942627574280117
+        ],
+        "prob_anual": 0.0917337885709203,
+        "prob_anual_ic95": [
+          0.044550523744820936,
+          0.15410616722471404
+        ],
+        "prob_50_anios": 0.9918593719659726,
+        "prob_50_anios_ic95": [
+          0.897579631295277,
+          0.9997678370404948
+        ]
+      }
+    ],
+    "empirica_superficiales_1970": {
+      "m6": {
+        "conteo": 33,
+        "anios": 56,
+        "tasa_anual": 0.5892857142857143,
+        "tasa_ic95": [
+          0.4056371709416043,
+          0.8275762369494517
+        ],
+        "periodo_retorno_anios": 1.696969696969697,
+        "prob_anual": 0.4452766257612717
+      },
+      "m7": {
+        "conteo": 7,
+        "anios": 56,
+        "tasa_anual": 0.125,
+        "tasa_ic95": [
+          0.05025648306285474,
+          0.25754777431611386
+        ],
+        "periodo_retorno_anios": 8.0,
+        "prob_anual": 0.11750309741540454
+      }
+    }
+  },
+  "retorno_con_mc_maxc": {
+    "mc": 5.0,
+    "gr_desagrupado": [
+      {
+        "magnitud": 6.0,
+        "tasa_anual": 0.9198707989007272,
+        "tasa_ic95": [
+          0.7197491417166795,
+          1.1355611467676092
+        ],
+        "periodo_retorno_anios": 1.087109190980983,
+        "periodo_ic95": [
+          0.8806218871141498,
+          1.3893729662739047
+        ],
+        "prob_anual": 0.6014294664909292,
+        "prob_anual_ic95": [
+          0.513125622887785,
+          0.678758193053884
+        ],
+        "prob_50_anios": 1.0,
+        "prob_50_anios_ic95": [
+          0.9999999999999998,
+          1.0
+        ]
+      },
+      {
+        "magnitud": 7.0,
+        "tasa_anual": 0.06464541344274854,
+        "tasa_ic95": [
+          0.04016133708116007,
+          0.09760616625866408
+        ],
+        "periodo_retorno_anios": 15.469001538455977,
+        "periodo_ic95": [
+          10.245254355651268,
+          24.899569403756384
+        ],
+        "prob_anual": 0.06260020618037354,
+        "prob_anual_ic95": [
+          0.03936555930756325,
+          0.09299395699410784
+        ],
+        "prob_50_anios": 0.9605322214207874,
+        "prob_50_anios_ic95": [
+          0.8657520551456742,
+          0.9924053278690638
+        ]
+      }
+    ],
+    "b_desagrupado": {
+      "mc": 5.0,
+      "n": 733,
+      "b": 1.1532,
+      "a": 6.8829,
+      "sigma_shi_bolt": 0.0512,
+      "sigma_aki": 0.0426,
+      "ic95_bajo": 1.0528,
+      "ic95_alto": 1.2536,
+      "ic95_boot_bajo": null,
+      "ic95_boot_alto": null,
+      "anios": 56
+    }
+  },
+  "omori_pedernales": {
+    "replicas_m25_150km_365d": 113,
+    "mc": 4.9,
+    "n_sobre_mc": 58,
+    "omori_utsu": {
+      "modelo": "Omori-Utsu",
+      "n": 58,
+      "K": 5.760327965464434,
+      "c": 0.08589680553206372,
+      "p": 0.9063924538099479,
+      "se_K": 1.7588624128384382,
+      "se_c": 0.10919594389022134,
+      "se_p": 0.08478171690449594,
+      "log_verosimilitud": -75.34625984809773,
+      "aic": 156.69251969619546,
+      "s": 0.0,
+      "t": 365.0
+    },
+    "omori_p1": {
+      "modelo": "Omori (p=1)",
+      "n": 58,
+      "K": 7.8550001404284595,
+      "c": 0.22688475908973993,
+      "p": 1.0,
+      "se_K": 1.2509056245845023,
+      "se_c": 0.15104619764157798,
+      "log_verosimilitud": -75.83505314532518,
+      "aic": 155.67010629065035,
+      "s": 0.0,
+      "t": 365.0
+    },
+    "exponencial": {
+      "modelo": "Exponencial",
+      "n": 58,
+      "A": 0.9788712240635603,
+      "tau_dias": 59.37899085568777,
+      "log_verosimilitud": -116.47462326371163,
+      "aic": 236.94924652742327
+    },
+    "delta_aic_exponencial_vs_utsu": 80.25672683122781,
+    "delta_aic_p1_vs_utsu": -1.0224134055451088,
+    "sensibilidad_mc": [
+      {
+        "mc": 4.5,
+        "n": 110,
+        "p": 0.9759003562638874,
+        "se_p": 0.08957282815850809,
+        "c": 0.26810479664817705,
+        "K": 14.40449331415917
+      },
+      {
+        "mc": 4.7,
+        "n": 91,
+        "p": 0.9884994913025338,
+        "se_p": 0.09256335229584148,
+        "c": 0.2993752338114031,
+        "K": 12.46017028616624
+      },
+      {
+        "mc": 4.9,
+        "n": 58,
+        "p": 0.9063924538099479,
+        "se_p": 0.08478171690449594,
+        "c": 0.08589680553206372,
+        "K": 5.760327965464434
+      },
+      {
+        "mc": 5.0,
+        "n": 44,
+        "p": 0.9203326043390588,
+        "se_p": 0.11799457906016757,
+        "c": 0.1278885003378052,
+        "K": 4.666284320978811
+      },
+      {
+        "mc": 5.2,
+        "n": 26,
+        "p": 1.1305013888132347,
+        "se_p": 0.2073753342050506,
+        "c": 1.0952641170030684,
+        "K": 6.458772913222799
+      }
+    ],
+    "pct_primera_semana": 53.4,
+    "pct_primer_mes": 58.6,
+    "mayor_replica": {
+      "tiempo": "2016-05-18 16:46:43.860000+00:00",
+      "mw": 6.9,
+      "dias": 31.700079629629627,
+      "lugar": "24 km NW of Rosa Zarate, Ecuador"
+    },
+    "ley_bath_delta_m": 0.9
+  },
+  "segundos": 9.1
+}

@@ -1,0 +1,4 @@
+tipo_original,tipo_armonizado,primer_anio_original,ultimo_anio_original,registros_original,codigos_iucr,cobertura_iucr_pct,decision
+CRIM SEXUAL ASSAULT,CRIMINAL SEXUAL ASSAULT,2001,2020,27237,13,100.0,renombre: se armoniza
+RITUALISM,RITUALISM,2001,2020,24,5,0.0,sin sucesor: sus códigos IUCR no vuelven a aparecer
+DOMESTIC VIOLENCE,DOMESTIC VIOLENCE,2001,2001,1,1,0.0,sin sucesor: sus códigos IUCR no vuelven a aparecer

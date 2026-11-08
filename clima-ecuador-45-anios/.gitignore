@@ -1,0 +1,20 @@
+# Datos crudos y serie horaria: se regeneran con `python descargar_datos.py` y el pipeline
+data/raw/
+data/interim/
+
+# data/procesados (tablas diarias y mensuales, < 20 MB) y reports/ SÍ se versionan: la app y el README los usan
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Editores y sistema
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.pytest_tmp*/

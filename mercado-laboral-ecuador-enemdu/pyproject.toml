@@ -1,0 +1,18 @@
+[project]
+name = "empleo_enemdu"
+version = "1.0.0"
+description = "Mercado laboral del Ecuador con encuesta ponderada (INEC ENEMDU): diseño muestral complejo, informalidad, retornos a la educación (Mincer), brecha de género (Oaxaca-Blinder) y desigualdad"
+authors = [{ name = "Erick Guarnizo" }]
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = [".", "src"]
+testpaths = ["tests"]
+filterwarnings = ["ignore::Warning"]

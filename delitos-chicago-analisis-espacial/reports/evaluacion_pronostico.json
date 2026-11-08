@@ -1,0 +1,60 @@
+{
+  "configuracion": {
+    "cortes": 8,
+    "horizonte_meses": 3,
+    "primer_mes_evaluado": "2024-10",
+    "ultimo_mes_evaluado": "2026-09",
+    "meses_evaluados": 24,
+    "distritos": 22,
+    "nivel_intervalo": 0.9,
+    "meses_calibracion_intervalo": 12
+  },
+  "ganador": "Modelo_Ridge",
+  "mejora_ganador_vs_estacional_pct": 32.2,
+  "metricas": {
+    "Linea_Base_Estacional_t12": {
+      "MAE": 82.34,
+      "RMSE": 103.43,
+      "WAPE_pct": 9.16,
+      "Sesgo_pct": 6.61,
+      "WAPE_medio_por_corte": 9.2,
+      "WAPE_desv_por_corte": 1.34,
+      "cortes_ganados": 0,
+      "cobertura_pct": 85.4,
+      "ancho_relativo_mediano_pct": 28.7
+    },
+    "Linea_Base_Promedio_Movil3": {
+      "MAE": 80.38,
+      "RMSE": 99.52,
+      "WAPE_pct": 8.94,
+      "Sesgo_pct": 1.19,
+      "WAPE_medio_por_corte": 9.02,
+      "WAPE_desv_por_corte": 2.02,
+      "cortes_ganados": 0,
+      "cobertura_pct": 85.4,
+      "ancho_relativo_mediano_pct": 33.4
+    },
+    "Modelo_Ridge": {
+      "MAE": 55.82,
+      "RMSE": 71.82,
+      "WAPE_pct": 6.21,
+      "Sesgo_pct": 1.96,
+      "WAPE_medio_por_corte": 6.28,
+      "WAPE_desv_por_corte": 2.02,
+      "cortes_ganados": 5,
+      "cobertura_pct": 86.4,
+      "ancho_relativo_mediano_pct": 24.0
+    },
+    "Modelo_Random_Forest": {
+      "MAE": 56.47,
+      "RMSE": 71.21,
+      "WAPE_pct": 6.28,
+      "Sesgo_pct": 2.11,
+      "WAPE_medio_por_corte": 6.32,
+      "WAPE_desv_por_corte": 1.34,
+      "cortes_ganados": 3,
+      "cobertura_pct": 86.2,
+      "ancho_relativo_mediano_pct": 23.5
+    }
+  }
+}

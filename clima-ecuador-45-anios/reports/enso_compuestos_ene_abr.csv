@@ -1,0 +1,13 @@
+region,fase,media,mediana,meses
+Amazonía,El Niño,3.6370,1.7007,49
+Amazonía,La Niña,9.9979,6.1752,51
+Amazonía,Neutral,6.4161,7.1125,80
+Costa,El Niño,29.5582,1.3564,49
+Costa,La Niña,-12.7414,-20.8447,51
+Costa,Neutral,-14.8082,-25.5965,80
+Galápagos,El Niño,63.6044,-20.9845,49
+Galápagos,La Niña,-35.0099,-56.9659,51
+Galápagos,Neutral,-38.2438,-63.2469,80
+Sierra,El Niño,-7.0249,-4.7346,49
+Sierra,La Niña,12.4014,9.6865,51
+Sierra,Neutral,0.9889,-3.7170,80

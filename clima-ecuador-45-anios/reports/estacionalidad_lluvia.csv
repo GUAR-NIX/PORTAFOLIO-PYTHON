@@ -1,0 +1,5 @@
+region,lluvia_anual_mm,mes_mas_lluvioso,mes_mas_seco,pct_4_meses,indice_estacionalidad
+Amazonía,2961.3340,3,8,39.7302,0.1332
+Costa,1605.7590,2,8,59.2517,0.5276
+Galápagos,441.8150,2,9,75.6331,0.8526
+Sierra,2009.5837,3,8,43.8879,0.2902

@@ -1,0 +1,1436 @@
+{
+  "fuente": {
+    "dataset": "311 Service Requests from 2010 to Present",
+    "url": "https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9",
+    "fecha_corte": "2026-10-26T01:36:17",
+    "mes_inicio": "2024-10",
+    "mes_fin": "2026-09",
+    "fecha_descarga_utc": "2026-10-27"
+  },
+  "calidad": {
+    "filas_crudas": 7559591,
+    "fecha_corte": "2026-10-26 01:36:17",
+    "duplicados_unique_key": 0,
+    "sin_fecha_creacion_valida": 0,
+    "cierre_antes_de_apertura": 2082,
+    "cerradas_sin_fecha_cierre": 12831,
+    "cierre_posterior_al_corte": 34,
+    "fecha_cierre_con_estado_abierto": 18724,
+    "cierre_antes_de_apertura_por_agencia": {
+      "DOT": 1313,
+      "DEP": 628,
+      "NYPD": 134,
+      "DSNY": 7
+    },
+    "filas_limpias": 7544678,
+    "filas_descartadas": 14913,
+    "eventos_cerradas": 7342811,
+    "censuradas_abiertas": 201867,
+    "pct_censuradas": 2.67562114645582,
+    "cierres_instantaneos": 119871,
+    "borough_sin_dato": 6475,
+    "zip_invalido_o_nulo": 63542,
+    "n_agencias": 16,
+    "n_tipos_queja": 205,
+    "n_zip": 286,
+    "creada_min": "2024-10-01",
+    "creada_max": "2026-09-30"
+  },
+  "global": {
+    "n": 7544678,
+    "mediana_km_dias": 0.3730787037037037,
+    "mediana_km_horas": 8.953888888888889,
+    "mediana_ic_inf_horas": 8.916666666666668,
+    "mediana_ic_sup_horas": 8.993611111111111,
+    "promedio_ingenuo_cerradas_dias": 8.722785930943203,
+    "mediana_ingenua_cerradas_horas": 7.656388888888889,
+    "rmst_90d_dias": 8.801707326555132,
+    "pct_cerradas_1d": 59.147414906242005,
+    "pct_cerradas_7d": 81.05733604534437,
+    "pct_cerradas_30d": 90.62194672091461,
+    "pct_abiertas_90d": 4.68222450972521
+  },
+  "mezcla_canal": {
+    "App móvil": {
+      "pct_hpd": 7.433796007154663,
+      "pct_nypd": 77.06623646437812
+    },
+    "Otro/desconocido": {
+      "pct_hpd": 0.0,
+      "pct_nypd": 0.12357043095397378
+    },
+    "Teléfono": {
+      "pct_hpd": 39.597160805490304,
+      "pct_nypd": 23.634005968452463
+    },
+    "Web": {
+      "pct_hpd": 22.66570916637237,
+      "pct_nypd": 49.67055414935824
+    }
+  },
+  "pct_solicitudes_por_borough": {
+    "BROOKLYN": 30.18104947620031,
+    "QUEENS": 24.25249957652268,
+    "BRONX": 21.955410157994816,
+    "MANHATTAN": 19.65301898901451,
+    "STATEN ISLAND": 3.8721997148188434,
+    "SIN DATO": 0.08582208544884222
+  },
+  "logrank": [
+    {
+      "dimension": "agencia",
+      "grupos": 10,
+      "chi2": 7051706.130875539,
+      "gl": 9,
+      "p_valor": 0.0
+    },
+    {
+      "dimension": "tipo_queja",
+      "grupos": 21,
+      "chi2": 6128322.068992333,
+      "gl": 20,
+      "p_valor": 0.0
+    },
+    {
+      "dimension": "borough",
+      "grupos": 5,
+      "chi2": 12097.496948214452,
+      "gl": 4,
+      "p_valor": 0.0
+    },
+    {
+      "dimension": "canal",
+      "grupos": 4,
+      "chi2": 834874.2566156127,
+      "gl": 3,
+      "p_valor": 0.0
+    },
+    {
+      "dimension": "borough | Illegal Parking",
+      "grupos": 5,
+      "chi2": 22392.03452389919,
+      "gl": 4,
+      "p_valor": 0.0
+    },
+    {
+      "dimension": "borough | Noise - Residential",
+      "grupos": 5,
+      "chi2": 56251.9903341234,
+      "gl": 4,
+      "p_valor": 0.0
+    },
+    {
+      "dimension": "borough | HEAT/HOT WATER",
+      "grupos": 5,
+      "chi2": 10810.725038771776,
+      "gl": 4,
+      "p_valor": 0.0
+    },
+    {
+      "dimension": "borough | Street Condition",
+      "grupos": 5,
+      "chi2": 1389.5574588350537,
+      "gl": 4,
+      "p_valor": 1.270289821037872e-299
+    },
+    {
+      "dimension": "borough | Rodent",
+      "grupos": 5,
+      "chi2": 1906.6614484977536,
+      "gl": 4,
+      "p_valor": 0.0
+    }
+  ],
+  "sesgo": {
+    "cohorte_desde": "2024-10-01",
+    "cohorte_hasta": "2025-01-01",
+    "corte_ficticio": "2025-01-15",
+    "tabla": [
+      {
+        "grupo": "Todas",
+        "n": 907223,
+        "pct_abiertas_corte_ficticio": 7.014592883998749,
+        "pct_abiertas_hoy": 1.250739895262798,
+        "promedio_ingenuo_ficticio": 3.5308956835921164,
+        "mediana_ingenua_ficticio": 0.3779050925925926,
+        "promedio_abiertas_al_corte_ficticio": 6.940027580081989,
+        "mediana_km_ficticio": 0.5578356481481481,
+        "mediana_km_ficticio_ic_inf": 0.5513194444444445,
+        "mediana_km_ficticio_ic_sup": 0.5639930555555556,
+        "mediana_verdad": 0.5578356481481481,
+        "promedio_verdad_cerradas": 11.5588522239039,
+        "pct_cerradas_30d_ingenuo_ficticio": 90.65643177035855,
+        "pct_cerradas_30d_km_ficticio": 90.92543856806768,
+        "pct_cerradas_30d_verdad": 90.83676229545915
+      },
+      {
+        "grupo": "DCWP",
+        "n": 4379,
+        "pct_abiertas_corte_ficticio": 7.558803379767065,
+        "pct_abiertas_hoy": 0.06850879196163007,
+        "promedio_ingenuo_ficticio": 11.305367396794027,
+        "mediana_ingenua_ficticio": 2.8475983796296296,
+        "promedio_abiertas_al_corte_ficticio": 12.51494944569198,
+        "mediana_km_ficticio": 3.1230787037037038,
+        "mediana_km_ficticio_ic_inf": 2.9955208333333334,
+        "mediana_km_ficticio_ic_sup": 3.5078703703703704,
+        "mediana_verdad": 3.1230787037037038,
+        "promedio_verdad_cerradas": 13.577849369879477,
+        "pct_cerradas_30d_ingenuo_ficticio": 67.13861612240237,
+        "pct_cerradas_30d_km_ficticio": 67.35358275396749,
+        "pct_cerradas_30d_verdad": 67.32130623430147
+      },
+      {
+        "grupo": "DEP",
+        "n": 55166,
+        "pct_abiertas_corte_ficticio": 3.0399158902222334,
+        "pct_abiertas_hoy": 1.3685965993546767,
+        "promedio_ingenuo_ficticio": 6.121432729029437,
+        "mediana_ingenua_ficticio": 2.0131944444444443,
+        "promedio_abiertas_al_corte_ficticio": 7.535028849584956,
+        "mediana_km_ficticio": 2.1902777777777778,
+        "mediana_km_ficticio_ic_inf": 2.123611111111111,
+        "mediana_km_ficticio_ic_sup": 2.3048611111111112,
+        "mediana_verdad": 2.1902777777777778,
+        "promedio_verdad_cerradas": 8.11977731707811,
+        "pct_cerradas_30d_ingenuo_ficticio": 95.486350288221,
+        "pct_cerradas_30d_km_ficticio": 95.79829961798954,
+        "pct_cerradas_30d_verdad": 95.57154769242008
+      },
+      {
+        "grupo": "DHS",
+        "n": 6278,
+        "pct_abiertas_corte_ficticio": 6.578528193692257,
+        "pct_abiertas_hoy": 0.0,
+        "promedio_ingenuo_ficticio": 3.218291877821982,
+        "mediana_ingenua_ficticio": 0.290787037037037,
+        "promedio_abiertas_al_corte_ficticio": 5.218384603642349,
+        "mediana_km_ficticio": 0.35888888888888887,
+        "mediana_km_ficticio_ic_inf": 0.3287847222222222,
+        "mediana_km_ficticio_ic_sup": 0.3906365740740741,
+        "mediana_verdad": 0.35888888888888887,
+        "promedio_verdad_cerradas": 8.036053281299777,
+        "pct_cerradas_30d_ingenuo_ficticio": 91.51003504300733,
+        "pct_cerradas_30d_km_ficticio": 92.23331275030857,
+        "pct_cerradas_30d_verdad": 91.79675055750249
+      },
+      {
+        "grupo": "DOB",
+        "n": 25709,
+        "pct_abiertas_corte_ficticio": 34.50542611536815,
+        "pct_abiertas_hoy": 1.58310319343421,
+        "promedio_ingenuo_ficticio": 11.06396756963416,
+        "mediana_ingenua_ficticio": 2.514172453703704,
+        "promedio_abiertas_al_corte_ficticio": 27.474743943701082,
+        "mediana_km_ficticio": 14.225243055555556,
+        "mediana_km_ficticio_ic_inf": 13.404131944444444,
+        "mediana_km_ficticio_ic_sup": 15.21800925925926,
+        "mediana_verdad": 14.225243055555556,
+        "promedio_verdad_cerradas": 77.9828658989225,
+        "pct_cerradas_30d_ingenuo_ficticio": 56.7972305418336,
+        "pct_cerradas_30d_km_ficticio": 57.17836674633514,
+        "pct_cerradas_30d_verdad": 57.151192189496584
+      },
+      {
+        "grupo": "DOHMH",
+        "n": 19811,
+        "pct_abiertas_corte_ficticio": 14.941194286002723,
+        "pct_abiertas_hoy": 4.285497955681183,
+        "promedio_ingenuo_ficticio": 20.620743812324577,
+        "mediana_ingenua_ficticio": 1.000011574074074,
+        "promedio_abiertas_al_corte_ficticio": 24.266032971067325,
+        "mediana_km_ficticio": 2.6041666666666665,
+        "mediana_km_ficticio_ic_inf": 2.3652430555555557,
+        "mediana_km_ficticio_ic_sup": 2.7460532407407405,
+        "mediana_verdad": 2.6041666666666665,
+        "promedio_verdad_cerradas": 25.573646363145393,
+        "pct_cerradas_30d_ingenuo_ficticio": 62.147291908535664,
+        "pct_cerradas_30d_km_ficticio": 62.32220982358918,
+        "pct_cerradas_30d_verdad": 62.2431982232093
+      },
+      {
+        "grupo": "DOT",
+        "n": 45888,
+        "pct_abiertas_corte_ficticio": 6.247820781032076,
+        "pct_abiertas_hoy": 1.5821129707113024,
+        "promedio_ingenuo_ficticio": 4.870870711181533,
+        "mediana_ingenua_ficticio": 1.841238425925926,
+        "promedio_abiertas_al_corte_ficticio": 7.993270816484742,
+        "mediana_km_ficticio": 2.1080208333333332,
+        "mediana_km_ficticio_ic_inf": 2.0586805555555556,
+        "mediana_km_ficticio_ic_sup": 2.1585069444444445,
+        "mediana_verdad": 2.1080208333333332,
+        "promedio_verdad_cerradas": 12.798071285706847,
+        "pct_cerradas_30d_ingenuo_ficticio": 91.64269525801953,
+        "pct_cerradas_30d_km_ficticio": 91.83043805852758,
+        "pct_cerradas_30d_verdad": 91.77780683403307
+      },
+      {
+        "grupo": "DPR",
+        "n": 21559,
+        "pct_abiertas_corte_ficticio": 40.822858203070645,
+        "pct_abiertas_hoy": 8.808386288788906,
+        "promedio_ingenuo_ficticio": 12.991156311508249,
+        "mediana_ingenua_ficticio": 4.6457291666666665,
+        "promedio_abiertas_al_corte_ficticio": 36.52310839451342,
+        "mediana_km_ficticio": 27.22800925925926,
+        "mediana_km_ficticio_ic_inf": 25.919421296296296,
+        "mediana_km_ficticio_ic_sup": 28.96042824074074,
+        "mediana_verdad": 27.230671296296297,
+        "promedio_verdad_cerradas": 78.03134995502242,
+        "pct_cerradas_30d_ingenuo_ficticio": 50.77693770583052,
+        "pct_cerradas_30d_km_ficticio": 50.99634044641055,
+        "pct_cerradas_30d_verdad": 51.03669001345816
+      },
+      {
+        "grupo": "DSNY",
+        "n": 73806,
+        "pct_abiertas_corte_ficticio": 2.2843671246240094,
+        "pct_abiertas_hoy": 0.3346611386608189,
+        "promedio_ingenuo_ficticio": 3.2919340987115095,
+        "mediana_ingenua_ficticio": 1.2563946759259261,
+        "promedio_abiertas_al_corte_ficticio": 4.093018111922046,
+        "mediana_km_ficticio": 1.3120949074074073,
+        "mediana_km_ficticio_ic_inf": 1.288900462962963,
+        "mediana_km_ficticio_ic_sup": 1.3424305555555556,
+        "mediana_verdad": 1.3120949074074073,
+        "promedio_verdad_cerradas": 4.630806049395723,
+        "pct_cerradas_30d_ingenuo_ficticio": 95.84586618974068,
+        "pct_cerradas_30d_km_ficticio": 96.13180679826921,
+        "pct_cerradas_30d_verdad": 95.96103297835008
+      },
+      {
+        "grupo": "EDC",
+        "n": 7823,
+        "pct_abiertas_corte_ficticio": 94.68234692573182,
+        "pct_abiertas_hoy": 31.944266905279306,
+        "promedio_ingenuo_ficticio": 25.698078870637463,
+        "mediana_ingenua_ficticio": 25.79005787037037,
+        "promedio_abiertas_al_corte_ficticio": 54.274110687088395,
+        "mediana_km_ficticio": null,
+        "mediana_km_ficticio_ic_inf": null,
+        "mediana_km_ficticio_ic_sup": null,
+        "mediana_verdad": 171.03175925925925,
+        "promedio_verdad_cerradas": 142.05204526541237,
+        "pct_cerradas_30d_ingenuo_ficticio": 5.317653074268184,
+        "pct_cerradas_30d_km_ficticio": 6.406834212490919,
+        "pct_cerradas_30d_verdad": 5.317653074268103
+      },
+      {
+        "grupo": "HPD",
+        "n": 235836,
+        "pct_abiertas_corte_ficticio": 10.025186994352008,
+        "pct_abiertas_hoy": 1.2907274546718916,
+        "promedio_ingenuo_ficticio": 5.740529164814317,
+        "mediana_ingenua_ficticio": 2.664537037037037,
+        "promedio_abiertas_al_corte_ficticio": 9.552789359458757,
+        "mediana_km_ficticio": 3.014409722222222,
+        "mediana_km_ficticio_ic_inf": 3.001400462962963,
+        "mediana_km_ficticio_ic_sup": 3.0268402777777776,
+        "mediana_verdad": 3.014409722222222,
+        "promedio_verdad_cerradas": 14.836405187863223,
+        "pct_cerradas_30d_ingenuo_ficticio": 87.56678369714548,
+        "pct_cerradas_30d_km_ficticio": 88.2546782888641,
+        "pct_cerradas_30d_verdad": 88.08578842924572
+      },
+      {
+        "grupo": "NYPD",
+        "n": 400222,
+        "pct_abiertas_corte_ficticio": 0.01174348236728795,
+        "pct_abiertas_hoy": 0.01124375971336411,
+        "promedio_ingenuo_ficticio": 0.15981745064080763,
+        "mediana_ingenua_ficticio": 0.06689814814814815,
+        "promedio_abiertas_al_corte_ficticio": 0.16537280547721941,
+        "mediana_km_ficticio": 0.0669212962962963,
+        "mediana_km_ficticio_ic_inf": 0.06653935185185185,
+        "mediana_km_ficticio_ic_sup": 0.06728009259259259,
+        "mediana_verdad": 0.0669212962962963,
+        "promedio_verdad_cerradas": 0.16003283842038787,
+        "pct_cerradas_30d_ingenuo_ficticio": 99.9877567949788,
+        "pct_cerradas_30d_km_ficticio": 99.9877567949788,
+        "pct_cerradas_30d_verdad": 99.9877567949788
+      },
+      {
+        "grupo": "TLC",
+        "n": 10260,
+        "pct_abiertas_corte_ficticio": 46.364522417154,
+        "pct_abiertas_hoy": 8.508771929824565,
+        "promedio_ingenuo_ficticio": 25.987429007578356,
+        "mediana_ingenua_ficticio": 25.59462962962963,
+        "promedio_abiertas_al_corte_ficticio": 38.26601036364703,
+        "mediana_km_ficticio": 46.50893518518519,
+        "mediana_km_ficticio_ic_inf": 45.02596064814815,
+        "mediana_km_ficticio_ic_sup": 47.84509259259259,
+        "mediana_verdad": 50.95475694444445,
+        "promedio_verdad_cerradas": 63.22844246771541,
+        "pct_cerradas_30d_ingenuo_ficticio": 30.01949317738791,
+        "pct_cerradas_30d_km_ficticio": 30.718452804731545,
+        "pct_cerradas_30d_verdad": 30.263157894738402
+      }
+    ]
+  },
+  "cox": {
+    "n_muestra": 200000,
+    "eventos_muestra": 194628,
+    "modelo_A": {
+      "concordancia": 0.754827473865774,
+      "hr": [
+        {
+          "covariable": "fin_de_semana",
+          "hr": 1.0139914686389637,
+          "ic_inf": 1.003652331607074,
+          "ic_sup": 1.024437114420146,
+          "p_valor": 0.007880281551458288,
+          "lectura": "en cada momento, 1 % más probable cerrarse (más rápido)"
+        },
+        {
+          "covariable": "nocturna",
+          "hr": 1.091901216642,
+          "ic_inf": 1.0795349375469585,
+          "ic_sup": 1.1044091538282597,
+          "p_valor": 1.0421735577720004e-51,
+          "lectura": "en cada momento, 9 % más probable cerrarse (más rápido)"
+        },
+        {
+          "covariable": "agencia=DEP",
+          "hr": 0.11071766800120893,
+          "ic_inf": 0.10820591924288465,
+          "ic_sup": 0.11328772116532806,
+          "p_valor": 0.0,
+          "lectura": "en cada momento, 89 % menos probable cerrarse (más lento)"
+        },
+        {
+          "covariable": "agencia=DHS",
+          "hr": 0.13489396708417842,
+          "ic_inf": 0.12914618659616092,
+          "ic_sup": 0.1408975583042754,
+          "p_valor": 0.0,
+          "lectura": "en cada momento, 87 % menos probable cerrarse (más lento)"
+        },
+        {
+          "covariable": "agencia=DOB",
+          "hr": 0.04535911894347946,
+          "ic_inf": 0.04358838535913123,
+          "ic_sup": 0.04720178676904595,
+          "p_valor": 0.0,
+          "lectura": "en cada momento, 95 % menos probable cerrarse (más lento)"
+        },
+        {
+          "covariable": "agencia=DOHMH",
+          "hr": 0.04549265729237209,
+          "ic_inf": 0.04397257926756064,
+          "ic_sup": 0.047065282546388705,
+          "p_valor": 0.0,
+          "lectura": "en cada momento, 95 % menos probable cerrarse (más lento)"
+        },
+        {
+          "covariable": "agencia=DOT",
+          "hr": 0.07546951429959464,
+          "ic_inf": 0.07353581116941722,
+          "ic_sup": 0.07745406623032507,
+          "p_valor": 0.0,
+          "lectura": "en cada momento, 92 % menos probable cerrarse (más lento)"
+        },
+        {
+          "covariable": "agencia=DPR",
+          "hr": 0.02780228423923477,
+          "ic_inf": 0.02693328715662722,
+          "ic_sup": 0.028699319337595428,
+          "p_valor": 0.0,
+          "lectura": "en cada momento, 97 % menos probable cerrarse (más lento)"
+        },
+        {
+          "covariable": "agencia=DSNY",
+          "hr": 0.11576989735964664,
+          "ic_inf": 0.11351121456052359,
+          "ic_sup": 0.11807352415841596,
+          "p_valor": 0.0,
+          "lectura": "en cada momento, 88 % menos probable cerrarse (más lento)"
+        },
+        {
+          "covariable": "agencia=HPD",
+          "hr": 0.059042663904870805,
+          "ic_inf": 0.058015559331884924,
+          "ic_sup": 0.06008795228606258,
+          "p_valor": 0.0,
+          "lectura": "en cada momento, 94 % menos probable cerrarse (más lento)"
+        },
+        {
+          "covariable": "agencia=Otras",
+          "hr": 0.017426581640414992,
+          "ic_inf": 0.016749236390980072,
+          "ic_sup": 0.018131318979627754,
+          "p_valor": 0.0,
+          "lectura": "en cada momento, 98 % menos probable cerrarse (más lento)"
+        },
+        {
+          "covariable": "borough=BRONX",
+          "hr": 0.7920411641586627,
+          "ic_inf": 0.7808510115347161,
+          "ic_sup": 0.8033916796609271,
+          "p_valor": 2.8136468448142826e-226,
+          "lectura": "en cada momento, 21 % menos probable cerrarse (más lento)"
+        },
+        {
+          "covariable": "borough=BROOKLYN",
+          "hr": 0.878816885078622,
+          "ic_inf": 0.867289652604359,
+          "ic_sup": 0.8904973271387675,
+          "p_valor": 5.920669957002521e-82,
+          "lectura": "en cada momento, 12 % menos probable cerrarse (más lento)"
+        },
+        {
+          "covariable": "borough=QUEENS",
+          "hr": 0.8479846142457954,
+          "ic_inf": 0.8362162937789618,
+          "ic_sup": 0.8599185537846806,
+          "p_valor": 2.562253399648574e-118,
+          "lectura": "en cada momento, 15 % menos probable cerrarse (más lento)"
+        },
+        {
+          "covariable": "borough=STATEN ISLAND",
+          "hr": 0.9315611552034749,
+          "ic_inf": 0.9085051679765822,
+          "ic_sup": 0.9552022558295469,
+          "p_valor": 2.9503686255701697e-08,
+          "lectura": "en cada momento, 7 % menos probable cerrarse (más lento)"
+        },
+        {
+          "covariable": "canal=App móvil",
+          "hr": 1.0163917457551905,
+          "ic_inf": 1.001874000253661,
+          "ic_sup": 1.0311198619564226,
+          "p_valor": 0.026757997126312424,
+          "lectura": "en cada momento, 2 % más probable cerrarse (más rápido)"
+        },
+        {
+          "covariable": "canal=Otro/desconocido",
+          "hr": 0.8841521920023585,
+          "ic_inf": 0.8605317682826241,
+          "ic_sup": 0.9084209641471757,
+          "p_valor": 5.016211722547654e-19,
+          "lectura": "en cada momento, 12 % menos probable cerrarse (más lento)"
+        },
+        {
+          "covariable": "canal=Web",
+          "hr": 1.0681873345056545,
+          "ic_inf": 1.0560316842611117,
+          "ic_sup": 1.080482904636191,
+          "p_valor": 1.3688388191972965e-29,
+          "lectura": "en cada momento, 7 % más probable cerrarse (más rápido)"
+        }
+      ],
+      "ph": [
+        {
+          "covariable": "agencia=DEP",
+          "estadistico": 407.26803528878855,
+          "p_valor": 1.4414839644557698e-90
+        },
+        {
+          "covariable": "canal=Otro/desconocido",
+          "estadistico": 347.47929443452557,
+          "p_valor": 1.4999077393929198e-77
+        },
+        {
+          "covariable": "agencia=DOHMH",
+          "estadistico": 274.36589193183033,
+          "p_valor": 1.2688486584147432e-61
+        },
+        {
+          "covariable": "borough=BRONX",
+          "estadistico": 118.0307109744302,
+          "p_valor": 1.707240368712798e-27
+        },
+        {
+          "covariable": "agencia=DHS",
+          "estadistico": 111.23890864462012,
+          "p_valor": 5.24529026219467e-26
+        },
+        {
+          "covariable": "borough=BROOKLYN",
+          "estadistico": 89.490176927345,
+          "p_valor": 3.081647950411668e-21
+        },
+        {
+          "covariable": "borough=QUEENS",
+          "estadistico": 54.8751179740902,
+          "p_valor": 1.2843677874836462e-13
+        },
+        {
+          "covariable": "borough=STATEN ISLAND",
+          "estadistico": 48.66642281269354,
+          "p_valor": 3.03416872767408e-12
+        },
+        {
+          "covariable": "agencia=DPR",
+          "estadistico": 46.461794694738735,
+          "p_valor": 9.342232037664904e-12
+        },
+        {
+          "covariable": "agencia=DOB",
+          "estadistico": 38.35310197121877,
+          "p_valor": 5.90341767687882e-10
+        },
+        {
+          "covariable": "agencia=HPD",
+          "estadistico": 33.163665051039494,
+          "p_valor": 8.471889819648963e-09
+        },
+        {
+          "covariable": "canal=App móvil",
+          "estadistico": 17.466762314186788,
+          "p_valor": 2.9237485778054868e-05
+        },
+        {
+          "covariable": "fin_de_semana",
+          "estadistico": 6.086213633933349,
+          "p_valor": 0.01362407462393154
+        },
+        {
+          "covariable": "agencia=DOT",
+          "estadistico": 5.775955339386333,
+          "p_valor": 0.016246886405396798
+        },
+        {
+          "covariable": "nocturna",
+          "estadistico": 2.1517148910628774,
+          "p_valor": 0.14241074638922138
+        },
+        {
+          "covariable": "agencia=Otras",
+          "estadistico": 0.9238674564702918,
+          "p_valor": 0.33646154931388705
+        },
+        {
+          "covariable": "agencia=DSNY",
+          "estadistico": 0.4749111309898592,
+          "p_valor": 0.4907364524641272
+        },
+        {
+          "covariable": "canal=Web",
+          "estadistico": 0.38407204915389814,
+          "p_valor": 0.5354319612090372
+        }
+      ]
+    },
+    "modelo_B": {
+      "concordancia": 0.5424824232408217,
+      "hr": [
+        {
+          "covariable": "fin_de_semana",
+          "hr": 0.9819046351641446,
+          "ic_inf": 0.9718407773897688,
+          "ic_sup": 0.9920727088097404,
+          "p_valor": 0.0005125382726715274,
+          "lectura": "en cada momento, 2 % menos probable cerrarse (más lento)"
+        },
+        {
+          "covariable": "nocturna",
+          "hr": 1.0579241804905146,
+          "ic_inf": 1.0455963905723127,
+          "ic_sup": 1.0703973175097947,
+          "p_valor": 4.702022645987251e-21,
+          "lectura": "en cada momento, 6 % más probable cerrarse (más rápido)"
+        },
+        {
+          "covariable": "borough=BRONX",
+          "hr": 0.8669021346480963,
+          "ic_inf": 0.8544599376496068,
+          "ic_sup": 0.8795255083868025,
+          "p_valor": 1.5432621620964495e-83,
+          "lectura": "en cada momento, 13 % menos probable cerrarse (más lento)"
+        },
+        {
+          "covariable": "borough=BROOKLYN",
+          "hr": 0.9401087055791009,
+          "ic_inf": 0.9276445968339803,
+          "ic_sup": 0.9527402857969606,
+          "p_valor": 1.1974258857372817e-19,
+          "lectura": "en cada momento, 6 % menos probable cerrarse (más lento)"
+        },
+        {
+          "covariable": "borough=QUEENS",
+          "hr": 0.9092541948605932,
+          "ic_inf": 0.8964838629887907,
+          "ic_sup": 0.9222064389595409,
+          "p_valor": 1.1129636658753406e-39,
+          "lectura": "en cada momento, 9 % menos probable cerrarse (más lento)"
+        },
+        {
+          "covariable": "borough=STATEN ISLAND",
+          "hr": 1.036987493345439,
+          "ic_inf": 1.0112207550755177,
+          "ic_sup": 1.0634107893429765,
+          "p_valor": 0.004667358137228125,
+          "lectura": "en cada momento, 4 % más probable cerrarse (más rápido)"
+        },
+        {
+          "covariable": "canal=App móvil",
+          "hr": 0.9605000223357535,
+          "ic_inf": 0.9465062363999989,
+          "ic_sup": 0.9747007018315132,
+          "p_valor": 7.365125728279325e-08,
+          "lectura": "en cada momento, 4 % menos probable cerrarse (más lento)"
+        },
+        {
+          "covariable": "canal=Otro/desconocido",
+          "hr": 0.7914718223060695,
+          "ic_inf": 0.7728261448136546,
+          "ic_sup": 0.8105673568478146,
+          "p_valor": 2.2280386627724863e-82,
+          "lectura": "en cada momento, 21 % menos probable cerrarse (más lento)"
+        },
+        {
+          "covariable": "canal=Web",
+          "hr": 1.0406252219124403,
+          "ic_inf": 1.0285295543116029,
+          "ic_sup": 1.052863136446384,
+          "p_valor": 2.4607165855451754e-11,
+          "lectura": "en cada momento, 4 % más probable cerrarse (más rápido)"
+        }
+      ],
+      "ph": [
+        {
+          "covariable": "borough=BRONX",
+          "estadistico": 21.477719872268946,
+          "p_valor": 3.579636760499514e-06
+        },
+        {
+          "covariable": "borough=BROOKLYN",
+          "estadistico": 17.893014393436022,
+          "p_valor": 2.3367726553328336e-05
+        },
+        {
+          "covariable": "nocturna",
+          "estadistico": 10.729078017769217,
+          "p_valor": 0.0010546498193464537
+        },
+        {
+          "covariable": "borough=STATEN ISLAND",
+          "estadistico": 10.70328976810085,
+          "p_valor": 0.001069452001215762
+        },
+        {
+          "covariable": "canal=Otro/desconocido",
+          "estadistico": 6.4710583090073515,
+          "p_valor": 0.010964522002289251
+        },
+        {
+          "covariable": "canal=Web",
+          "estadistico": 5.903148464146744,
+          "p_valor": 0.015113844304148742
+        },
+        {
+          "covariable": "canal=App móvil",
+          "estadistico": 5.792079025135854,
+          "p_valor": 0.016098539695333675
+        },
+        {
+          "covariable": "borough=QUEENS",
+          "estadistico": 5.113807168791075,
+          "p_valor": 0.02373617850184155
+        },
+        {
+          "covariable": "fin_de_semana",
+          "estadistico": 0.04232863847120488,
+          "p_valor": 0.8369945982901604
+        }
+      ]
+    },
+    "hr_por_ventana": [
+      {
+        "covariable": "fin_de_semana",
+        "hr": 0.9720682362339462,
+        "ic_inf": 0.9497378552718844,
+        "ic_sup": 0.9949236525109035,
+        "p_valor": 0.016886387608800416,
+        "lectura": "en cada momento, 3 % menos probable cerrarse (más lento)",
+        "ventana": "0–1 d",
+        "n_en_riesgo": 60000
+      },
+      {
+        "covariable": "nocturna",
+        "hr": 1.110366740109088,
+        "ic_inf": 1.0829582370722763,
+        "ic_sup": 1.1384689227477554,
+        "p_valor": 2.2200204562629036e-16,
+        "lectura": "en cada momento, 11 % más probable cerrarse (más rápido)",
+        "ventana": "0–1 d",
+        "n_en_riesgo": 60000
+      },
+      {
+        "covariable": "borough=BRONX",
+        "hr": 0.6740703780225586,
+        "ic_inf": 0.6508097223848858,
+        "ic_sup": 0.6981623950890555,
+        "p_valor": 2.141285376011195e-107,
+        "lectura": "en cada momento, 33 % menos probable cerrarse (más lento)",
+        "ventana": "0–1 d",
+        "n_en_riesgo": 60000
+      },
+      {
+        "covariable": "borough=BROOKLYN",
+        "hr": 0.8280293566929963,
+        "ic_inf": 0.8018391235339168,
+        "ic_sup": 0.8550750336596862,
+        "p_valor": 1.2092692674966986e-30,
+        "lectura": "en cada momento, 17 % menos probable cerrarse (más lento)",
+        "ventana": "0–1 d",
+        "n_en_riesgo": 60000
+      },
+      {
+        "covariable": "borough=QUEENS",
+        "hr": 0.8081711039345201,
+        "ic_inf": 0.7817310733024557,
+        "ic_sup": 0.835505400182599,
+        "p_valor": 3.997471870144251e-36,
+        "lectura": "en cada momento, 19 % menos probable cerrarse (más lento)",
+        "ventana": "0–1 d",
+        "n_en_riesgo": 60000
+      },
+      {
+        "covariable": "borough=STATEN ISLAND",
+        "hr": 0.8642971767226376,
+        "ic_inf": 0.8137312034664077,
+        "ic_sup": 0.9180053640668335,
+        "p_valor": 2.1232131170208924e-06,
+        "lectura": "en cada momento, 14 % menos probable cerrarse (más lento)",
+        "ventana": "0–1 d",
+        "n_en_riesgo": 60000
+      },
+      {
+        "covariable": "canal=App móvil",
+        "hr": 1.0562056050444606,
+        "ic_inf": 1.0206432327015875,
+        "ic_sup": 1.093007080617662,
+        "p_valor": 0.0017524955964223795,
+        "lectura": "en cada momento, 6 % más probable cerrarse (más rápido)",
+        "ventana": "0–1 d",
+        "n_en_riesgo": 60000
+      },
+      {
+        "covariable": "canal=Otro/desconocido",
+        "hr": 0.6483045477843546,
+        "ic_inf": 0.5995716415681743,
+        "ic_sup": 0.700998442118758,
+        "p_valor": 1.6018251868993474e-27,
+        "lectura": "en cada momento, 35 % menos probable cerrarse (más lento)",
+        "ventana": "0–1 d",
+        "n_en_riesgo": 60000
+      },
+      {
+        "covariable": "canal=Web",
+        "hr": 1.1762566290350276,
+        "ic_inf": 1.1402889908225082,
+        "ic_sup": 1.213358778769625,
+        "p_valor": 1.2408459185847222e-24,
+        "lectura": "en cada momento, 18 % más probable cerrarse (más rápido)",
+        "ventana": "0–1 d",
+        "n_en_riesgo": 60000
+      },
+      {
+        "covariable": "fin_de_semana",
+        "hr": 1.030375679237434,
+        "ic_inf": 0.9896638914836852,
+        "ic_sup": 1.0727622271560922,
+        "p_valor": 0.14571750420679008,
+        "lectura": "sin diferencia clara con la referencia",
+        "ventana": "1–7 d",
+        "n_en_riesgo": 24541
+      },
+      {
+        "covariable": "nocturna",
+        "hr": 0.9804370485471061,
+        "ic_inf": 0.9296045735990375,
+        "ic_sup": 1.0340491360129382,
+        "p_valor": 0.4670206824823836,
+        "lectura": "sin diferencia clara con la referencia",
+        "ventana": "1–7 d",
+        "n_en_riesgo": 24541
+      },
+      {
+        "covariable": "borough=BRONX",
+        "hr": 1.0759282452397632,
+        "ic_inf": 1.0210756645406873,
+        "ic_sup": 1.1337275278472645,
+        "p_valor": 0.0061220805083015304,
+        "lectura": "en cada momento, 8 % más probable cerrarse (más rápido)",
+        "ventana": "1–7 d",
+        "n_en_riesgo": 24541
+      },
+      {
+        "covariable": "borough=BROOKLYN",
+        "hr": 0.9742878936658287,
+        "ic_inf": 0.9277133013773895,
+        "ic_sup": 1.023200700404372,
+        "p_valor": 0.29729265812394085,
+        "lectura": "sin diferencia clara con la referencia",
+        "ventana": "1–7 d",
+        "n_en_riesgo": 24541
+      },
+      {
+        "covariable": "borough=QUEENS",
+        "hr": 0.9813218535371178,
+        "ic_inf": 0.9295804654613646,
+        "ic_sup": 1.0359432195593492,
+        "p_valor": 0.495090416017571,
+        "lectura": "sin diferencia clara con la referencia",
+        "ventana": "1–7 d",
+        "n_en_riesgo": 24541
+      },
+      {
+        "covariable": "borough=STATEN ISLAND",
+        "hr": 1.2875222612246813,
+        "ic_inf": 1.18057044569975,
+        "ic_sup": 1.4041631985514877,
+        "p_valor": 1.1191409827680584e-08,
+        "lectura": "en cada momento, 29 % más probable cerrarse (más rápido)",
+        "ventana": "1–7 d",
+        "n_en_riesgo": 24541
+      },
+      {
+        "covariable": "canal=App móvil",
+        "hr": 0.974602068174315,
+        "ic_inf": 0.9146629245033109,
+        "ic_sup": 1.0384691079562984,
+        "p_valor": 0.4269752303415244,
+        "lectura": "sin diferencia clara con la referencia",
+        "ventana": "1–7 d",
+        "n_en_riesgo": 24541
+      },
+      {
+        "covariable": "canal=Otro/desconocido",
+        "hr": 0.6737261982246271,
+        "ic_inf": 0.6211511052941185,
+        "ic_sup": 0.7307513200983229,
+        "p_valor": 1.6211871082029566e-21,
+        "lectura": "en cada momento, 33 % menos probable cerrarse (más lento)",
+        "ventana": "1–7 d",
+        "n_en_riesgo": 24541
+      },
+      {
+        "covariable": "canal=Web",
+        "hr": 0.9769028840320059,
+        "ic_inf": 0.9385450306447722,
+        "ic_sup": 1.0168284031874613,
+        "p_valor": 0.2528724722550167,
+        "lectura": "sin diferencia clara con la referencia",
+        "ventana": "1–7 d",
+        "n_en_riesgo": 24541
+      },
+      {
+        "covariable": "fin_de_semana",
+        "hr": 0.9014208533528683,
+        "ic_inf": 0.8410423079762432,
+        "ic_sup": 0.9661339829795642,
+        "p_valor": 0.0033468685626943094,
+        "lectura": "en cada momento, 10 % menos probable cerrarse (más lento)",
+        "ventana": "7–30 d",
+        "n_en_riesgo": 11160
+      },
+      {
+        "covariable": "nocturna",
+        "hr": 1.0115818785192046,
+        "ic_inf": 0.9244587866128545,
+        "ic_sup": 1.1069156481250257,
+        "p_valor": 0.8021229825138521,
+        "lectura": "sin diferencia clara con la referencia",
+        "ventana": "7–30 d",
+        "n_en_riesgo": 11160
+      },
+      {
+        "covariable": "borough=BRONX",
+        "hr": 1.2932349218501025,
+        "ic_inf": 1.1935189030941722,
+        "ic_sup": 1.4012820063065887,
+        "p_valor": 3.3623604471584e-10,
+        "lectura": "en cada momento, 29 % más probable cerrarse (más rápido)",
+        "ventana": "7–30 d",
+        "n_en_riesgo": 11160
+      },
+      {
+        "covariable": "borough=BROOKLYN",
+        "hr": 1.185575497470809,
+        "ic_inf": 1.0990414717809065,
+        "ic_sup": 1.2789228580478536,
+        "p_valor": 1.0716479835147436e-05,
+        "lectura": "en cada momento, 19 % más probable cerrarse (más rápido)",
+        "ventana": "7–30 d",
+        "n_en_riesgo": 11160
+      },
+      {
+        "covariable": "borough=QUEENS",
+        "hr": 0.9944245268093445,
+        "ic_inf": 0.9129304531926411,
+        "ic_sup": 1.0831932882310378,
+        "p_valor": 0.8980219181908041,
+        "lectura": "sin diferencia clara con la referencia",
+        "ventana": "7–30 d",
+        "n_en_riesgo": 11160
+      },
+      {
+        "covariable": "borough=STATEN ISLAND",
+        "hr": 1.3721307112116479,
+        "ic_inf": 1.1861395473530343,
+        "ic_sup": 1.5872859924885518,
+        "p_valor": 2.072811579517079e-05,
+        "lectura": "en cada momento, 37 % más probable cerrarse (más rápido)",
+        "ventana": "7–30 d",
+        "n_en_riesgo": 11160
+      },
+      {
+        "covariable": "canal=App móvil",
+        "hr": 0.9085124896789154,
+        "ic_inf": 0.7901003714579186,
+        "ic_sup": 1.044670998419525,
+        "p_valor": 0.1781065558385681,
+        "lectura": "sin diferencia clara con la referencia",
+        "ventana": "7–30 d",
+        "n_en_riesgo": 11160
+      },
+      {
+        "covariable": "canal=Otro/desconocido",
+        "hr": 0.8818989456085129,
+        "ic_inf": 0.7970192875534907,
+        "ic_sup": 0.9758179788255245,
+        "p_valor": 0.014930310915809989,
+        "lectura": "en cada momento, 12 % menos probable cerrarse (más lento)",
+        "ventana": "7–30 d",
+        "n_en_riesgo": 11160
+      },
+      {
+        "covariable": "canal=Web",
+        "hr": 0.9199783715166703,
+        "ic_inf": 0.8665577828574368,
+        "ic_sup": 0.9766921731031352,
+        "p_valor": 0.006282652588681916,
+        "lectura": "en cada momento, 8 % menos probable cerrarse (más lento)",
+        "ventana": "7–30 d",
+        "n_en_riesgo": 11160
+      },
+      {
+        "covariable": "fin_de_semana",
+        "hr": 0.8933021146869993,
+        "ic_inf": 0.8238024466358387,
+        "ic_sup": 0.9686650863480807,
+        "p_valor": 0.006326380455984872,
+        "lectura": "en cada momento, 11 % menos probable cerrarse (más lento)",
+        "ventana": "> 30 d",
+        "n_en_riesgo": 5529
+      },
+      {
+        "covariable": "nocturna",
+        "hr": 1.0773931256068685,
+        "ic_inf": 0.9678595419265731,
+        "ic_sup": 1.1993227289926331,
+        "p_valor": 0.17296073158306635,
+        "lectura": "sin diferencia clara con la referencia",
+        "ventana": "> 30 d",
+        "n_en_riesgo": 5529
+      },
+      {
+        "covariable": "borough=BRONX",
+        "hr": 1.4658966633077466,
+        "ic_inf": 1.327376441529692,
+        "ic_sup": 1.6188723562250427,
+        "p_valor": 4.2896567670059935e-14,
+        "lectura": "en cada momento, 47 % más probable cerrarse (más rápido)",
+        "ventana": "> 30 d",
+        "n_en_riesgo": 5529
+      },
+      {
+        "covariable": "borough=BROOKLYN",
+        "hr": 1.1511267634419717,
+        "ic_inf": 1.0523445076965565,
+        "ic_sup": 1.2591815853278343,
+        "p_valor": 0.002108443060799909,
+        "lectura": "en cada momento, 15 % más probable cerrarse (más rápido)",
+        "ventana": "> 30 d",
+        "n_en_riesgo": 5529
+      },
+      {
+        "covariable": "borough=QUEENS",
+        "hr": 0.9527936712575182,
+        "ic_inf": 0.866365997613067,
+        "ic_sup": 1.047843270037734,
+        "p_valor": 0.31890676783562,
+        "lectura": "sin diferencia clara con la referencia",
+        "ventana": "> 30 d",
+        "n_en_riesgo": 5529
+      },
+      {
+        "covariable": "borough=STATEN ISLAND",
+        "hr": 1.1383649808634269,
+        "ic_inf": 0.9521396548564726,
+        "ic_sup": 1.3610134007616068,
+        "p_valor": 0.15506455935957292,
+        "lectura": "sin diferencia clara con la referencia",
+        "ventana": "> 30 d",
+        "n_en_riesgo": 5529
+      },
+      {
+        "covariable": "canal=App móvil",
+        "hr": 1.1504089088777856,
+        "ic_inf": 0.9947484265834587,
+        "ic_sup": 1.3304274952922897,
+        "p_valor": 0.058894657759809094,
+        "lectura": "sin diferencia clara con la referencia",
+        "ventana": "> 30 d",
+        "n_en_riesgo": 5529
+      },
+      {
+        "covariable": "canal=Otro/desconocido",
+        "hr": 1.1357746302361569,
+        "ic_inf": 1.024764627099572,
+        "ic_sup": 1.2588100492297112,
+        "p_valor": 0.015260630192484038,
+        "lectura": "en cada momento, 14 % más probable cerrarse (más rápido)",
+        "ventana": "> 30 d",
+        "n_en_riesgo": 5529
+      },
+      {
+        "covariable": "canal=Web",
+        "hr": 0.8983739146723608,
+        "ic_inf": 0.8320797461316919,
+        "ic_sup": 0.9699499288569484,
+        "p_valor": 0.006142928544156509,
+        "lectura": "en cada momento, 10 % menos probable cerrarse (más lento)",
+        "ventana": "> 30 d",
+        "n_en_riesgo": 5529
+      }
+    ]
+  },
+  "equidad": {
+    "horizonte_dias": 7.0,
+    "boroughs": [
+      {
+        "borough": "BRONX",
+        "n": 1656465,
+        "observadas": 1348436.0,
+        "esperadas": 1350943.1761976406,
+        "o_entre_e": 0.9981441290486419,
+        "ic_inf": 0.9976441586177622,
+        "ic_sup": 0.9986440994795216,
+        "z": -7.275444386303922,
+        "p_valor": 3.4528191931543284e-13,
+        "pct_cerradas_7d": 81.40443655616026,
+        "pct_esperado_7d": 81.55579358438848
+      },
+      {
+        "borough": "BROOKLYN",
+        "n": 2277063,
+        "observadas": 1841251.0,
+        "esperadas": 1849262.9416915602,
+        "o_entre_e": 0.9956674945942346,
+        "ic_inf": 0.9952387651595216,
+        "ic_sup": 0.9960962240289477,
+        "z": -19.806689039166002,
+        "p_valor": 2.6067225013529103e-87,
+        "pct_cerradas_7d": 80.86078426464266,
+        "pct_esperado_7d": 81.21263845978615
+      },
+      {
+        "borough": "MANHATTAN",
+        "n": 1482757,
+        "observadas": 1162585.0,
+        "esperadas": 1158600.8903591998,
+        "o_entre_e": 1.0034387248222854,
+        "ic_inf": 1.0028703139095514,
+        "ic_sup": 1.0040071357350193,
+        "z": 11.857444149445161,
+        "p_valor": 1.968938746159561e-32,
+        "pct_cerradas_7d": 78.40698104949091,
+        "pct_esperado_7d": 78.1382849893273
+      },
+      {
+        "borough": "QUEENS",
+        "n": 1829773,
+        "observadas": 1523433.0,
+        "esperadas": 1523908.3193558508,
+        "o_entre_e": 0.9996880918951531,
+        "ic_inf": 0.9992576196880852,
+        "ic_sup": 1.0001185641022208,
+        "z": -1.4201611055547987,
+        "p_valor": 0.15556078403795567,
+        "pct_cerradas_7d": 83.25803255376486,
+        "pct_esperado_7d": 83.2840095113356
+      },
+      {
+        "borough": "SIN DATO",
+        "n": 6475,
+        "observadas": 3371.0,
+        "esperadas": 3473.1593906671437,
+        "o_entre_e": 0.9705860344498844,
+        "ic_inf": 0.9567851658405689,
+        "ic_sup": 0.9843869030592,
+        "z": -4.177372751691306,
+        "p_valor": 2.948955413904547e-05,
+        "pct_cerradas_7d": 52.061776061776065,
+        "pct_esperado_7d": 53.63952726899063
+      },
+      {
+        "borough": "STATEN ISLAND",
+        "n": 292145,
+        "observadas": 236439.0,
+        "esperadas": 229468.65436696284,
+        "o_entre_e": 1.0303760252234289,
+        "ic_inf": 1.0290245792162653,
+        "ic_sup": 1.0317274712305924,
+        "z": 44.05430118727371,
+        "p_valor": 0.0,
+        "pct_cerradas_7d": 80.93207140289924,
+        "pct_esperado_7d": 78.54615152303234
+      }
+    ],
+    "oe_por_horizonte": {
+      "BRONX": {
+        "1 h": 0.8218080318275871,
+        "3 h": 0.8891540539236299,
+        "8 h": 0.9542236281362091,
+        "1 día": 1.0040313050179608,
+        "7 días": 0.9981441290486419
+      },
+      "BROOKLYN": {
+        "1 h": 1.0569962846079743,
+        "3 h": 1.0350558512835861,
+        "8 h": 1.0079278854216691,
+        "1 día": 0.9855234063676049,
+        "7 días": 0.9956674945942346
+      },
+      "MANHATTAN": {
+        "1 h": 1.1286439699186783,
+        "3 h": 1.076091873260633,
+        "8 h": 1.031320677910185,
+        "1 día": 1.0142286704733365,
+        "7 días": 1.0034387248222854
+      },
+      "QUEENS": {
+        "1 h": 0.9946401523707163,
+        "3 h": 0.990870498930279,
+        "8 h": 0.9996077428136239,
+        "1 día": 0.9998801598307889,
+        "7 días": 0.9996880918951531
+      },
+      "SIN DATO": {
+        "1 h": 0.9083740874483692,
+        "3 h": 0.9980016952445239,
+        "8 h": 1.0057232550917214,
+        "1 día": 1.0047885480508771,
+        "7 días": 0.9705860344498844
+      },
+      "STATEN ISLAND": {
+        "1 h": 0.9594914326144888,
+        "3 h": 1.0515708925030804,
+        "8 h": 1.0552002650187042,
+        "1 día": 1.027409994333363,
+        "7 días": 1.0303760252234289
+      }
+    },
+    "n_zip_analizados": 181,
+    "n_zip_significativos": 114,
+    "n_zip_lentos": 56,
+    "n_zip_rapidos": 58,
+    "pct_lentos_en_bronx": 17.857142857142858,
+    "pct_rapidos_en_staten_island": 20.689655172413794,
+    "oe_zip_p05": 0.9795679993851637,
+    "oe_zip_p95": 1.0253168560544588,
+    "zip_mas_lentos": [
+      {
+        "zip": "10044",
+        "borough": "MANHATTAN",
+        "n": 1924,
+        "pct_cerradas_7d": 55.92515592515593,
+        "pct_esperado_7d": 63.3523221996661,
+        "o_entre_e": 0.8827641037197952
+      },
+      {
+        "zip": "10037",
+        "borough": "MANHATTAN",
+        "n": 22180,
+        "pct_cerradas_7d": 69.06221821460775,
+        "pct_esperado_7d": 71.50739073769033,
+        "o_entre_e": 0.9658053174943528
+      },
+      {
+        "zip": "10475",
+        "borough": "BRONX",
+        "n": 10764,
+        "pct_cerradas_7d": 75.93831289483464,
+        "pct_esperado_7d": 78.34557426117406,
+        "o_entre_e": 0.9692738053292642
+      },
+      {
+        "zip": "10459",
+        "borough": "BRONX",
+        "n": 55257,
+        "pct_cerradas_7d": 72.62247317081999,
+        "pct_esperado_7d": 74.43309229922782,
+        "o_entre_e": 0.9756745410881361
+      },
+      {
+        "zip": "11249",
+        "borough": "BROOKLYN",
+        "n": 29366,
+        "pct_cerradas_7d": 78.98930736225567,
+        "pct_esperado_7d": 80.85198714936382,
+        "o_entre_e": 0.9769618552025556
+      }
+    ],
+    "zip_mas_rapidos": [
+      {
+        "zip": "10306",
+        "borough": "STATEN ISLAND",
+        "n": 33946,
+        "pct_cerradas_7d": 79.62646556295293,
+        "pct_esperado_7d": 77.25271835782043,
+        "o_entre_e": 1.0307270379035431
+      },
+      {
+        "zip": "10308",
+        "borough": "STATEN ISLAND",
+        "n": 13842,
+        "pct_cerradas_7d": 78.60135818523335,
+        "pct_esperado_7d": 75.99700644484454,
+        "o_entre_e": 1.0342691358807525
+      },
+      {
+        "zip": "10312",
+        "borough": "STATEN ISLAND",
+        "n": 35687,
+        "pct_cerradas_7d": 80.04595510970381,
+        "pct_esperado_7d": 77.2659347515336,
+        "o_entre_e": 1.0359798967955283
+      },
+      {
+        "zip": "10301",
+        "borough": "STATEN ISLAND",
+        "n": 33706,
+        "pct_cerradas_7d": 81.62641666172195,
+        "pct_esperado_7d": 78.54041666316242,
+        "o_entre_e": 1.0392918720025959
+      },
+      {
+        "zip": "10307",
+        "borough": "STATEN ISLAND",
+        "n": 8702,
+        "pct_cerradas_7d": 82.60170075844633,
+        "pct_esperado_7d": 79.20397067384496,
+        "o_entre_e": 1.0428984816757854
+      }
+    ]
+  },
+  "evolucion": {
+    "periodos": {
+      "oct-2024 a sep-2025": {
+        "n": 3581884,
+        "mediana_km_horas": 8.0425,
+        "pct_cerradas_7d": 82.39286922747917,
+        "o_entre_e": 1.0108902979621446
+      },
+      "oct-2025 a sep-2026": {
+        "n": 3962794,
+        "mediana_km_horas": 10.01,
+        "pct_cerradas_7d": 79.8501764159328,
+        "o_entre_e": 0.9900083851892022
+      }
+    },
+    "dohmh": {
+      "pct_instantaneos": {
+        "oct-2024 a sep-2025": 30.512159302473492,
+        "oct-2025 a sep-2026": 10.4600285251529
+      },
+      "pct_instantaneos_roedores": {
+        "oct-2024 a sep-2025": 60.08726003490401,
+        "oct-2025 a sep-2026": 24.594316472730153
+      },
+      "pct_comida_cerradas_a_60_dias": 72.22745837260446
+    },
+    "mes_mediana_max": {
+      "mes": "2026-01",
+      "mediana_km_dias": 1.1805208333333332
+    },
+    "mes_mediana_min": {
+      "mes": "2025-06",
+      "mediana_km_dias": 0.15546296296296297
+    },
+    "mes_oe_min": {
+      "mes": "2026-08",
+      "o_entre_e": 0.9672742777503689
+    },
+    "mes_oe_max": {
+      "mes": "2024-10",
+      "o_entre_e": 1.0316540960076128
+    },
+    "pct_calefaccion_max": {
+      "mes": "2026-01",
+      "pct": 22.937035644695193
+    },
+    "pct_calefaccion_min": {
+      "mes": "2025-07",
+      "pct": 0.952453327253844
+    },
+    "agencias": [
+      {
+        "agencia": "DEP",
+        "mediana_anio1_dias": 0.99375,
+        "mediana_anio2_dias": 0.9527777777777777,
+        "cambio_pct": -4.122990915443758
+      },
+      {
+        "agencia": "DHS",
+        "mediana_anio1_dias": 0.3386458333333333,
+        "mediana_anio2_dias": 0.30766203703703704,
+        "cambio_pct": -9.149321576267122
+      },
+      {
+        "agencia": "DOB",
+        "mediana_anio1_dias": 14.349421296296295,
+        "mediana_anio2_dias": 9.5028125,
+        "cambio_pct": -33.77563942280548
+      },
+      {
+        "agencia": "DOHMH",
+        "mediana_anio1_dias": 1.1024189814814815,
+        "mediana_anio2_dias": 13.237083333333333,
+        "cambio_pct": 1100.7307163329797
+      },
+      {
+        "agencia": "DOT",
+        "mediana_anio1_dias": 1.9755092592592594,
+        "mediana_anio2_dias": 2.904849537037037,
+        "cambio_pct": 47.043073750322215
+      },
+      {
+        "agencia": "DPR",
+        "mediana_anio1_dias": 19.101990740740742,
+        "mediana_anio2_dias": 18.95167824074074,
+        "cambio_pct": -0.7868944239377895
+      },
+      {
+        "agencia": "DSNY",
+        "mediana_anio1_dias": 1.3197569444444444,
+        "mediana_anio2_dias": 1.6736111111111112,
+        "cambio_pct": 26.812070825330856
+      },
+      {
+        "agencia": "HPD",
+        "mediana_anio1_dias": 3.6572222222222224,
+        "mediana_anio2_dias": 4.301087962962963,
+        "cambio_pct": 17.60532178844496
+      },
+      {
+        "agencia": "NYPD",
+        "mediana_anio1_dias": 0.05585648148148148,
+        "mediana_anio2_dias": 0.05620370370370371,
+        "cambio_pct": 0.6216328222130141
+      },
+      {
+        "agencia": "Otras",
+        "mediana_anio1_dias": 89.06759259259259,
+        "mediana_anio2_dias": 115.47795138888888,
+        "cambio_pct": 29.652040689031423
+      }
+    ]
+  },
+  "tiempo_ejecucion_s": 234
+}

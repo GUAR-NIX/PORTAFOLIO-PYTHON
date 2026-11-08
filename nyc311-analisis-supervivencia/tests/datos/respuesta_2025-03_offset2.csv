@@ -1,0 +1,3 @@
+"unique_key","created_date","closed_date","agency","complaint_type","descriptor","status","incident_zip","borough","open_data_channel_type"
+"64213975","2025-03-01T00:17:46.000","2025-03-01T02:17:21.000","NYPD","Blocked Driveway","No Access","Closed","11420","QUEENS","MOBILE"
+"64214186","2025-03-01T00:04:23.000","2025-03-03T07:37:50.000","DOHMH","Rodent","Rat Sighting","Closed","10035","MANHATTAN","ONLINE"

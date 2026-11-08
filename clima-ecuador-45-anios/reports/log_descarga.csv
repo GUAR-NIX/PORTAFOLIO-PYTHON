@@ -1,0 +1,7 @@
+fuente,archivo,segundos,fecha
+API Open-Meteo: celdas ERA5,celdas_era5.csv,0.0,2026-10-21 02:13
+ONI (NOAA PSL),oni.data,0.0,2026-10-21 02:13
+Provincias (geoBoundaries),ecuador_provincias.geojson,0.0,2026-10-21 02:13
+GHCN-Daily (8 estaciones),ghcn/*.csv,0.0,2026-10-21 02:13
+API Open-Meteo: muestra diaria,api_muestra/*.json,0.6,2026-10-21 02:13
+ERA5 horario (S3 Open-Meteo),era5/ (22 bloques nuevos),41.4,2026-10-21 02:13

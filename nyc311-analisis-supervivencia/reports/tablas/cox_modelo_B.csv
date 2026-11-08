@@ -1,0 +1,10 @@
+covariable,hr,ic_inf,ic_sup,p_valor,lectura
+fin_de_semana,0.9819046351641446,0.9718407773897688,0.9920727088097404,0.0005125382726715274,"en cada momento, 2 % menos probable cerrarse (más lento)"
+nocturna,1.0579241804905146,1.0455963905723127,1.0703973175097947,4.702022645987251e-21,"en cada momento, 6 % más probable cerrarse (más rápido)"
+borough=BRONX,0.8669021346480963,0.8544599376496068,0.8795255083868025,1.5432621620964495e-83,"en cada momento, 13 % menos probable cerrarse (más lento)"
+borough=BROOKLYN,0.9401087055791009,0.9276445968339803,0.9527402857969606,1.1974258857372817e-19,"en cada momento, 6 % menos probable cerrarse (más lento)"
+borough=QUEENS,0.9092541948605932,0.8964838629887907,0.9222064389595409,1.1129636658753406e-39,"en cada momento, 9 % menos probable cerrarse (más lento)"
+borough=STATEN ISLAND,1.036987493345439,1.0112207550755177,1.0634107893429765,0.004667358137228125,"en cada momento, 4 % más probable cerrarse (más rápido)"
+canal=App móvil,0.9605000223357535,0.9465062363999989,0.9747007018315132,7.365125728279325e-08,"en cada momento, 4 % menos probable cerrarse (más lento)"
+canal=Otro/desconocido,0.7914718223060695,0.7728261448136546,0.8105673568478146,2.2280386627724863e-82,"en cada momento, 21 % menos probable cerrarse (más lento)"
+canal=Web,1.0406252219124403,1.0285295543116029,1.052863136446384,2.4607165855451754e-11,"en cada momento, 4 % más probable cerrarse (más rápido)"

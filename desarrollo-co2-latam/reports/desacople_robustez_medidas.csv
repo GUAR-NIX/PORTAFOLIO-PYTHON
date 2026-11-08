@@ -1,0 +1,22 @@
+iso3,pais,Territorial,Consumo,Con uso de suelo
+ARG,Argentina,Relativo,Relativo,Relativo
+BOL,Bolivia,Sin desacople,Sin desacople,Relativo
+BRA,Brasil,Relativo,Relativo,Absoluto
+CHL,Chile,Relativo,Relativo,Relativo
+COL,Colombia,Relativo,Relativo,Relativo
+CRI,Costa Rica,Relativo,Relativo,Absoluto
+CUB,Cuba,Sin datos,Sin datos,Sin datos
+DOM,Rep. Dominicana,Relativo,Relativo,Relativo
+ECU,Ecuador,Relativo,Sin desacople,Relativo
+GTM,Guatemala,Relativo,Relativo,Absoluto
+HND,Honduras,Relativo,Sin desacople,Relativo
+HTI,Haití,Sin desacople,Sin datos,Absoluto
+LATAM,América Latina (18),Relativo,Sin datos,Absoluto
+MEX,México,Relativo,Relativo,Absoluto
+NIC,Nicaragua,Relativo,Relativo,Absoluto
+PAN,Panamá,Relativo,Sin desacople,Absoluto
+PER,Perú,Relativo,Sin desacople,Absoluto
+PRY,Paraguay,Sin desacople,Sin desacople,Absoluto
+SLV,El Salvador,Relativo,Relativo,Absoluto
+URY,Uruguay,Relativo,Relativo,Sin desacople
+VEN,Venezuela,Sin datos,Sin datos,Sin datos

@@ -1,0 +1,266 @@
+{
+  "periodo_desacople": [
+    2000,
+    2024
+  ],
+  "ultimo_anio": 2024,
+  "filas_panel": 735,
+  "informe_union": {
+    "filas_bm": 700,
+    "filas_owid": 700,
+    "validacion": [
+      {
+        "fuente": "Banco Mundial",
+        "faltan": [],
+        "sobran": [],
+        "ok": true
+      },
+      {
+        "fuente": "OWID",
+        "faltan": [],
+        "sobran": [],
+        "ok": true
+      }
+    ],
+    "origen": {
+      "ambas": 700,
+      "solo_bm": 0,
+      "solo_owid": 0
+    },
+    "miembros_region": [
+      "ARG",
+      "BOL",
+      "BRA",
+      "CHL",
+      "COL",
+      "CRI",
+      "DOM",
+      "ECU",
+      "GTM",
+      "HND",
+      "HTI",
+      "MEX",
+      "NIC",
+      "PAN",
+      "PER",
+      "PRY",
+      "SLV",
+      "URY"
+    ],
+    "excluidos_region": [
+      "CUB",
+      "VEN"
+    ]
+  },
+  "max_dif_poblacion_pct": 0.0,
+  "conteo_desacople": {
+    "Absoluto": 0,
+    "Relativo": 14,
+    "Sin desacople": 4,
+    "Recesión": 0,
+    "Sin datos": 2
+  },
+  "conteo_subperiodos": {
+    "2000-2012": {
+      "Absoluto": 0,
+      "Relativo": 12,
+      "Sin desacople": 6,
+      "Recesión": 0,
+      "Sin datos": 2
+    },
+    "2012-2024": {
+      "Absoluto": 3,
+      "Relativo": 9,
+      "Sin desacople": 5,
+      "Recesión": 1,
+      "Sin datos": 2
+    }
+  },
+  "absolutos_2012_2024": [
+    "Brasil",
+    "México",
+    "Argentina",
+    "América Latina (18)"
+  ],
+  "tapio": {
+    "México": "Desacople débil",
+    "Argentina": "Desacople débil",
+    "América Latina (18)": "Desacople débil",
+    "Nicaragua": "Desacople débil",
+    "Brasil": "Desacople débil",
+    "Chile": "Desacople débil",
+    "El Salvador": "Acoplamiento expansivo",
+    "Costa Rica": "Desacople débil",
+    "Uruguay": "Desacople débil",
+    "Colombia": "Desacople débil",
+    "Rep. Dominicana": "Desacople débil",
+    "Guatemala": "Acoplamiento expansivo",
+    "Ecuador": "Acoplamiento expansivo",
+    "Panamá": "Desacople débil",
+    "Paraguay": "Acoplamiento expansivo",
+    "Haití": "Desacople negativo expansivo",
+    "Honduras": "Acoplamiento expansivo",
+    "Perú": "Acoplamiento expansivo",
+    "Bolivia": "Desacople negativo expansivo",
+    "Venezuela": "Sin datos",
+    "Cuba": "Sin datos"
+  },
+  "conteo_tapio": {
+    "Desacople débil": 10,
+    "Acoplamiento expansivo": 6,
+    "Desacople negativo expansivo": 2,
+    "Sin datos": 2
+  },
+  "robustez_consumo": {
+    "Argentina": "Relativo",
+    "Bolivia": "Sin desacople",
+    "Brasil": "Relativo",
+    "Chile": "Relativo",
+    "Colombia": "Relativo",
+    "Costa Rica": "Relativo",
+    "Cuba": "Sin datos",
+    "Rep. Dominicana": "Relativo",
+    "Ecuador": "Sin desacople",
+    "Guatemala": "Relativo",
+    "Honduras": "Sin desacople",
+    "Haití": "Sin datos",
+    "América Latina (18)": "Sin datos",
+    "México": "Relativo",
+    "Nicaragua": "Relativo",
+    "Panamá": "Sin desacople",
+    "Perú": "Sin desacople",
+    "Paraguay": "Sin desacople",
+    "El Salvador": "Relativo",
+    "Uruguay": "Relativo",
+    "Venezuela": "Sin datos"
+  },
+  "ecuador": {
+    "crec_pib_anual": 3.4028,
+    "crec_co2_anual": 2.9987,
+    "elasticidad": 0.8812,
+    "categoria": "Relativo",
+    "tapio": "Acoplamiento expansivo",
+    "co2_pc": 2.5354,
+    "intensidad": 0.1821,
+    "petroleo_pct": 85.9613,
+    "comercio_neto_pct_2023": 9.6368
+  },
+  "region": {
+    "crec_pib_anual": 2.4515,
+    "crec_co2_anual": 1.4685,
+    "elasticidad": 0.599,
+    "co2_pc": 2.5378,
+    "intensidad": 0.1289
+  },
+  "kaya": {
+    "Ecuador": {
+      "Población": 46.6269,
+      "PIB per cápita": 57.0646,
+      "Energía por USD de PIB": 6.4417,
+      "CO2 por unidad de energía": -18.5756,
+      "Cambio total": 91.5576
+    },
+    "América Latina": {
+      "Población": 27.5853,
+      "PIB per cápita": 35.2323,
+      "Energía por USD de PIB": -7.4769,
+      "CO2 por unidad de energía": -17.5282,
+      "Cambio total": 37.8124
+    }
+  },
+  "kuznets_modelos": [
+    {
+      "modelo": "MCO agrupado",
+      "n": 630,
+      "paises": 18,
+      "b1": 2.2399,
+      "b1_p": 0.5622,
+      "b2": -0.066,
+      "b2_se": 0.204,
+      "b2_p": 0.7461,
+      "r2": 0.7078,
+      "punto_giro_usd": 23134640.3331,
+      "pib_pc_max_muestra": 36394.9235,
+      "pct_obs_sobre_giro": 0.0,
+      "b3": null,
+      "b3_p": null
+    },
+    {
+      "modelo": "EF país",
+      "n": 630,
+      "paises": 18,
+      "b1": 0.7527,
+      "b1_p": 0.2256,
+      "b2": -0.0077,
+      "b2_se": 0.0332,
+      "b2_p": 0.8175,
+      "r2": 0.9567,
+      "punto_giro_usd": 2.1756549675344852e+21,
+      "pib_pc_max_muestra": 36394.9235,
+      "pct_obs_sobre_giro": 0.0,
+      "b3": null,
+      "b3_p": null
+    },
+    {
+      "modelo": "EF país + año",
+      "n": 630,
+      "paises": 18,
+      "b1": 0.9205,
+      "b1_p": 0.0366,
+      "b2": -0.0362,
+      "b2_se": 0.0318,
+      "b2_p": 0.2554,
+      "r2": 0.9642,
+      "punto_giro_usd": 337811.6844,
+      "pib_pc_max_muestra": 36394.9235,
+      "pct_obs_sobre_giro": 0.0,
+      "b3": null,
+      "b3_p": null
+    },
+    {
+      "modelo": "EF país + año, cúbico",
+      "n": 630,
+      "paises": 18,
+      "b1": -8.6654,
+      "b1_p": 0.4506,
+      "b2": 1.0451,
+      "b2_se": 1.2943,
+      "b2_p": 0.4194,
+      "r2": 0.9645,
+      "punto_giro_usd": null,
+      "pib_pc_max_muestra": 36394.9235,
+      "pct_obs_sobre_giro": null,
+      "b3": -0.0402,
+      "b3_p": 0.3961
+    },
+    {
+      "modelo": "EF país + año, CO2 consumo",
+      "n": 575,
+      "paises": 17,
+      "b1": 0.5934,
+      "b1_p": 0.2735,
+      "b2": 0.0022,
+      "b2_se": 0.0304,
+      "b2_p": 0.9431,
+      "r2": 0.7827,
+      "punto_giro_usd": null,
+      "pib_pc_max_muestra": 35872.9719,
+      "pct_obs_sobre_giro": null,
+      "b3": null,
+      "b3_p": null
+    }
+  ],
+  "kuznets_bootstrap": {
+    "repeticiones": 999,
+    "pct_u_invertida": 88.4885,
+    "giro_mediana": 82393.3788,
+    "giro_p05": 8258.9557,
+    "giro_p95": 5.992686007094429e+18,
+    "pct_giro_dentro_muestra": 29.1291
+  },
+  "pendientes_rango": [
+    0.062,
+    1.2953
+  ],
+  "segundos": 71.7
+}

@@ -1,0 +1,321 @@
+indicador,dominio,cv_oficial,ee_oficial_pct,indicador_oficial_pct,ic_inf_oficial_pct,ic_sup_oficial_pct
+Desempleo,Ambato,7.8,0.3,3.7,3.2,4.3
+Desempleo,Azuay,12.0,0.3,2.5,1.9,3.1
+Desempleo,Bolívar,29.7,0.3,1.2,0.5,1.8
+Desempleo,Carchi,10.4,0.5,4.9,3.9,5.9
+Desempleo,Cañar,22.5,0.8,3.6,2.0,5.1
+Desempleo,Chimborazo,18.4,0.3,1.8,1.1,2.4
+Desempleo,Cotopaxi,17.8,0.4,2.1,1.4,2.9
+Desempleo,Cuenca,12.8,0.5,3.6,2.7,4.5
+Desempleo,El Oro,8.4,0.3,3.9,3.2,4.5
+Desempleo,Esmeraldas,6.9,0.6,9.1,7.9,10.3
+Desempleo,Galápagos,19.4,0.6,3.1,1.9,4.3
+Desempleo,Guayaquil,9.0,0.2,2.7,2.2,3.1
+Desempleo,Guayas,11.6,0.3,2.5,1.9,3.1
+Desempleo,Imbabura,10.8,0.7,6.1,4.8,7.4
+Desempleo,Loja,12.9,0.5,4.0,3.0,5.0
+Desempleo,Los Ríos,23.3,0.4,1.7,0.9,2.5
+Desempleo,Machala,7.9,0.4,5.1,4.3,5.8
+Desempleo,Manabí,20.4,0.5,2.5,1.5,3.4
+Desempleo,Morona Santiago,67.6,0.1,0.1,0.0,0.3
+Desempleo,Napo,25.4,0.3,1.2,0.6,1.7
+Desempleo,Orellana,34.3,0.4,1.1,0.3,1.8
+Desempleo,Pastaza,21.7,0.5,2.1,1.2,3.0
+Desempleo,Pichincha,6.6,0.4,6.6,5.8,7.5
+Desempleo,Quito,6.6,0.5,7.2,6.3,8.2
+Desempleo,Rural,7.8,0.1,1.9,1.6,2.2
+Desempleo,Santa Elena,19.1,0.4,2.0,1.3,2.8
+Desempleo,Santo Domingo,24.5,0.3,1.3,0.7,2.0
+Desempleo,Sucumbíos,18.3,1.2,6.5,4.2,8.9
+Desempleo,Total,3.6,0.1,3.6,3.3,3.8
+Desempleo,Tungurahua,15.3,0.3,1.9,1.4,2.5
+Desempleo,Urbano,4.0,0.2,4.5,4.1,4.8
+Desempleo,Zamora Chinchipe,21.5,0.3,1.6,0.9,2.2
+Empleo Adecuado/Pleno,Ambato,3.7,1.8,48.3,44.8,51.9
+Empleo Adecuado/Pleno,Azuay,3.5,1.6,44.9,41.8,47.9
+Empleo Adecuado/Pleno,Bolívar,9.1,2.3,24.9,20.5,29.4
+Empleo Adecuado/Pleno,Carchi,19.1,4.7,24.4,15.3,33.5
+Empleo Adecuado/Pleno,Cañar,5.1,1.6,31.7,28.5,34.8
+Empleo Adecuado/Pleno,Chimborazo,7.8,1.7,21.6,18.3,24.9
+Empleo Adecuado/Pleno,Cotopaxi,7.4,1.9,25.7,21.9,29.4
+Empleo Adecuado/Pleno,Cuenca,3.8,2.2,58.9,54.5,63.3
+Empleo Adecuado/Pleno,El Oro,3.8,1.6,42.6,39.5,45.7
+Empleo Adecuado/Pleno,Esmeraldas,5.0,1.2,25.0,22.6,27.4
+Empleo Adecuado/Pleno,Galápagos,3.6,2.1,59.6,55.4,63.7
+Empleo Adecuado/Pleno,Guayaquil,1.5,0.8,49.1,47.6,50.6
+Empleo Adecuado/Pleno,Guayas,4.3,1.8,41.3,37.9,44.8
+Empleo Adecuado/Pleno,Imbabura,7.1,2.1,29.3,25.2,33.4
+Empleo Adecuado/Pleno,Loja,6.8,1.8,26.8,23.2,30.4
+Empleo Adecuado/Pleno,Los Ríos,6.0,2.0,32.5,28.7,36.4
+Empleo Adecuado/Pleno,Machala,2.2,1.0,45.9,43.9,47.9
+Empleo Adecuado/Pleno,Manabí,7.0,2.1,29.3,25.3,33.3
+Empleo Adecuado/Pleno,Morona Santiago,29.7,2.9,9.8,4.1,15.5
+Empleo Adecuado/Pleno,Napo,9.9,1.2,11.9,9.6,14.3
+Empleo Adecuado/Pleno,Orellana,9.5,1.7,17.8,14.5,21.1
+Empleo Adecuado/Pleno,Pastaza,6.1,1.5,24.1,21.3,27.0
+Empleo Adecuado/Pleno,Pichincha,1.8,1.0,53.0,51.1,54.9
+Empleo Adecuado/Pleno,Quito,2.0,1.1,55.1,52.9,57.3
+Empleo Adecuado/Pleno,Rural,4.0,0.9,21.9,20.2,23.7
+Empleo Adecuado/Pleno,Santa Elena,5.4,1.7,31.5,28.2,34.8
+Empleo Adecuado/Pleno,Santo Domingo,5.7,2.2,39.4,35.0,43.7
+Empleo Adecuado/Pleno,Sucumbíos,10.9,3.0,27.6,21.7,33.6
+Empleo Adecuado/Pleno,Total,1.6,0.6,37.1,36.0,38.3
+Empleo Adecuado/Pleno,Tungurahua,4.7,1.4,30.5,27.7,33.3
+Empleo Adecuado/Pleno,Urbano,1.7,0.8,45.3,43.8,46.8
+Empleo Adecuado/Pleno,Zamora Chinchipe,9.5,3.0,32.1,26.2,38.1
+Empleo Bruto,Ambato,0.9,0.6,67.2,66.0,68.5
+Empleo Bruto,Azuay,1.5,1.0,67.5,65.6,69.5
+Empleo Bruto,Bolívar,2.5,1.4,57.8,55.0,60.6
+Empleo Bruto,Carchi,5.9,3.7,61.8,54.6,68.9
+Empleo Bruto,Cañar,1.6,1.1,69.2,66.9,71.4
+Empleo Bruto,Chimborazo,2.3,1.9,82.5,78.7,86.2
+Empleo Bruto,Cotopaxi,1.7,1.4,83.6,80.8,86.4
+Empleo Bruto,Cuenca,1.6,1.0,62.1,60.2,64.0
+Empleo Bruto,El Oro,1.3,0.8,62.5,60.9,64.1
+Empleo Bruto,Esmeraldas,1.5,0.8,53.0,51.4,54.6
+Empleo Bruto,Galápagos,2.6,1.6,62.1,58.9,65.2
+Empleo Bruto,Guayaquil,0.9,0.5,56.8,55.8,57.9
+Empleo Bruto,Guayas,1.4,0.8,56.0,54.4,57.6
+Empleo Bruto,Imbabura,1.7,1.0,59.9,57.9,61.9
+Empleo Bruto,Loja,2.2,1.4,65.0,62.2,67.8
+Empleo Bruto,Los Ríos,2.5,1.4,57.6,54.9,60.4
+Empleo Bruto,Machala,0.8,0.5,60.1,59.2,61.1
+Empleo Bruto,Manabí,1.6,0.9,55.9,54.1,57.7
+Empleo Bruto,Morona Santiago,5.7,5.1,89.2,79.3,99.2
+Empleo Bruto,Napo,1.4,1.3,89.5,86.9,92.0
+Empleo Bruto,Orellana,2.9,2.6,90.1,84.9,95.2
+Empleo Bruto,Pastaza,1.4,1.2,84.3,81.9,86.6
+Empleo Bruto,Pichincha,1.4,0.8,61.0,59.3,62.6
+Empleo Bruto,Quito,1.1,0.6,58.9,57.7,60.2
+Empleo Bruto,Rural,1.1,0.8,69.6,68.1,71.1
+Empleo Bruto,Santa Elena,2.4,1.2,51.4,49.0,53.8
+Empleo Bruto,Santo Domingo,2.2,1.3,58.4,55.9,60.9
+Empleo Bruto,Sucumbíos,2.7,1.6,60.8,57.6,64.0
+Empleo Bruto,Total,0.7,0.4,62.0,61.1,62.8
+Empleo Bruto,Tungurahua,1.0,0.8,78.8,77.3,80.3
+Empleo Bruto,Urbano,0.7,0.4,58.4,57.6,59.2
+Empleo Bruto,Zamora Chinchipe,3.2,2.4,75.6,70.9,80.3
+Empleo Global,Ambato,0.3,0.3,96.3,95.7,96.8
+Empleo Global,Azuay,0.3,0.3,97.5,96.9,98.1
+Empleo Global,Bolívar,0.4,0.3,98.8,98.2,99.5
+Empleo Global,Carchi,0.5,0.5,95.1,94.1,96.1
+Empleo Global,Cañar,0.8,0.8,96.4,94.9,98.0
+Empleo Global,Chimborazo,0.3,0.3,98.2,97.6,98.9
+Empleo Global,Cotopaxi,0.4,0.4,97.9,97.1,98.6
+Empleo Global,Cuenca,0.5,0.5,96.4,95.5,97.3
+Empleo Global,El Oro,0.3,0.3,96.1,95.5,96.8
+Empleo Global,Esmeraldas,0.7,0.6,90.9,89.7,92.1
+Empleo Global,Galápagos,0.6,0.6,96.9,95.7,98.1
+Empleo Global,Guayaquil,0.2,0.2,97.3,96.9,97.8
+Empleo Global,Guayas,0.3,0.3,97.5,96.9,98.1
+Empleo Global,Imbabura,0.7,0.7,93.9,92.6,95.2
+Empleo Global,Loja,0.5,0.5,96.0,95.0,97.0
+Empleo Global,Los Ríos,0.4,0.4,98.3,97.5,99.1
+Empleo Global,Machala,0.4,0.4,94.9,94.2,95.7
+Empleo Global,Manabí,0.5,0.5,97.5,96.6,98.5
+Empleo Global,Morona Santiago,0.1,0.1,99.9,99.7,100.0
+Empleo Global,Napo,0.3,0.3,98.8,98.3,99.4
+Empleo Global,Orellana,0.4,0.4,98.9,98.2,99.7
+Empleo Global,Pastaza,0.5,0.5,97.9,97.0,98.8
+Empleo Global,Pichincha,0.5,0.4,93.4,92.5,94.2
+Empleo Global,Quito,0.5,0.5,92.8,91.8,93.7
+Empleo Global,Rural,0.2,0.1,98.1,97.8,98.4
+Empleo Global,Santa Elena,0.4,0.4,98.0,97.2,98.7
+Empleo Global,Santo Domingo,0.3,0.3,98.7,98.0,99.3
+Empleo Global,Sucumbíos,1.3,1.2,93.5,91.1,95.8
+Empleo Global,Total,0.1,0.1,96.4,96.2,96.7
+Empleo Global,Tungurahua,0.3,0.3,98.1,97.5,98.6
+Empleo Global,Urbano,0.2,0.2,95.5,95.2,95.9
+Empleo Global,Zamora Chinchipe,0.3,0.3,98.4,97.8,99.1
+Empleo no Remunerado,Ambato,7.1,0.6,7.9,6.8,9.1
+Empleo no Remunerado,Azuay,12.3,1.2,9.9,7.5,12.2
+Empleo no Remunerado,Bolívar,12.6,1.8,14.6,11.0,18.3
+Empleo no Remunerado,Carchi,50.2,9.1,18.2,0.3,36.2
+Empleo no Remunerado,Cañar,10.4,1.4,13.5,10.8,16.3
+Empleo no Remunerado,Chimborazo,13.3,3.0,22.8,16.8,28.8
+Empleo no Remunerado,Cotopaxi,10.8,2.4,22.4,17.7,27.1
+Empleo no Remunerado,Cuenca,31.9,2.4,7.6,2.9,12.4
+Empleo no Remunerado,El Oro,14.2,0.8,5.7,4.1,7.3
+Empleo no Remunerado,Esmeraldas,14.1,1.0,7.0,5.1,8.9
+Empleo no Remunerado,Galápagos,26.3,0.8,3.2,1.5,4.8
+Empleo no Remunerado,Guayaquil,16.4,0.4,2.5,1.7,3.3
+Empleo no Remunerado,Guayas,10.5,0.3,2.9,2.3,3.4
+Empleo no Remunerado,Imbabura,9.6,0.8,8.0,6.5,9.5
+Empleo no Remunerado,Loja,11.3,1.8,16.2,12.6,19.8
+Empleo no Remunerado,Los Ríos,19.9,0.6,3.3,2.0,4.5
+Empleo no Remunerado,Machala,8.6,0.3,3.9,3.3,4.6
+Empleo no Remunerado,Manabí,16.4,0.8,4.9,3.3,6.5
+Empleo no Remunerado,Morona Santiago,11.6,4.9,42.0,32.4,51.6
+Empleo no Remunerado,Napo,8.4,2.9,34.3,28.6,39.9
+Empleo no Remunerado,Orellana,13.1,5.0,37.9,28.1,47.6
+Empleo no Remunerado,Pastaza,6.8,1.6,24.0,20.8,27.2
+Empleo no Remunerado,Pichincha,18.7,0.8,4.3,2.7,5.9
+Empleo no Remunerado,Quito,9.3,0.3,2.9,2.4,3.4
+Empleo no Remunerado,Rural,5.2,1.0,18.4,16.6,20.3
+Empleo no Remunerado,Santa Elena,23.2,0.8,3.6,2.0,5.3
+Empleo no Remunerado,Santo Domingo,15.6,0.8,5.3,3.7,6.9
+Empleo no Remunerado,Sucumbíos,17.1,2.5,14.6,9.7,19.5
+Empleo no Remunerado,Total,5.2,0.5,8.8,7.9,9.7
+Empleo no Remunerado,Tungurahua,5.8,0.9,15.8,14.0,17.6
+Empleo no Remunerado,Urbano,4.8,0.2,3.6,3.3,4.0
+Empleo no Remunerado,Zamora Chinchipe,19.2,3.8,19.6,12.2,26.9
+Otro Empleo no pleno,Ambato,6.5,1.5,23.0,20.1,25.9
+Otro Empleo no pleno,Azuay,4.8,1.6,32.7,29.6,35.8
+Otro Empleo no pleno,Bolívar,4.3,1.7,38.6,35.4,41.9
+Otro Empleo no pleno,Carchi,4.0,1.5,37.5,34.6,40.4
+Otro Empleo no pleno,Cañar,3.9,1.4,37.5,34.6,40.3
+Otro Empleo no pleno,Chimborazo,4.7,1.6,35.0,31.7,38.2
+Otro Empleo no pleno,Cotopaxi,4.2,1.2,29.0,26.6,31.3
+Otro Empleo no pleno,Cuenca,5.2,1.1,20.5,18.4,22.6
+Otro Empleo no pleno,El Oro,3.0,0.8,27.3,25.7,28.9
+Otro Empleo no pleno,Esmeraldas,2.6,1.0,36.3,34.4,38.1
+Otro Empleo no pleno,Galápagos,6.6,1.8,27.4,23.9,30.9
+Otro Empleo no pleno,Guayaquil,3.7,0.9,25.1,23.3,26.9
+Otro Empleo no pleno,Guayas,6.2,1.9,30.0,26.3,33.6
+Otro Empleo no pleno,Imbabura,3.8,1.4,38.0,35.2,40.8
+Otro Empleo no pleno,Loja,4.3,1.7,38.7,35.5,42.0
+Otro Empleo no pleno,Los Ríos,5.3,1.8,34.1,30.6,37.7
+Otro Empleo no pleno,Machala,2.7,0.7,25.3,23.9,26.6
+Otro Empleo no pleno,Manabí,5.1,1.8,34.5,31.1,38.0
+Otro Empleo no pleno,Morona Santiago,4.0,1.5,36.6,33.7,39.5
+Otro Empleo no pleno,Napo,5.1,1.4,27.3,24.6,30.0
+Otro Empleo no pleno,Orellana,9.7,2.6,26.6,21.6,31.7
+Otro Empleo no pleno,Pastaza,4.2,1.2,30.0,27.5,32.4
+Otro Empleo no pleno,Pichincha,2.3,0.5,22.9,21.9,24.0
+Otro Empleo no pleno,Quito,3.0,0.7,21.9,20.6,23.2
+Otro Empleo no pleno,Rural,1.7,0.6,37.8,36.6,39.0
+Otro Empleo no pleno,Santa Elena,5.5,2.0,35.4,31.6,39.2
+Otro Empleo no pleno,Santo Domingo,4.8,1.7,34.7,31.5,38.0
+Otro Empleo no pleno,Sucumbíos,8.3,3.0,35.6,29.8,41.4
+Otro Empleo no pleno,Total,1.6,0.5,30.8,29.9,31.8
+Otro Empleo no pleno,Tungurahua,4.5,1.4,31.6,28.8,34.4
+Otro Empleo no pleno,Urbano,2.7,0.7,27.1,25.7,28.5
+Otro Empleo no pleno,Zamora Chinchipe,6.8,2.2,32.0,27.8,36.3
+Participación Bruta,Ambato,2.1,1.1,52.1,49.9,54.2
+Participación Bruta,Azuay,1.7,0.8,50.6,49.0,52.2
+Participación Bruta,Bolívar,2.3,1.0,44.2,42.2,46.1
+Participación Bruta,Carchi,2.2,1.0,46.5,44.5,48.6
+Participación Bruta,Cañar,2.1,1.1,52.0,49.8,54.2
+Participación Bruta,Chimborazo,2.2,1.3,60.6,58.0,63.2
+Participación Bruta,Cotopaxi,1.9,1.2,62.4,60.1,64.7
+Participación Bruta,Cuenca,1.8,0.8,46.6,44.9,48.2
+Participación Bruta,El Oro,1.6,0.7,46.6,45.2,48.0
+Participación Bruta,Esmeraldas,1.3,0.5,39.1,38.1,40.2
+Participación Bruta,Galápagos,3.3,1.6,48.0,44.9,51.2
+Participación Bruta,Guayaquil,1.6,0.7,40.7,39.4,42.0
+Participación Bruta,Guayas,2.8,1.1,39.9,37.7,42.1
+Participación Bruta,Imbabura,1.8,0.8,46.5,44.9,48.1
+Participación Bruta,Loja,2.2,1.1,49.2,47.1,51.3
+Participación Bruta,Los Ríos,2.4,1.0,41.7,39.7,43.7
+Participación Bruta,Machala,1.4,0.6,45.2,44.0,46.4
+Participación Bruta,Manabí,2.0,0.8,41.9,40.2,43.5
+Participación Bruta,Morona Santiago,4.5,1.9,41.4,37.8,45.1
+Participación Bruta,Napo,2.2,1.2,55.4,53.1,57.8
+Participación Bruta,Orellana,1.8,1.0,55.2,53.2,57.2
+Participación Bruta,Pastaza,2.2,1.3,56.2,53.8,58.7
+Participación Bruta,Pichincha,1.0,0.5,48.4,47.5,49.4
+Participación Bruta,Quito,1.3,0.6,47.0,45.9,48.2
+Participación Bruta,Rural,1.0,0.5,50.2,49.2,51.2
+Participación Bruta,Santa Elena,2.5,0.9,36.4,34.7,38.2
+Participación Bruta,Santo Domingo,2.3,0.9,41.1,39.2,42.9
+Participación Bruta,Sucumbíos,3.1,1.4,43.2,40.5,45.8
+Participación Bruta,Total,1.0,0.5,45.7,44.8,46.6
+Participación Bruta,Tungurahua,3.4,2.0,59.0,55.1,62.8
+Participación Bruta,Urbano,1.3,0.6,43.6,42.5,44.7
+Participación Bruta,Zamora Chinchipe,2.2,1.1,48.9,46.8,51.1
+Participación Global,Ambato,0.9,0.6,69.8,68.6,71.1
+Participación Global,Azuay,1.5,1.0,69.3,67.3,71.3
+Participación Global,Bolívar,2.4,1.4,58.4,55.7,61.2
+Participación Global,Carchi,5.8,3.8,64.9,57.6,72.3
+Participación Global,Cañar,1.6,1.1,71.7,69.5,74.0
+Participación Global,Chimborazo,2.1,1.8,84.0,80.5,87.4
+Participación Global,Cotopaxi,1.5,1.2,85.4,83.0,87.8
+Participación Global,Cuenca,1.3,0.8,64.4,62.8,66.0
+Participación Global,El Oro,1.1,0.7,65.1,63.6,66.5
+Participación Global,Esmeraldas,1.2,0.7,58.3,57.0,59.6
+Participación Global,Galápagos,2.5,1.6,64.1,60.9,67.2
+Participación Global,Guayaquil,0.9,0.5,58.4,57.4,59.4
+Participación Global,Guayas,1.5,0.9,57.5,55.7,59.2
+Participación Global,Imbabura,1.2,0.8,63.8,62.3,65.3
+Participación Global,Loja,1.9,1.3,67.7,65.3,70.2
+Participación Global,Los Ríos,2.3,1.4,58.6,56.0,61.3
+Participación Global,Machala,0.8,0.5,63.3,62.4,64.3
+Participación Global,Manabí,1.7,1.0,57.3,55.4,59.2
+Participación Global,Morona Santiago,5.6,5.0,89.4,79.5,99.2
+Participación Global,Napo,1.2,1.1,90.5,88.3,92.7
+Participación Global,Orellana,2.6,2.4,91.0,86.4,95.7
+Participación Global,Pastaza,1.1,1.0,86.1,84.2,88.0
+Participación Global,Pichincha,1.1,0.7,65.3,63.8,66.7
+Participación Global,Quito,1.0,0.6,63.5,62.3,64.7
+Participación Global,Rural,1.0,0.7,71.0,69.5,72.4
+Participación Global,Santa Elena,2.5,1.3,52.5,49.9,55.1
+Participación Global,Santo Domingo,2.1,1.2,59.2,56.8,61.6
+Participación Global,Sucumbíos,2.3,1.5,65.1,62.1,68.0
+Participación Global,Total,0.7,0.5,64.3,63.4,65.2
+Participación Global,Tungurahua,0.8,0.7,80.4,79.0,81.7
+Participación Global,Urbano,0.8,0.5,61.2,60.3,62.1
+Participación Global,Zamora Chinchipe,3.0,2.3,76.8,72.4,81.2
+Sector informal,Ambato,4.8,1.2,24.8,22.5,27.2
+Sector informal,Azuay,5.6,2.6,47.2,42.1,52.4
+Sector informal,Bolívar,3.1,2.4,77.2,72.5,81.9
+Sector informal,Carchi,13.5,8.2,60.4,44.4,76.4
+Sector informal,Cañar,4.6,2.6,56.4,51.3,61.5
+Sector informal,Chimborazo,5.7,3.9,68.1,60.5,75.8
+Sector informal,Cotopaxi,5.1,3.2,63.1,56.8,69.4
+Sector informal,Cuenca,8.8,2.4,26.7,22.1,31.3
+Sector informal,El Oro,5.6,2.4,43.3,38.6,48.1
+Sector informal,Esmeraldas,2.5,1.5,61.5,58.5,64.5
+Sector informal,Galápagos,11.2,1.8,16.2,12.7,19.8
+Sector informal,Guayaquil,2.0,0.9,43.6,41.9,45.3
+Sector informal,Guayas,4.2,2.2,51.9,47.7,56.2
+Sector informal,Imbabura,4.9,2.6,54.2,49.0,59.4
+Sector informal,Loja,4.6,2.7,60.0,54.6,65.4
+Sector informal,Los Ríos,5.4,2.8,51.4,46.0,56.9
+Sector informal,Machala,3.0,1.1,37.6,35.4,39.9
+Sector informal,Manabí,4.8,3.0,61.7,55.9,67.6
+Sector informal,Morona Santiago,3.8,3.3,87.4,80.8,93.9
+Sector informal,Napo,3.0,2.5,81.5,76.7,86.4
+Sector informal,Orellana,5.8,4.5,77.1,68.3,85.9
+Sector informal,Pastaza,2.8,1.8,66.3,62.8,69.9
+Sector informal,Pichincha,3.6,1.0,28.4,26.4,30.5
+Sector informal,Quito,4.0,1.0,25.1,23.1,27.1
+Sector informal,Rural,1.7,1.2,71.5,69.1,73.9
+Sector informal,Santa Elena,3.2,2.0,62.9,58.9,66.8
+Sector informal,Santo Domingo,5.1,2.8,54.6,49.2,60.0
+Sector informal,Sucumbíos,5.8,3.6,61.5,54.5,68.5
+Sector informal,Total,1.6,0.8,51.5,49.9,53.1
+Sector informal,Tungurahua,3.7,1.9,52.0,48.2,55.8
+Sector informal,Urbano,2.7,1.1,40.4,38.3,42.5
+Sector informal,Zamora Chinchipe,6.5,4.1,63.3,55.3,71.4
+Subempleo,Ambato,4.7,0.8,16.8,15.2,18.3
+Subempleo,Azuay,7.1,0.7,10.0,8.6,11.4
+Subempleo,Bolívar,8.6,1.7,20.3,16.9,23.7
+Subempleo,Carchi,23.6,3.5,15.0,8.1,21.9
+Subempleo,Cañar,10.8,1.5,13.8,10.8,16.7
+Subempleo,Chimborazo,8.0,1.5,18.6,15.7,21.6
+Subempleo,Cotopaxi,8.1,1.7,20.5,17.3,23.8
+Subempleo,Cuenca,8.4,0.8,9.4,7.8,11.0
+Subempleo,El Oro,3.5,0.7,20.5,19.1,21.9
+Subempleo,Esmeraldas,4.7,1.1,22.6,20.5,24.7
+Subempleo,Galápagos,16.9,1.1,6.8,4.5,9.0
+Subempleo,Guayaquil,2.9,0.6,20.1,18.9,21.2
+Subempleo,Guayas,2.8,0.6,22.9,21.7,24.2
+Subempleo,Imbabura,5.3,1.0,18.6,16.7,20.5
+Subempleo,Loja,7.2,1.0,14.2,12.1,16.2
+Subempleo,Los Ríos,8.8,2.5,28.4,23.5,33.3
+Subempleo,Machala,3.8,0.8,19.8,18.3,21.3
+Subempleo,Manabí,5.4,1.6,28.5,25.5,31.6
+Subempleo,Morona Santiago,7.2,0.8,11.5,9.9,13.2
+Subempleo,Napo,12.2,3.1,25.3,19.2,31.3
+Subempleo,Orellana,9.5,1.6,16.5,13.5,19.6
+Subempleo,Pastaza,6.8,1.3,19.7,17.1,22.3
+Subempleo,Pichincha,5.2,0.7,13.0,11.7,14.3
+Subempleo,Quito,4.5,0.6,12.7,11.6,13.9
+Subempleo,Rural,3.8,0.8,19.8,18.3,21.3
+Subempleo,Santa Elena,5.1,1.4,27.2,24.5,29.9
+Subempleo,Santo Domingo,9.4,1.8,18.8,15.3,22.3
+Subempleo,Sucumbíos,10.3,1.6,15.7,12.5,18.8
+Subempleo,Total,1.8,0.4,19.4,18.7,20.1
+Subempleo,Tungurahua,6.9,1.3,19.4,16.8,22.1
+Subempleo,Urbano,1.9,0.4,19.2,18.5,19.9
+Subempleo,Zamora Chinchipe,9.3,1.4,14.7,12.0,17.4

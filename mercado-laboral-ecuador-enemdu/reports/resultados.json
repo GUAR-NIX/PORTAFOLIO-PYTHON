@@ -1,0 +1,3681 @@
+{
+  "proyecto": "PYTHON_06_empleo_enemdu",
+  "fuente": "INEC - Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU Anual 2025 y serie 2018-2025)",
+  "tiempo_ejecucion_seg": 46.91,
+  "calidad_y_diseno": {
+    "filas_totales_personas": 334786,
+    "hogares_unicos": 104738,
+    "viviendas_unicas": 104333,
+    "upm_unicas": 7780,
+    "estratos_unicos": 150,
+    "poblacion_total_expandida": 18855042.27,
+    "pet_expandida": 13400116.63,
+    "pea_expandida": 8612073.19,
+    "ocupados_expandidos": 8304521.98,
+    "centinelas_detectados": {
+      "ingrl_999999_no_informa": 480,
+      "ingrl_menos_1_sin_ingreso": 1471,
+      "horas_999_no_informa": 0,
+      "edad_99_tope": 0,
+      "media_ingrl_cruda_sin_limpiar_usd": 3840.42,
+      "media_ingrl_limpia_ponderada_usd": 498.97,
+      "factor_distorsion_centinela": 7.7
+    }
+  },
+  "reconciliacion_nacional_2025": [
+    {
+      "indicador": "Empleo Bruto",
+      "dominio": "Total",
+      "estimacion_pct": 61.9735,
+      "sin_ponderar_pct": 60.6642,
+      "sesgo_sin_ponderar_pp": -1.3093,
+      "ee_complejo_pct": 0.4418,
+      "ee_mas_pct": 0.094,
+      "razon_ee_complejo_vs_mas": 4.7,
+      "ic95_inf_pct": 61.1074,
+      "ic95_sup_pct": 62.8396,
+      "cv_pct": 0.71,
+      "deff": 22.11,
+      "deft": 4.7,
+      "n_muestral": 266889,
+      "n_efectivo": 12072.4,
+      "poblacion_expandida": 13400116.6,
+      "cv_oficial": 0.7,
+      "ee_oficial_pct": 0.4,
+      "indicador_oficial_pct": 62.0,
+      "ic_inf_oficial_pct": 61.1,
+      "ic_sup_oficial_pct": 62.8,
+      "dif_indicador_pp": 0.0,
+      "dif_ee_pp": 0.0,
+      "dif_cv": 0.0,
+      "reconcilia_ok": true
+    },
+    {
+      "indicador": "Empleo Global",
+      "dominio": "Total",
+      "estimacion_pct": 96.4288,
+      "sin_ponderar_pct": 95.5508,
+      "sesgo_sin_ponderar_pp": -0.8781,
+      "ee_complejo_pct": 0.1281,
+      "ee_mas_pct": 0.0451,
+      "razon_ee_complejo_vs_mas": 2.84,
+      "ic95_inf_pct": 96.1777,
+      "ic95_sup_pct": 96.6799,
+      "cv_pct": 0.13,
+      "deff": 8.07,
+      "deft": 2.84,
+      "n_muestral": 169445,
+      "n_efectivo": 20988.0,
+      "poblacion_expandida": 8612073.2,
+      "cv_oficial": 0.1,
+      "ee_oficial_pct": 0.1,
+      "indicador_oficial_pct": 96.4,
+      "ic_inf_oficial_pct": 96.2,
+      "ic_sup_oficial_pct": 96.7,
+      "dif_indicador_pp": 0.0,
+      "dif_ee_pp": 0.0,
+      "dif_cv": 0.0,
+      "reconcilia_ok": true
+    },
+    {
+      "indicador": "Empleo Adecuado/Pleno",
+      "dominio": "Total",
+      "estimacion_pct": 37.1295,
+      "sin_ponderar_pct": 41.7374,
+      "sesgo_sin_ponderar_pp": 4.608,
+      "ee_complejo_pct": 0.591,
+      "ee_mas_pct": 0.1174,
+      "razon_ee_complejo_vs_mas": 5.04,
+      "ic95_inf_pct": 35.9709,
+      "ic95_sup_pct": 38.288,
+      "cv_pct": 1.59,
+      "deff": 25.36,
+      "deft": 5.04,
+      "n_muestral": 169445,
+      "n_efectivo": 6682.9,
+      "poblacion_expandida": 8612073.2,
+      "cv_oficial": 1.6,
+      "ee_oficial_pct": 0.6,
+      "indicador_oficial_pct": 37.1,
+      "ic_inf_oficial_pct": 36.0,
+      "ic_sup_oficial_pct": 38.3,
+      "dif_indicador_pp": 0.0,
+      "dif_ee_pp": 0.0,
+      "dif_cv": 0.0,
+      "reconcilia_ok": true
+    },
+    {
+      "indicador": "Subempleo",
+      "dominio": "Total",
+      "estimacion_pct": 19.4151,
+      "sin_ponderar_pct": 17.1472,
+      "sesgo_sin_ponderar_pp": -2.268,
+      "ee_complejo_pct": 0.3582,
+      "ee_mas_pct": 0.0961,
+      "razon_ee_complejo_vs_mas": 3.73,
+      "ic95_inf_pct": 18.713,
+      "ic95_sup_pct": 20.1172,
+      "cv_pct": 1.84,
+      "deff": 13.89,
+      "deft": 3.73,
+      "n_muestral": 169445,
+      "n_efectivo": 12195.6,
+      "poblacion_expandida": 8612073.2,
+      "cv_oficial": 1.8,
+      "ee_oficial_pct": 0.4,
+      "indicador_oficial_pct": 19.4,
+      "ic_inf_oficial_pct": 18.7,
+      "ic_sup_oficial_pct": 20.1,
+      "dif_indicador_pp": 0.0,
+      "dif_ee_pp": 0.0,
+      "dif_cv": 0.0,
+      "reconcilia_ok": true
+    },
+    {
+      "indicador": "Empleo no Remunerado",
+      "dominio": "Total",
+      "estimacion_pct": 8.8153,
+      "sin_ponderar_pct": 7.9902,
+      "sesgo_sin_ponderar_pp": -0.8251,
+      "ee_complejo_pct": 0.4604,
+      "ee_mas_pct": 0.0689,
+      "razon_ee_complejo_vs_mas": 6.68,
+      "ic95_inf_pct": 7.9128,
+      "ic95_sup_pct": 9.7177,
+      "cv_pct": 5.22,
+      "deff": 44.68,
+      "deft": 6.68,
+      "n_muestral": 169445,
+      "n_efectivo": 3792.7,
+      "poblacion_expandida": 8612073.2,
+      "cv_oficial": 5.2,
+      "ee_oficial_pct": 0.5,
+      "indicador_oficial_pct": 8.8,
+      "ic_inf_oficial_pct": 7.9,
+      "ic_sup_oficial_pct": 9.7,
+      "dif_indicador_pp": 0.0,
+      "dif_ee_pp": 0.0,
+      "dif_cv": 0.0,
+      "reconcilia_ok": true
+    },
+    {
+      "indicador": "Otro Empleo no pleno",
+      "dominio": "Total",
+      "estimacion_pct": 30.8425,
+      "sin_ponderar_pct": 28.4104,
+      "sesgo_sin_ponderar_pp": -2.4321,
+      "ee_complejo_pct": 0.4886,
+      "ee_mas_pct": 0.1122,
+      "razon_ee_complejo_vs_mas": 4.35,
+      "ic95_inf_pct": 29.8847,
+      "ic95_sup_pct": 31.8003,
+      "cv_pct": 1.58,
+      "deff": 18.96,
+      "deft": 4.35,
+      "n_muestral": 169445,
+      "n_efectivo": 8935.0,
+      "poblacion_expandida": 8612073.2,
+      "cv_oficial": 1.6,
+      "ee_oficial_pct": 0.5,
+      "indicador_oficial_pct": 30.8,
+      "ic_inf_oficial_pct": 29.9,
+      "ic_sup_oficial_pct": 31.8,
+      "dif_indicador_pp": 0.0,
+      "dif_ee_pp": 0.0,
+      "dif_cv": 0.0,
+      "reconcilia_ok": true
+    },
+    {
+      "indicador": "Desempleo",
+      "dominio": "Total",
+      "estimacion_pct": 3.5712,
+      "sin_ponderar_pct": 4.4492,
+      "sesgo_sin_ponderar_pp": 0.8781,
+      "ee_complejo_pct": 0.1281,
+      "ee_mas_pct": 0.0451,
+      "razon_ee_complejo_vs_mas": 2.84,
+      "ic95_inf_pct": 3.3201,
+      "ic95_sup_pct": 3.8223,
+      "cv_pct": 3.59,
+      "deff": 8.07,
+      "deft": 2.84,
+      "n_muestral": 169445,
+      "n_efectivo": 20988.0,
+      "poblacion_expandida": 8612073.2,
+      "cv_oficial": 3.6,
+      "ee_oficial_pct": 0.1,
+      "indicador_oficial_pct": 3.6,
+      "ic_inf_oficial_pct": 3.3,
+      "ic_sup_oficial_pct": 3.8,
+      "dif_indicador_pp": 0.0,
+      "dif_ee_pp": 0.0,
+      "dif_cv": 0.0,
+      "reconcilia_ok": true
+    },
+    {
+      "indicador": "Participación Global",
+      "dominio": "Total",
+      "estimacion_pct": 64.2686,
+      "sin_ponderar_pct": 63.4889,
+      "sesgo_sin_ponderar_pp": -0.7797,
+      "ee_complejo_pct": 0.4575,
+      "ee_mas_pct": 0.0928,
+      "razon_ee_complejo_vs_mas": 4.93,
+      "ic95_inf_pct": 63.3718,
+      "ic95_sup_pct": 65.1655,
+      "cv_pct": 0.71,
+      "deff": 24.33,
+      "deft": 4.93,
+      "n_muestral": 266889,
+      "n_efectivo": 10970.2,
+      "poblacion_expandida": 13400116.6,
+      "cv_oficial": 0.7,
+      "ee_oficial_pct": 0.5,
+      "indicador_oficial_pct": 64.3,
+      "ic_inf_oficial_pct": 63.4,
+      "ic_sup_oficial_pct": 65.2,
+      "dif_indicador_pp": 0.0,
+      "dif_ee_pp": 0.0,
+      "dif_cv": 0.0,
+      "reconcilia_ok": true
+    },
+    {
+      "indicador": "Participación Bruta",
+      "dominio": "Total",
+      "estimacion_pct": 45.6752,
+      "sin_ponderar_pct": 50.6129,
+      "sesgo_sin_ponderar_pp": 4.9378,
+      "ee_complejo_pct": 0.459,
+      "ee_mas_pct": 0.0861,
+      "razon_ee_complejo_vs_mas": 5.33,
+      "ic95_inf_pct": 44.7754,
+      "ic95_sup_pct": 46.575,
+      "cv_pct": 1.0,
+      "deff": 28.43,
+      "deft": 5.33,
+      "n_muestral": 334786,
+      "n_efectivo": 11776.1,
+      "poblacion_expandida": 18855042.3,
+      "cv_oficial": 1.0,
+      "ee_oficial_pct": 0.5,
+      "indicador_oficial_pct": 45.7,
+      "ic_inf_oficial_pct": 44.8,
+      "ic_sup_oficial_pct": 46.6,
+      "dif_indicador_pp": 0.0,
+      "dif_ee_pp": 0.0,
+      "dif_cv": 0.0,
+      "reconcilia_ok": true
+    },
+    {
+      "indicador": "Sector informal",
+      "dominio": "Total",
+      "estimacion_pct": 51.4874,
+      "sin_ponderar_pct": 43.7124,
+      "sesgo_sin_ponderar_pp": -7.775,
+      "ee_complejo_pct": 0.8053,
+      "ee_mas_pct": 0.1242,
+      "razon_ee_complejo_vs_mas": 6.48,
+      "ic95_inf_pct": 49.9088,
+      "ic95_sup_pct": 53.066,
+      "cv_pct": 1.56,
+      "deff": 42.03,
+      "deft": 6.48,
+      "n_muestral": 161906,
+      "n_efectivo": 3851.8,
+      "poblacion_expandida": 8304522.0,
+      "cv_oficial": 1.6,
+      "ee_oficial_pct": 0.8,
+      "indicador_oficial_pct": 51.5,
+      "ic_inf_oficial_pct": 49.9,
+      "ic_sup_oficial_pct": 53.1,
+      "dif_indicador_pp": 0.0,
+      "dif_ee_pp": 0.0,
+      "dif_cv": 0.0,
+      "reconcilia_ok": true
+    }
+  ],
+  "resumen_reconciliacion": {
+    "celdas_evaluadas": 80,
+    "celdas_reconciliadas_ok": 80,
+    "error_max_indicador_pp": 0.0,
+    "error_max_ee_pp": 0.0
+  },
+  "contrastes_hipotesis": [
+    {
+      "contraste": "Empleo adecuado: Hombre vs Mujer (PEA)",
+      "grupo_a": "Hombre",
+      "grupo_b": "Mujer",
+      "tasa_a_pct": 42.43,
+      "tasa_b_pct": 29.96,
+      "diferencia_pp": 12.47,
+      "ee_complejo_pp": 0.8,
+      "ee_independiente_pp": 1.01,
+      "estadistico_t": 15.68,
+      "p_valor": 1.543769133940573e-54,
+      "ic95_inf_pp": 10.91,
+      "ic95_sup_pp": 14.03
+    },
+    {
+      "contraste": "Empleo adecuado: Urbano vs Rural (PEA)",
+      "grupo_a": "Urbano",
+      "grupo_b": "Rural",
+      "tasa_a_pct": 45.31,
+      "tasa_b_pct": 21.93,
+      "diferencia_pp": 23.39,
+      "ee_complejo_pp": 1.18,
+      "ee_independiente_pp": 1.18,
+      "estadistico_t": 19.86,
+      "p_valor": 1.2860838806647916e-85,
+      "ic95_inf_pp": 21.08,
+      "ic95_sup_pp": 25.69
+    },
+    {
+      "contraste": "Sector informal: Rural vs Urbano (Ocupados)",
+      "grupo_a": "Rural",
+      "grupo_b": "Urbano",
+      "tasa_a_pct": 71.53,
+      "tasa_b_pct": 40.41,
+      "diferencia_pp": 31.12,
+      "ee_complejo_pp": 1.63,
+      "ee_independiente_pp": 1.63,
+      "estadistico_t": 19.05,
+      "p_valor": 4.217688818069865e-79,
+      "ic95_inf_pp": 27.92,
+      "ic95_sup_pp": 34.32
+    },
+    {
+      "contraste": "Sector informal: Mujer vs Hombre (Ocupados)",
+      "grupo_a": "Mujer",
+      "grupo_b": "Hombre",
+      "tasa_a_pct": 50.47,
+      "tasa_b_pct": 52.23,
+      "diferencia_pp": -1.76,
+      "ee_complejo_pp": 1.11,
+      "ee_independiente_pp": 1.35,
+      "estadistico_t": -1.58,
+      "p_valor": 0.11365877351567616,
+      "ic95_inf_pp": -3.95,
+      "ic95_sup_pp": 0.42
+    }
+  ],
+  "provincias_2025": [
+    {
+      "cod_prov": 20,
+      "provincia": "Galápagos",
+      "region_natural": "Insular",
+      "pea_expandida": 16934.0,
+      "n_muestral_pea": 1579,
+      "empleo_adecuado_pct": 59.55,
+      "empleo_adecuado_ee_pct": 2.11,
+      "subempleo_pct": 6.77,
+      "desempleo_pct": 3.13,
+      "informalidad_pct": 16.21,
+      "informalidad_ee_pct": 1.81,
+      "afiliacion_seguro_pct": 56.34,
+      "pobreza_pct": 0.23,
+      "ingreso_laboral_mediano_usd": 1021.9,
+      "ingreso_laboral_medio_usd": 1244.66
+    },
+    {
+      "cod_prov": 17,
+      "provincia": "Pichincha",
+      "region_natural": "Sierra",
+      "pea_expandida": 1642009.0,
+      "n_muestral_pea": 24075,
+      "empleo_adecuado_pct": 53.03,
+      "empleo_adecuado_ee_pct": 0.98,
+      "subempleo_pct": 13.01,
+      "desempleo_pct": 6.6,
+      "informalidad_pct": 28.43,
+      "informalidad_ee_pct": 1.04,
+      "afiliacion_seguro_pct": 48.23,
+      "pobreza_pct": 11.22,
+      "ingreso_laboral_mediano_usd": 500.0,
+      "ingreso_laboral_medio_usd": 651.72
+    },
+    {
+      "cod_prov": 1,
+      "provincia": "Azuay",
+      "region_natural": "Sierra",
+      "pea_expandida": 462352.0,
+      "n_muestral_pea": 15268,
+      "empleo_adecuado_pct": 44.87,
+      "empleo_adecuado_ee_pct": 1.57,
+      "subempleo_pct": 10.0,
+      "desempleo_pct": 2.53,
+      "informalidad_pct": 47.21,
+      "informalidad_ee_pct": 2.63,
+      "afiliacion_seguro_pct": 36.2,
+      "pobreza_pct": 12.86,
+      "ingreso_laboral_mediano_usd": 470.0,
+      "ingreso_laboral_medio_usd": 554.48
+    },
+    {
+      "cod_prov": 7,
+      "provincia": "El Oro",
+      "region_natural": "Costa",
+      "pea_expandida": 357893.0,
+      "n_muestral_pea": 17325,
+      "empleo_adecuado_pct": 42.59,
+      "empleo_adecuado_ee_pct": 1.6,
+      "subempleo_pct": 20.52,
+      "desempleo_pct": 3.88,
+      "informalidad_pct": 43.31,
+      "informalidad_ee_pct": 2.42,
+      "afiliacion_seguro_pct": 31.96,
+      "pobreza_pct": 15.02,
+      "ingreso_laboral_mediano_usd": 470.0,
+      "ingreso_laboral_medio_usd": 525.93
+    },
+    {
+      "cod_prov": 9,
+      "provincia": "Guayas",
+      "region_natural": "Costa",
+      "pea_expandida": 1870530.0,
+      "n_muestral_pea": 19714,
+      "empleo_adecuado_pct": 41.34,
+      "empleo_adecuado_ee_pct": 1.77,
+      "subempleo_pct": 22.92,
+      "desempleo_pct": 2.49,
+      "informalidad_pct": 51.94,
+      "informalidad_ee_pct": 2.16,
+      "afiliacion_seguro_pct": 35.03,
+      "pobreza_pct": 19.8,
+      "ingreso_laboral_mediano_usd": 430.0,
+      "ingreso_laboral_medio_usd": 470.5
+    },
+    {
+      "cod_prov": 23,
+      "provincia": "Santo Domingo",
+      "region_natural": "Sierra",
+      "pea_expandida": 222475.0,
+      "n_muestral_pea": 3078,
+      "empleo_adecuado_pct": 39.36,
+      "empleo_adecuado_ee_pct": 2.23,
+      "subempleo_pct": 18.8,
+      "desempleo_pct": 1.33,
+      "informalidad_pct": 54.6,
+      "informalidad_ee_pct": 2.77,
+      "afiliacion_seguro_pct": 29.94,
+      "pobreza_pct": 14.62,
+      "ingreso_laboral_mediano_usd": 420.0,
+      "ingreso_laboral_medio_usd": 496.58
+    },
+    {
+      "cod_prov": 12,
+      "provincia": "Los Ríos",
+      "region_natural": "Costa",
+      "pea_expandida": 415167.0,
+      "n_muestral_pea": 2834,
+      "empleo_adecuado_pct": 32.53,
+      "empleo_adecuado_ee_pct": 1.96,
+      "subempleo_pct": 28.36,
+      "desempleo_pct": 1.69,
+      "informalidad_pct": 51.41,
+      "informalidad_ee_pct": 2.78,
+      "afiliacion_seguro_pct": 32.45,
+      "pobreza_pct": 21.97,
+      "ingreso_laboral_mediano_usd": 350.0,
+      "ingreso_laboral_medio_usd": 420.61
+    },
+    {
+      "cod_prov": 19,
+      "provincia": "Zamora Chinchipe",
+      "region_natural": "Amazonía",
+      "pea_expandida": 63581.0,
+      "n_muestral_pea": 3371,
+      "empleo_adecuado_pct": 32.14,
+      "empleo_adecuado_ee_pct": 3.04,
+      "subempleo_pct": 14.71,
+      "desempleo_pct": 1.56,
+      "informalidad_pct": 63.34,
+      "informalidad_ee_pct": 4.12,
+      "afiliacion_seguro_pct": 28.99,
+      "pobreza_pct": 27.67,
+      "ingreso_laboral_mediano_usd": 400.0,
+      "ingreso_laboral_medio_usd": 528.14
+    },
+    {
+      "cod_prov": 3,
+      "provincia": "Cañar",
+      "region_natural": "Sierra",
+      "pea_expandida": 171641.0,
+      "n_muestral_pea": 3225,
+      "empleo_adecuado_pct": 31.66,
+      "empleo_adecuado_ee_pct": 1.62,
+      "subempleo_pct": 13.76,
+      "desempleo_pct": 3.57,
+      "informalidad_pct": 56.4,
+      "informalidad_ee_pct": 2.62,
+      "afiliacion_seguro_pct": 33.56,
+      "pobreza_pct": 15.25,
+      "ingreso_laboral_mediano_usd": 380.0,
+      "ingreso_laboral_medio_usd": 453.18
+    },
+    {
+      "cod_prov": 24,
+      "provincia": "Santa Elena",
+      "region_natural": "Costa",
+      "pea_expandida": 154016.0,
+      "n_muestral_pea": 5740,
+      "empleo_adecuado_pct": 31.45,
+      "empleo_adecuado_ee_pct": 1.68,
+      "subempleo_pct": 27.23,
+      "desempleo_pct": 2.01,
+      "informalidad_pct": 62.88,
+      "informalidad_ee_pct": 2.02,
+      "afiliacion_seguro_pct": 25.65,
+      "pobreza_pct": 29.84,
+      "ingreso_laboral_mediano_usd": 350.0,
+      "ingreso_laboral_medio_usd": 406.56
+    },
+    {
+      "cod_prov": 18,
+      "provincia": "Tungurahua",
+      "region_natural": "Sierra",
+      "pea_expandida": 372185.0,
+      "n_muestral_pea": 14973,
+      "empleo_adecuado_pct": 30.54,
+      "empleo_adecuado_ee_pct": 1.43,
+      "subempleo_pct": 19.45,
+      "desempleo_pct": 1.94,
+      "informalidad_pct": 52.01,
+      "informalidad_ee_pct": 1.93,
+      "afiliacion_seguro_pct": 29.09,
+      "pobreza_pct": 11.02,
+      "ingreso_laboral_mediano_usd": 389.33,
+      "ingreso_laboral_medio_usd": 503.32
+    },
+    {
+      "cod_prov": 13,
+      "provincia": "Manabí",
+      "region_natural": "Costa",
+      "pea_expandida": 719863.0,
+      "n_muestral_pea": 3316,
+      "empleo_adecuado_pct": 29.31,
+      "empleo_adecuado_ee_pct": 2.06,
+      "subempleo_pct": 28.52,
+      "desempleo_pct": 2.46,
+      "informalidad_pct": 61.74,
+      "informalidad_ee_pct": 2.99,
+      "afiliacion_seguro_pct": 37.99,
+      "pobreza_pct": 24.33,
+      "ingreso_laboral_mediano_usd": 330.0,
+      "ingreso_laboral_medio_usd": 408.53
+    },
+    {
+      "cod_prov": 10,
+      "provincia": "Imbabura",
+      "region_natural": "Sierra",
+      "pea_expandida": 248742.0,
+      "n_muestral_pea": 8258,
+      "empleo_adecuado_pct": 29.31,
+      "empleo_adecuado_ee_pct": 2.09,
+      "subempleo_pct": 18.59,
+      "desempleo_pct": 6.09,
+      "informalidad_pct": 54.21,
+      "informalidad_ee_pct": 2.65,
+      "afiliacion_seguro_pct": 28.13,
+      "pobreza_pct": 31.82,
+      "ingreso_laboral_mediano_usd": 330.0,
+      "ingreso_laboral_medio_usd": 442.07
+    },
+    {
+      "cod_prov": 21,
+      "provincia": "Sucumbíos",
+      "region_natural": "Amazonía",
+      "pea_expandida": 106824.0,
+      "n_muestral_pea": 4273,
+      "empleo_adecuado_pct": 27.63,
+      "empleo_adecuado_ee_pct": 3.02,
+      "subempleo_pct": 15.65,
+      "desempleo_pct": 6.54,
+      "informalidad_pct": 61.5,
+      "informalidad_ee_pct": 3.58,
+      "afiliacion_seguro_pct": 26.62,
+      "pobreza_pct": 46.67,
+      "ingreso_laboral_mediano_usd": 300.0,
+      "ingreso_laboral_medio_usd": 450.82
+    },
+    {
+      "cod_prov": 11,
+      "provincia": "Loja",
+      "region_natural": "Sierra",
+      "pea_expandida": 289171.0,
+      "n_muestral_pea": 5848,
+      "empleo_adecuado_pct": 26.84,
+      "empleo_adecuado_ee_pct": 1.84,
+      "subempleo_pct": 14.15,
+      "desempleo_pct": 4.02,
+      "informalidad_pct": 60.02,
+      "informalidad_ee_pct": 2.75,
+      "afiliacion_seguro_pct": 40.0,
+      "pobreza_pct": 30.74,
+      "ingreso_laboral_mediano_usd": 300.0,
+      "ingreso_laboral_medio_usd": 421.12
+    },
+    {
+      "cod_prov": 5,
+      "provincia": "Cotopaxi",
+      "region_natural": "Sierra",
+      "pea_expandida": 341490.0,
+      "n_muestral_pea": 3902,
+      "empleo_adecuado_pct": 25.67,
+      "empleo_adecuado_ee_pct": 1.9,
+      "subempleo_pct": 20.55,
+      "desempleo_pct": 2.12,
+      "informalidad_pct": 63.06,
+      "informalidad_ee_pct": 3.22,
+      "afiliacion_seguro_pct": 29.93,
+      "pobreza_pct": 23.68,
+      "ingreso_laboral_mediano_usd": 350.0,
+      "ingreso_laboral_medio_usd": 467.62
+    },
+    {
+      "cod_prov": 8,
+      "provincia": "Esmeraldas",
+      "region_natural": "Costa",
+      "pea_expandida": 271997.0,
+      "n_muestral_pea": 9006,
+      "empleo_adecuado_pct": 25.02,
+      "empleo_adecuado_ee_pct": 1.24,
+      "subempleo_pct": 22.58,
+      "desempleo_pct": 9.1,
+      "informalidad_pct": 61.48,
+      "informalidad_ee_pct": 1.54,
+      "afiliacion_seguro_pct": 27.56,
+      "pobreza_pct": 44.2,
+      "ingreso_laboral_mediano_usd": 300.0,
+      "ingreso_laboral_medio_usd": 393.8
+    },
+    {
+      "cod_prov": 2,
+      "provincia": "Bolívar",
+      "region_natural": "Sierra",
+      "pea_expandida": 105243.0,
+      "n_muestral_pea": 2592,
+      "empleo_adecuado_pct": 24.95,
+      "empleo_adecuado_ee_pct": 2.26,
+      "subempleo_pct": 20.33,
+      "desempleo_pct": 1.17,
+      "informalidad_pct": 77.2,
+      "informalidad_ee_pct": 2.41,
+      "afiliacion_seguro_pct": 27.43,
+      "pobreza_pct": 27.87,
+      "ingreso_laboral_mediano_usd": 315.0,
+      "ingreso_laboral_medio_usd": 433.79
+    },
+    {
+      "cod_prov": 4,
+      "provincia": "Carchi",
+      "region_natural": "Sierra",
+      "pea_expandida": 95841.0,
+      "n_muestral_pea": 3604,
+      "empleo_adecuado_pct": 24.38,
+      "empleo_adecuado_ee_pct": 4.65,
+      "subempleo_pct": 15.0,
+      "desempleo_pct": 4.9,
+      "informalidad_pct": 60.45,
+      "informalidad_ee_pct": 8.16,
+      "afiliacion_seguro_pct": 26.7,
+      "pobreza_pct": 39.64,
+      "ingreso_laboral_mediano_usd": 300.0,
+      "ingreso_laboral_medio_usd": 451.94
+    },
+    {
+      "cod_prov": 16,
+      "provincia": "Pastaza",
+      "region_natural": "Amazonía",
+      "pea_expandida": 68321.0,
+      "n_muestral_pea": 3834,
+      "empleo_adecuado_pct": 24.15,
+      "empleo_adecuado_ee_pct": 1.46,
+      "subempleo_pct": 19.71,
+      "desempleo_pct": 2.1,
+      "informalidad_pct": 66.35,
+      "informalidad_ee_pct": 1.83,
+      "afiliacion_seguro_pct": 27.59,
+      "pobreza_pct": 36.32,
+      "ingreso_laboral_mediano_usd": 325.0,
+      "ingreso_laboral_medio_usd": 493.45
+    },
+    {
+      "cod_prov": 6,
+      "provincia": "Chimborazo",
+      "region_natural": "Sierra",
+      "pea_expandida": 350911.0,
+      "n_muestral_pea": 3787,
+      "empleo_adecuado_pct": 21.61,
+      "empleo_adecuado_ee_pct": 1.68,
+      "subempleo_pct": 18.64,
+      "desempleo_pct": 1.76,
+      "informalidad_pct": 68.14,
+      "informalidad_ee_pct": 3.92,
+      "afiliacion_seguro_pct": 30.64,
+      "pobreza_pct": 26.32,
+      "ingreso_laboral_mediano_usd": 300.0,
+      "ingreso_laboral_medio_usd": 433.12
+    },
+    {
+      "cod_prov": 22,
+      "provincia": "Orellana",
+      "region_natural": "Amazonía",
+      "pea_expandida": 96941.0,
+      "n_muestral_pea": 4083,
+      "empleo_adecuado_pct": 17.79,
+      "empleo_adecuado_ee_pct": 1.68,
+      "subempleo_pct": 16.53,
+      "desempleo_pct": 1.06,
+      "informalidad_pct": 77.13,
+      "informalidad_ee_pct": 4.48,
+      "afiliacion_seguro_pct": 14.24,
+      "pobreza_pct": 44.19,
+      "ingreso_laboral_mediano_usd": 305.0,
+      "ingreso_laboral_medio_usd": 454.39
+    },
+    {
+      "cod_prov": 15,
+      "provincia": "Napo",
+      "region_natural": "Amazonía",
+      "pea_expandida": 79958.0,
+      "n_muestral_pea": 3564,
+      "empleo_adecuado_pct": 11.95,
+      "empleo_adecuado_ee_pct": 1.18,
+      "subempleo_pct": 25.28,
+      "desempleo_pct": 1.16,
+      "informalidad_pct": 81.54,
+      "informalidad_ee_pct": 2.47,
+      "afiliacion_seguro_pct": 18.84,
+      "pobreza_pct": 58.63,
+      "ingreso_laboral_mediano_usd": 200.0,
+      "ingreso_laboral_medio_usd": 353.51
+    },
+    {
+      "cod_prov": 14,
+      "provincia": "Morona Santiago",
+      "region_natural": "Amazonía",
+      "pea_expandida": 87987.0,
+      "n_muestral_pea": 2196,
+      "empleo_adecuado_pct": 9.76,
+      "empleo_adecuado_ee_pct": 2.9,
+      "subempleo_pct": 11.54,
+      "desempleo_pct": 0.15,
+      "informalidad_pct": 87.35,
+      "informalidad_ee_pct": 3.32,
+      "afiliacion_seguro_pct": 9.58,
+      "pobreza_pct": 74.2,
+      "ingreso_laboral_mediano_usd": 206.11,
+      "ingreso_laboral_medio_usd": 309.42
+    }
+  ],
+  "subgrupos_2025": [
+    {
+      "dimension": "Sexo",
+      "categoria": "Hombre",
+      "n_muestral_pea": 94074,
+      "pea_expandida": 4953808.0,
+      "empleo_adecuado_pct": 42.43,
+      "subempleo_pct": 20.74,
+      "otro_no_pleno_pct": 29.0,
+      "no_remunerado_pct": 4.74,
+      "desempleo_pct": 2.85,
+      "informalidad_pct": 52.23,
+      "afiliacion_seguro_pct": 35.8,
+      "ingreso_mediano_usd": 458.0,
+      "ingreso_medio_usd": 526.89,
+      "salario_hora_medio_usd": 3.18,
+      "horas_semana_media": 37.1
+    },
+    {
+      "dimension": "Sexo",
+      "categoria": "Mujer",
+      "n_muestral_pea": 75371,
+      "pea_expandida": 3658265.0,
+      "empleo_adecuado_pct": 29.96,
+      "subempleo_pct": 17.62,
+      "otro_no_pleno_pct": 33.34,
+      "no_remunerado_pct": 14.34,
+      "desempleo_pct": 4.55,
+      "informalidad_pct": 50.47,
+      "afiliacion_seguro_pct": 34.56,
+      "ingreso_mediano_usd": 340.0,
+      "ingreso_medio_usd": 455.02,
+      "salario_hora_medio_usd": 3.03,
+      "horas_semana_media": 31.9
+    },
+    {
+      "dimension": "Área",
+      "categoria": "Rural",
+      "n_muestral_pea": 48288,
+      "pea_expandida": 3013882.0,
+      "empleo_adecuado_pct": 21.93,
+      "subempleo_pct": 19.82,
+      "otro_no_pleno_pct": 37.8,
+      "no_remunerado_pct": 18.45,
+      "desempleo_pct": 1.92,
+      "informalidad_pct": 71.53,
+      "afiliacion_seguro_pct": 28.89,
+      "ingreso_mediano_usd": 300.0,
+      "ingreso_medio_usd": 374.85,
+      "salario_hora_medio_usd": 2.5,
+      "horas_semana_media": 31.8
+    },
+    {
+      "dimension": "Área",
+      "categoria": "Urbana",
+      "n_muestral_pea": 121157,
+      "pea_expandida": 5598191.0,
+      "empleo_adecuado_pct": 45.31,
+      "subempleo_pct": 19.2,
+      "otro_no_pleno_pct": 27.1,
+      "no_remunerado_pct": 3.63,
+      "desempleo_pct": 4.46,
+      "informalidad_pct": 40.41,
+      "afiliacion_seguro_pct": 38.81,
+      "ingreso_mediano_usd": 470.0,
+      "ingreso_medio_usd": 554.02,
+      "salario_hora_medio_usd": 3.39,
+      "horas_semana_media": 36.6
+    },
+    {
+      "dimension": "Grupo de edad",
+      "categoria": "15 a 24 años",
+      "n_muestral_pea": 22654,
+      "pea_expandida": 1312863.0,
+      "empleo_adecuado_pct": 21.76,
+      "subempleo_pct": 23.58,
+      "otro_no_pleno_pct": 25.17,
+      "no_remunerado_pct": 20.35,
+      "desempleo_pct": 9.07,
+      "informalidad_pct": 55.54,
+      "afiliacion_seguro_pct": 19.23,
+      "ingreso_mediano_usd": 325.0,
+      "ingreso_medio_usd": 357.02,
+      "salario_hora_medio_usd": 2.32,
+      "horas_semana_media": 31.0
+    },
+    {
+      "dimension": "Grupo de edad",
+      "categoria": "25 a 34 años",
+      "n_muestral_pea": 36262,
+      "pea_expandida": 1910655.0,
+      "empleo_adecuado_pct": 44.28,
+      "subempleo_pct": 21.13,
+      "otro_no_pleno_pct": 24.32,
+      "no_remunerado_pct": 5.05,
+      "desempleo_pct": 5.07,
+      "informalidad_pct": 39.82,
+      "afiliacion_seguro_pct": 35.24,
+      "ingreso_mediano_usd": 470.0,
+      "ingreso_medio_usd": 514.29,
+      "salario_hora_medio_usd": 3.13,
+      "horas_semana_media": 36.5
+    },
+    {
+      "dimension": "Grupo de edad",
+      "categoria": "35 a 44 años",
+      "n_muestral_pea": 35371,
+      "pea_expandida": 1991924.0,
+      "empleo_adecuado_pct": 46.67,
+      "subempleo_pct": 19.07,
+      "otro_no_pleno_pct": 25.16,
+      "no_remunerado_pct": 6.25,
+      "desempleo_pct": 2.52,
+      "informalidad_pct": 44.15,
+      "afiliacion_seguro_pct": 38.71,
+      "ingreso_mediano_usd": 470.0,
+      "ingreso_medio_usd": 577.17,
+      "salario_hora_medio_usd": 3.47,
+      "horas_semana_media": 37.2
+    },
+    {
+      "dimension": "Grupo de edad",
+      "categoria": "45 a 64 años",
+      "n_muestral_pea": 58853,
+      "pea_expandida": 2679695.0,
+      "empleo_adecuado_pct": 38.73,
+      "subempleo_pct": 18.73,
+      "otro_no_pleno_pct": 34.25,
+      "no_remunerado_pct": 6.64,
+      "desempleo_pct": 1.35,
+      "informalidad_pct": 55.32,
+      "afiliacion_seguro_pct": 38.63,
+      "ingreso_mediano_usd": 405.0,
+      "ingreso_medio_usd": 528.1,
+      "salario_hora_medio_usd": 3.28,
+      "horas_semana_media": 35.9
+    },
+    {
+      "dimension": "Grupo de edad",
+      "categoria": "65 años y más",
+      "n_muestral_pea": 16305,
+      "pea_expandida": 716937.0,
+      "empleo_adecuado_pct": 13.75,
+      "subempleo_pct": 10.75,
+      "otro_no_pleno_pct": 61.64,
+      "no_remunerado_pct": 12.97,
+      "desempleo_pct": 0.72,
+      "informalidad_pct": 80.19,
+      "afiliacion_seguro_pct": 40.53,
+      "ingreso_mediano_usd": 190.0,
+      "ingreso_medio_usd": 303.82,
+      "salario_hora_medio_usd": 2.53,
+      "horas_semana_media": 27.2
+    },
+    {
+      "dimension": "Autoidentificación étnica",
+      "categoria": "Afroecuatoriano",
+      "n_muestral_pea": 6402,
+      "pea_expandida": 260864.0,
+      "empleo_adecuado_pct": 34.21,
+      "subempleo_pct": 24.8,
+      "otro_no_pleno_pct": 30.04,
+      "no_remunerado_pct": 2.83,
+      "desempleo_pct": 7.98,
+      "informalidad_pct": 51.74,
+      "afiliacion_seguro_pct": 33.86,
+      "ingreso_mediano_usd": 360.0,
+      "ingreso_medio_usd": 429.12,
+      "salario_hora_medio_usd": 2.69,
+      "horas_semana_media": 35.3
+    },
+    {
+      "dimension": "Autoidentificación étnica",
+      "categoria": "Blanco/a",
+      "n_muestral_pea": 1386,
+      "pea_expandida": 54856.0,
+      "empleo_adecuado_pct": 38.8,
+      "subempleo_pct": 14.55,
+      "otro_no_pleno_pct": 34.13,
+      "no_remunerado_pct": 7.4,
+      "desempleo_pct": 3.91,
+      "informalidad_pct": 43.75,
+      "afiliacion_seguro_pct": 37.79,
+      "ingreso_mediano_usd": 400.0,
+      "ingreso_medio_usd": 667.12,
+      "salario_hora_medio_usd": 4.2,
+      "horas_semana_media": 35.1
+    },
+    {
+      "dimension": "Autoidentificación étnica",
+      "categoria": "Indígena",
+      "n_muestral_pea": 15022,
+      "pea_expandida": 1066138.0,
+      "empleo_adecuado_pct": 18.15,
+      "subempleo_pct": 16.33,
+      "otro_no_pleno_pct": 35.99,
+      "no_remunerado_pct": 27.64,
+      "desempleo_pct": 1.81,
+      "informalidad_pct": 76.91,
+      "afiliacion_seguro_pct": 17.81,
+      "ingreso_mediano_usd": 270.0,
+      "ingreso_medio_usd": 349.78,
+      "salario_hora_medio_usd": 2.25,
+      "horas_semana_media": 31.9
+    },
+    {
+      "dimension": "Autoidentificación étnica",
+      "categoria": "Mestizo/a",
+      "n_muestral_pea": 144201,
+      "pea_expandida": 6935798.0,
+      "empleo_adecuado_pct": 40.92,
+      "subempleo_pct": 19.2,
+      "otro_no_pleno_pct": 29.61,
+      "no_remunerado_pct": 6.25,
+      "desempleo_pct": 3.76,
+      "informalidad_pct": 46.47,
+      "afiliacion_seguro_pct": 38.02,
+      "ingreso_mediano_usd": 450.0,
+      "ingreso_medio_usd": 524.32,
+      "salario_hora_medio_usd": 3.25,
+      "horas_semana_media": 35.6
+    },
+    {
+      "dimension": "Autoidentificación étnica",
+      "categoria": "Montubio",
+      "n_muestral_pea": 2359,
+      "pea_expandida": 290722.0,
+      "empleo_adecuado_pct": 18.67,
+      "subempleo_pct": 32.16,
+      "otro_no_pleno_pct": 41.17,
+      "no_remunerado_pct": 6.53,
+      "desempleo_pct": 1.42,
+      "informalidad_pct": 76.53,
+      "afiliacion_seguro_pct": 36.29,
+      "ingreso_mediano_usd": 250.42,
+      "ingreso_medio_usd": 329.23,
+      "salario_hora_medio_usd": 2.45,
+      "horas_semana_media": 28.9
+    },
+    {
+      "dimension": "Nivel de instrucción",
+      "categoria": "Centro de alfabetización",
+      "n_muestral_pea": 286,
+      "pea_expandida": 27927.0,
+      "empleo_adecuado_pct": 6.57,
+      "subempleo_pct": 5.49,
+      "otro_no_pleno_pct": 43.95,
+      "no_remunerado_pct": 44.0,
+      "desempleo_pct": 0.0,
+      "informalidad_pct": 93.85,
+      "afiliacion_seguro_pct": 32.29,
+      "ingreso_mediano_usd": 120.09,
+      "ingreso_medio_usd": 180.83,
+      "salario_hora_medio_usd": 1.42,
+      "horas_semana_media": 28.9
+    },
+    {
+      "dimension": "Nivel de instrucción",
+      "categoria": "Educación Básica",
+      "n_muestral_pea": 54101,
+      "pea_expandida": 3279305.0,
+      "empleo_adecuado_pct": 23.07,
+      "subempleo_pct": 22.62,
+      "otro_no_pleno_pct": 41.51,
+      "no_remunerado_pct": 11.32,
+      "desempleo_pct": 1.42,
+      "informalidad_pct": 71.05,
+      "afiliacion_seguro_pct": 24.47,
+      "ingreso_mediano_usd": 300.0,
+      "ingreso_medio_usd": 349.15,
+      "salario_hora_medio_usd": 2.34,
+      "horas_semana_media": 33.1
+    },
+    {
+      "dimension": "Nivel de instrucción",
+      "categoria": "Educación Media / Bachillerato",
+      "n_muestral_pea": 60799,
+      "pea_expandida": 3184019.0,
+      "empleo_adecuado_pct": 39.31,
+      "subempleo_pct": 20.59,
+      "otro_no_pleno_pct": 27.35,
+      "no_remunerado_pct": 7.91,
+      "desempleo_pct": 4.69,
+      "informalidad_pct": 45.6,
+      "afiliacion_seguro_pct": 32.72,
+      "ingreso_mediano_usd": 450.0,
+      "ingreso_medio_usd": 464.6,
+      "salario_hora_medio_usd": 2.84,
+      "horas_semana_media": 36.1
+    },
+    {
+      "dimension": "Nivel de instrucción",
+      "categoria": "Ninguno",
+      "n_muestral_pea": 3396,
+      "pea_expandida": 265205.0,
+      "empleo_adecuado_pct": 8.26,
+      "subempleo_pct": 16.31,
+      "otro_no_pleno_pct": 54.06,
+      "no_remunerado_pct": 20.45,
+      "desempleo_pct": 0.71,
+      "informalidad_pct": 88.08,
+      "afiliacion_seguro_pct": 23.26,
+      "ingreso_mediano_usd": 170.0,
+      "ingreso_medio_usd": 219.43,
+      "salario_hora_medio_usd": 1.8,
+      "horas_semana_media": 27.5
+    },
+    {
+      "dimension": "Nivel de instrucción",
+      "categoria": "Superior",
+      "n_muestral_pea": 50863,
+      "pea_expandida": 1855617.0,
+      "empleo_adecuado_pct": 62.81,
+      "subempleo_pct": 12.38,
+      "otro_no_pleno_pct": 14.48,
+      "no_remunerado_pct": 3.75,
+      "desempleo_pct": 5.91,
+      "informalidad_pct": 19.3,
+      "afiliacion_seguro_pct": 61.61,
+      "ingreso_mediano_usd": 660.0,
+      "ingreso_medio_usd": 847.08,
+      "salario_hora_medio_usd": 5.08,
+      "horas_semana_media": 37.5
+    }
+  ],
+  "ramas_ciiu_2025": [
+    {
+      "rama_cod": 1,
+      "rama_nombre": "Agricultura, ganadería, caza y silvicultura y pesca",
+      "ocupados_expandidos": 2583196.0,
+      "participacion_ocupados_pct": 31.11,
+      "informalidad_pct": 81.92,
+      "empleo_adecuado_pct": 15.05,
+      "mujeres_pct": 37.04,
+      "ingreso_mediano_usd": 240.0,
+      "ingreso_medio_usd": 307.86,
+      "salario_hora_medio_usd": 2.19
+    },
+    {
+      "rama_cod": 7,
+      "rama_nombre": "Comercio al por mayor y al por menor; reparación de vehículos",
+      "ocupados_expandidos": 1380508.0,
+      "participacion_ocupados_pct": 16.62,
+      "informalidad_pct": 43.97,
+      "empleo_adecuado_pct": 38.27,
+      "mujeres_pct": 51.24,
+      "ingreso_mediano_usd": 400.0,
+      "ingreso_medio_usd": 476.66,
+      "salario_hora_medio_usd": 2.93
+    },
+    {
+      "rama_cod": 3,
+      "rama_nombre": "Industrias manufactureras",
+      "ocupados_expandidos": 884595.0,
+      "participacion_ocupados_pct": 10.65,
+      "informalidad_pct": 28.43,
+      "empleo_adecuado_pct": 53.16,
+      "mujeres_pct": 39.19,
+      "ingreso_mediano_usd": 480.0,
+      "ingreso_medio_usd": 553.18,
+      "salario_hora_medio_usd": 3.24
+    },
+    {
+      "rama_cod": 9,
+      "rama_nombre": "Actividades de alojamiento y de servicio de comidas",
+      "ocupados_expandidos": 549508.0,
+      "participacion_ocupados_pct": 6.62,
+      "informalidad_pct": 50.03,
+      "empleo_adecuado_pct": 30.85,
+      "mujeres_pct": 68.39,
+      "ingreso_mediano_usd": 360.0,
+      "ingreso_medio_usd": 422.32,
+      "salario_hora_medio_usd": 2.75
+    },
+    {
+      "rama_cod": 6,
+      "rama_nombre": "Construcción",
+      "ocupados_expandidos": 530392.0,
+      "participacion_ocupados_pct": 6.39,
+      "informalidad_pct": 76.27,
+      "empleo_adecuado_pct": 40.15,
+      "mujeres_pct": 2.38,
+      "ingreso_mediano_usd": 400.0,
+      "ingreso_medio_usd": 440.91,
+      "salario_hora_medio_usd": 2.71
+    },
+    {
+      "rama_cod": 8,
+      "rama_nombre": "Transporte y almacenamiento",
+      "ocupados_expandidos": 479602.0,
+      "participacion_ocupados_pct": 5.78,
+      "informalidad_pct": 54.19,
+      "empleo_adecuado_pct": 46.66,
+      "mujeres_pct": 9.88,
+      "ingreso_mediano_usd": 450.0,
+      "ingreso_medio_usd": 491.64,
+      "salario_hora_medio_usd": 2.79
+    },
+    {
+      "rama_cod": 16,
+      "rama_nombre": "Enseñanza",
+      "ocupados_expandidos": 296424.0,
+      "participacion_ocupados_pct": 3.57,
+      "informalidad_pct": 5.79,
+      "empleo_adecuado_pct": 85.0,
+      "mujeres_pct": 65.57,
+      "ingreso_mediano_usd": 875.0,
+      "ingreso_medio_usd": 938.86,
+      "salario_hora_medio_usd": 5.59
+    },
+    {
+      "rama_cod": 14,
+      "rama_nombre": "Actividades de servicios administrativos y de apoyo",
+      "ocupados_expandidos": 286301.0,
+      "participacion_ocupados_pct": 3.45,
+      "informalidad_pct": 39.79,
+      "empleo_adecuado_pct": 50.23,
+      "mujeres_pct": 47.66,
+      "ingreso_mediano_usd": 470.0,
+      "ingreso_medio_usd": 447.32,
+      "salario_hora_medio_usd": 2.89
+    },
+    {
+      "rama_cod": 15,
+      "rama_nombre": "Administración pública y defensa; planes de seguridad social",
+      "ocupados_expandidos": 243172.0,
+      "participacion_ocupados_pct": 2.93,
+      "informalidad_pct": 0.06,
+      "empleo_adecuado_pct": 97.34,
+      "mujeres_pct": 32.49,
+      "ingreso_mediano_usd": 1031.99,
+      "ingreso_medio_usd": 1167.92,
+      "salario_hora_medio_usd": 6.61
+    },
+    {
+      "rama_cod": 19,
+      "rama_nombre": "Otras actividades de servicios",
+      "ocupados_expandidos": 222908.0,
+      "participacion_ocupados_pct": 2.68,
+      "informalidad_pct": 62.91,
+      "empleo_adecuado_pct": 25.58,
+      "mujeres_pct": 57.63,
+      "ingreso_mediano_usd": 290.0,
+      "ingreso_medio_usd": 342.12,
+      "salario_hora_medio_usd": 2.42
+    },
+    {
+      "rama_cod": 20,
+      "rama_nombre": "Actividades de los hogares como empleadores",
+      "ocupados_expandidos": 221023.0,
+      "participacion_ocupados_pct": 2.66,
+      "informalidad_pct": 0.03,
+      "empleo_adecuado_pct": 31.73,
+      "mujeres_pct": 94.26,
+      "ingreso_mediano_usd": 330.0,
+      "ingreso_medio_usd": 367.72,
+      "salario_hora_medio_usd": 2.65
+    },
+    {
+      "rama_cod": 17,
+      "rama_nombre": "Actividades de atención de la salud humana y asistencia social",
+      "ocupados_expandidos": 185413.0,
+      "participacion_ocupados_pct": 2.23,
+      "informalidad_pct": 14.95,
+      "empleo_adecuado_pct": 74.17,
+      "mujeres_pct": 70.96,
+      "ingreso_mediano_usd": 695.0,
+      "ingreso_medio_usd": 882.16,
+      "salario_hora_medio_usd": 5.4
+    },
+    {
+      "rama_cod": 13,
+      "rama_nombre": "Actividades profesionales, científicas y técnicas",
+      "ocupados_expandidos": 149684.0,
+      "participacion_ocupados_pct": 1.8,
+      "informalidad_pct": 17.24,
+      "empleo_adecuado_pct": 57.04,
+      "mujeres_pct": 47.45,
+      "ingreso_mediano_usd": 510.0,
+      "ingreso_medio_usd": 709.27,
+      "salario_hora_medio_usd": 4.52
+    }
+  ],
+  "ingresos_por_sector_2025": {
+    "sector_formal": {
+      "n_muestral": 77683,
+      "ingreso_mediano_usd": 555.0,
+      "bajo_sbu_pct": 24.29
+    },
+    "sector_informal": {
+      "n_muestral": 56784,
+      "ingreso_mediano_usd": 235.0,
+      "bajo_sbu_pct": 83.88
+    }
+  },
+  "mincer": {
+    "n_muestra_mincer": 138381,
+    "experiencia_pico_anios": 37.3,
+    "modelos": {
+      "m1_base": {
+        "modelo": "1. Mincer clásico (escolaridad + exp + mujer + rural)",
+        "n_observaciones": 138381,
+        "n_upm_clusters": 7780,
+        "r2_ponderado": 0.2129,
+        "r2_ajustado": 0.2129,
+        "coeficientes": {
+          "escolaridad": {
+            "beta": 0.07085,
+            "efecto_porcentual": 7.34,
+            "ee_cluster_upm": 0.00167,
+            "ee_ingenuo_wls": 0.00048,
+            "razon_ee_cluster_vs_ingenuo": 3.51,
+            "p_valor": 0.0,
+            "ic95_inf": 0.06757,
+            "ic95_sup": 0.07413
+          },
+          "experiencia": {
+            "beta": 0.02199,
+            "efecto_porcentual": 2.22,
+            "ee_cluster_upm": 0.00086,
+            "ee_ingenuo_wls": 0.00036,
+            "razon_ee_cluster_vs_ingenuo": 2.36,
+            "p_valor": 7.592159636795849e-146,
+            "ic95_inf": 0.02031,
+            "ic95_sup": 0.02367
+          },
+          "experiencia_cuad": {
+            "beta": -0.02945,
+            "efecto_porcentual": -2.9,
+            "ee_cluster_upm": 0.00171,
+            "ee_ingenuo_wls": 0.00061,
+            "razon_ee_cluster_vs_ingenuo": 2.79,
+            "p_valor": 1.1349651851893088e-66,
+            "ic95_inf": -0.03279,
+            "ic95_sup": -0.0261
+          },
+          "mujer": {
+            "beta": -0.1678,
+            "efecto_porcentual": -15.45,
+            "ee_cluster_upm": 0.0105,
+            "ee_ingenuo_wls": 0.00344,
+            "razon_ee_cluster_vs_ingenuo": 3.05,
+            "p_valor": 1.8838065091795073e-57,
+            "ic95_inf": -0.18838,
+            "ic95_sup": -0.14721
+          },
+          "rural": {
+            "beta": -0.13358,
+            "efecto_porcentual": -12.5,
+            "ee_cluster_upm": 0.0181,
+            "ee_ingenuo_wls": 0.00383,
+            "razon_ee_cluster_vs_ingenuo": 4.73,
+            "p_valor": 1.598817705905674e-13,
+            "ic95_inf": -0.16906,
+            "ic95_sup": -0.0981
+          }
+        }
+      },
+      "m2_formalidad": {
+        "modelo": "2. + Formalidad y afiliación IESS",
+        "n_observaciones": 138381,
+        "n_upm_clusters": 7780,
+        "r2_ponderado": 0.351,
+        "r2_ajustado": 0.351,
+        "coeficientes": {
+          "escolaridad": {
+            "beta": 0.04226,
+            "efecto_porcentual": 4.32,
+            "ee_cluster_upm": 0.00133,
+            "ee_ingenuo_wls": 0.00047,
+            "razon_ee_cluster_vs_ingenuo": 2.86,
+            "p_valor": 1.325802817942154e-221,
+            "ic95_inf": 0.03966,
+            "ic95_sup": 0.04487
+          },
+          "experiencia": {
+            "beta": 0.01898,
+            "efecto_porcentual": 1.92,
+            "ee_cluster_upm": 0.0008,
+            "ee_ingenuo_wls": 0.00033,
+            "razon_ee_cluster_vs_ingenuo": 2.43,
+            "p_valor": 1.4127711179898345e-124,
+            "ic95_inf": 0.01741,
+            "ic95_sup": 0.02054
+          },
+          "experiencia_cuad": {
+            "beta": -0.02666,
+            "efecto_porcentual": -2.63,
+            "ee_cluster_upm": 0.0016,
+            "ee_ingenuo_wls": 0.00056,
+            "razon_ee_cluster_vs_ingenuo": 2.87,
+            "p_valor": 2.9862410488146145e-62,
+            "ic95_inf": -0.02979,
+            "ic95_sup": -0.02352
+          },
+          "mujer": {
+            "beta": -0.16901,
+            "efecto_porcentual": -15.55,
+            "ee_cluster_upm": 0.00829,
+            "ee_ingenuo_wls": 0.00313,
+            "razon_ee_cluster_vs_ingenuo": 2.65,
+            "p_valor": 2.311755322007719e-92,
+            "ic95_inf": -0.18526,
+            "ic95_sup": -0.15276
+          },
+          "rural": {
+            "beta": -0.09302,
+            "efecto_porcentual": -8.88,
+            "ee_cluster_upm": 0.01388,
+            "ee_ingenuo_wls": 0.00351,
+            "razon_ee_cluster_vs_ingenuo": 3.96,
+            "p_valor": 2.0881580917847105e-11,
+            "ic95_inf": -0.12023,
+            "ic95_sup": -0.06581
+          },
+          "informal": {
+            "beta": -0.38309,
+            "efecto_porcentual": -31.83,
+            "ee_cluster_upm": 0.01216,
+            "ee_ingenuo_wls": 0.00366,
+            "razon_ee_cluster_vs_ingenuo": 3.32,
+            "p_valor": 5.686835778875292e-218,
+            "ic95_inf": -0.40692,
+            "ic95_sup": -0.35927
+          },
+          "afiliado_seguro": {
+            "beta": 0.30257,
+            "efecto_porcentual": 35.33,
+            "ee_cluster_upm": 0.01119,
+            "ee_ingenuo_wls": 0.00364,
+            "razon_ee_cluster_vs_ingenuo": 3.07,
+            "p_valor": 4.400918972749676e-161,
+            "ic95_inf": 0.28064,
+            "ic95_sup": 0.32449
+          }
+        }
+      },
+      "m3_completo": {
+        "modelo": "3. + Etnia, EF Rama (21) y EF Provincia (24)",
+        "n_observaciones": 138381,
+        "n_upm_clusters": 7780,
+        "r2_ponderado": 0.3932,
+        "r2_ajustado": 0.393,
+        "coeficientes": {
+          "escolaridad": {
+            "beta": 0.03143,
+            "efecto_porcentual": 3.19,
+            "ee_cluster_upm": 0.00136,
+            "ee_ingenuo_wls": 0.0005,
+            "razon_ee_cluster_vs_ingenuo": 2.72,
+            "p_valor": 7.747415579174731e-118,
+            "ic95_inf": 0.02876,
+            "ic95_sup": 0.0341
+          },
+          "experiencia": {
+            "beta": 0.01769,
+            "efecto_porcentual": 1.78,
+            "ee_cluster_upm": 0.00081,
+            "ee_ingenuo_wls": 0.00032,
+            "razon_ee_cluster_vs_ingenuo": 2.52,
+            "p_valor": 1.205246925581132e-105,
+            "ic95_inf": 0.0161,
+            "ic95_sup": 0.01928
+          },
+          "experiencia_cuad": {
+            "beta": -0.02546,
+            "efecto_porcentual": -2.51,
+            "ee_cluster_upm": 0.00157,
+            "ee_ingenuo_wls": 0.00054,
+            "razon_ee_cluster_vs_ingenuo": 2.9,
+            "p_valor": 5.729113759437776e-59,
+            "ic95_inf": -0.02854,
+            "ic95_sup": -0.02238
+          },
+          "mujer": {
+            "beta": -0.17182,
+            "efecto_porcentual": -15.79,
+            "ee_cluster_upm": 0.00953,
+            "ee_ingenuo_wls": 0.00339,
+            "razon_ee_cluster_vs_ingenuo": 2.81,
+            "p_valor": 1.1829155727604808e-72,
+            "ic95_inf": -0.1905,
+            "ic95_sup": -0.15314
+          },
+          "rural": {
+            "beta": -0.01709,
+            "efecto_porcentual": -1.69,
+            "ee_cluster_upm": 0.01135,
+            "ee_ingenuo_wls": 0.00425,
+            "razon_ee_cluster_vs_ingenuo": 2.67,
+            "p_valor": 0.13205161565922463,
+            "ic95_inf": -0.03933,
+            "ic95_sup": 0.00515
+          },
+          "informal": {
+            "beta": -0.34525,
+            "efecto_porcentual": -29.2,
+            "ee_cluster_upm": 0.01134,
+            "ee_ingenuo_wls": 0.00387,
+            "razon_ee_cluster_vs_ingenuo": 2.93,
+            "p_valor": 1.7541287797631975e-203,
+            "ic95_inf": -0.36749,
+            "ic95_sup": -0.32302
+          },
+          "afiliado_seguro": {
+            "beta": 0.25103,
+            "efecto_porcentual": 28.53,
+            "ee_cluster_upm": 0.01055,
+            "ee_ingenuo_wls": 0.0037,
+            "razon_ee_cluster_vs_ingenuo": 2.85,
+            "p_valor": 3.34544844846142e-125,
+            "ic95_inf": 0.23036,
+            "ic95_sup": 0.2717
+          },
+          "indigena": {
+            "beta": -0.02359,
+            "efecto_porcentual": -2.33,
+            "ee_cluster_upm": 0.01823,
+            "ee_ingenuo_wls": 0.00614,
+            "razon_ee_cluster_vs_ingenuo": 2.97,
+            "p_valor": 0.1957278863317653,
+            "ic95_inf": -0.05933,
+            "ic95_sup": 0.01215
+          },
+          "afro_montubio": {
+            "beta": 1e-05,
+            "efecto_porcentual": 0.0,
+            "ee_cluster_upm": 0.01532,
+            "ee_ingenuo_wls": 0.00633,
+            "razon_ee_cluster_vs_ingenuo": 2.42,
+            "p_valor": 0.9995879419708753,
+            "ic95_inf": -0.03002,
+            "ic95_sup": 0.03003
+          }
+        }
+      },
+      "m4_sector_formal": {
+        "modelo": "4. Submuestra Sector Formal",
+        "n_observaciones": 77133,
+        "n_upm_clusters": 7478,
+        "r2_ponderado": 0.2198,
+        "r2_ajustado": 0.2198,
+        "coeficientes": {
+          "escolaridad": {
+            "beta": 0.07385,
+            "efecto_porcentual": 7.66,
+            "ee_cluster_upm": 0.00189,
+            "ee_ingenuo_wls": 0.00055,
+            "razon_ee_cluster_vs_ingenuo": 3.45,
+            "p_valor": 0.0,
+            "ic95_inf": 0.07014,
+            "ic95_sup": 0.07757
+          },
+          "experiencia": {
+            "beta": 0.02374,
+            "efecto_porcentual": 2.4,
+            "ee_cluster_upm": 0.00112,
+            "ee_ingenuo_wls": 0.00046,
+            "razon_ee_cluster_vs_ingenuo": 2.45,
+            "p_valor": 3.847282378091352e-100,
+            "ic95_inf": 0.02155,
+            "ic95_sup": 0.02593
+          },
+          "experiencia_cuad": {
+            "beta": -0.02692,
+            "efecto_porcentual": -2.66,
+            "ee_cluster_upm": 0.00236,
+            "ee_ingenuo_wls": 0.0009,
+            "razon_ee_cluster_vs_ingenuo": 2.62,
+            "p_valor": 3.260054556318987e-30,
+            "ic95_inf": -0.03153,
+            "ic95_sup": -0.0223
+          },
+          "mujer": {
+            "beta": -0.12782,
+            "efecto_porcentual": -12.0,
+            "ee_cluster_upm": 0.00966,
+            "ee_ingenuo_wls": 0.00395,
+            "razon_ee_cluster_vs_ingenuo": 2.45,
+            "p_valor": 6.1922023777044865e-40,
+            "ic95_inf": -0.14676,
+            "ic95_sup": -0.10888
+          },
+          "rural": {
+            "beta": -0.00818,
+            "efecto_porcentual": -0.81,
+            "ee_cluster_upm": 0.01802,
+            "ee_ingenuo_wls": 0.00495,
+            "razon_ee_cluster_vs_ingenuo": 3.64,
+            "p_valor": 0.6500520593276242,
+            "ic95_inf": -0.0435,
+            "ic95_sup": 0.02715
+          }
+        }
+      },
+      "m5_sector_informal": {
+        "modelo": "5. Submuestra Sector Informal",
+        "n_observaciones": 53941,
+        "n_upm_clusters": 7356,
+        "r2_ponderado": 0.0732,
+        "r2_ajustado": 0.0731,
+        "coeficientes": {
+          "escolaridad": {
+            "beta": 0.02142,
+            "efecto_porcentual": 2.17,
+            "ee_cluster_upm": 0.00214,
+            "ee_ingenuo_wls": 0.00084,
+            "razon_ee_cluster_vs_ingenuo": 2.53,
+            "p_valor": 1.3264551799036557e-23,
+            "ic95_inf": 0.01723,
+            "ic95_sup": 0.02562
+          },
+          "experiencia": {
+            "beta": 0.01641,
+            "efecto_porcentual": 1.65,
+            "ee_cluster_upm": 0.00134,
+            "ee_ingenuo_wls": 0.00058,
+            "razon_ee_cluster_vs_ingenuo": 2.31,
+            "p_valor": 2.529904100026997e-34,
+            "ic95_inf": 0.01377,
+            "ic95_sup": 0.01904
+          },
+          "experiencia_cuad": {
+            "beta": -0.02496,
+            "efecto_porcentual": -2.46,
+            "ee_cluster_upm": 0.00232,
+            "ee_ingenuo_wls": 0.0009,
+            "razon_ee_cluster_vs_ingenuo": 2.58,
+            "p_valor": 4.917996618478377e-27,
+            "ic95_inf": -0.0295,
+            "ic95_sup": -0.02042
+          },
+          "mujer": {
+            "beta": -0.24739,
+            "efecto_porcentual": -21.92,
+            "ee_cluster_upm": 0.01644,
+            "ee_ingenuo_wls": 0.00562,
+            "razon_ee_cluster_vs_ingenuo": 2.93,
+            "p_valor": 3.5506586716787437e-51,
+            "ic95_inf": -0.27962,
+            "ic95_sup": -0.21517
+          },
+          "rural": {
+            "beta": -0.12543,
+            "efecto_porcentual": -11.79,
+            "ee_cluster_upm": 0.0216,
+            "ee_ingenuo_wls": 0.00563,
+            "razon_ee_cluster_vs_ingenuo": 3.83,
+            "p_valor": 6.332189641579579e-09,
+            "ic95_inf": -0.16776,
+            "ic95_sup": -0.0831
+          }
+        }
+      }
+    },
+    "efecto_diploma": [
+      {
+        "nivel": "Sin instrucción (referencia)",
+        "codigo": "1_Sin_instruccion",
+        "beta": 0.0,
+        "premio_salarial_pct": 0.0,
+        "ic95_inf_pct": 0.0,
+        "ic95_sup_pct": 0.0
+      },
+      {
+        "nivel": "Educación Básica / Primaria",
+        "codigo": "2_Basica_Primaria",
+        "beta": 0.0542,
+        "premio_salarial_pct": 5.57,
+        "ic95_inf_pct": -1.78,
+        "ic95_sup_pct": 13.46
+      },
+      {
+        "nivel": "Bachillerato / Secundaria",
+        "codigo": "3_Bachillerato_Secundaria",
+        "beta": 0.1553,
+        "premio_salarial_pct": 16.8,
+        "ic95_inf_pct": 8.65,
+        "ic95_sup_pct": 25.56
+      },
+      {
+        "nivel": "Superior Técnica / Tecnológica",
+        "codigo": "4_Superior_Tecnica",
+        "beta": 0.3817,
+        "premio_salarial_pct": 46.47,
+        "ic95_inf_pct": 35.3,
+        "ic95_sup_pct": 58.57
+      },
+      {
+        "nivel": "Superior Universitaria",
+        "codigo": "5_Superior_Universitaria",
+        "beta": 0.4699,
+        "premio_salarial_pct": 59.98,
+        "ic95_inf_pct": 48.43,
+        "ic95_sup_pct": 72.44
+      },
+      {
+        "nivel": "Posgrado (Maestría / PhD)",
+        "codigo": "6_Posgrado",
+        "beta": 0.948,
+        "premio_salarial_pct": 158.05,
+        "ic95_inf_pct": 136.82,
+        "ic95_sup_pct": 181.19
+      }
+    ],
+    "perfil_escolaridad_sector": [
+      {
+        "sector_bin": "Formal",
+        "esc_redondeada": 0,
+        "n_obs": 247.0,
+        "salario_hora_medio": 2.3597936577710543,
+        "ingreso_mensual_medio": 388.5811181415272
+      },
+      {
+        "sector_bin": "Formal",
+        "esc_redondeada": 1,
+        "n_obs": 99.0,
+        "salario_hora_medio": 2.454391277101818,
+        "ingreso_mensual_medio": 420.42219566795825
+      },
+      {
+        "sector_bin": "Formal",
+        "esc_redondeada": 2,
+        "n_obs": 255.0,
+        "salario_hora_medio": 2.6769500109854323,
+        "ingreso_mensual_medio": 455.6308392898463
+      },
+      {
+        "sector_bin": "Formal",
+        "esc_redondeada": 3,
+        "n_obs": 368.0,
+        "salario_hora_medio": 3.051405530636947,
+        "ingreso_mensual_medio": 500.6103317719538
+      },
+      {
+        "sector_bin": "Formal",
+        "esc_redondeada": 4,
+        "n_obs": 217.0,
+        "salario_hora_medio": 2.8977168241884455,
+        "ingreso_mensual_medio": 502.9547018520219
+      },
+      {
+        "sector_bin": "Formal",
+        "esc_redondeada": 5,
+        "n_obs": 254.0,
+        "salario_hora_medio": 3.2889355391484054,
+        "ingreso_mensual_medio": 553.5323908381803
+      },
+      {
+        "sector_bin": "Formal",
+        "esc_redondeada": 6,
+        "n_obs": 7658.0,
+        "salario_hora_medio": 3.1914061254294226,
+        "ingreso_mensual_medio": 564.5111134733993
+      },
+      {
+        "sector_bin": "Formal",
+        "esc_redondeada": 7,
+        "n_obs": 385.0,
+        "salario_hora_medio": 3.139788818769039,
+        "ingreso_mensual_medio": 518.350435050405
+      },
+      {
+        "sector_bin": "Formal",
+        "esc_redondeada": 8,
+        "n_obs": 722.0,
+        "salario_hora_medio": 3.07787475582404,
+        "ingreso_mensual_medio": 534.5503338555658
+      },
+      {
+        "sector_bin": "Formal",
+        "esc_redondeada": 9,
+        "n_obs": 2264.0,
+        "salario_hora_medio": 3.1669830740494618,
+        "ingreso_mensual_medio": 579.4727072517884
+      },
+      {
+        "sector_bin": "Formal",
+        "esc_redondeada": 10,
+        "n_obs": 925.0,
+        "salario_hora_medio": 3.2117503514927868,
+        "ingreso_mensual_medio": 541.9599669670151
+      },
+      {
+        "sector_bin": "Formal",
+        "esc_redondeada": 11,
+        "n_obs": 929.0,
+        "salario_hora_medio": 2.9958481502827494,
+        "ingreso_mensual_medio": 524.8496789621124
+      },
+      {
+        "sector_bin": "Formal",
+        "esc_redondeada": 12,
+        "n_obs": 25829.0,
+        "salario_hora_medio": 3.4504521574339684,
+        "ingreso_mensual_medio": 613.3895191693172
+      },
+      {
+        "sector_bin": "Formal",
+        "esc_redondeada": 13,
+        "n_obs": 1641.0,
+        "salario_hora_medio": 3.641152864554792,
+        "ingreso_mensual_medio": 607.2399026846823
+      },
+      {
+        "sector_bin": "Formal",
+        "esc_redondeada": 14,
+        "n_obs": 2464.0,
+        "salario_hora_medio": 4.231230938372118,
+        "ingreso_mensual_medio": 721.252295202033
+      },
+      {
+        "sector_bin": "Formal",
+        "esc_redondeada": 15,
+        "n_obs": 5602.0,
+        "salario_hora_medio": 4.811450032968116,
+        "ingreso_mensual_medio": 834.6846327651384
+      },
+      {
+        "sector_bin": "Formal",
+        "esc_redondeada": 16,
+        "n_obs": 5949.0,
+        "salario_hora_medio": 5.17062324165136,
+        "ingreso_mensual_medio": 879.3084359332787
+      },
+      {
+        "sector_bin": "Formal",
+        "esc_redondeada": 17,
+        "n_obs": 14245.0,
+        "salario_hora_medio": 5.517332985635064,
+        "ingreso_mensual_medio": 946.4209582128753
+      },
+      {
+        "sector_bin": "Formal",
+        "esc_redondeada": 18,
+        "n_obs": 1969.0,
+        "salario_hora_medio": 8.104086535274435,
+        "ingreso_mensual_medio": 1393.1079870407814
+      },
+      {
+        "sector_bin": "Formal",
+        "esc_redondeada": 19,
+        "n_obs": 4651.0,
+        "salario_hora_medio": 8.5673555803673,
+        "ingreso_mensual_medio": 1463.106032117976
+      },
+      {
+        "sector_bin": "Formal",
+        "esc_redondeada": 20,
+        "n_obs": 460.0,
+        "salario_hora_medio": 11.817657583396848,
+        "ingreso_mensual_medio": 1993.879077831323
+      },
+      {
+        "sector_bin": "Informal",
+        "esc_redondeada": 0,
+        "n_obs": 1739.0,
+        "salario_hora_medio": 1.8340237427550237,
+        "ingreso_mensual_medio": 220.10399921765168
+      },
+      {
+        "sector_bin": "Informal",
+        "esc_redondeada": 1,
+        "n_obs": 686.0,
+        "salario_hora_medio": 1.8755108782570087,
+        "ingreso_mensual_medio": 251.3708045790472
+      },
+      {
+        "sector_bin": "Informal",
+        "esc_redondeada": 2,
+        "n_obs": 1320.0,
+        "salario_hora_medio": 1.789424165703738,
+        "ingreso_mensual_medio": 242.6593886866584
+      },
+      {
+        "sector_bin": "Informal",
+        "esc_redondeada": 3,
+        "n_obs": 1819.0,
+        "salario_hora_medio": 1.9955161114928184,
+        "ingreso_mensual_medio": 272.9481078589909
+      },
+      {
+        "sector_bin": "Informal",
+        "esc_redondeada": 4,
+        "n_obs": 1148.0,
+        "salario_hora_medio": 1.9054348515979638,
+        "ingreso_mensual_medio": 266.703603468146
+      },
+      {
+        "sector_bin": "Informal",
+        "esc_redondeada": 5,
+        "n_obs": 900.0,
+        "salario_hora_medio": 2.0072860055453683,
+        "ingreso_mensual_medio": 258.0821529283742
+      },
+      {
+        "sector_bin": "Informal",
+        "esc_redondeada": 6,
+        "n_obs": 18583.0,
+        "salario_hora_medio": 2.0940203321516218,
+        "ingreso_mensual_medio": 288.5413744296926
+      },
+      {
+        "sector_bin": "Informal",
+        "esc_redondeada": 7,
+        "n_obs": 940.0,
+        "salario_hora_medio": 2.02577136835711,
+        "ingreso_mensual_medio": 289.8286530520839
+      },
+      {
+        "sector_bin": "Informal",
+        "esc_redondeada": 8,
+        "n_obs": 1429.0,
+        "salario_hora_medio": 2.0531488422206188,
+        "ingreso_mensual_medio": 286.10035829211387
+      },
+      {
+        "sector_bin": "Informal",
+        "esc_redondeada": 9,
+        "n_obs": 3571.0,
+        "salario_hora_medio": 2.176478467625756,
+        "ingreso_mensual_medio": 306.63522324015645
+      },
+      {
+        "sector_bin": "Informal",
+        "esc_redondeada": 10,
+        "n_obs": 1504.0,
+        "salario_hora_medio": 2.1525344599302536,
+        "ingreso_mensual_medio": 290.14063900539884
+      },
+      {
+        "sector_bin": "Informal",
+        "esc_redondeada": 11,
+        "n_obs": 1323.0,
+        "salario_hora_medio": 2.183016468144473,
+        "ingreso_mensual_medio": 303.94847926478946
+      },
+      {
+        "sector_bin": "Informal",
+        "esc_redondeada": 12,
+        "n_obs": 19397.0,
+        "salario_hora_medio": 2.1966492072444423,
+        "ingreso_mensual_medio": 310.36081757413785
+      },
+      {
+        "sector_bin": "Informal",
+        "esc_redondeada": 13,
+        "n_obs": 816.0,
+        "salario_hora_medio": 2.2321483756898726,
+        "ingreso_mensual_medio": 268.84461350481416
+      },
+      {
+        "sector_bin": "Informal",
+        "esc_redondeada": 14,
+        "n_obs": 1019.0,
+        "salario_hora_medio": 2.3989146843843887,
+        "ingreso_mensual_medio": 321.5938940459528
+      },
+      {
+        "sector_bin": "Informal",
+        "esc_redondeada": 15,
+        "n_obs": 1448.0,
+        "salario_hora_medio": 2.5568880998158137,
+        "ingreso_mensual_medio": 328.81078289709416
+      },
+      {
+        "sector_bin": "Informal",
+        "esc_redondeada": 16,
+        "n_obs": 1159.0,
+        "salario_hora_medio": 2.6292552218111314,
+        "ingreso_mensual_medio": 319.50501579385656
+      },
+      {
+        "sector_bin": "Informal",
+        "esc_redondeada": 17,
+        "n_obs": 2147.0,
+        "salario_hora_medio": 2.888827494127854,
+        "ingreso_mensual_medio": 368.2907671043315
+      },
+      {
+        "sector_bin": "Informal",
+        "esc_redondeada": 18,
+        "n_obs": 118.0,
+        "salario_hora_medio": 3.734736975358117,
+        "ingreso_mensual_medio": 390.04149846750954
+      },
+      {
+        "sector_bin": "Informal",
+        "esc_redondeada": 19,
+        "n_obs": 169.0,
+        "salario_hora_medio": 3.6746535021967563,
+        "ingreso_mensual_medio": 507.1832482354933
+      }
+    ]
+  },
+  "oaxaca_blinder": {
+    "variable_objetivo": "log_salario_hora",
+    "n_hombres": 80715,
+    "n_mujeres": 57666,
+    "descriptivos_ocupados": {
+      "ingreso_mensual_hombre_usd": 533.45,
+      "ingreso_mensual_mujer_usd": 462.67,
+      "brecha_mensual_bruta_pct": 13.27,
+      "salario_hora_hombre_usd": 3.19,
+      "salario_hora_mujer_usd": 3.07,
+      "brecha_hora_bruta_pct": 3.71,
+      "horas_semana_hombre": 38.2,
+      "horas_semana_mujer": 33.3,
+      "escolaridad_media_hombre": 9.97,
+      "escolaridad_media_mujer": 10.93
+    },
+    "resumen_oaxaca": {
+      "media_log_hombre": 0.9331,
+      "media_log_mujer": 0.8401,
+      "brecha_log_total": 0.093,
+      "brecha_pct": 9.75,
+      "ee_brecha_log": 0.0143,
+      "dotaciones_explicada_log": -0.0775,
+      "dotaciones_explicada_pct": -7.45,
+      "ee_dotaciones_log": 0.0118,
+      "ic95_dotaciones_log": [
+        -0.104,
+        -0.0563
+      ],
+      "retornos_no_explicada_log": 0.1705,
+      "retornos_no_explicada_pct": 18.59,
+      "ee_retornos_log": 0.0093,
+      "ic95_retornos_log": [
+        0.1538,
+        0.1883
+      ],
+      "dotaciones_ref_hombre_log": -0.0653,
+      "retornos_ref_hombre_log": 0.1583
+    },
+    "componentes": [
+      {
+        "componente": "Escolaridad (años aprobados)",
+        "dotaciones_log": -0.02943,
+        "dotaciones_pct_aprox": -2.94,
+        "retornos_log": 0.01759,
+        "retornos_pct_aprox": 1.76
+      },
+      {
+        "componente": "Experiencia potencial",
+        "dotaciones_log": -0.00135,
+        "dotaciones_pct_aprox": -0.13,
+        "retornos_log": 0.05126,
+        "retornos_pct_aprox": 5.13
+      },
+      {
+        "componente": "Formalidad y seguridad social (IESS)",
+        "dotaciones_log": -0.02743,
+        "dotaciones_pct_aprox": -2.74,
+        "retornos_log": 0.00243,
+        "retornos_pct_aprox": 0.24
+      },
+      {
+        "componente": "Área y etnia",
+        "dotaciones_log": -0.00218,
+        "dotaciones_pct_aprox": -0.22,
+        "retornos_log": 0.01219,
+        "retornos_pct_aprox": 1.22
+      },
+      {
+        "componente": "Segregación por rama económica (CIIU)",
+        "dotaciones_log": -0.01708,
+        "dotaciones_pct_aprox": -1.71,
+        "retornos_log": -0.04827,
+        "retornos_pct_aprox": -4.83
+      },
+      {
+        "componente": "Constante (brecha base inobservada)",
+        "dotaciones_log": 0.0,
+        "dotaciones_pct_aprox": 0.0,
+        "retornos_log": 0.13526,
+        "retornos_pct_aprox": 13.53
+      }
+    ]
+  },
+  "brecha_cuantilica": [
+    {
+      "sector": "Total ocupados",
+      "percentil": 10,
+      "ingreso_mes_hombre_usd": 150.0,
+      "ingreso_mes_mujer_usd": 80.0,
+      "brecha_mensual_pct": 46.67,
+      "salario_hora_hombre_usd": 1.15,
+      "salario_hora_mujer_usd": 0.87,
+      "brecha_hora_pct": 25.0,
+      "diferencia_log_hora": 0.2877
+    },
+    {
+      "sector": "Total ocupados",
+      "percentil": 20,
+      "ingreso_mes_hombre_usd": 220.0,
+      "ingreso_mes_mujer_usd": 130.0,
+      "brecha_mensual_pct": 40.91,
+      "salario_hora_hombre_usd": 1.63,
+      "salario_hora_mujer_usd": 1.33,
+      "brecha_hora_pct": 18.58,
+      "diferencia_log_hora": 0.2055
+    },
+    {
+      "sector": "Total ocupados",
+      "percentil": 25,
+      "ingreso_mes_hombre_usd": 251.0,
+      "ingreso_mes_mujer_usd": 160.0,
+      "brecha_mensual_pct": 36.25,
+      "salario_hora_hombre_usd": 1.78,
+      "salario_hora_mujer_usd": 1.54,
+      "brecha_hora_pct": 13.73,
+      "diferencia_log_hora": 0.1476
+    },
+    {
+      "sector": "Total ocupados",
+      "percentil": 30,
+      "ingreso_mes_hombre_usd": 300.0,
+      "ingreso_mes_mujer_usd": 200.0,
+      "brecha_mensual_pct": 33.33,
+      "salario_hora_hombre_usd": 1.98,
+      "salario_hora_mujer_usd": 1.73,
+      "brecha_hora_pct": 12.5,
+      "diferencia_log_hora": 0.1335
+    },
+    {
+      "sector": "Total ocupados",
+      "percentil": 40,
+      "ingreso_mes_hombre_usd": 392.0,
+      "ingreso_mes_mujer_usd": 260.0,
+      "brecha_mensual_pct": 33.67,
+      "salario_hora_hombre_usd": 2.31,
+      "salario_hora_mujer_usd": 2.1,
+      "brecha_hora_pct": 9.09,
+      "diferencia_log_hora": 0.0953
+    },
+    {
+      "sector": "Total ocupados",
+      "percentil": 50,
+      "ingreso_mes_hombre_usd": 460.0,
+      "ingreso_mes_mujer_usd": 350.0,
+      "brecha_mensual_pct": 23.91,
+      "salario_hora_hombre_usd": 2.64,
+      "salario_hora_mujer_usd": 2.54,
+      "brecha_hora_pct": 3.75,
+      "diferencia_log_hora": 0.0382
+    },
+    {
+      "sector": "Total ocupados",
+      "percentil": 60,
+      "ingreso_mes_hombre_usd": 500.0,
+      "ingreso_mes_mujer_usd": 470.0,
+      "brecha_mensual_pct": 6.0,
+      "salario_hora_hombre_usd": 2.84,
+      "salario_hora_mujer_usd": 2.79,
+      "brecha_hora_pct": 1.96,
+      "diferencia_log_hora": 0.0198
+    },
+    {
+      "sector": "Total ocupados",
+      "percentil": 70,
+      "ingreso_mes_hombre_usd": 555.0,
+      "ingreso_mes_mujer_usd": 520.0,
+      "brecha_mensual_pct": 6.31,
+      "salario_hora_hombre_usd": 3.17,
+      "salario_hora_mujer_usd": 3.17,
+      "brecha_hora_pct": 0.0,
+      "diferencia_log_hora": 0.0
+    },
+    {
+      "sector": "Total ocupados",
+      "percentil": 75,
+      "ingreso_mes_hombre_usd": 600.0,
+      "ingreso_mes_mujer_usd": 560.0,
+      "brecha_mensual_pct": 6.67,
+      "salario_hora_hombre_usd": 3.46,
+      "salario_hora_mujer_usd": 3.46,
+      "brecha_hora_pct": 0.0,
+      "diferencia_log_hora": 0.0
+    },
+    {
+      "sector": "Total ocupados",
+      "percentil": 80,
+      "ingreso_mes_hombre_usd": 670.0,
+      "ingreso_mes_mujer_usd": 650.0,
+      "brecha_mensual_pct": 2.99,
+      "salario_hora_hombre_usd": 3.85,
+      "salario_hora_mujer_usd": 4.04,
+      "brecha_hora_pct": -5.0,
+      "diferencia_log_hora": -0.0488
+    },
+    {
+      "sector": "Total ocupados",
+      "percentil": 90,
+      "ingreso_mes_hombre_usd": 990.0,
+      "ingreso_mes_mujer_usd": 970.0,
+      "brecha_mensual_pct": 2.02,
+      "salario_hora_hombre_usd": 5.62,
+      "salario_hora_mujer_usd": 5.77,
+      "brecha_hora_pct": -2.6,
+      "diferencia_log_hora": -0.0257
+    },
+    {
+      "sector": "Sector formal",
+      "percentil": 10,
+      "ingreso_mes_hombre_usd": 320.0,
+      "ingreso_mes_mujer_usd": 230.0,
+      "brecha_mensual_pct": 28.12,
+      "salario_hora_hombre_usd": 1.94,
+      "salario_hora_mujer_usd": 1.71,
+      "brecha_hora_pct": 11.9,
+      "diferencia_log_hora": 0.1268
+    },
+    {
+      "sector": "Sector formal",
+      "percentil": 20,
+      "ingreso_mes_hombre_usd": 460.0,
+      "ingreso_mes_mujer_usd": 350.0,
+      "brecha_mensual_pct": 23.91,
+      "salario_hora_hombre_usd": 2.42,
+      "salario_hora_mujer_usd": 2.27,
+      "brecha_hora_pct": 6.35,
+      "diferencia_log_hora": 0.0656
+    },
+    {
+      "sector": "Sector formal",
+      "percentil": 25,
+      "ingreso_mes_hombre_usd": 470.0,
+      "ingreso_mes_mujer_usd": 400.0,
+      "brecha_mensual_pct": 14.89,
+      "salario_hora_hombre_usd": 2.63,
+      "salario_hora_mujer_usd": 2.5,
+      "brecha_hora_pct": 5.05,
+      "diferencia_log_hora": 0.0519
+    },
+    {
+      "sector": "Sector formal",
+      "percentil": 30,
+      "ingreso_mes_hombre_usd": 480.0,
+      "ingreso_mes_mujer_usd": 470.0,
+      "brecha_mensual_pct": 2.08,
+      "salario_hora_hombre_usd": 2.71,
+      "salario_hora_mujer_usd": 2.71,
+      "brecha_hora_pct": 0.0,
+      "diferencia_log_hora": 0.0
+    },
+    {
+      "sector": "Sector formal",
+      "percentil": 40,
+      "ingreso_mes_hombre_usd": 525.0,
+      "ingreso_mes_mujer_usd": 492.0,
+      "brecha_mensual_pct": 6.29,
+      "salario_hora_hombre_usd": 2.88,
+      "salario_hora_mujer_usd": 2.83,
+      "brecha_hora_pct": 2.0,
+      "diferencia_log_hora": 0.0202
+    },
+    {
+      "sector": "Sector formal",
+      "percentil": 50,
+      "ingreso_mes_hombre_usd": 565.0,
+      "ingreso_mes_mujer_usd": 545.0,
+      "brecha_mensual_pct": 3.54,
+      "salario_hora_hombre_usd": 3.14,
+      "salario_hora_mujer_usd": 3.12,
+      "brecha_hora_pct": 0.61,
+      "diferencia_log_hora": 0.0061
+    },
+    {
+      "sector": "Sector formal",
+      "percentil": 60,
+      "ingreso_mes_hombre_usd": 640.0,
+      "ingreso_mes_mujer_usd": 615.0,
+      "brecha_mensual_pct": 3.91,
+      "salario_hora_hombre_usd": 3.5,
+      "salario_hora_mujer_usd": 3.63,
+      "brecha_hora_pct": -3.96,
+      "diferencia_log_hora": -0.0388
+    },
+    {
+      "sector": "Sector formal",
+      "percentil": 70,
+      "ingreso_mes_hombre_usd": 779.0,
+      "ingreso_mes_mujer_usd": 800.0,
+      "brecha_mensual_pct": -2.7,
+      "salario_hora_hombre_usd": 4.26,
+      "salario_hora_mujer_usd": 4.62,
+      "brecha_hora_pct": -8.25,
+      "diferencia_log_hora": -0.0793
+    },
+    {
+      "sector": "Sector formal",
+      "percentil": 75,
+      "ingreso_mes_hombre_usd": 870.0,
+      "ingreso_mes_mujer_usd": 880.0,
+      "brecha_mensual_pct": -1.15,
+      "salario_hora_hombre_usd": 4.79,
+      "salario_hora_mujer_usd": 5.09,
+      "brecha_hora_pct": -6.27,
+      "diferencia_log_hora": -0.0608
+    },
+    {
+      "sector": "Sector formal",
+      "percentil": 80,
+      "ingreso_mes_hombre_usd": 975.0,
+      "ingreso_mes_mujer_usd": 950.0,
+      "brecha_mensual_pct": 2.56,
+      "salario_hora_hombre_usd": 5.39,
+      "salario_hora_mujer_usd": 5.54,
+      "brecha_hora_pct": -2.78,
+      "diferencia_log_hora": -0.0275
+    },
+    {
+      "sector": "Sector formal",
+      "percentil": 90,
+      "ingreso_mes_hombre_usd": 1300.0,
+      "ingreso_mes_mujer_usd": 1270.0,
+      "brecha_mensual_pct": 2.31,
+      "salario_hora_hombre_usd": 7.27,
+      "salario_hora_mujer_usd": 7.44,
+      "brecha_hora_pct": -2.38,
+      "diferencia_log_hora": -0.0235
+    },
+    {
+      "sector": "Sector informal",
+      "percentil": 10,
+      "ingreso_mes_hombre_usd": 102.0,
+      "ingreso_mes_mujer_usd": 50.0,
+      "brecha_mensual_pct": 50.98,
+      "salario_hora_hombre_usd": 0.89,
+      "salario_hora_mujer_usd": 0.58,
+      "brecha_hora_pct": 35.48,
+      "diferencia_log_hora": 0.4383
+    },
+    {
+      "sector": "Sector informal",
+      "percentil": 20,
+      "ingreso_mes_hombre_usd": 150.0,
+      "ingreso_mes_mujer_usd": 75.0,
+      "brecha_mensual_pct": 50.0,
+      "salario_hora_hombre_usd": 1.25,
+      "salario_hora_mujer_usd": 0.85,
+      "brecha_hora_pct": 32.53,
+      "diferencia_log_hora": 0.3935
+    },
+    {
+      "sector": "Sector informal",
+      "percentil": 25,
+      "ingreso_mes_hombre_usd": 180.0,
+      "ingreso_mes_mujer_usd": 85.0,
+      "brecha_mensual_pct": 52.78,
+      "salario_hora_hombre_usd": 1.38,
+      "salario_hora_mujer_usd": 0.96,
+      "brecha_hora_pct": 30.56,
+      "diferencia_log_hora": 0.3646
+    },
+    {
+      "sector": "Sector informal",
+      "percentil": 30,
+      "ingreso_mes_hombre_usd": 200.0,
+      "ingreso_mes_mujer_usd": 100.0,
+      "brecha_mensual_pct": 50.0,
+      "salario_hora_hombre_usd": 1.54,
+      "salario_hora_mujer_usd": 1.12,
+      "brecha_hora_pct": 27.14,
+      "diferencia_log_hora": 0.3167
+    },
+    {
+      "sector": "Sector informal",
+      "percentil": 40,
+      "ingreso_mes_hombre_usd": 240.0,
+      "ingreso_mes_mujer_usd": 126.0,
+      "brecha_mensual_pct": 47.5,
+      "salario_hora_hombre_usd": 1.73,
+      "salario_hora_mujer_usd": 1.36,
+      "brecha_hora_pct": 21.33,
+      "diferencia_log_hora": 0.24
+    },
+    {
+      "sector": "Sector informal",
+      "percentil": 50,
+      "ingreso_mes_hombre_usd": 300.0,
+      "ingreso_mes_mujer_usd": 160.0,
+      "brecha_mensual_pct": 46.67,
+      "salario_hora_hombre_usd": 2.02,
+      "salario_hora_mujer_usd": 1.62,
+      "brecha_hora_pct": 20.0,
+      "diferencia_log_hora": 0.2231
+    },
+    {
+      "sector": "Sector informal",
+      "percentil": 60,
+      "ingreso_mes_hombre_usd": 345.0,
+      "ingreso_mes_mujer_usd": 200.0,
+      "brecha_mensual_pct": 42.03,
+      "salario_hora_hombre_usd": 2.31,
+      "salario_hora_mujer_usd": 1.85,
+      "brecha_hora_pct": 19.65,
+      "diferencia_log_hora": 0.2188
+    },
+    {
+      "sector": "Sector informal",
+      "percentil": 70,
+      "ingreso_mes_hombre_usd": 400.0,
+      "ingreso_mes_mujer_usd": 247.0,
+      "brecha_mensual_pct": 38.25,
+      "salario_hora_hombre_usd": 2.49,
+      "salario_hora_mujer_usd": 2.22,
+      "brecha_hora_pct": 10.71,
+      "diferencia_log_hora": 0.1133
+    },
+    {
+      "sector": "Sector informal",
+      "percentil": 75,
+      "ingreso_mes_hombre_usd": 430.4,
+      "ingreso_mes_mujer_usd": 280.0,
+      "brecha_mensual_pct": 34.94,
+      "salario_hora_hombre_usd": 2.69,
+      "salario_hora_mujer_usd": 2.35,
+      "brecha_hora_pct": 12.86,
+      "diferencia_log_hora": 0.1376
+    },
+    {
+      "sector": "Sector informal",
+      "percentil": 80,
+      "ingreso_mes_hombre_usd": 470.0,
+      "ingreso_mes_mujer_usd": 310.0,
+      "brecha_mensual_pct": 34.04,
+      "salario_hora_hombre_usd": 2.83,
+      "salario_hora_mujer_usd": 2.65,
+      "brecha_hora_pct": 6.12,
+      "diferencia_log_hora": 0.0632
+    },
+    {
+      "sector": "Sector informal",
+      "percentil": 90,
+      "ingreso_mes_hombre_usd": 546.0,
+      "ingreso_mes_mujer_usd": 438.0,
+      "brecha_mensual_pct": 19.78,
+      "salario_hora_hombre_usd": 3.46,
+      "salario_hora_mujer_usd": 3.37,
+      "brecha_hora_pct": 2.67,
+      "diferencia_log_hora": 0.027
+    }
+  ],
+  "desigualdad_y_pobreza": {
+    "linea_pobreza_observada_usd": 92.5,
+    "linea_pobreza_extrema_observada_usd": 52.25,
+    "ingreso_per_capita_hogar": {
+      "gini": 0.451,
+      "indice_palma": 2.43,
+      "ratio_p90_p10": 7.86,
+      "participacion_d10_pct": 34.36,
+      "participacion_d1_a_d4_pct": 14.12,
+      "p10_usd": 60.8,
+      "p50_usd": 164.0,
+      "p90_usd": 478.0
+    },
+    "ingreso_laboral_ocupados": {
+      "gini": 0.4295,
+      "indice_palma": 2.28,
+      "ratio_p90_p10": 9.75,
+      "participacion_d10_pct": 31.61,
+      "participacion_d1_a_d4_pct": 13.88,
+      "p10_usd": 100.0,
+      "p50_usd": 405.0,
+      "p90_usd": 975.0,
+      "gini_sector_formal": 0.3492,
+      "gini_sector_informal": 0.3912
+    },
+    "curva_lorenz_ingpc": [
+      {
+        "poblacion_acum_pct": 0.0,
+        "ingreso_acum_pct": 0.0,
+        "igualdad_pct": 0.0
+      },
+      {
+        "poblacion_acum_pct": 1.0,
+        "ingreso_acum_pct": 0.0444,
+        "igualdad_pct": 1.0
+      },
+      {
+        "poblacion_acum_pct": 2.0,
+        "ingreso_acum_pct": 0.1404,
+        "igualdad_pct": 2.0
+      },
+      {
+        "poblacion_acum_pct": 3.0,
+        "ingreso_acum_pct": 0.2659,
+        "igualdad_pct": 3.0
+      },
+      {
+        "poblacion_acum_pct": 4.0,
+        "ingreso_acum_pct": 0.421,
+        "igualdad_pct": 4.0
+      },
+      {
+        "poblacion_acum_pct": 5.0,
+        "ingreso_acum_pct": 0.5978,
+        "igualdad_pct": 5.0
+      },
+      {
+        "poblacion_acum_pct": 6.0,
+        "ingreso_acum_pct": 0.7916,
+        "igualdad_pct": 6.0
+      },
+      {
+        "poblacion_acum_pct": 7.0,
+        "ingreso_acum_pct": 1.0028,
+        "igualdad_pct": 7.0
+      },
+      {
+        "poblacion_acum_pct": 8.0,
+        "ingreso_acum_pct": 1.2269,
+        "igualdad_pct": 8.0
+      },
+      {
+        "poblacion_acum_pct": 9.0,
+        "ingreso_acum_pct": 1.4633,
+        "igualdad_pct": 9.0
+      },
+      {
+        "poblacion_acum_pct": 10.0,
+        "ingreso_acum_pct": 1.7112,
+        "igualdad_pct": 10.0
+      },
+      {
+        "poblacion_acum_pct": 11.0,
+        "ingreso_acum_pct": 1.9734,
+        "igualdad_pct": 11.0
+      },
+      {
+        "poblacion_acum_pct": 12.0,
+        "ingreso_acum_pct": 2.2502,
+        "igualdad_pct": 12.0
+      },
+      {
+        "poblacion_acum_pct": 13.0,
+        "ingreso_acum_pct": 2.5376,
+        "igualdad_pct": 13.0
+      },
+      {
+        "poblacion_acum_pct": 14.0,
+        "ingreso_acum_pct": 2.8351,
+        "igualdad_pct": 14.0
+      },
+      {
+        "poblacion_acum_pct": 15.0,
+        "ingreso_acum_pct": 3.145,
+        "igualdad_pct": 15.0
+      },
+      {
+        "poblacion_acum_pct": 16.0,
+        "ingreso_acum_pct": 3.4639,
+        "igualdad_pct": 16.0
+      },
+      {
+        "poblacion_acum_pct": 17.0,
+        "ingreso_acum_pct": 3.7937,
+        "igualdad_pct": 17.0
+      },
+      {
+        "poblacion_acum_pct": 18.0,
+        "ingreso_acum_pct": 4.1319,
+        "igualdad_pct": 18.0
+      },
+      {
+        "poblacion_acum_pct": 19.0,
+        "ingreso_acum_pct": 4.4799,
+        "igualdad_pct": 19.0
+      },
+      {
+        "poblacion_acum_pct": 20.0,
+        "ingreso_acum_pct": 4.8394,
+        "igualdad_pct": 20.0
+      },
+      {
+        "poblacion_acum_pct": 21.0,
+        "ingreso_acum_pct": 5.2102,
+        "igualdad_pct": 21.0
+      },
+      {
+        "poblacion_acum_pct": 22.0,
+        "ingreso_acum_pct": 5.5909,
+        "igualdad_pct": 22.0
+      },
+      {
+        "poblacion_acum_pct": 23.0,
+        "ingreso_acum_pct": 5.9831,
+        "igualdad_pct": 23.0
+      },
+      {
+        "poblacion_acum_pct": 24.0,
+        "ingreso_acum_pct": 6.3851,
+        "igualdad_pct": 24.0
+      },
+      {
+        "poblacion_acum_pct": 25.0,
+        "ingreso_acum_pct": 6.7991,
+        "igualdad_pct": 25.0
+      },
+      {
+        "poblacion_acum_pct": 26.0,
+        "ingreso_acum_pct": 7.2196,
+        "igualdad_pct": 26.0
+      },
+      {
+        "poblacion_acum_pct": 27.0,
+        "ingreso_acum_pct": 7.6503,
+        "igualdad_pct": 27.0
+      },
+      {
+        "poblacion_acum_pct": 28.0,
+        "ingreso_acum_pct": 8.0937,
+        "igualdad_pct": 28.0
+      },
+      {
+        "poblacion_acum_pct": 29.0,
+        "ingreso_acum_pct": 8.5437,
+        "igualdad_pct": 29.0
+      },
+      {
+        "poblacion_acum_pct": 30.0,
+        "ingreso_acum_pct": 9.0033,
+        "igualdad_pct": 30.0
+      },
+      {
+        "poblacion_acum_pct": 31.0,
+        "ingreso_acum_pct": 9.4714,
+        "igualdad_pct": 31.0
+      },
+      {
+        "poblacion_acum_pct": 32.0,
+        "ingreso_acum_pct": 9.9488,
+        "igualdad_pct": 32.0
+      },
+      {
+        "poblacion_acum_pct": 33.0,
+        "ingreso_acum_pct": 10.436,
+        "igualdad_pct": 33.0
+      },
+      {
+        "poblacion_acum_pct": 34.0,
+        "ingreso_acum_pct": 10.934,
+        "igualdad_pct": 34.0
+      },
+      {
+        "poblacion_acum_pct": 35.0,
+        "ingreso_acum_pct": 11.4396,
+        "igualdad_pct": 35.0
+      },
+      {
+        "poblacion_acum_pct": 36.0,
+        "ingreso_acum_pct": 11.9543,
+        "igualdad_pct": 36.0
+      },
+      {
+        "poblacion_acum_pct": 37.0,
+        "ingreso_acum_pct": 12.479,
+        "igualdad_pct": 37.0
+      },
+      {
+        "poblacion_acum_pct": 38.0,
+        "ingreso_acum_pct": 13.0157,
+        "igualdad_pct": 38.0
+      },
+      {
+        "poblacion_acum_pct": 39.0,
+        "ingreso_acum_pct": 13.564,
+        "igualdad_pct": 39.0
+      },
+      {
+        "poblacion_acum_pct": 40.0,
+        "ingreso_acum_pct": 14.1238,
+        "igualdad_pct": 40.0
+      },
+      {
+        "poblacion_acum_pct": 41.0,
+        "ingreso_acum_pct": 14.6938,
+        "igualdad_pct": 41.0
+      },
+      {
+        "poblacion_acum_pct": 42.0,
+        "ingreso_acum_pct": 15.2746,
+        "igualdad_pct": 42.0
+      },
+      {
+        "poblacion_acum_pct": 43.0,
+        "ingreso_acum_pct": 15.865,
+        "igualdad_pct": 43.0
+      },
+      {
+        "poblacion_acum_pct": 44.0,
+        "ingreso_acum_pct": 16.4684,
+        "igualdad_pct": 44.0
+      },
+      {
+        "poblacion_acum_pct": 45.0,
+        "ingreso_acum_pct": 17.0863,
+        "igualdad_pct": 45.0
+      },
+      {
+        "poblacion_acum_pct": 46.0,
+        "ingreso_acum_pct": 17.7154,
+        "igualdad_pct": 46.0
+      },
+      {
+        "poblacion_acum_pct": 47.0,
+        "ingreso_acum_pct": 18.3568,
+        "igualdad_pct": 47.0
+      },
+      {
+        "poblacion_acum_pct": 48.0,
+        "ingreso_acum_pct": 19.0115,
+        "igualdad_pct": 48.0
+      },
+      {
+        "poblacion_acum_pct": 49.0,
+        "ingreso_acum_pct": 19.6783,
+        "igualdad_pct": 49.0
+      },
+      {
+        "poblacion_acum_pct": 50.0,
+        "ingreso_acum_pct": 20.3575,
+        "igualdad_pct": 50.0
+      },
+      {
+        "poblacion_acum_pct": 51.0,
+        "ingreso_acum_pct": 21.051,
+        "igualdad_pct": 51.0
+      },
+      {
+        "poblacion_acum_pct": 52.0,
+        "ingreso_acum_pct": 21.759,
+        "igualdad_pct": 52.0
+      },
+      {
+        "poblacion_acum_pct": 53.0,
+        "ingreso_acum_pct": 22.4833,
+        "igualdad_pct": 53.0
+      },
+      {
+        "poblacion_acum_pct": 54.0,
+        "ingreso_acum_pct": 23.2221,
+        "igualdad_pct": 54.0
+      },
+      {
+        "poblacion_acum_pct": 55.0,
+        "ingreso_acum_pct": 23.9758,
+        "igualdad_pct": 55.0
+      },
+      {
+        "poblacion_acum_pct": 56.0,
+        "ingreso_acum_pct": 24.7445,
+        "igualdad_pct": 56.0
+      },
+      {
+        "poblacion_acum_pct": 57.0,
+        "ingreso_acum_pct": 25.5297,
+        "igualdad_pct": 57.0
+      },
+      {
+        "poblacion_acum_pct": 58.0,
+        "ingreso_acum_pct": 26.3315,
+        "igualdad_pct": 58.0
+      },
+      {
+        "poblacion_acum_pct": 59.0,
+        "ingreso_acum_pct": 27.1478,
+        "igualdad_pct": 59.0
+      },
+      {
+        "poblacion_acum_pct": 60.0,
+        "ingreso_acum_pct": 27.982,
+        "igualdad_pct": 60.0
+      },
+      {
+        "poblacion_acum_pct": 61.0,
+        "ingreso_acum_pct": 28.8274,
+        "igualdad_pct": 61.0
+      },
+      {
+        "poblacion_acum_pct": 62.0,
+        "ingreso_acum_pct": 29.6926,
+        "igualdad_pct": 62.0
+      },
+      {
+        "poblacion_acum_pct": 63.0,
+        "ingreso_acum_pct": 30.5762,
+        "igualdad_pct": 63.0
+      },
+      {
+        "poblacion_acum_pct": 64.0,
+        "ingreso_acum_pct": 31.4813,
+        "igualdad_pct": 64.0
+      },
+      {
+        "poblacion_acum_pct": 65.0,
+        "ingreso_acum_pct": 32.4094,
+        "igualdad_pct": 65.0
+      },
+      {
+        "poblacion_acum_pct": 66.0,
+        "ingreso_acum_pct": 33.3604,
+        "igualdad_pct": 66.0
+      },
+      {
+        "poblacion_acum_pct": 67.0,
+        "ingreso_acum_pct": 34.3314,
+        "igualdad_pct": 67.0
+      },
+      {
+        "poblacion_acum_pct": 68.0,
+        "ingreso_acum_pct": 35.3219,
+        "igualdad_pct": 68.0
+      },
+      {
+        "poblacion_acum_pct": 69.0,
+        "ingreso_acum_pct": 36.3346,
+        "igualdad_pct": 69.0
+      },
+      {
+        "poblacion_acum_pct": 70.0,
+        "ingreso_acum_pct": 37.3739,
+        "igualdad_pct": 70.0
+      },
+      {
+        "poblacion_acum_pct": 71.0,
+        "ingreso_acum_pct": 38.4353,
+        "igualdad_pct": 71.0
+      },
+      {
+        "poblacion_acum_pct": 72.0,
+        "ingreso_acum_pct": 39.5232,
+        "igualdad_pct": 72.0
+      },
+      {
+        "poblacion_acum_pct": 73.0,
+        "ingreso_acum_pct": 40.639,
+        "igualdad_pct": 73.0
+      },
+      {
+        "poblacion_acum_pct": 74.0,
+        "ingreso_acum_pct": 41.7841,
+        "igualdad_pct": 74.0
+      },
+      {
+        "poblacion_acum_pct": 75.0,
+        "ingreso_acum_pct": 42.9566,
+        "igualdad_pct": 75.0
+      },
+      {
+        "poblacion_acum_pct": 76.0,
+        "ingreso_acum_pct": 44.1601,
+        "igualdad_pct": 76.0
+      },
+      {
+        "poblacion_acum_pct": 77.0,
+        "ingreso_acum_pct": 45.4026,
+        "igualdad_pct": 77.0
+      },
+      {
+        "poblacion_acum_pct": 78.0,
+        "ingreso_acum_pct": 46.6704,
+        "igualdad_pct": 78.0
+      },
+      {
+        "poblacion_acum_pct": 79.0,
+        "ingreso_acum_pct": 47.9725,
+        "igualdad_pct": 79.0
+      },
+      {
+        "poblacion_acum_pct": 80.0,
+        "ingreso_acum_pct": 49.3169,
+        "igualdad_pct": 80.0
+      },
+      {
+        "poblacion_acum_pct": 81.0,
+        "ingreso_acum_pct": 50.703,
+        "igualdad_pct": 81.0
+      },
+      {
+        "poblacion_acum_pct": 82.0,
+        "ingreso_acum_pct": 52.133,
+        "igualdad_pct": 82.0
+      },
+      {
+        "poblacion_acum_pct": 83.0,
+        "ingreso_acum_pct": 53.6083,
+        "igualdad_pct": 83.0
+      },
+      {
+        "poblacion_acum_pct": 84.0,
+        "ingreso_acum_pct": 55.1342,
+        "igualdad_pct": 84.0
+      },
+      {
+        "poblacion_acum_pct": 85.0,
+        "ingreso_acum_pct": 56.7145,
+        "igualdad_pct": 85.0
+      },
+      {
+        "poblacion_acum_pct": 86.0,
+        "ingreso_acum_pct": 58.3583,
+        "igualdad_pct": 86.0
+      },
+      {
+        "poblacion_acum_pct": 87.0,
+        "ingreso_acum_pct": 60.0589,
+        "igualdad_pct": 87.0
+      },
+      {
+        "poblacion_acum_pct": 88.0,
+        "ingreso_acum_pct": 61.835,
+        "igualdad_pct": 88.0
+      },
+      {
+        "poblacion_acum_pct": 89.0,
+        "ingreso_acum_pct": 63.6901,
+        "igualdad_pct": 89.0
+      },
+      {
+        "poblacion_acum_pct": 90.0,
+        "ingreso_acum_pct": 65.6405,
+        "igualdad_pct": 90.0
+      },
+      {
+        "poblacion_acum_pct": 91.0,
+        "ingreso_acum_pct": 67.6974,
+        "igualdad_pct": 91.0
+      },
+      {
+        "poblacion_acum_pct": 92.0,
+        "ingreso_acum_pct": 69.8625,
+        "igualdad_pct": 92.0
+      },
+      {
+        "poblacion_acum_pct": 93.0,
+        "ingreso_acum_pct": 72.1708,
+        "igualdad_pct": 93.0
+      },
+      {
+        "poblacion_acum_pct": 94.0,
+        "ingreso_acum_pct": 74.6432,
+        "igualdad_pct": 94.0
+      },
+      {
+        "poblacion_acum_pct": 95.0,
+        "ingreso_acum_pct": 77.3052,
+        "igualdad_pct": 95.0
+      },
+      {
+        "poblacion_acum_pct": 96.0,
+        "ingreso_acum_pct": 80.2029,
+        "igualdad_pct": 96.0
+      },
+      {
+        "poblacion_acum_pct": 97.0,
+        "ingreso_acum_pct": 83.4508,
+        "igualdad_pct": 97.0
+      },
+      {
+        "poblacion_acum_pct": 98.0,
+        "ingreso_acum_pct": 87.1958,
+        "igualdad_pct": 98.0
+      },
+      {
+        "poblacion_acum_pct": 99.0,
+        "ingreso_acum_pct": 91.7909,
+        "igualdad_pct": 99.0
+      },
+      {
+        "poblacion_acum_pct": 100.0,
+        "ingreso_acum_pct": 100.0,
+        "igualdad_pct": 100.0
+      }
+    ],
+    "curva_lorenz_laboral": [
+      {
+        "poblacion_acum_pct": 0.0,
+        "ingreso_acum_pct": 0.0,
+        "igualdad_pct": 0.0
+      },
+      {
+        "poblacion_acum_pct": 1.0,
+        "ingreso_acum_pct": 0.0244,
+        "igualdad_pct": 1.0
+      },
+      {
+        "poblacion_acum_pct": 2.0,
+        "ingreso_acum_pct": 0.078,
+        "igualdad_pct": 2.0
+      },
+      {
+        "poblacion_acum_pct": 3.0,
+        "ingreso_acum_pct": 0.1564,
+        "igualdad_pct": 3.0
+      },
+      {
+        "poblacion_acum_pct": 4.0,
+        "ingreso_acum_pct": 0.2547,
+        "igualdad_pct": 4.0
+      },
+      {
+        "poblacion_acum_pct": 5.0,
+        "ingreso_acum_pct": 0.371,
+        "igualdad_pct": 5.0
+      },
+      {
+        "poblacion_acum_pct": 6.0,
+        "ingreso_acum_pct": 0.5077,
+        "igualdad_pct": 6.0
+      },
+      {
+        "poblacion_acum_pct": 7.0,
+        "ingreso_acum_pct": 0.6653,
+        "igualdad_pct": 7.0
+      },
+      {
+        "poblacion_acum_pct": 8.0,
+        "ingreso_acum_pct": 0.8338,
+        "igualdad_pct": 8.0
+      },
+      {
+        "poblacion_acum_pct": 9.0,
+        "ingreso_acum_pct": 1.0262,
+        "igualdad_pct": 9.0
+      },
+      {
+        "poblacion_acum_pct": 10.0,
+        "ingreso_acum_pct": 1.2267,
+        "igualdad_pct": 10.0
+      },
+      {
+        "poblacion_acum_pct": 11.0,
+        "ingreso_acum_pct": 1.4346,
+        "igualdad_pct": 11.0
+      },
+      {
+        "poblacion_acum_pct": 12.0,
+        "ingreso_acum_pct": 1.6667,
+        "igualdad_pct": 12.0
+      },
+      {
+        "poblacion_acum_pct": 13.0,
+        "ingreso_acum_pct": 1.9072,
+        "igualdad_pct": 13.0
+      },
+      {
+        "poblacion_acum_pct": 14.0,
+        "ingreso_acum_pct": 2.1608,
+        "igualdad_pct": 14.0
+      },
+      {
+        "poblacion_acum_pct": 15.0,
+        "ingreso_acum_pct": 2.4373,
+        "igualdad_pct": 15.0
+      },
+      {
+        "poblacion_acum_pct": 16.0,
+        "ingreso_acum_pct": 2.7343,
+        "igualdad_pct": 16.0
+      },
+      {
+        "poblacion_acum_pct": 17.0,
+        "ingreso_acum_pct": 3.0349,
+        "igualdad_pct": 17.0
+      },
+      {
+        "poblacion_acum_pct": 18.0,
+        "ingreso_acum_pct": 3.3496,
+        "igualdad_pct": 18.0
+      },
+      {
+        "poblacion_acum_pct": 19.0,
+        "ingreso_acum_pct": 3.6776,
+        "igualdad_pct": 19.0
+      },
+      {
+        "poblacion_acum_pct": 20.0,
+        "ingreso_acum_pct": 4.0294,
+        "igualdad_pct": 20.0
+      },
+      {
+        "poblacion_acum_pct": 21.0,
+        "ingreso_acum_pct": 4.3901,
+        "igualdad_pct": 21.0
+      },
+      {
+        "poblacion_acum_pct": 22.0,
+        "ingreso_acum_pct": 4.7672,
+        "igualdad_pct": 22.0
+      },
+      {
+        "poblacion_acum_pct": 23.0,
+        "ingreso_acum_pct": 5.1677,
+        "igualdad_pct": 23.0
+      },
+      {
+        "poblacion_acum_pct": 24.0,
+        "ingreso_acum_pct": 5.5685,
+        "igualdad_pct": 24.0
+      },
+      {
+        "poblacion_acum_pct": 25.0,
+        "ingreso_acum_pct": 5.9693,
+        "igualdad_pct": 25.0
+      },
+      {
+        "poblacion_acum_pct": 26.0,
+        "ingreso_acum_pct": 6.3829,
+        "igualdad_pct": 26.0
+      },
+      {
+        "poblacion_acum_pct": 27.0,
+        "ingreso_acum_pct": 6.8208,
+        "igualdad_pct": 27.0
+      },
+      {
+        "poblacion_acum_pct": 28.0,
+        "ingreso_acum_pct": 7.2762,
+        "igualdad_pct": 28.0
+      },
+      {
+        "poblacion_acum_pct": 29.0,
+        "ingreso_acum_pct": 7.7521,
+        "igualdad_pct": 29.0
+      },
+      {
+        "poblacion_acum_pct": 30.0,
+        "ingreso_acum_pct": 8.2333,
+        "igualdad_pct": 30.0
+      },
+      {
+        "poblacion_acum_pct": 31.0,
+        "ingreso_acum_pct": 8.7326,
+        "igualdad_pct": 31.0
+      },
+      {
+        "poblacion_acum_pct": 32.0,
+        "ingreso_acum_pct": 9.236,
+        "igualdad_pct": 32.0
+      },
+      {
+        "poblacion_acum_pct": 33.0,
+        "ingreso_acum_pct": 9.7593,
+        "igualdad_pct": 33.0
+      },
+      {
+        "poblacion_acum_pct": 34.0,
+        "ingreso_acum_pct": 10.3052,
+        "igualdad_pct": 34.0
+      },
+      {
+        "poblacion_acum_pct": 35.0,
+        "ingreso_acum_pct": 10.8674,
+        "igualdad_pct": 35.0
+      },
+      {
+        "poblacion_acum_pct": 36.0,
+        "ingreso_acum_pct": 11.4563,
+        "igualdad_pct": 36.0
+      },
+      {
+        "poblacion_acum_pct": 37.0,
+        "ingreso_acum_pct": 12.0576,
+        "igualdad_pct": 37.0
+      },
+      {
+        "poblacion_acum_pct": 38.0,
+        "ingreso_acum_pct": 12.6588,
+        "igualdad_pct": 38.0
+      },
+      {
+        "poblacion_acum_pct": 39.0,
+        "ingreso_acum_pct": 13.26,
+        "igualdad_pct": 39.0
+      },
+      {
+        "poblacion_acum_pct": 40.0,
+        "ingreso_acum_pct": 13.8835,
+        "igualdad_pct": 40.0
+      },
+      {
+        "poblacion_acum_pct": 41.0,
+        "ingreso_acum_pct": 14.5278,
+        "igualdad_pct": 41.0
+      },
+      {
+        "poblacion_acum_pct": 42.0,
+        "ingreso_acum_pct": 15.1993,
+        "igualdad_pct": 42.0
+      },
+      {
+        "poblacion_acum_pct": 43.0,
+        "ingreso_acum_pct": 15.8962,
+        "igualdad_pct": 43.0
+      },
+      {
+        "poblacion_acum_pct": 44.0,
+        "ingreso_acum_pct": 16.609,
+        "igualdad_pct": 44.0
+      },
+      {
+        "poblacion_acum_pct": 45.0,
+        "ingreso_acum_pct": 17.336,
+        "igualdad_pct": 45.0
+      },
+      {
+        "poblacion_acum_pct": 46.0,
+        "ingreso_acum_pct": 18.0959,
+        "igualdad_pct": 46.0
+      },
+      {
+        "poblacion_acum_pct": 47.0,
+        "ingreso_acum_pct": 18.8932,
+        "igualdad_pct": 47.0
+      },
+      {
+        "poblacion_acum_pct": 48.0,
+        "ingreso_acum_pct": 19.6948,
+        "igualdad_pct": 48.0
+      },
+      {
+        "poblacion_acum_pct": 49.0,
+        "ingreso_acum_pct": 20.4965,
+        "igualdad_pct": 49.0
+      },
+      {
+        "poblacion_acum_pct": 50.0,
+        "ingreso_acum_pct": 21.2986,
+        "igualdad_pct": 50.0
+      },
+      {
+        "poblacion_acum_pct": 51.0,
+        "ingreso_acum_pct": 22.1291,
+        "igualdad_pct": 51.0
+      },
+      {
+        "poblacion_acum_pct": 52.0,
+        "ingreso_acum_pct": 22.9909,
+        "igualdad_pct": 52.0
+      },
+      {
+        "poblacion_acum_pct": 53.0,
+        "ingreso_acum_pct": 23.883,
+        "igualdad_pct": 53.0
+      },
+      {
+        "poblacion_acum_pct": 54.0,
+        "ingreso_acum_pct": 24.7937,
+        "igualdad_pct": 54.0
+      },
+      {
+        "poblacion_acum_pct": 55.0,
+        "ingreso_acum_pct": 25.7225,
+        "igualdad_pct": 55.0
+      },
+      {
+        "poblacion_acum_pct": 56.0,
+        "ingreso_acum_pct": 26.6644,
+        "igualdad_pct": 56.0
+      },
+      {
+        "poblacion_acum_pct": 57.0,
+        "ingreso_acum_pct": 27.6064,
+        "igualdad_pct": 57.0
+      },
+      {
+        "poblacion_acum_pct": 58.0,
+        "ingreso_acum_pct": 28.5483,
+        "igualdad_pct": 58.0
+      },
+      {
+        "poblacion_acum_pct": 59.0,
+        "ingreso_acum_pct": 29.4933,
+        "igualdad_pct": 59.0
+      },
+      {
+        "poblacion_acum_pct": 60.0,
+        "ingreso_acum_pct": 30.4504,
+        "igualdad_pct": 60.0
+      },
+      {
+        "poblacion_acum_pct": 61.0,
+        "ingreso_acum_pct": 31.4124,
+        "igualdad_pct": 61.0
+      },
+      {
+        "poblacion_acum_pct": 62.0,
+        "ingreso_acum_pct": 32.388,
+        "igualdad_pct": 62.0
+      },
+      {
+        "poblacion_acum_pct": 63.0,
+        "ingreso_acum_pct": 33.3882,
+        "igualdad_pct": 63.0
+      },
+      {
+        "poblacion_acum_pct": 64.0,
+        "ingreso_acum_pct": 34.3902,
+        "igualdad_pct": 64.0
+      },
+      {
+        "poblacion_acum_pct": 65.0,
+        "ingreso_acum_pct": 35.3923,
+        "igualdad_pct": 65.0
+      },
+      {
+        "poblacion_acum_pct": 66.0,
+        "ingreso_acum_pct": 36.4087,
+        "igualdad_pct": 66.0
+      },
+      {
+        "poblacion_acum_pct": 67.0,
+        "ingreso_acum_pct": 37.4472,
+        "igualdad_pct": 67.0
+      },
+      {
+        "poblacion_acum_pct": 68.0,
+        "ingreso_acum_pct": 38.4977,
+        "igualdad_pct": 68.0
+      },
+      {
+        "poblacion_acum_pct": 69.0,
+        "ingreso_acum_pct": 39.5603,
+        "igualdad_pct": 69.0
+      },
+      {
+        "poblacion_acum_pct": 70.0,
+        "ingreso_acum_pct": 40.6385,
+        "igualdad_pct": 70.0
+      },
+      {
+        "poblacion_acum_pct": 71.0,
+        "ingreso_acum_pct": 41.7296,
+        "igualdad_pct": 71.0
+      },
+      {
+        "poblacion_acum_pct": 72.0,
+        "ingreso_acum_pct": 42.8319,
+        "igualdad_pct": 72.0
+      },
+      {
+        "poblacion_acum_pct": 73.0,
+        "ingreso_acum_pct": 43.9489,
+        "igualdad_pct": 73.0
+      },
+      {
+        "poblacion_acum_pct": 74.0,
+        "ingreso_acum_pct": 45.0855,
+        "igualdad_pct": 74.0
+      },
+      {
+        "poblacion_acum_pct": 75.0,
+        "ingreso_acum_pct": 46.2501,
+        "igualdad_pct": 75.0
+      },
+      {
+        "poblacion_acum_pct": 76.0,
+        "ingreso_acum_pct": 47.4496,
+        "igualdad_pct": 76.0
+      },
+      {
+        "poblacion_acum_pct": 77.0,
+        "ingreso_acum_pct": 48.652,
+        "igualdad_pct": 77.0
+      },
+      {
+        "poblacion_acum_pct": 78.0,
+        "ingreso_acum_pct": 49.8691,
+        "igualdad_pct": 78.0
+      },
+      {
+        "poblacion_acum_pct": 79.0,
+        "ingreso_acum_pct": 51.122,
+        "igualdad_pct": 79.0
+      },
+      {
+        "poblacion_acum_pct": 80.0,
+        "ingreso_acum_pct": 52.4215,
+        "igualdad_pct": 80.0
+      },
+      {
+        "poblacion_acum_pct": 81.0,
+        "ingreso_acum_pct": 53.7525,
+        "igualdad_pct": 81.0
+      },
+      {
+        "poblacion_acum_pct": 82.0,
+        "ingreso_acum_pct": 55.1377,
+        "igualdad_pct": 82.0
+      },
+      {
+        "poblacion_acum_pct": 83.0,
+        "ingreso_acum_pct": 56.561,
+        "igualdad_pct": 83.0
+      },
+      {
+        "poblacion_acum_pct": 84.0,
+        "ingreso_acum_pct": 58.0553,
+        "igualdad_pct": 84.0
+      },
+      {
+        "poblacion_acum_pct": 85.0,
+        "ingreso_acum_pct": 59.6241,
+        "igualdad_pct": 85.0
+      },
+      {
+        "poblacion_acum_pct": 86.0,
+        "ingreso_acum_pct": 61.2348,
+        "igualdad_pct": 86.0
+      },
+      {
+        "poblacion_acum_pct": 87.0,
+        "ingreso_acum_pct": 62.905,
+        "igualdad_pct": 87.0
+      },
+      {
+        "poblacion_acum_pct": 88.0,
+        "ingreso_acum_pct": 64.669,
+        "igualdad_pct": 88.0
+      },
+      {
+        "poblacion_acum_pct": 89.0,
+        "ingreso_acum_pct": 66.4918,
+        "igualdad_pct": 89.0
+      },
+      {
+        "poblacion_acum_pct": 90.0,
+        "ingreso_acum_pct": 68.3927,
+        "igualdad_pct": 90.0
+      },
+      {
+        "poblacion_acum_pct": 91.0,
+        "ingreso_acum_pct": 70.3813,
+        "igualdad_pct": 91.0
+      },
+      {
+        "poblacion_acum_pct": 92.0,
+        "ingreso_acum_pct": 72.419,
+        "igualdad_pct": 92.0
+      },
+      {
+        "poblacion_acum_pct": 93.0,
+        "ingreso_acum_pct": 74.5709,
+        "igualdad_pct": 93.0
+      },
+      {
+        "poblacion_acum_pct": 94.0,
+        "ingreso_acum_pct": 76.8614,
+        "igualdad_pct": 94.0
+      },
+      {
+        "poblacion_acum_pct": 95.0,
+        "ingreso_acum_pct": 79.3258,
+        "igualdad_pct": 95.0
+      },
+      {
+        "poblacion_acum_pct": 96.0,
+        "ingreso_acum_pct": 82.0225,
+        "igualdad_pct": 96.0
+      },
+      {
+        "poblacion_acum_pct": 97.0,
+        "ingreso_acum_pct": 85.0197,
+        "igualdad_pct": 97.0
+      },
+      {
+        "poblacion_acum_pct": 98.0,
+        "ingreso_acum_pct": 88.4436,
+        "igualdad_pct": 98.0
+      },
+      {
+        "poblacion_acum_pct": 99.0,
+        "ingreso_acum_pct": 92.5864,
+        "igualdad_pct": 99.0
+      },
+      {
+        "poblacion_acum_pct": 100.0,
+        "ingreso_acum_pct": 100.0,
+        "igualdad_pct": 100.0
+      }
+    ],
+    "deciles_ingpc": [
+      {
+        "decil": "D1",
+        "numero_decil": 1,
+        "participacion_ingreso_pct": 1.71,
+        "ingreso_mediano_decil_usd": 44.12
+      },
+      {
+        "decil": "D2",
+        "numero_decil": 2,
+        "participacion_ingreso_pct": 3.13,
+        "ingreso_mediano_decil_usd": 75.0
+      },
+      {
+        "decil": "D3",
+        "numero_decil": 3,
+        "participacion_ingreso_pct": 4.16,
+        "ingreso_mediano_decil_usd": 100.0
+      },
+      {
+        "decil": "D4",
+        "numero_decil": 4,
+        "participacion_ingreso_pct": 5.12,
+        "ingreso_mediano_decil_usd": 121.71
+      },
+      {
+        "decil": "D5",
+        "numero_decil": 5,
+        "participacion_ingreso_pct": 6.23,
+        "ingreso_mediano_decil_usd": 150.0
+      },
+      {
+        "decil": "D6",
+        "numero_decil": 6,
+        "participacion_ingreso_pct": 7.62,
+        "ingreso_mediano_decil_usd": 181.67
+      },
+      {
+        "decil": "D7",
+        "numero_decil": 7,
+        "participacion_ingreso_pct": 9.39,
+        "ingreso_mediano_decil_usd": 225.0
+      },
+      {
+        "decil": "D8",
+        "numero_decil": 8,
+        "participacion_ingreso_pct": 11.94,
+        "ingreso_mediano_decil_usd": 283.33
+      },
+      {
+        "decil": "D9",
+        "numero_decil": 9,
+        "participacion_ingreso_pct": 16.32,
+        "ingreso_mediano_decil_usd": 384.43
+      },
+      {
+        "decil": "D10",
+        "numero_decil": 10,
+        "participacion_ingreso_pct": 34.36,
+        "ingreso_mediano_decil_usd": 665.0
+      }
+    ],
+    "deciles_laboral": [
+      {
+        "decil": "D1",
+        "numero_decil": 1,
+        "participacion_ingreso_pct": 1.23,
+        "ingreso_mediano_decil_usd": 60.0
+      },
+      {
+        "decil": "D2",
+        "numero_decil": 2,
+        "participacion_ingreso_pct": 2.8,
+        "ingreso_mediano_decil_usd": 141.0
+      },
+      {
+        "decil": "D3",
+        "numero_decil": 3,
+        "participacion_ingreso_pct": 4.2,
+        "ingreso_mediano_decil_usd": 200.0
+      },
+      {
+        "decil": "D4",
+        "numero_decil": 4,
+        "participacion_ingreso_pct": 5.65,
+        "ingreso_mediano_decil_usd": 285.0
+      },
+      {
+        "decil": "D5",
+        "numero_decil": 5,
+        "participacion_ingreso_pct": 7.42,
+        "ingreso_mediano_decil_usd": 370.0
+      },
+      {
+        "decil": "D6",
+        "numero_decil": 6,
+        "participacion_ingreso_pct": 9.15,
+        "ingreso_mediano_decil_usd": 470.0
+      },
+      {
+        "decil": "D7",
+        "numero_decil": 7,
+        "participacion_ingreso_pct": 10.19,
+        "ingreso_mediano_decil_usd": 500.0
+      },
+      {
+        "decil": "D8",
+        "numero_decil": 8,
+        "participacion_ingreso_pct": 11.78,
+        "ingreso_mediano_decil_usd": 590.0
+      },
+      {
+        "decil": "D9",
+        "numero_decil": 9,
+        "participacion_ingreso_pct": 15.97,
+        "ingreso_mediano_decil_usd": 800.0
+      },
+      {
+        "decil": "D10",
+        "numero_decil": 10,
+        "participacion_ingreso_pct": 31.61,
+        "ingreso_mediano_decil_usd": 1287.0
+      }
+    ],
+    "pobreza_por_condicion_laboral": [
+      {
+        "condicion_laboral": "Empleo adecuado/pleno",
+        "pobreza_pct": 0.95,
+        "pobreza_ee_pct": 0.18,
+        "pobreza_ic95_inf": 0.6,
+        "pobreza_ic95_sup": 1.29,
+        "pobreza_extrema_pct": 0.02,
+        "pobreza_extrema_ee_pct": 0.01,
+        "poblacion_pea_expandida": 3197616.0
+      },
+      {
+        "condicion_laboral": "Subempleo",
+        "pobreza_pct": 26.43,
+        "pobreza_ee_pct": 0.92,
+        "pobreza_ic95_inf": 24.63,
+        "pobreza_ic95_sup": 28.22,
+        "pobreza_extrema_pct": 6.45,
+        "pobreza_extrema_ee_pct": 0.5,
+        "poblacion_pea_expandida": 1669151.0
+      },
+      {
+        "condicion_laboral": "Otro empleo no pleno",
+        "pobreza_pct": 20.82,
+        "pobreza_ee_pct": 1.21,
+        "pobreza_ic95_inf": 18.45,
+        "pobreza_ic95_sup": 23.19,
+        "pobreza_extrema_pct": 5.98,
+        "pobreza_extrema_ee_pct": 0.55,
+        "poblacion_pea_expandida": 2648287.0
+      },
+      {
+        "condicion_laboral": "Empleo no remunerado",
+        "pobreza_pct": 38.5,
+        "pobreza_ee_pct": 2.99,
+        "pobreza_ic95_inf": 32.64,
+        "pobreza_ic95_sup": 44.36,
+        "pobreza_extrema_pct": 19.22,
+        "pobreza_extrema_ee_pct": 3.24,
+        "poblacion_pea_expandida": 755654.0
+      },
+      {
+        "condicion_laboral": "Desempleo",
+        "pobreza_pct": 25.79,
+        "pobreza_ee_pct": 1.26,
+        "pobreza_ic95_inf": 23.31,
+        "pobreza_ic95_sup": 28.27,
+        "pobreza_extrema_pct": 11.1,
+        "pobreza_extrema_ee_pct": 0.95,
+        "poblacion_pea_expandida": 301600.0
+      },
+      {
+        "condicion_laboral": "Sector formal (ocupados)",
+        "pobreza_pct": 3.87,
+        "pobreza_ee_pct": 0.35,
+        "pobreza_ic95_inf": 3.2,
+        "pobreza_ic95_sup": 4.55,
+        "pobreza_extrema_pct": 0.78,
+        "pobreza_extrema_ee_pct": 0.15,
+        "poblacion_pea_expandida": 3640991.0
+      },
+      {
+        "condicion_laboral": "Sector informal (ocupados)",
+        "pobreza_pct": 26.64,
+        "pobreza_ee_pct": 1.09,
+        "pobreza_ic95_inf": 24.5,
+        "pobreza_ic95_sup": 28.77,
+        "pobreza_extrema_pct": 8.93,
+        "pobreza_extrema_ee_pct": 1.06,
+        "poblacion_pea_expandida": 4264068.0
+      }
+    ],
+    "simulacion_contrafactual_sbu": {
+      "sbu_referencia_usd": 470.0,
+      "tasa_pobreza_actual_pct": 21.78,
+      "tasa_pobreza_contrafactual_pct": 9.79,
+      "reduccion_pobreza_pp": 11.98,
+      "personas_que_saldrian_de_pobreza": 2249674.0
+    },
+    "referencia_oficial_inec": {
+      "pobreza_oficial_pct": 21.8,
+      "pobreza_extrema_oficial_pct": 6.8,
+      "gini_oficial": 0.451
+    }
+  },
+  "archivos_generados": {
+    "parquet_pet": "data/procesados/enemdu_pet_2025.parquet",
+    "csv_serie": "data/procesados/serie_historica_2018_2025.csv",
+    "csv_oficial_2025": "data/procesados/estimadores_oficiales_2025.csv",
+    "parquet_muestra": "data/muestra/muestra_enemdu_2025.parquet",
+    "figuras": [
+      "reports/figures/01_diseno_muestral_y_reconciliacion.png",
+      "reports/figures/02_evolucion_mercado_laboral_2018_2025.png",
+      "reports/figures/03_radiografia_provincial_informalidad_adecuado.png",
+      "reports/figures/04_brechas_demograficas_etnia_educacion.png",
+      "reports/figures/05_ramas_actividad_informalidad_ingresos.png",
+      "reports/figures/06_distribucion_ingresos_y_sbu.png",
+      "reports/figures/07_ecuacion_mincer_y_efecto_diploma.png",
+      "reports/figures/08_oaxaca_blinder_brecha_genero.png",
+      "reports/figures/09_brecha_cuantilica_piso_pegajoso_techo_cristal.png",
+      "reports/figures/10_curva_lorenz_y_pobreza_laboral.png"
+    ]
+  }
+}

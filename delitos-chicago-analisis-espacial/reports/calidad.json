@@ -1,0 +1,117 @@
+{
+  "archivos_evaluados": 26,
+  "total_registros_brutos": 8665676,
+  "duplicados_id": 0,
+  "fechas_invalidas": 0,
+  "sin_coordenadas": 100954,
+  "pct_sin_coordenadas": 1.16,
+  "coordenadas_fuera_chicago": 149,
+  "total_registros_limpios": 8665676,
+  "pct_retenido": 100.0,
+  "distribucion_anios": [
+    {
+      "anio": 2001,
+      "conteo": 485979
+    },
+    {
+      "anio": 2002,
+      "conteo": 486843
+    },
+    {
+      "anio": 2003,
+      "conteo": 476013
+    },
+    {
+      "anio": 2004,
+      "conteo": 469447
+    },
+    {
+      "anio": 2005,
+      "conteo": 453803
+    },
+    {
+      "anio": 2006,
+      "conteo": 448211
+    },
+    {
+      "anio": 2007,
+      "conteo": 437117
+    },
+    {
+      "anio": 2008,
+      "conteo": 427231
+    },
+    {
+      "anio": 2009,
+      "conteo": 392879
+    },
+    {
+      "anio": 2010,
+      "conteo": 370590
+    },
+    {
+      "anio": 2011,
+      "conteo": 352083
+    },
+    {
+      "anio": 2012,
+      "conteo": 336406
+    },
+    {
+      "anio": 2013,
+      "conteo": 307646
+    },
+    {
+      "anio": 2014,
+      "conteo": 275916
+    },
+    {
+      "anio": 2015,
+      "conteo": 264950
+    },
+    {
+      "anio": 2016,
+      "conteo": 270035
+    },
+    {
+      "anio": 2017,
+      "conteo": 269350
+    },
+    {
+      "anio": 2018,
+      "conteo": 269243
+    },
+    {
+      "anio": 2019,
+      "conteo": 261942
+    },
+    {
+      "anio": 2020,
+      "conteo": 213083
+    },
+    {
+      "anio": 2021,
+      "conteo": 210017
+    },
+    {
+      "anio": 2022,
+      "conteo": 240506
+    },
+    {
+      "anio": 2023,
+      "conteo": 263863
+    },
+    {
+      "anio": 2024,
+      "conteo": 259670
+    },
+    {
+      "anio": 2025,
+      "conteo": 238176
+    },
+    {
+      "anio": 2026,
+      "conteo": 184677
+    }
+  ]
+}

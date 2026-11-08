@@ -1,0 +1,19 @@
+# Datos crudos: se bajan con `python descargar_datos.py` (caché de la API y el CSV de OWID, ~16 MB)
+data/raw/
+
+# data/procesados (panel de 250 KB) y reports/ SÍ se versionan: la app y el README los usan
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Editores y sistema
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.pytest_tmp*/

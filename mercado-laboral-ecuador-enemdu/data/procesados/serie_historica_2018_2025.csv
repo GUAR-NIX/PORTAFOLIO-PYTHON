@@ -1,0 +1,2241 @@
+anio,indicador,dominio,valor_pct
+2018,Empleo Bruto,Total,64.3
+2018,Empleo Bruto,Urbano,60.5
+2018,Empleo Bruto,Rural,72.7
+2018,Empleo Bruto,Quito,56.6
+2018,Empleo Bruto,Guayaquil,62.5
+2018,Empleo Bruto,Cuenca,59.3
+2018,Empleo Bruto,Machala,59.7
+2018,Empleo Bruto,Ambato,63.4
+2018,Empleo Bruto,Azuay,68.0
+2018,Empleo Bruto,Bolívar,73.5
+2018,Empleo Bruto,Cañar,68.7
+2018,Empleo Bruto,Carchi,60.4
+2018,Empleo Bruto,Cotopaxi,80.7
+2018,Empleo Bruto,Chimborazo,79.0
+2018,Empleo Bruto,El Oro,61.9
+2018,Empleo Bruto,Esmeraldas,56.5
+2018,Empleo Bruto,Guayas,62.4
+2018,Empleo Bruto,Imbabura,63.0
+2018,Empleo Bruto,Loja,69.0
+2018,Empleo Bruto,Los Ríos,63.1
+2018,Empleo Bruto,Manabí,62.4
+2018,Empleo Bruto,Morona Santiago,82.7
+2018,Empleo Bruto,Napo,80.6
+2018,Empleo Bruto,Pastaza,79.6
+2018,Empleo Bruto,Pichincha,58.1
+2018,Empleo Bruto,Tungurahua,75.0
+2018,Empleo Bruto,Zamora Chinchipe,73.5
+2018,Empleo Bruto,Galápagos,76.9
+2018,Empleo Bruto,Sucumbíos,62.7
+2018,Empleo Bruto,Orellana,82.0
+2018,Empleo Bruto,Santo Domingo,64.5
+2018,Empleo Bruto,Santa Elena,58.6
+2018,Empleo Global,Total,96.1
+2018,Empleo Global,Urbano,94.8
+2018,Empleo Global,Rural,98.5
+2018,Empleo Global,Quito,91.4
+2018,Empleo Global,Guayaquil,96.3
+2018,Empleo Global,Cuenca,94.7
+2018,Empleo Global,Machala,93.7
+2018,Empleo Global,Ambato,95.4
+2018,Empleo Global,Azuay,96.5
+2018,Empleo Global,Bolívar,98.6
+2018,Empleo Global,Cañar,96.1
+2018,Empleo Global,Carchi,96.6
+2018,Empleo Global,Cotopaxi,98.1
+2018,Empleo Global,Chimborazo,98.2
+2018,Empleo Global,El Oro,95.1
+2018,Empleo Global,Esmeraldas,92.4
+2018,Empleo Global,Guayas,96.6
+2018,Empleo Global,Imbabura,95.9
+2018,Empleo Global,Loja,96.6
+2018,Empleo Global,Los Ríos,96.9
+2018,Empleo Global,Manabí,98.0
+2018,Empleo Global,Morona Santiago,98.9
+2018,Empleo Global,Napo,97.2
+2018,Empleo Global,Pastaza,97.9
+2018,Empleo Global,Pichincha,92.7
+2018,Empleo Global,Tungurahua,97.7
+2018,Empleo Global,Zamora Chinchipe,97.2
+2018,Empleo Global,Galápagos,98.7
+2018,Empleo Global,Sucumbíos,95.8
+2018,Empleo Global,Orellana,97.7
+2018,Empleo Global,Santo Domingo,97.2
+2018,Empleo Global,Santa Elena,96.9
+2018,Empleo Adecuado/Pleno,Total,40.2
+2018,Empleo Adecuado/Pleno,Urbano,49.3
+2018,Empleo Adecuado/Pleno,Rural,22.5
+2018,Empleo Adecuado/Pleno,Quito,59.7
+2018,Empleo Adecuado/Pleno,Guayaquil,50.7
+2018,Empleo Adecuado/Pleno,Cuenca,61.4
+2018,Empleo Adecuado/Pleno,Machala,52.1
+2018,Empleo Adecuado/Pleno,Ambato,52.4
+2018,Empleo Adecuado/Pleno,Azuay,43.2
+2018,Empleo Adecuado/Pleno,Bolívar,23.0
+2018,Empleo Adecuado/Pleno,Cañar,29.9
+2018,Empleo Adecuado/Pleno,Carchi,34.3
+2018,Empleo Adecuado/Pleno,Cotopaxi,28.3
+2018,Empleo Adecuado/Pleno,Chimborazo,20.3
+2018,Empleo Adecuado/Pleno,El Oro,45.8
+2018,Empleo Adecuado/Pleno,Esmeraldas,30.1
+2018,Empleo Adecuado/Pleno,Guayas,45.7
+2018,Empleo Adecuado/Pleno,Imbabura,34.2
+2018,Empleo Adecuado/Pleno,Loja,28.1
+2018,Empleo Adecuado/Pleno,Los Ríos,31.7
+2018,Empleo Adecuado/Pleno,Manabí,33.1
+2018,Empleo Adecuado/Pleno,Morona Santiago,19.1
+2018,Empleo Adecuado/Pleno,Napo,20.1
+2018,Empleo Adecuado/Pleno,Pastaza,27.2
+2018,Empleo Adecuado/Pleno,Pichincha,57.8
+2018,Empleo Adecuado/Pleno,Tungurahua,33.5
+2018,Empleo Adecuado/Pleno,Zamora Chinchipe,28.2
+2018,Empleo Adecuado/Pleno,Galápagos,67.2
+2018,Empleo Adecuado/Pleno,Sucumbíos,31.5
+2018,Empleo Adecuado/Pleno,Orellana,21.4
+2018,Empleo Adecuado/Pleno,Santo Domingo,38.8
+2018,Empleo Adecuado/Pleno,Santa Elena,35.0
+2018,Subempleo,Total,17.8
+2018,Subempleo,Urbano,17.2
+2018,Subempleo,Rural,19.0
+2018,Subempleo,Quito,9.4
+2018,Subempleo,Guayaquil,19.8
+2018,Subempleo,Cuenca,10.0
+2018,Subempleo,Machala,14.0
+2018,Subempleo,Ambato,13.8
+2018,Subempleo,Azuay,13.8
+2018,Subempleo,Bolívar,17.0
+2018,Subempleo,Cañar,15.3
+2018,Subempleo,Carchi,14.9
+2018,Subempleo,Cotopaxi,14.5
+2018,Subempleo,Chimborazo,15.7
+2018,Subempleo,El Oro,17.5
+2018,Subempleo,Esmeraldas,17.2
+2018,Subempleo,Guayas,22.1
+2018,Subempleo,Imbabura,14.9
+2018,Subempleo,Loja,15.0
+2018,Subempleo,Los Ríos,26.1
+2018,Subempleo,Manabí,24.4
+2018,Subempleo,Morona Santiago,10.8
+2018,Subempleo,Napo,26.0
+2018,Subempleo,Pastaza,15.0
+2018,Subempleo,Pichincha,10.2
+2018,Subempleo,Tungurahua,15.4
+2018,Subempleo,Zamora Chinchipe,17.5
+2018,Subempleo,Galápagos,8.5
+2018,Subempleo,Sucumbíos,12.6
+2018,Subempleo,Orellana,17.0
+2018,Subempleo,Santo Domingo,20.6
+2018,Subempleo,Santa Elena,26.5
+2018,Empleo no Remunerado,Total,10.9
+2018,Empleo no Remunerado,Urbano,5.2
+2018,Empleo no Remunerado,Rural,21.9
+2018,Empleo no Remunerado,Quito,3.3
+2018,Empleo no Remunerado,Guayaquil,4.2
+2018,Empleo no Remunerado,Cuenca,5.6
+2018,Empleo no Remunerado,Machala,5.1
+2018,Empleo no Remunerado,Ambato,8.1
+2018,Empleo no Remunerado,Azuay,11.6
+2018,Empleo no Remunerado,Bolívar,27.1
+2018,Empleo no Remunerado,Cañar,17.3
+2018,Empleo no Remunerado,Carchi,10.3
+2018,Empleo no Remunerado,Cotopaxi,23.8
+2018,Empleo no Remunerado,Chimborazo,30.3
+2018,Empleo no Remunerado,El Oro,6.2
+2018,Empleo no Remunerado,Esmeraldas,9.5
+2018,Empleo no Remunerado,Guayas,5.3
+2018,Empleo no Remunerado,Imbabura,12.4
+2018,Empleo no Remunerado,Loja,19.5
+2018,Empleo no Remunerado,Los Ríos,8.1
+2018,Empleo no Remunerado,Manabí,10.4
+2018,Empleo no Remunerado,Morona Santiago,35.1
+2018,Empleo no Remunerado,Napo,27.2
+2018,Empleo no Remunerado,Pastaza,28.3
+2018,Empleo no Remunerado,Pichincha,4.2
+2018,Empleo no Remunerado,Tungurahua,17.7
+2018,Empleo no Remunerado,Zamora Chinchipe,20.9
+2018,Empleo no Remunerado,Galápagos,5.7
+2018,Empleo no Remunerado,Sucumbíos,16.9
+2018,Empleo no Remunerado,Orellana,33.5
+2018,Empleo no Remunerado,Santo Domingo,8.6
+2018,Empleo no Remunerado,Santa Elena,6.2
+2018,Otro Empleo no pleno,Total,26.8
+2018,Otro Empleo no pleno,Urbano,22.6
+2018,Otro Empleo no pleno,Rural,35.0
+2018,Otro Empleo no pleno,Quito,18.2
+2018,Otro Empleo no pleno,Guayaquil,20.4
+2018,Otro Empleo no pleno,Cuenca,17.6
+2018,Otro Empleo no pleno,Machala,22.5
+2018,Otro Empleo no pleno,Ambato,20.5
+2018,Otro Empleo no pleno,Azuay,27.9
+2018,Otro Empleo no pleno,Bolívar,31.2
+2018,Otro Empleo no pleno,Cañar,33.6
+2018,Otro Empleo no pleno,Carchi,37.1
+2018,Otro Empleo no pleno,Cotopaxi,31.1
+2018,Otro Empleo no pleno,Chimborazo,31.7
+2018,Otro Empleo no pleno,El Oro,25.6
+2018,Otro Empleo no pleno,Esmeraldas,35.2
+2018,Otro Empleo no pleno,Guayas,22.6
+2018,Otro Empleo no pleno,Imbabura,34.2
+2018,Otro Empleo no pleno,Loja,34.0
+2018,Otro Empleo no pleno,Los Ríos,30.8
+2018,Otro Empleo no pleno,Manabí,29.9
+2018,Otro Empleo no pleno,Morona Santiago,33.9
+2018,Otro Empleo no pleno,Napo,23.9
+2018,Otro Empleo no pleno,Pastaza,27.4
+2018,Otro Empleo no pleno,Pichincha,19.7
+2018,Otro Empleo no pleno,Tungurahua,30.9
+2018,Otro Empleo no pleno,Zamora Chinchipe,30.6
+2018,Otro Empleo no pleno,Galápagos,16.7
+2018,Otro Empleo no pleno,Sucumbíos,34.7
+2018,Otro Empleo no pleno,Orellana,25.9
+2018,Otro Empleo no pleno,Santo Domingo,28.7
+2018,Otro Empleo no pleno,Santa Elena,29.0
+2018,Desempleo,Total,3.9
+2018,Desempleo,Urbano,5.2
+2018,Desempleo,Rural,1.5
+2018,Desempleo,Quito,8.6
+2018,Desempleo,Guayaquil,3.7
+2018,Desempleo,Cuenca,5.3
+2018,Desempleo,Machala,6.3
+2018,Desempleo,Ambato,4.6
+2018,Desempleo,Azuay,3.5
+2018,Desempleo,Bolívar,1.4
+2018,Desempleo,Cañar,3.9
+2018,Desempleo,Carchi,3.4
+2018,Desempleo,Cotopaxi,1.9
+2018,Desempleo,Chimborazo,1.8
+2018,Desempleo,El Oro,4.9
+2018,Desempleo,Esmeraldas,7.6
+2018,Desempleo,Guayas,3.4
+2018,Desempleo,Imbabura,4.1
+2018,Desempleo,Loja,3.4
+2018,Desempleo,Los Ríos,3.1
+2018,Desempleo,Manabí,2.0
+2018,Desempleo,Morona Santiago,1.1
+2018,Desempleo,Napo,2.8
+2018,Desempleo,Pastaza,2.1
+2018,Desempleo,Pichincha,7.3
+2018,Desempleo,Tungurahua,2.3
+2018,Desempleo,Zamora Chinchipe,2.8
+2018,Desempleo,Galápagos,1.3
+2018,Desempleo,Sucumbíos,4.2
+2018,Desempleo,Orellana,2.3
+2018,Desempleo,Santo Domingo,2.8
+2018,Desempleo,Santa Elena,3.1
+2018,Participación Global,Total,66.9
+2018,Participación Global,Urbano,63.8
+2018,Participación Global,Rural,73.8
+2018,Participación Global,Quito,61.9
+2018,Participación Global,Guayaquil,64.9
+2018,Participación Global,Cuenca,62.7
+2018,Participación Global,Machala,63.7
+2018,Participación Global,Ambato,66.5
+2018,Participación Global,Azuay,70.5
+2018,Participación Global,Bolívar,74.6
+2018,Participación Global,Cañar,71.5
+2018,Participación Global,Carchi,62.5
+2018,Participación Global,Cotopaxi,82.2
+2018,Participación Global,Chimborazo,80.4
+2018,Participación Global,El Oro,65.0
+2018,Participación Global,Esmeraldas,61.2
+2018,Participación Global,Guayas,64.6
+2018,Participación Global,Imbabura,65.8
+2018,Participación Global,Loja,71.4
+2018,Participación Global,Los Ríos,65.1
+2018,Participación Global,Manabí,63.6
+2018,Participación Global,Morona Santiago,83.6
+2018,Participación Global,Napo,82.9
+2018,Participación Global,Pastaza,81.3
+2018,Participación Global,Pichincha,62.7
+2018,Participación Global,Tungurahua,76.8
+2018,Participación Global,Zamora Chinchipe,75.6
+2018,Participación Global,Galápagos,77.9
+2018,Participación Global,Sucumbíos,65.4
+2018,Participación Global,Orellana,83.9
+2018,Participación Global,Santo Domingo,66.3
+2018,Participación Global,Santa Elena,60.5
+2018,Participación Bruta,Total,47.6
+2018,Participación Bruta,Urbano,46.1
+2018,Participación Bruta,Rural,50.6
+2018,Participación Bruta,Quito,46.4
+2018,Participación Bruta,Guayaquil,46.7
+2018,Participación Bruta,Cuenca,46.8
+2018,Participación Bruta,Machala,45.7
+2018,Participación Bruta,Ambato,50.5
+2018,Participación Bruta,Azuay,51.2
+2018,Participación Bruta,Bolívar,52.0
+2018,Participación Bruta,Cañar,52.1
+2018,Participación Bruta,Carchi,45.9
+2018,Participación Bruta,Cotopaxi,58.8
+2018,Participación Bruta,Chimborazo,55.9
+2018,Participación Bruta,El Oro,46.7
+2018,Participación Bruta,Esmeraldas,39.9
+2018,Participación Bruta,Guayas,46.0
+2018,Participación Bruta,Imbabura,46.5
+2018,Participación Bruta,Loja,51.4
+2018,Participación Bruta,Los Ríos,46.3
+2018,Participación Bruta,Manabí,45.6
+2018,Participación Bruta,Morona Santiago,45.7
+2018,Participación Bruta,Napo,50.5
+2018,Participación Bruta,Pastaza,47.3
+2018,Participación Bruta,Pichincha,47.0
+2018,Participación Bruta,Tungurahua,57.6
+2018,Participación Bruta,Zamora Chinchipe,47.5
+2018,Participación Bruta,Galápagos,55.6
+2018,Participación Bruta,Sucumbíos,41.5
+2018,Participación Bruta,Orellana,47.5
+2018,Participación Bruta,Santo Domingo,45.5
+2018,Participación Bruta,Santa Elena,41.0
+2018,Sector informal,Total,46.8
+2018,Sector informal,Urbano,35.2
+2018,Sector informal,Rural,68.4
+2018,Sector informal,Quito,21.5
+2018,Sector informal,Guayaquil,41.7
+2018,Sector informal,Cuenca,21.8
+2018,Sector informal,Machala,33.5
+2018,Sector informal,Ambato,20.9
+2018,Sector informal,Azuay,45.1
+2018,Sector informal,Bolívar,71.7
+2018,Sector informal,Cañar,57.7
+2018,Sector informal,Carchi,42.0
+2018,Sector informal,Cotopaxi,58.2
+2018,Sector informal,Chimborazo,69.1
+2018,Sector informal,El Oro,36.5
+2018,Sector informal,Esmeraldas,50.1
+2018,Sector informal,Guayas,45.3
+2018,Sector informal,Imbabura,47.8
+2018,Sector informal,Loja,61.3
+2018,Sector informal,Los Ríos,50.1
+2018,Sector informal,Manabí,58.3
+2018,Sector informal,Morona Santiago,76.8
+2018,Sector informal,Napo,68.0
+2018,Sector informal,Pastaza,62.9
+2018,Sector informal,Pichincha,24.0
+2018,Sector informal,Tungurahua,49.6
+2018,Sector informal,Zamora Chinchipe,65.1
+2018,Sector informal,Galápagos,16.1
+2018,Sector informal,Sucumbíos,56.1
+2018,Sector informal,Orellana,67.6
+2018,Sector informal,Santo Domingo,45.8
+2018,Sector informal,Santa Elena,52.0
+2019,Empleo Bruto,Total,64.5
+2019,Empleo Bruto,Urbano,60.5
+2019,Empleo Bruto,Rural,73.4
+2019,Empleo Bruto,Quito,57.4
+2019,Empleo Bruto,Guayaquil,61.9
+2019,Empleo Bruto,Cuenca,58.2
+2019,Empleo Bruto,Machala,58.2
+2019,Empleo Bruto,Ambato,63.8
+2019,Empleo Bruto,Azuay,67.8
+2019,Empleo Bruto,Bolívar,72.0
+2019,Empleo Bruto,Cañar,69.0
+2019,Empleo Bruto,Carchi,65.5
+2019,Empleo Bruto,Cotopaxi,80.8
+2019,Empleo Bruto,Chimborazo,81.1
+2019,Empleo Bruto,El Oro,62.5
+2019,Empleo Bruto,Esmeraldas,55.7
+2019,Empleo Bruto,Guayas,61.8
+2019,Empleo Bruto,Imbabura,60.3
+2019,Empleo Bruto,Loja,71.5
+2019,Empleo Bruto,Los Ríos,62.0
+2019,Empleo Bruto,Manabí,62.6
+2019,Empleo Bruto,Morona Santiago,87.1
+2019,Empleo Bruto,Napo,80.7
+2019,Empleo Bruto,Pastaza,82.5
+2019,Empleo Bruto,Pichincha,59.2
+2019,Empleo Bruto,Tungurahua,75.0
+2019,Empleo Bruto,Zamora Chinchipe,72.8
+2019,Empleo Bruto,Galápagos,74.8
+2019,Empleo Bruto,Sucumbíos,65.7
+2019,Empleo Bruto,Orellana,81.3
+2019,Empleo Bruto,Santo Domingo,63.3
+2019,Empleo Bruto,Santa Elena,59.4
+2019,Empleo Global,Total,95.8
+2019,Empleo Global,Urbano,94.7
+2019,Empleo Global,Rural,98.1
+2019,Empleo Global,Quito,90.9
+2019,Empleo Global,Guayaquil,96.9
+2019,Empleo Global,Cuenca,94.8
+2019,Empleo Global,Machala,94.0
+2019,Empleo Global,Ambato,95.2
+2019,Empleo Global,Azuay,96.6
+2019,Empleo Global,Bolívar,98.6
+2019,Empleo Global,Cañar,96.1
+2019,Empleo Global,Carchi,95.1
+2019,Empleo Global,Cotopaxi,98.3
+2019,Empleo Global,Chimborazo,98.7
+2019,Empleo Global,El Oro,95.1
+2019,Empleo Global,Esmeraldas,89.6
+2019,Empleo Global,Guayas,96.9
+2019,Empleo Global,Imbabura,93.2
+2019,Empleo Global,Loja,96.4
+2019,Empleo Global,Los Ríos,97.2
+2019,Empleo Global,Manabí,97.7
+2019,Empleo Global,Morona Santiago,98.7
+2019,Empleo Global,Napo,97.8
+2019,Empleo Global,Pastaza,98.1
+2019,Empleo Global,Pichincha,92.0
+2019,Empleo Global,Tungurahua,97.8
+2019,Empleo Global,Zamora Chinchipe,96.9
+2019,Empleo Global,Galápagos,97.9
+2019,Empleo Global,Sucumbíos,95.3
+2019,Empleo Global,Orellana,98.2
+2019,Empleo Global,Santo Domingo,97.2
+2019,Empleo Global,Santa Elena,97.2
+2019,Empleo Adecuado/Pleno,Total,38.3
+2019,Empleo Adecuado/Pleno,Urbano,47.4
+2019,Empleo Adecuado/Pleno,Rural,20.9
+2019,Empleo Adecuado/Pleno,Quito,55.5
+2019,Empleo Adecuado/Pleno,Guayaquil,51.2
+2019,Empleo Adecuado/Pleno,Cuenca,64.4
+2019,Empleo Adecuado/Pleno,Machala,55.8
+2019,Empleo Adecuado/Pleno,Ambato,49.7
+2019,Empleo Adecuado/Pleno,Azuay,44.2
+2019,Empleo Adecuado/Pleno,Bolívar,20.9
+2019,Empleo Adecuado/Pleno,Cañar,30.9
+2019,Empleo Adecuado/Pleno,Carchi,28.7
+2019,Empleo Adecuado/Pleno,Cotopaxi,26.2
+2019,Empleo Adecuado/Pleno,Chimborazo,19.3
+2019,Empleo Adecuado/Pleno,El Oro,47.2
+2019,Empleo Adecuado/Pleno,Esmeraldas,24.0
+2019,Empleo Adecuado/Pleno,Guayas,45.0
+2019,Empleo Adecuado/Pleno,Imbabura,31.6
+2019,Empleo Adecuado/Pleno,Loja,26.9
+2019,Empleo Adecuado/Pleno,Los Ríos,31.9
+2019,Empleo Adecuado/Pleno,Manabí,30.1
+2019,Empleo Adecuado/Pleno,Morona Santiago,15.7
+2019,Empleo Adecuado/Pleno,Napo,18.9
+2019,Empleo Adecuado/Pleno,Pastaza,22.4
+2019,Empleo Adecuado/Pleno,Pichincha,53.0
+2019,Empleo Adecuado/Pleno,Tungurahua,32.9
+2019,Empleo Adecuado/Pleno,Zamora Chinchipe,27.4
+2019,Empleo Adecuado/Pleno,Galápagos,65.2
+2019,Empleo Adecuado/Pleno,Sucumbíos,27.1
+2019,Empleo Adecuado/Pleno,Orellana,20.3
+2019,Empleo Adecuado/Pleno,Santo Domingo,37.2
+2019,Empleo Adecuado/Pleno,Santa Elena,33.9
+2019,Subempleo,Total,18.2
+2019,Subempleo,Urbano,17.5
+2019,Subempleo,Rural,19.6
+2019,Subempleo,Quito,11.4
+2019,Subempleo,Guayaquil,19.2
+2019,Subempleo,Cuenca,6.7
+2019,Subempleo,Machala,10.0
+2019,Subempleo,Ambato,14.8
+2019,Subempleo,Azuay,11.0
+2019,Subempleo,Bolívar,16.8
+2019,Subempleo,Cañar,15.7
+2019,Subempleo,Carchi,19.5
+2019,Subempleo,Cotopaxi,15.3
+2019,Subempleo,Chimborazo,13.9
+2019,Subempleo,El Oro,15.3
+2019,Subempleo,Esmeraldas,22.8
+2019,Subempleo,Guayas,21.8
+2019,Subempleo,Imbabura,16.3
+2019,Subempleo,Loja,16.7
+2019,Subempleo,Los Ríos,27.0
+2019,Subempleo,Manabí,24.4
+2019,Subempleo,Morona Santiago,14.8
+2019,Subempleo,Napo,20.6
+2019,Subempleo,Pastaza,16.2
+2019,Subempleo,Pichincha,12.5
+2019,Subempleo,Tungurahua,15.3
+2019,Subempleo,Zamora Chinchipe,17.2
+2019,Subempleo,Galápagos,9.4
+2019,Subempleo,Sucumbíos,16.1
+2019,Subempleo,Orellana,11.0
+2019,Subempleo,Santo Domingo,22.6
+2019,Subempleo,Santa Elena,25.0
+2019,Empleo no Remunerado,Total,11.5
+2019,Empleo no Remunerado,Urbano,5.4
+2019,Empleo no Remunerado,Rural,23.0
+2019,Empleo no Remunerado,Quito,3.8
+2019,Empleo no Remunerado,Guayaquil,4.4
+2019,Empleo no Remunerado,Cuenca,5.1
+2019,Empleo no Remunerado,Machala,4.6
+2019,Empleo no Remunerado,Ambato,8.3
+2019,Empleo no Remunerado,Azuay,12.8
+2019,Empleo no Remunerado,Bolívar,26.9
+2019,Empleo no Remunerado,Cañar,18.7
+2019,Empleo no Remunerado,Carchi,12.5
+2019,Empleo no Remunerado,Cotopaxi,24.1
+2019,Empleo no Remunerado,Chimborazo,32.4
+2019,Empleo no Remunerado,El Oro,6.8
+2019,Empleo no Remunerado,Esmeraldas,8.5
+2019,Empleo no Remunerado,Guayas,5.4
+2019,Empleo no Remunerado,Imbabura,11.1
+2019,Empleo no Remunerado,Loja,22.0
+2019,Empleo no Remunerado,Los Ríos,7.6
+2019,Empleo no Remunerado,Manabí,11.5
+2019,Empleo no Remunerado,Morona Santiago,39.2
+2019,Empleo no Remunerado,Napo,31.8
+2019,Empleo no Remunerado,Pastaza,31.3
+2019,Empleo no Remunerado,Pichincha,4.5
+2019,Empleo no Remunerado,Tungurahua,19.0
+2019,Empleo no Remunerado,Zamora Chinchipe,22.4
+2019,Empleo no Remunerado,Galápagos,5.3
+2019,Empleo no Remunerado,Sucumbíos,18.5
+2019,Empleo no Remunerado,Orellana,37.1
+2019,Empleo no Remunerado,Santo Domingo,7.5
+2019,Empleo no Remunerado,Santa Elena,6.5
+2019,Otro Empleo no pleno,Total,27.4
+2019,Otro Empleo no pleno,Urbano,23.7
+2019,Otro Empleo no pleno,Rural,34.4
+2019,Otro Empleo no pleno,Quito,19.1
+2019,Otro Empleo no pleno,Guayaquil,21.0
+2019,Otro Empleo no pleno,Cuenca,18.5
+2019,Otro Empleo no pleno,Machala,23.6
+2019,Otro Empleo no pleno,Ambato,21.9
+2019,Otro Empleo no pleno,Azuay,28.5
+2019,Otro Empleo no pleno,Bolívar,33.8
+2019,Otro Empleo no pleno,Cañar,30.8
+2019,Otro Empleo no pleno,Carchi,34.3
+2019,Otro Empleo no pleno,Cotopaxi,32.5
+2019,Otro Empleo no pleno,Chimborazo,32.9
+2019,Otro Empleo no pleno,El Oro,25.8
+2019,Otro Empleo no pleno,Esmeraldas,34.2
+2019,Otro Empleo no pleno,Guayas,23.7
+2019,Otro Empleo no pleno,Imbabura,33.9
+2019,Otro Empleo no pleno,Loja,30.8
+2019,Otro Empleo no pleno,Los Ríos,30.7
+2019,Otro Empleo no pleno,Manabí,31.6
+2019,Otro Empleo no pleno,Morona Santiago,29.0
+2019,Otro Empleo no pleno,Napo,26.4
+2019,Otro Empleo no pleno,Pastaza,28.0
+2019,Otro Empleo no pleno,Pichincha,21.0
+2019,Otro Empleo no pleno,Tungurahua,30.2
+2019,Otro Empleo no pleno,Zamora Chinchipe,29.9
+2019,Otro Empleo no pleno,Galápagos,17.6
+2019,Otro Empleo no pleno,Sucumbíos,33.4
+2019,Otro Empleo no pleno,Orellana,29.7
+2019,Otro Empleo no pleno,Santo Domingo,28.8
+2019,Otro Empleo no pleno,Santa Elena,31.3
+2019,Desempleo,Total,4.2
+2019,Desempleo,Urbano,5.3
+2019,Desempleo,Rural,1.9
+2019,Desempleo,Quito,9.1
+2019,Desempleo,Guayaquil,3.1
+2019,Desempleo,Cuenca,5.2
+2019,Desempleo,Machala,6.0
+2019,Desempleo,Ambato,4.8
+2019,Desempleo,Azuay,3.4
+2019,Desempleo,Bolívar,1.4
+2019,Desempleo,Cañar,3.9
+2019,Desempleo,Carchi,4.9
+2019,Desempleo,Cotopaxi,1.7
+2019,Desempleo,Chimborazo,1.3
+2019,Desempleo,El Oro,4.9
+2019,Desempleo,Esmeraldas,10.4
+2019,Desempleo,Guayas,3.1
+2019,Desempleo,Imbabura,6.8
+2019,Desempleo,Loja,3.6
+2019,Desempleo,Los Ríos,2.8
+2019,Desempleo,Manabí,2.3
+2019,Desempleo,Morona Santiago,1.3
+2019,Desempleo,Napo,2.2
+2019,Desempleo,Pastaza,1.9
+2019,Desempleo,Pichincha,8.0
+2019,Desempleo,Tungurahua,2.2
+2019,Desempleo,Zamora Chinchipe,3.1
+2019,Desempleo,Galápagos,2.1
+2019,Desempleo,Sucumbíos,4.7
+2019,Desempleo,Orellana,1.8
+2019,Desempleo,Santo Domingo,2.8
+2019,Desempleo,Santa Elena,2.8
+2019,Participación Global,Total,67.3
+2019,Participación Global,Urbano,63.9
+2019,Participación Global,Rural,74.9
+2019,Participación Global,Quito,63.2
+2019,Participación Global,Guayaquil,63.8
+2019,Participación Global,Cuenca,61.4
+2019,Participación Global,Machala,61.8
+2019,Participación Global,Ambato,67.0
+2019,Participación Global,Azuay,70.2
+2019,Participación Global,Bolívar,73.0
+2019,Participación Global,Cañar,71.8
+2019,Participación Global,Carchi,68.8
+2019,Participación Global,Cotopaxi,82.2
+2019,Participación Global,Chimborazo,82.1
+2019,Participación Global,El Oro,65.7
+2019,Participación Global,Esmeraldas,62.2
+2019,Participación Global,Guayas,63.8
+2019,Participación Global,Imbabura,64.7
+2019,Participación Global,Loja,74.2
+2019,Participación Global,Los Ríos,63.8
+2019,Participación Global,Manabí,64.1
+2019,Participación Global,Morona Santiago,88.2
+2019,Participación Global,Napo,82.6
+2019,Participación Global,Pastaza,84.1
+2019,Participación Global,Pichincha,64.4
+2019,Participación Global,Tungurahua,76.7
+2019,Participación Global,Zamora Chinchipe,75.2
+2019,Participación Global,Galápagos,76.5
+2019,Participación Global,Sucumbíos,68.9
+2019,Participación Global,Orellana,82.8
+2019,Participación Global,Santo Domingo,65.2
+2019,Participación Global,Santa Elena,61.1
+2019,Participación Bruta,Total,47.8
+2019,Participación Bruta,Urbano,46.1
+2019,Participación Bruta,Rural,51.4
+2019,Participación Bruta,Quito,47.2
+2019,Participación Bruta,Guayaquil,45.7
+2019,Participación Bruta,Cuenca,45.7
+2019,Participación Bruta,Machala,44.4
+2019,Participación Bruta,Ambato,51.0
+2019,Participación Bruta,Azuay,51.0
+2019,Participación Bruta,Bolívar,51.9
+2019,Participación Bruta,Cañar,51.9
+2019,Participación Bruta,Carchi,50.5
+2019,Participación Bruta,Cotopaxi,59.2
+2019,Participación Bruta,Chimborazo,56.7
+2019,Participación Bruta,El Oro,47.2
+2019,Participación Bruta,Esmeraldas,40.6
+2019,Participación Bruta,Guayas,45.3
+2019,Participación Bruta,Imbabura,46.2
+2019,Participación Bruta,Loja,53.7
+2019,Participación Bruta,Los Ríos,45.4
+2019,Participación Bruta,Manabí,46.9
+2019,Participación Bruta,Morona Santiago,48.3
+2019,Participación Bruta,Napo,49.3
+2019,Participación Bruta,Pastaza,46.9
+2019,Participación Bruta,Pichincha,48.0
+2019,Participación Bruta,Tungurahua,57.7
+2019,Participación Bruta,Zamora Chinchipe,47.0
+2019,Participación Bruta,Galápagos,54.9
+2019,Participación Bruta,Sucumbíos,43.2
+2019,Participación Bruta,Orellana,45.4
+2019,Participación Bruta,Santo Domingo,45.1
+2019,Participación Bruta,Santa Elena,41.3
+2019,Sector informal,Total,47.3
+2019,Sector informal,Urbano,35.6
+2019,Sector informal,Rural,68.9
+2019,Sector informal,Quito,20.7
+2019,Sector informal,Guayaquil,42.1
+2019,Sector informal,Cuenca,22.6
+2019,Sector informal,Machala,34.8
+2019,Sector informal,Ambato,20.5
+2019,Sector informal,Azuay,45.4
+2019,Sector informal,Bolívar,74.6
+2019,Sector informal,Cañar,53.2
+2019,Sector informal,Carchi,45.9
+2019,Sector informal,Cotopaxi,59.5
+2019,Sector informal,Chimborazo,71.6
+2019,Sector informal,El Oro,36.0
+2019,Sector informal,Esmeraldas,51.3
+2019,Sector informal,Guayas,45.4
+2019,Sector informal,Imbabura,47.7
+2019,Sector informal,Loja,61.2
+2019,Sector informal,Los Ríos,50.9
+2019,Sector informal,Manabí,59.7
+2019,Sector informal,Morona Santiago,79.9
+2019,Sector informal,Napo,70.4
+2019,Sector informal,Pastaza,67.7
+2019,Sector informal,Pichincha,23.6
+2019,Sector informal,Tungurahua,48.9
+2019,Sector informal,Zamora Chinchipe,63.1
+2019,Sector informal,Galápagos,15.9
+2019,Sector informal,Sucumbíos,60.9
+2019,Sector informal,Orellana,70.2
+2019,Sector informal,Santo Domingo,46.9
+2019,Sector informal,Santa Elena,53.0
+2021,Empleo Bruto,Total,62.5
+2021,Empleo Bruto,Urbano,58.4
+2021,Empleo Bruto,Rural,71.7
+2021,Empleo Bruto,Quito,55.5
+2021,Empleo Bruto,Guayaquil,60.1
+2021,Empleo Bruto,Cuenca,60.2
+2021,Empleo Bruto,Machala,58.5
+2021,Empleo Bruto,Ambato,63.8
+2021,Empleo Bruto,Azuay,66.5
+2021,Empleo Bruto,Bolívar,67.4
+2021,Empleo Bruto,Cañar,71.2
+2021,Empleo Bruto,Carchi,58.8
+2021,Empleo Bruto,Cotopaxi,78.2
+2021,Empleo Bruto,Chimborazo,79.9
+2021,Empleo Bruto,El Oro,61.1
+2021,Empleo Bruto,Esmeraldas,52.5
+2021,Empleo Bruto,Guayas,60.1
+2021,Empleo Bruto,Imbabura,59.3
+2021,Empleo Bruto,Loja,67.1
+2021,Empleo Bruto,Los Ríos,60.3
+2021,Empleo Bruto,Manabí,59.7
+2021,Empleo Bruto,Morona Santiago,82.9
+2021,Empleo Bruto,Napo,84.2
+2021,Empleo Bruto,Pastaza,84.1
+2021,Empleo Bruto,Pichincha,56.6
+2021,Empleo Bruto,Tungurahua,76.6
+2021,Empleo Bruto,Zamora Chinchipe,73.5
+2021,Empleo Bruto,Galápagos,67.3
+2021,Empleo Bruto,Sucumbíos,64.5
+2021,Empleo Bruto,Orellana,84.0
+2021,Empleo Bruto,Santo Domingo,62.6
+2021,Empleo Bruto,Santa Elena,55.6
+2021,Empleo Global,Total,94.8
+2021,Empleo Global,Urbano,93.2
+2021,Empleo Global,Rural,97.7
+2021,Empleo Global,Quito,88.2
+2021,Empleo Global,Guayaquil,95.6
+2021,Empleo Global,Cuenca,92.7
+2021,Empleo Global,Machala,91.3
+2021,Empleo Global,Ambato,93.9
+2021,Empleo Global,Azuay,94.9
+2021,Empleo Global,Bolívar,98.9
+2021,Empleo Global,Cañar,96.0
+2021,Empleo Global,Carchi,93.7
+2021,Empleo Global,Cotopaxi,97.2
+2021,Empleo Global,Chimborazo,97.7
+2021,Empleo Global,El Oro,93.1
+2021,Empleo Global,Esmeraldas,90.0
+2021,Empleo Global,Guayas,96.1
+2021,Empleo Global,Imbabura,94.0
+2021,Empleo Global,Loja,95.9
+2021,Empleo Global,Los Ríos,97.2
+2021,Empleo Global,Manabí,97.4
+2021,Empleo Global,Morona Santiago,98.6
+2021,Empleo Global,Napo,97.7
+2021,Empleo Global,Pastaza,98.0
+2021,Empleo Global,Pichincha,89.2
+2021,Empleo Global,Tungurahua,96.9
+2021,Empleo Global,Zamora Chinchipe,97.0
+2021,Empleo Global,Galápagos,90.7
+2021,Empleo Global,Sucumbíos,94.6
+2021,Empleo Global,Orellana,97.4
+2021,Empleo Global,Santo Domingo,96.3
+2021,Empleo Global,Santa Elena,96.4
+2021,Empleo Adecuado/Pleno,Total,32.5
+2021,Empleo Adecuado/Pleno,Urbano,39.8
+2021,Empleo Adecuado/Pleno,Rural,18.7
+2021,Empleo Adecuado/Pleno,Quito,45.2
+2021,Empleo Adecuado/Pleno,Guayaquil,42.3
+2021,Empleo Adecuado/Pleno,Cuenca,52.3
+2021,Empleo Adecuado/Pleno,Machala,41.4
+2021,Empleo Adecuado/Pleno,Ambato,39.0
+2021,Empleo Adecuado/Pleno,Azuay,38.8
+2021,Empleo Adecuado/Pleno,Bolívar,17.0
+2021,Empleo Adecuado/Pleno,Cañar,26.8
+2021,Empleo Adecuado/Pleno,Carchi,24.7
+2021,Empleo Adecuado/Pleno,Cotopaxi,25.6
+2021,Empleo Adecuado/Pleno,Chimborazo,16.1
+2021,Empleo Adecuado/Pleno,El Oro,37.2
+2021,Empleo Adecuado/Pleno,Esmeraldas,21.7
+2021,Empleo Adecuado/Pleno,Guayas,37.4
+2021,Empleo Adecuado/Pleno,Imbabura,30.1
+2021,Empleo Adecuado/Pleno,Loja,26.0
+2021,Empleo Adecuado/Pleno,Los Ríos,28.6
+2021,Empleo Adecuado/Pleno,Manabí,26.9
+2021,Empleo Adecuado/Pleno,Morona Santiago,13.9
+2021,Empleo Adecuado/Pleno,Napo,14.2
+2021,Empleo Adecuado/Pleno,Pastaza,18.9
+2021,Empleo Adecuado/Pleno,Pichincha,43.6
+2021,Empleo Adecuado/Pleno,Tungurahua,24.5
+2021,Empleo Adecuado/Pleno,Zamora Chinchipe,30.8
+2021,Empleo Adecuado/Pleno,Galápagos,36.0
+2021,Empleo Adecuado/Pleno,Sucumbíos,24.8
+2021,Empleo Adecuado/Pleno,Orellana,17.6
+2021,Empleo Adecuado/Pleno,Santo Domingo,32.2
+2021,Empleo Adecuado/Pleno,Santa Elena,30.3
+2021,Subempleo,Total,23.2
+2021,Subempleo,Urbano,22.8
+2021,Subempleo,Rural,24.0
+2021,Subempleo,Quito,21.5
+2021,Subempleo,Guayaquil,22.6
+2021,Subempleo,Cuenca,16.8
+2021,Subempleo,Machala,24.0
+2021,Subempleo,Ambato,23.2
+2021,Subempleo,Azuay,19.2
+2021,Subempleo,Bolívar,20.8
+2021,Subempleo,Cañar,21.1
+2021,Subempleo,Carchi,25.6
+2021,Subempleo,Cotopaxi,24.0
+2021,Subempleo,Chimborazo,24.5
+2021,Subempleo,El Oro,25.2
+2021,Subempleo,Esmeraldas,24.1
+2021,Subempleo,Guayas,23.7
+2021,Subempleo,Imbabura,20.3
+2021,Subempleo,Loja,20.0
+2021,Subempleo,Los Ríos,26.0
+2021,Subempleo,Manabí,26.8
+2021,Subempleo,Morona Santiago,21.9
+2021,Subempleo,Napo,28.7
+2021,Subempleo,Pastaza,20.9
+2021,Subempleo,Pichincha,21.7
+2021,Subempleo,Tungurahua,25.9
+2021,Subempleo,Zamora Chinchipe,16.9
+2021,Subempleo,Galápagos,25.7
+2021,Subempleo,Sucumbíos,13.6
+2021,Subempleo,Orellana,23.6
+2021,Subempleo,Santo Domingo,21.6
+2021,Subempleo,Santa Elena,28.2
+2021,Empleo no Remunerado,Total,11.1
+2021,Empleo no Remunerado,Urbano,5.5
+2021,Empleo no Remunerado,Rural,21.8
+2021,Empleo no Remunerado,Quito,3.8
+2021,Empleo no Remunerado,Guayaquil,4.2
+2021,Empleo no Remunerado,Cuenca,6.0
+2021,Empleo no Remunerado,Machala,5.4
+2021,Empleo no Remunerado,Ambato,9.7
+2021,Empleo no Remunerado,Azuay,10.9
+2021,Empleo no Remunerado,Bolívar,26.2
+2021,Empleo no Remunerado,Cañar,18.5
+2021,Empleo no Remunerado,Carchi,9.8
+2021,Empleo no Remunerado,Cotopaxi,20.0
+2021,Empleo no Remunerado,Chimborazo,26.7
+2021,Empleo no Remunerado,El Oro,6.8
+2021,Empleo no Remunerado,Esmeraldas,10.6
+2021,Empleo no Remunerado,Guayas,6.0
+2021,Empleo no Remunerado,Imbabura,11.9
+2021,Empleo no Remunerado,Loja,19.6
+2021,Empleo no Remunerado,Los Ríos,8.8
+2021,Empleo no Remunerado,Manabí,10.7
+2021,Empleo no Remunerado,Morona Santiago,31.8
+2021,Empleo no Remunerado,Napo,30.4
+2021,Empleo no Remunerado,Pastaza,32.8
+2021,Empleo no Remunerado,Pichincha,4.8
+2021,Empleo no Remunerado,Tungurahua,18.1
+2021,Empleo no Remunerado,Zamora Chinchipe,21.5
+2021,Empleo no Remunerado,Galápagos,4.8
+2021,Empleo no Remunerado,Sucumbíos,22.4
+2021,Empleo no Remunerado,Orellana,30.2
+2021,Empleo no Remunerado,Santo Domingo,10.8
+2021,Empleo no Remunerado,Santa Elena,4.8
+2021,Otro Empleo no pleno,Total,27.2
+2021,Otro Empleo no pleno,Urbano,24.0
+2021,Otro Empleo no pleno,Rural,33.1
+2021,Otro Empleo no pleno,Quito,16.5
+2021,Otro Empleo no pleno,Guayaquil,24.9
+2021,Otro Empleo no pleno,Cuenca,16.9
+2021,Otro Empleo no pleno,Machala,20.2
+2021,Otro Empleo no pleno,Ambato,21.3
+2021,Otro Empleo no pleno,Azuay,25.7
+2021,Otro Empleo no pleno,Bolívar,34.4
+2021,Otro Empleo no pleno,Cañar,29.4
+2021,Otro Empleo no pleno,Carchi,33.3
+2021,Otro Empleo no pleno,Cotopaxi,27.5
+2021,Otro Empleo no pleno,Chimborazo,30.2
+2021,Otro Empleo no pleno,El Oro,23.7
+2021,Otro Empleo no pleno,Esmeraldas,33.3
+2021,Otro Empleo no pleno,Guayas,27.7
+2021,Otro Empleo no pleno,Imbabura,31.0
+2021,Otro Empleo no pleno,Loja,30.2
+2021,Otro Empleo no pleno,Los Ríos,33.6
+2021,Otro Empleo no pleno,Manabí,32.3
+2021,Otro Empleo no pleno,Morona Santiago,31.0
+2021,Otro Empleo no pleno,Napo,24.3
+2021,Otro Empleo no pleno,Pastaza,25.2
+2021,Otro Empleo no pleno,Pichincha,17.9
+2021,Otro Empleo no pleno,Tungurahua,28.0
+2021,Otro Empleo no pleno,Zamora Chinchipe,27.7
+2021,Otro Empleo no pleno,Galápagos,23.6
+2021,Otro Empleo no pleno,Sucumbíos,33.5
+2021,Otro Empleo no pleno,Orellana,26.0
+2021,Otro Empleo no pleno,Santo Domingo,30.6
+2021,Otro Empleo no pleno,Santa Elena,32.7
+2021,Desempleo,Total,5.2
+2021,Desempleo,Urbano,6.8
+2021,Desempleo,Rural,2.3
+2021,Desempleo,Quito,11.8
+2021,Desempleo,Guayaquil,4.4
+2021,Desempleo,Cuenca,7.3
+2021,Desempleo,Machala,8.7
+2021,Desempleo,Ambato,6.1
+2021,Desempleo,Azuay,5.1
+2021,Desempleo,Bolívar,1.1
+2021,Desempleo,Cañar,4.0
+2021,Desempleo,Carchi,6.3
+2021,Desempleo,Cotopaxi,2.8
+2021,Desempleo,Chimborazo,2.3
+2021,Desempleo,El Oro,6.9
+2021,Desempleo,Esmeraldas,10.0
+2021,Desempleo,Guayas,3.9
+2021,Desempleo,Imbabura,6.0
+2021,Desempleo,Loja,4.1
+2021,Desempleo,Los Ríos,2.8
+2021,Desempleo,Manabí,2.6
+2021,Desempleo,Morona Santiago,1.4
+2021,Desempleo,Napo,2.3
+2021,Desempleo,Pastaza,2.0
+2021,Desempleo,Pichincha,10.8
+2021,Desempleo,Tungurahua,3.1
+2021,Desempleo,Zamora Chinchipe,3.0
+2021,Desempleo,Galápagos,9.3
+2021,Desempleo,Sucumbíos,5.4
+2021,Desempleo,Orellana,2.6
+2021,Desempleo,Santo Domingo,3.7
+2021,Desempleo,Santa Elena,3.6
+2021,Participación Global,Total,66.0
+2021,Participación Global,Urbano,62.7
+2021,Participación Global,Rural,73.3
+2021,Participación Global,Quito,62.9
+2021,Participación Global,Guayaquil,62.9
+2021,Participación Global,Cuenca,64.9
+2021,Participación Global,Machala,64.0
+2021,Participación Global,Ambato,68.0
+2021,Participación Global,Azuay,70.1
+2021,Participación Global,Bolívar,68.1
+2021,Participación Global,Cañar,74.2
+2021,Participación Global,Carchi,62.8
+2021,Participación Global,Cotopaxi,80.4
+2021,Participación Global,Chimborazo,81.8
+2021,Participación Global,El Oro,65.6
+2021,Participación Global,Esmeraldas,58.4
+2021,Participación Global,Guayas,62.5
+2021,Participación Global,Imbabura,63.1
+2021,Participación Global,Loja,69.9
+2021,Participación Global,Los Ríos,62.0
+2021,Participación Global,Manabí,61.3
+2021,Participación Global,Morona Santiago,84.1
+2021,Participación Global,Napo,86.1
+2021,Participación Global,Pastaza,85.8
+2021,Participación Global,Pichincha,63.4
+2021,Participación Global,Tungurahua,79.0
+2021,Participación Global,Zamora Chinchipe,75.8
+2021,Participación Global,Galápagos,74.3
+2021,Participación Global,Sucumbíos,68.2
+2021,Participación Global,Orellana,86.2
+2021,Participación Global,Santo Domingo,65.0
+2021,Participación Global,Santa Elena,57.7
+2021,Participación Bruta,Total,46.9
+2021,Participación Bruta,Urbano,45.0
+2021,Participación Bruta,Rural,51.1
+2021,Participación Bruta,Quito,47.3
+2021,Participación Bruta,Guayaquil,44.5
+2021,Participación Bruta,Cuenca,48.3
+2021,Participación Bruta,Machala,45.6
+2021,Participación Bruta,Ambato,51.4
+2021,Participación Bruta,Azuay,50.6
+2021,Participación Bruta,Bolívar,50.6
+2021,Participación Bruta,Cañar,52.8
+2021,Participación Bruta,Carchi,47.0
+2021,Participación Bruta,Cotopaxi,58.5
+2021,Participación Bruta,Chimborazo,56.9
+2021,Participación Bruta,El Oro,47.5
+2021,Participación Bruta,Esmeraldas,37.9
+2021,Participación Bruta,Guayas,43.6
+2021,Participación Bruta,Imbabura,45.9
+2021,Participación Bruta,Loja,52.3
+2021,Participación Bruta,Los Ríos,43.7
+2021,Participación Bruta,Manabí,44.2
+2021,Participación Bruta,Morona Santiago,45.2
+2021,Participación Bruta,Napo,52.1
+2021,Participación Bruta,Pastaza,51.6
+2021,Participación Bruta,Pichincha,47.6
+2021,Participación Bruta,Tungurahua,59.7
+2021,Participación Bruta,Zamora Chinchipe,50.8
+2021,Participación Bruta,Galápagos,51.4
+2021,Participación Bruta,Sucumbíos,43.5
+2021,Participación Bruta,Orellana,48.9
+2021,Participación Bruta,Santo Domingo,45.8
+2021,Participación Bruta,Santa Elena,39.3
+2021,Sector informal,Total,49.5
+2021,Sector informal,Urbano,38.7
+2021,Sector informal,Rural,69.0
+2021,Sector informal,Quito,25.6
+2021,Sector informal,Guayaquil,44.6
+2021,Sector informal,Cuenca,23.4
+2021,Sector informal,Machala,37.0
+2021,Sector informal,Ambato,25.1
+2021,Sector informal,Azuay,44.7
+2021,Sector informal,Bolívar,72.1
+2021,Sector informal,Cañar,51.1
+2021,Sector informal,Carchi,53.9
+2021,Sector informal,Cotopaxi,54.7
+2021,Sector informal,Chimborazo,67.6
+2021,Sector informal,El Oro,40.1
+2021,Sector informal,Esmeraldas,59.6
+2021,Sector informal,Guayas,49.4
+2021,Sector informal,Imbabura,51.9
+2021,Sector informal,Loja,59.5
+2021,Sector informal,Los Ríos,51.2
+2021,Sector informal,Manabí,60.1
+2021,Sector informal,Morona Santiago,80.3
+2021,Sector informal,Napo,73.6
+2021,Sector informal,Pastaza,72.5
+2021,Sector informal,Pichincha,28.7
+2021,Sector informal,Tungurahua,52.4
+2021,Sector informal,Zamora Chinchipe,59.6
+2021,Sector informal,Galápagos,18.0
+2021,Sector informal,Sucumbíos,63.7
+2021,Sector informal,Orellana,69.4
+2021,Sector informal,Santo Domingo,45.6
+2021,Sector informal,Santa Elena,56.1
+2022,Empleo Bruto,Total,63.1
+2022,Empleo Bruto,Urbano,59.5
+2022,Empleo Bruto,Rural,70.8
+2022,Empleo Bruto,Quito,57.8
+2022,Empleo Bruto,Guayaquil,60.4
+2022,Empleo Bruto,Cuenca,61.8
+2022,Empleo Bruto,Machala,59.9
+2022,Empleo Bruto,Ambato,66.9
+2022,Empleo Bruto,Azuay,69.7
+2022,Empleo Bruto,Bolívar,66.2
+2022,Empleo Bruto,Cañar,71.1
+2022,Empleo Bruto,Carchi,59.0
+2022,Empleo Bruto,Cotopaxi,83.1
+2022,Empleo Bruto,Chimborazo,80.2
+2022,Empleo Bruto,El Oro,62.7
+2022,Empleo Bruto,Esmeraldas,51.9
+2022,Empleo Bruto,Guayas,59.8
+2022,Empleo Bruto,Imbabura,58.3
+2022,Empleo Bruto,Loja,70.4
+2022,Empleo Bruto,Los Ríos,60.4
+2022,Empleo Bruto,Manabí,57.9
+2022,Empleo Bruto,Morona Santiago,84.7
+2022,Empleo Bruto,Napo,85.9
+2022,Empleo Bruto,Pastaza,88.7
+2022,Empleo Bruto,Pichincha,58.0
+2022,Empleo Bruto,Tungurahua,78.1
+2022,Empleo Bruto,Zamora Chinchipe,73.8
+2022,Empleo Bruto,Galápagos,67.6
+2022,Empleo Bruto,Sucumbíos,66.9
+2022,Empleo Bruto,Orellana,88.3
+2022,Empleo Bruto,Santo Domingo,60.2
+2022,Empleo Bruto,Santa Elena,56.2
+2022,Empleo Global,Total,95.6
+2022,Empleo Global,Urbano,94.5
+2022,Empleo Global,Rural,97.8
+2022,Empleo Global,Quito,91.0
+2022,Empleo Global,Guayaquil,96.2
+2022,Empleo Global,Cuenca,94.8
+2022,Empleo Global,Machala,92.3
+2022,Empleo Global,Ambato,95.2
+2022,Empleo Global,Azuay,96.7
+2022,Empleo Global,Bolívar,99.1
+2022,Empleo Global,Cañar,96.3
+2022,Empleo Global,Carchi,94.1
+2022,Empleo Global,Cotopaxi,98.3
+2022,Empleo Global,Chimborazo,98.0
+2022,Empleo Global,El Oro,94.0
+2022,Empleo Global,Esmeraldas,90.9
+2022,Empleo Global,Guayas,96.4
+2022,Empleo Global,Imbabura,92.9
+2022,Empleo Global,Loja,96.9
+2022,Empleo Global,Los Ríos,98.2
+2022,Empleo Global,Manabí,97.2
+2022,Empleo Global,Morona Santiago,98.7
+2022,Empleo Global,Napo,98.5
+2022,Empleo Global,Pastaza,98.4
+2022,Empleo Global,Pichincha,91.5
+2022,Empleo Global,Tungurahua,97.8
+2022,Empleo Global,Zamora Chinchipe,97.0
+2022,Empleo Global,Galápagos,94.4
+2022,Empleo Global,Sucumbíos,95.5
+2022,Empleo Global,Orellana,98.7
+2022,Empleo Global,Santo Domingo,97.7
+2022,Empleo Global,Santa Elena,97.3
+2022,Empleo Adecuado/Pleno,Total,34.4
+2022,Empleo Adecuado/Pleno,Urbano,42.3
+2022,Empleo Adecuado/Pleno,Rural,19.3
+2022,Empleo Adecuado/Pleno,Quito,49.1
+2022,Empleo Adecuado/Pleno,Guayaquil,44.0
+2022,Empleo Adecuado/Pleno,Cuenca,57.1
+2022,Empleo Adecuado/Pleno,Machala,43.0
+2022,Empleo Adecuado/Pleno,Ambato,41.4
+2022,Empleo Adecuado/Pleno,Azuay,39.9
+2022,Empleo Adecuado/Pleno,Bolívar,19.4
+2022,Empleo Adecuado/Pleno,Cañar,28.9
+2022,Empleo Adecuado/Pleno,Carchi,28.7
+2022,Empleo Adecuado/Pleno,Cotopaxi,24.4
+2022,Empleo Adecuado/Pleno,Chimborazo,16.7
+2022,Empleo Adecuado/Pleno,El Oro,37.7
+2022,Empleo Adecuado/Pleno,Esmeraldas,23.2
+2022,Empleo Adecuado/Pleno,Guayas,39.7
+2022,Empleo Adecuado/Pleno,Imbabura,32.7
+2022,Empleo Adecuado/Pleno,Loja,25.2
+2022,Empleo Adecuado/Pleno,Los Ríos,27.9
+2022,Empleo Adecuado/Pleno,Manabí,28.4
+2022,Empleo Adecuado/Pleno,Morona Santiago,13.9
+2022,Empleo Adecuado/Pleno,Napo,12.7
+2022,Empleo Adecuado/Pleno,Pastaza,13.8
+2022,Empleo Adecuado/Pleno,Pichincha,48.2
+2022,Empleo Adecuado/Pleno,Tungurahua,27.0
+2022,Empleo Adecuado/Pleno,Zamora Chinchipe,28.1
+2022,Empleo Adecuado/Pleno,Galápagos,52.5
+2022,Empleo Adecuado/Pleno,Sucumbíos,22.7
+2022,Empleo Adecuado/Pleno,Orellana,16.4
+2022,Empleo Adecuado/Pleno,Santo Domingo,35.8
+2022,Empleo Adecuado/Pleno,Santa Elena,30.2
+2022,Subempleo,Total,22.2
+2022,Subempleo,Urbano,21.6
+2022,Subempleo,Rural,23.4
+2022,Subempleo,Quito,21.3
+2022,Subempleo,Guayaquil,21.5
+2022,Subempleo,Cuenca,15.0
+2022,Subempleo,Machala,25.2
+2022,Subempleo,Ambato,20.8
+2022,Subempleo,Azuay,19.5
+2022,Subempleo,Bolívar,21.5
+2022,Subempleo,Cañar,23.4
+2022,Subempleo,Carchi,24.0
+2022,Subempleo,Cotopaxi,19.4
+2022,Subempleo,Chimborazo,22.6
+2022,Subempleo,El Oro,26.5
+2022,Subempleo,Esmeraldas,24.7
+2022,Subempleo,Guayas,23.3
+2022,Subempleo,Imbabura,19.1
+2022,Subempleo,Loja,22.9
+2022,Subempleo,Los Ríos,24.1
+2022,Subempleo,Manabí,25.6
+2022,Subempleo,Morona Santiago,23.0
+2022,Subempleo,Napo,27.1
+2022,Subempleo,Pastaza,16.8
+2022,Subempleo,Pichincha,19.2
+2022,Subempleo,Tungurahua,20.3
+2022,Subempleo,Zamora Chinchipe,21.6
+2022,Subempleo,Galápagos,13.3
+2022,Subempleo,Sucumbíos,14.5
+2022,Subempleo,Orellana,18.9
+2022,Subempleo,Santo Domingo,24.2
+2022,Subempleo,Santa Elena,28.4
+2022,Empleo no Remunerado,Total,9.9
+2022,Empleo no Remunerado,Urbano,4.7
+2022,Empleo no Remunerado,Rural,20.0
+2022,Empleo no Remunerado,Quito,3.3
+2022,Empleo no Remunerado,Guayaquil,3.1
+2022,Empleo no Remunerado,Cuenca,5.4
+2022,Empleo no Remunerado,Machala,4.4
+2022,Empleo no Remunerado,Ambato,9.4
+2022,Empleo no Remunerado,Azuay,11.4
+2022,Empleo no Remunerado,Bolívar,19.4
+2022,Empleo no Remunerado,Cañar,17.4
+2022,Empleo no Remunerado,Carchi,9.1
+2022,Empleo no Remunerado,Cotopaxi,21.4
+2022,Empleo no Remunerado,Chimborazo,26.0
+2022,Empleo no Remunerado,El Oro,5.8
+2022,Empleo no Remunerado,Esmeraldas,9.6
+2022,Empleo no Remunerado,Guayas,4.1
+2022,Empleo no Remunerado,Imbabura,9.1
+2022,Empleo no Remunerado,Loja,20.1
+2022,Empleo no Remunerado,Los Ríos,6.4
+2022,Empleo no Remunerado,Manabí,7.1
+2022,Empleo no Remunerado,Morona Santiago,33.1
+2022,Empleo no Remunerado,Napo,33.7
+2022,Empleo no Remunerado,Pastaza,37.3
+2022,Empleo no Remunerado,Pichincha,4.4
+2022,Empleo no Remunerado,Tungurahua,17.5
+2022,Empleo no Remunerado,Zamora Chinchipe,19.6
+2022,Empleo no Remunerado,Galápagos,3.3
+2022,Empleo no Remunerado,Sucumbíos,18.9
+2022,Empleo no Remunerado,Orellana,36.5
+2022,Empleo no Remunerado,Santo Domingo,6.7
+2022,Empleo no Remunerado,Santa Elena,4.5
+2022,Otro Empleo no pleno,Total,28.8
+2022,Otro Empleo no pleno,Urbano,25.5
+2022,Otro Empleo no pleno,Rural,35.1
+2022,Otro Empleo no pleno,Quito,16.5
+2022,Otro Empleo no pleno,Guayaquil,27.1
+2022,Otro Empleo no pleno,Cuenca,17.2
+2022,Otro Empleo no pleno,Machala,19.6
+2022,Otro Empleo no pleno,Ambato,23.2
+2022,Otro Empleo no pleno,Azuay,25.8
+2022,Otro Empleo no pleno,Bolívar,38.6
+2022,Otro Empleo no pleno,Cañar,26.7
+2022,Otro Empleo no pleno,Carchi,32.3
+2022,Otro Empleo no pleno,Cotopaxi,32.9
+2022,Otro Empleo no pleno,Chimborazo,32.7
+2022,Otro Empleo no pleno,El Oro,24.1
+2022,Otro Empleo no pleno,Esmeraldas,33.4
+2022,Otro Empleo no pleno,Guayas,28.9
+2022,Otro Empleo no pleno,Imbabura,31.8
+2022,Otro Empleo no pleno,Loja,28.7
+2022,Otro Empleo no pleno,Los Ríos,39.8
+2022,Otro Empleo no pleno,Manabí,35.7
+2022,Otro Empleo no pleno,Morona Santiago,28.6
+2022,Otro Empleo no pleno,Napo,25.0
+2022,Otro Empleo no pleno,Pastaza,30.2
+2022,Otro Empleo no pleno,Pichincha,19.0
+2022,Otro Empleo no pleno,Tungurahua,32.7
+2022,Otro Empleo no pleno,Zamora Chinchipe,27.7
+2022,Otro Empleo no pleno,Galápagos,25.0
+2022,Otro Empleo no pleno,Sucumbíos,39.3
+2022,Otro Empleo no pleno,Orellana,26.8
+2022,Otro Empleo no pleno,Santo Domingo,30.8
+2022,Otro Empleo no pleno,Santa Elena,33.9
+2022,Desempleo,Total,4.4
+2022,Desempleo,Urbano,5.5
+2022,Desempleo,Rural,2.2
+2022,Desempleo,Quito,9.0
+2022,Desempleo,Guayaquil,3.8
+2022,Desempleo,Cuenca,5.2
+2022,Desempleo,Machala,7.7
+2022,Desempleo,Ambato,4.8
+2022,Desempleo,Azuay,3.3
+2022,Desempleo,Bolívar,0.9
+2022,Desempleo,Cañar,3.7
+2022,Desempleo,Carchi,5.9
+2022,Desempleo,Cotopaxi,1.7
+2022,Desempleo,Chimborazo,2.0
+2022,Desempleo,El Oro,6.0
+2022,Desempleo,Esmeraldas,9.1
+2022,Desempleo,Guayas,3.6
+2022,Desempleo,Imbabura,7.1
+2022,Desempleo,Loja,3.1
+2022,Desempleo,Los Ríos,1.8
+2022,Desempleo,Manabí,2.8
+2022,Desempleo,Morona Santiago,1.3
+2022,Desempleo,Napo,1.5
+2022,Desempleo,Pastaza,1.6
+2022,Desempleo,Pichincha,8.5
+2022,Desempleo,Tungurahua,2.2
+2022,Desempleo,Zamora Chinchipe,3.0
+2022,Desempleo,Galápagos,5.6
+2022,Desempleo,Sucumbíos,4.5
+2022,Desempleo,Orellana,1.3
+2022,Desempleo,Santo Domingo,2.3
+2022,Desempleo,Santa Elena,2.7
+2022,Participación Global,Total,65.9
+2022,Participación Global,Urbano,63.0
+2022,Participación Global,Rural,72.4
+2022,Participación Global,Quito,63.6
+2022,Participación Global,Guayaquil,62.8
+2022,Participación Global,Cuenca,65.2
+2022,Participación Global,Machala,64.9
+2022,Participación Global,Ambato,70.3
+2022,Participación Global,Azuay,72.1
+2022,Participación Global,Bolívar,66.9
+2022,Participación Global,Cañar,73.8
+2022,Participación Global,Carchi,62.7
+2022,Participación Global,Cotopaxi,84.5
+2022,Participación Global,Chimborazo,81.9
+2022,Participación Global,El Oro,66.7
+2022,Participación Global,Esmeraldas,57.1
+2022,Participación Global,Guayas,62.1
+2022,Participación Global,Imbabura,62.8
+2022,Participación Global,Loja,72.7
+2022,Participación Global,Los Ríos,61.5
+2022,Participación Global,Manabí,59.6
+2022,Participación Global,Morona Santiago,85.9
+2022,Participación Global,Napo,87.2
+2022,Participación Global,Pastaza,90.1
+2022,Participación Global,Pichincha,63.5
+2022,Participación Global,Tungurahua,79.8
+2022,Participación Global,Zamora Chinchipe,76.1
+2022,Participación Global,Galápagos,71.6
+2022,Participación Global,Sucumbíos,70.1
+2022,Participación Global,Orellana,89.5
+2022,Participación Global,Santo Domingo,61.6
+2022,Participación Global,Santa Elena,57.7
+2022,Participación Bruta,Total,46.9
+2022,Participación Bruta,Urbano,45.2
+2022,Participación Bruta,Rural,50.6
+2022,Participación Bruta,Quito,47.7
+2022,Participación Bruta,Guayaquil,44.2
+2022,Participación Bruta,Cuenca,48.7
+2022,Participación Bruta,Machala,46.7
+2022,Participación Bruta,Ambato,53.4
+2022,Participación Bruta,Azuay,52.1
+2022,Participación Bruta,Bolívar,50.1
+2022,Participación Bruta,Cañar,52.0
+2022,Participación Bruta,Carchi,46.8
+2022,Participación Bruta,Cotopaxi,61.2
+2022,Participación Bruta,Chimborazo,58.1
+2022,Participación Bruta,El Oro,48.3
+2022,Participación Bruta,Esmeraldas,37.6
+2022,Participación Bruta,Guayas,43.4
+2022,Participación Bruta,Imbabura,46.1
+2022,Participación Bruta,Loja,52.8
+2022,Participación Bruta,Los Ríos,44.0
+2022,Participación Bruta,Manabí,42.6
+2022,Participación Bruta,Morona Santiago,46.6
+2022,Participación Bruta,Napo,52.2
+2022,Participación Bruta,Pastaza,50.0
+2022,Participación Bruta,Pichincha,47.9
+2022,Participación Bruta,Tungurahua,60.0
+2022,Participación Bruta,Zamora Chinchipe,49.7
+2022,Participación Bruta,Galápagos,51.5
+2022,Participación Bruta,Sucumbíos,39.1
+2022,Participación Bruta,Orellana,53.1
+2022,Participación Bruta,Santo Domingo,43.4
+2022,Participación Bruta,Santa Elena,39.7
+2022,Sector informal,Total,50.6
+2022,Sector informal,Urbano,39.4
+2022,Sector informal,Rural,71.3
+2022,Sector informal,Quito,25.7
+2022,Sector informal,Guayaquil,45.6
+2022,Sector informal,Cuenca,25.0
+2022,Sector informal,Machala,38.9
+2022,Sector informal,Ambato,25.8
+2022,Sector informal,Azuay,46.7
+2022,Sector informal,Bolívar,70.3
+2022,Sector informal,Cañar,55.3
+2022,Sector informal,Carchi,51.7
+2022,Sector informal,Cotopaxi,62.1
+2022,Sector informal,Chimborazo,70.3
+2022,Sector informal,El Oro,43.3
+2022,Sector informal,Esmeraldas,61.1
+2022,Sector informal,Guayas,48.1
+2022,Sector informal,Imbabura,54.6
+2022,Sector informal,Loja,64.7
+2022,Sector informal,Los Ríos,53.9
+2022,Sector informal,Manabí,58.2
+2022,Sector informal,Morona Santiago,82.0
+2022,Sector informal,Napo,78.2
+2022,Sector informal,Pastaza,79.8
+2022,Sector informal,Pichincha,28.8
+2022,Sector informal,Tungurahua,54.9
+2022,Sector informal,Zamora Chinchipe,65.1
+2022,Sector informal,Galápagos,13.1
+2022,Sector informal,Sucumbíos,67.6
+2022,Sector informal,Orellana,72.5
+2022,Sector informal,Santo Domingo,51.6
+2022,Sector informal,Santa Elena,57.5
+2023,Empleo Bruto,Total,62.2
+2023,Empleo Bruto,Urbano,58.5
+2023,Empleo Bruto,Rural,70.6
+2023,Empleo Bruto,Quito,58.5
+2023,Empleo Bruto,Guayaquil,58.6
+2023,Empleo Bruto,Cuenca,63.5
+2023,Empleo Bruto,Machala,60.3
+2023,Empleo Bruto,Ambato,69.2
+2023,Empleo Bruto,Azuay,69.6
+2023,Empleo Bruto,Bolívar,62.3
+2023,Empleo Bruto,Cañar,73.0
+2023,Empleo Bruto,Carchi,63.3
+2023,Empleo Bruto,Cotopaxi,88.6
+2023,Empleo Bruto,Chimborazo,83.2
+2023,Empleo Bruto,El Oro,61.5
+2023,Empleo Bruto,Esmeraldas,52.0
+2023,Empleo Bruto,Guayas,56.9
+2023,Empleo Bruto,Imbabura,60.6
+2023,Empleo Bruto,Loja,68.5
+2023,Empleo Bruto,Los Ríos,56.0
+2023,Empleo Bruto,Manabí,55.3
+2023,Empleo Bruto,Morona Santiago,84.4
+2023,Empleo Bruto,Napo,91.3
+2023,Empleo Bruto,Pastaza,90.4
+2023,Empleo Bruto,Pichincha,59.0
+2023,Empleo Bruto,Tungurahua,79.8
+2023,Empleo Bruto,Zamora Chinchipe,71.6
+2023,Empleo Bruto,Galápagos,67.0
+2023,Empleo Bruto,Sucumbíos,72.6
+2023,Empleo Bruto,Orellana,90.1
+2023,Empleo Bruto,Santo Domingo,60.6
+2023,Empleo Bruto,Santa Elena,52.0
+2023,Empleo Global,Total,96.2
+2023,Empleo Global,Urbano,95.0
+2023,Empleo Global,Rural,98.4
+2023,Empleo Global,Quito,92.1
+2023,Empleo Global,Guayaquil,96.6
+2023,Empleo Global,Cuenca,95.8
+2023,Empleo Global,Machala,93.1
+2023,Empleo Global,Ambato,95.9
+2023,Empleo Global,Azuay,97.0
+2023,Empleo Global,Bolívar,99.3
+2023,Empleo Global,Cañar,97.2
+2023,Empleo Global,Carchi,95.5
+2023,Empleo Global,Cotopaxi,98.6
+2023,Empleo Global,Chimborazo,98.2
+2023,Empleo Global,El Oro,94.4
+2023,Empleo Global,Esmeraldas,91.0
+2023,Empleo Global,Guayas,96.9
+2023,Empleo Global,Imbabura,94.4
+2023,Empleo Global,Loja,96.4
+2023,Empleo Global,Los Ríos,98.0
+2023,Empleo Global,Manabí,98.1
+2023,Empleo Global,Morona Santiago,99.4
+2023,Empleo Global,Napo,99.2
+2023,Empleo Global,Pastaza,99.0
+2023,Empleo Global,Pichincha,92.5
+2023,Empleo Global,Tungurahua,98.0
+2023,Empleo Global,Zamora Chinchipe,97.5
+2023,Empleo Global,Galápagos,95.8
+2023,Empleo Global,Sucumbíos,97.3
+2023,Empleo Global,Orellana,98.7
+2023,Empleo Global,Santo Domingo,98.1
+2023,Empleo Global,Santa Elena,97.1
+2023,Empleo Adecuado/Pleno,Total,36.3
+2023,Empleo Adecuado/Pleno,Urbano,45.0
+2023,Empleo Adecuado/Pleno,Rural,19.5
+2023,Empleo Adecuado/Pleno,Quito,55.2
+2023,Empleo Adecuado/Pleno,Guayaquil,46.3
+2023,Empleo Adecuado/Pleno,Cuenca,58.5
+2023,Empleo Adecuado/Pleno,Machala,44.4
+2023,Empleo Adecuado/Pleno,Ambato,44.0
+2023,Empleo Adecuado/Pleno,Azuay,40.2
+2023,Empleo Adecuado/Pleno,Bolívar,19.5
+2023,Empleo Adecuado/Pleno,Cañar,28.5
+2023,Empleo Adecuado/Pleno,Carchi,27.7
+2023,Empleo Adecuado/Pleno,Cotopaxi,21.7
+2023,Empleo Adecuado/Pleno,Chimborazo,16.2
+2023,Empleo Adecuado/Pleno,El Oro,40.1
+2023,Empleo Adecuado/Pleno,Esmeraldas,24.5
+2023,Empleo Adecuado/Pleno,Guayas,41.8
+2023,Empleo Adecuado/Pleno,Imbabura,31.0
+2023,Empleo Adecuado/Pleno,Loja,26.9
+2023,Empleo Adecuado/Pleno,Los Ríos,32.7
+2023,Empleo Adecuado/Pleno,Manabí,31.0
+2023,Empleo Adecuado/Pleno,Morona Santiago,16.6
+2023,Empleo Adecuado/Pleno,Napo,10.2
+2023,Empleo Adecuado/Pleno,Pastaza,11.9
+2023,Empleo Adecuado/Pleno,Pichincha,53.6
+2023,Empleo Adecuado/Pleno,Tungurahua,29.0
+2023,Empleo Adecuado/Pleno,Zamora Chinchipe,28.1
+2023,Empleo Adecuado/Pleno,Galápagos,55.2
+2023,Empleo Adecuado/Pleno,Sucumbíos,21.0
+2023,Empleo Adecuado/Pleno,Orellana,15.0
+2023,Empleo Adecuado/Pleno,Santo Domingo,31.7
+2023,Empleo Adecuado/Pleno,Santa Elena,29.1
+2023,Subempleo,Total,19.6
+2023,Subempleo,Urbano,18.8
+2023,Subempleo,Rural,21.0
+2023,Subempleo,Quito,14.8
+2023,Subempleo,Guayaquil,16.6
+2023,Subempleo,Cuenca,13.5
+2023,Subempleo,Machala,24.2
+2023,Subempleo,Ambato,20.6
+2023,Subempleo,Azuay,17.5
+2023,Subempleo,Bolívar,17.1
+2023,Subempleo,Cañar,15.8
+2023,Subempleo,Carchi,18.2
+2023,Subempleo,Cotopaxi,20.8
+2023,Subempleo,Chimborazo,15.2
+2023,Subempleo,El Oro,24.3
+2023,Subempleo,Esmeraldas,23.0
+2023,Subempleo,Guayas,20.9
+2023,Subempleo,Imbabura,18.9
+2023,Subempleo,Loja,20.7
+2023,Subempleo,Los Ríos,23.3
+2023,Subempleo,Manabí,25.1
+2023,Subempleo,Morona Santiago,23.2
+2023,Subempleo,Napo,23.3
+2023,Subempleo,Pastaza,16.2
+2023,Subempleo,Pichincha,14.2
+2023,Subempleo,Tungurahua,19.7
+2023,Subempleo,Zamora Chinchipe,20.5
+2023,Subempleo,Galápagos,10.3
+2023,Subempleo,Sucumbíos,11.7
+2023,Subempleo,Orellana,21.2
+2023,Subempleo,Santo Domingo,19.7
+2023,Subempleo,Santa Elena,27.5
+2023,Empleo no Remunerado,Total,9.9
+2023,Empleo no Remunerado,Urbano,4.2
+2023,Empleo no Remunerado,Rural,20.9
+2023,Empleo no Remunerado,Quito,3.6
+2023,Empleo no Remunerado,Guayaquil,3.1
+2023,Empleo no Remunerado,Cuenca,5.2
+2023,Empleo no Remunerado,Machala,3.9
+2023,Empleo no Remunerado,Ambato,9.1
+2023,Empleo no Remunerado,Azuay,10.4
+2023,Empleo no Remunerado,Bolívar,18.3
+2023,Empleo no Remunerado,Cañar,23.8
+2023,Empleo no Remunerado,Carchi,14.0
+2023,Empleo no Remunerado,Cotopaxi,26.8
+2023,Empleo no Remunerado,Chimborazo,30.3
+2023,Empleo no Remunerado,El Oro,5.0
+2023,Empleo no Remunerado,Esmeraldas,9.3
+2023,Empleo no Remunerado,Guayas,3.2
+2023,Empleo no Remunerado,Imbabura,10.0
+2023,Empleo no Remunerado,Loja,17.5
+2023,Empleo no Remunerado,Los Ríos,4.5
+2023,Empleo no Remunerado,Manabí,5.5
+2023,Empleo no Remunerado,Morona Santiago,31.8
+2023,Empleo no Remunerado,Napo,36.7
+2023,Empleo no Remunerado,Pastaza,40.0
+2023,Empleo no Remunerado,Pichincha,4.1
+2023,Empleo no Remunerado,Tungurahua,15.5
+2023,Empleo no Remunerado,Zamora Chinchipe,18.7
+2023,Empleo no Remunerado,Galápagos,3.9
+2023,Empleo no Remunerado,Sucumbíos,26.3
+2023,Empleo no Remunerado,Orellana,36.8
+2023,Empleo no Remunerado,Santo Domingo,6.0
+2023,Empleo no Remunerado,Santa Elena,4.1
+2023,Otro Empleo no pleno,Total,30.2
+2023,Otro Empleo no pleno,Urbano,26.7
+2023,Otro Empleo no pleno,Rural,36.9
+2023,Otro Empleo no pleno,Quito,17.8
+2023,Otro Empleo no pleno,Guayaquil,30.2
+2023,Otro Empleo no pleno,Cuenca,18.6
+2023,Otro Empleo no pleno,Machala,20.6
+2023,Otro Empleo no pleno,Ambato,21.8
+2023,Otro Empleo no pleno,Azuay,28.9
+2023,Otro Empleo no pleno,Bolívar,44.3
+2023,Otro Empleo no pleno,Cañar,29.1
+2023,Otro Empleo no pleno,Carchi,35.5
+2023,Otro Empleo no pleno,Cotopaxi,29.3
+2023,Otro Empleo no pleno,Chimborazo,36.3
+2023,Otro Empleo no pleno,El Oro,24.9
+2023,Otro Empleo no pleno,Esmeraldas,34.1
+2023,Otro Empleo no pleno,Guayas,30.7
+2023,Otro Empleo no pleno,Imbabura,34.4
+2023,Otro Empleo no pleno,Loja,31.3
+2023,Otro Empleo no pleno,Los Ríos,37.1
+2023,Otro Empleo no pleno,Manabí,36.5
+2023,Otro Empleo no pleno,Morona Santiago,27.9
+2023,Otro Empleo no pleno,Napo,28.9
+2023,Otro Empleo no pleno,Pastaza,30.7
+2023,Otro Empleo no pleno,Pichincha,19.9
+2023,Otro Empleo no pleno,Tungurahua,33.6
+2023,Otro Empleo no pleno,Zamora Chinchipe,30.1
+2023,Otro Empleo no pleno,Galápagos,26.3
+2023,Otro Empleo no pleno,Sucumbíos,38.3
+2023,Otro Empleo no pleno,Orellana,25.6
+2023,Otro Empleo no pleno,Santo Domingo,40.3
+2023,Otro Empleo no pleno,Santa Elena,36.4
+2023,Desempleo,Total,3.8
+2023,Desempleo,Urbano,5.0
+2023,Desempleo,Rural,1.6
+2023,Desempleo,Quito,7.9
+2023,Desempleo,Guayaquil,3.4
+2023,Desempleo,Cuenca,4.2
+2023,Desempleo,Machala,6.9
+2023,Desempleo,Ambato,4.1
+2023,Desempleo,Azuay,3.0
+2023,Desempleo,Bolívar,0.7
+2023,Desempleo,Cañar,2.8
+2023,Desempleo,Carchi,4.5
+2023,Desempleo,Cotopaxi,1.4
+2023,Desempleo,Chimborazo,1.8
+2023,Desempleo,El Oro,5.6
+2023,Desempleo,Esmeraldas,9.0
+2023,Desempleo,Guayas,3.1
+2023,Desempleo,Imbabura,5.6
+2023,Desempleo,Loja,3.6
+2023,Desempleo,Los Ríos,2.0
+2023,Desempleo,Manabí,1.9
+2023,Desempleo,Morona Santiago,0.6
+2023,Desempleo,Napo,0.8
+2023,Desempleo,Pastaza,1.0
+2023,Desempleo,Pichincha,7.5
+2023,Desempleo,Tungurahua,2.0
+2023,Desempleo,Zamora Chinchipe,2.5
+2023,Desempleo,Galápagos,4.2
+2023,Desempleo,Sucumbíos,2.7
+2023,Desempleo,Orellana,1.3
+2023,Desempleo,Santo Domingo,1.9
+2023,Desempleo,Santa Elena,2.9
+2023,Participación Global,Total,64.7
+2023,Participación Global,Urbano,61.6
+2023,Participación Global,Rural,71.8
+2023,Participación Global,Quito,63.5
+2023,Participación Global,Guayaquil,60.6
+2023,Participación Global,Cuenca,66.3
+2023,Participación Global,Machala,64.7
+2023,Participación Global,Ambato,72.2
+2023,Participación Global,Azuay,71.7
+2023,Participación Global,Bolívar,62.8
+2023,Participación Global,Cañar,75.1
+2023,Participación Global,Carchi,66.3
+2023,Participación Global,Cotopaxi,89.9
+2023,Participación Global,Chimborazo,84.7
+2023,Participación Global,El Oro,65.2
+2023,Participación Global,Esmeraldas,57.2
+2023,Participación Global,Guayas,58.7
+2023,Participación Global,Imbabura,64.2
+2023,Participación Global,Loja,71.0
+2023,Participación Global,Los Ríos,57.1
+2023,Participación Global,Manabí,56.4
+2023,Participación Global,Morona Santiago,84.9
+2023,Participación Global,Napo,92.0
+2023,Participación Global,Pastaza,91.3
+2023,Participación Global,Pichincha,63.9
+2023,Participación Global,Tungurahua,81.4
+2023,Participación Global,Zamora Chinchipe,73.5
+2023,Participación Global,Galápagos,70.0
+2023,Participación Global,Sucumbíos,74.7
+2023,Participación Global,Orellana,91.2
+2023,Participación Global,Santo Domingo,61.8
+2023,Participación Global,Santa Elena,53.5
+2023,Participación Bruta,Total,46.1
+2023,Participación Bruta,Urbano,44.5
+2023,Participación Bruta,Rural,49.5
+2023,Participación Bruta,Quito,48.2
+2023,Participación Bruta,Guayaquil,43.1
+2023,Participación Bruta,Cuenca,49.3
+2023,Participación Bruta,Machala,47.0
+2023,Participación Bruta,Ambato,54.6
+2023,Participación Bruta,Azuay,50.7
+2023,Participación Bruta,Bolívar,46.8
+2023,Participación Bruta,Cañar,50.5
+2023,Participación Bruta,Carchi,46.2
+2023,Participación Bruta,Cotopaxi,58.2
+2023,Participación Bruta,Chimborazo,63.4
+2023,Participación Bruta,El Oro,47.9
+2023,Participación Bruta,Esmeraldas,37.9
+2023,Participación Bruta,Guayas,41.5
+2023,Participación Bruta,Imbabura,47.3
+2023,Participación Bruta,Loja,52.9
+2023,Participación Bruta,Los Ríos,41.1
+2023,Participación Bruta,Manabí,41.6
+2023,Participación Bruta,Morona Santiago,45.3
+2023,Participación Bruta,Napo,48.5
+2023,Participación Bruta,Pastaza,44.7
+2023,Participación Bruta,Pichincha,48.4
+2023,Participación Bruta,Tungurahua,61.1
+2023,Participación Bruta,Zamora Chinchipe,48.0
+2023,Participación Bruta,Galápagos,50.9
+2023,Participación Bruta,Sucumbíos,39.2
+2023,Participación Bruta,Orellana,51.9
+2023,Participación Bruta,Santo Domingo,42.5
+2023,Participación Bruta,Santa Elena,36.7
+2023,Sector informal,Total,52.5
+2023,Sector informal,Urbano,40.7
+2023,Sector informal,Rural,74.4
+2023,Sector informal,Quito,27.4
+2023,Sector informal,Guayaquil,46.1
+2023,Sector informal,Cuenca,25.6
+2023,Sector informal,Machala,37.3
+2023,Sector informal,Ambato,25.8
+2023,Sector informal,Azuay,47.9
+2023,Sector informal,Bolívar,76.5
+2023,Sector informal,Cañar,60.2
+2023,Sector informal,Carchi,62.8
+2023,Sector informal,Cotopaxi,69.8
+2023,Sector informal,Chimborazo,74.9
+2023,Sector informal,El Oro,42.0
+2023,Sector informal,Esmeraldas,63.7
+2023,Sector informal,Guayas,49.5
+2023,Sector informal,Imbabura,54.7
+2023,Sector informal,Loja,62.2
+2023,Sector informal,Los Ríos,56.5
+2023,Sector informal,Manabí,59.8
+2023,Sector informal,Morona Santiago,80.8
+2023,Sector informal,Napo,86.3
+2023,Sector informal,Pastaza,84.1
+2023,Sector informal,Pichincha,29.6
+2023,Sector informal,Tungurahua,55.2
+2023,Sector informal,Zamora Chinchipe,69.9
+2023,Sector informal,Galápagos,14.9
+2023,Sector informal,Sucumbíos,74.9
+2023,Sector informal,Orellana,79.5
+2023,Sector informal,Santo Domingo,55.0
+2023,Sector informal,Santa Elena,62.0
+2024,Empleo Bruto,Total,61.8
+2024,Empleo Bruto,Urbano,58.0
+2024,Empleo Bruto,Rural,70.6
+2024,Empleo Bruto,Quito,59.1
+2024,Empleo Bruto,Guayaquil,57.1
+2024,Empleo Bruto,Cuenca,61.9
+2024,Empleo Bruto,Machala,59.1
+2024,Empleo Bruto,Ambato,68.3
+2024,Empleo Bruto,Azuay,69.4
+2024,Empleo Bruto,Bolívar,60.9
+2024,Empleo Bruto,Cañar,79.2
+2024,Empleo Bruto,Carchi,64.7
+2024,Empleo Bruto,Cotopaxi,87.8
+2024,Empleo Bruto,Chimborazo,84.0
+2024,Empleo Bruto,El Oro,62.3
+2024,Empleo Bruto,Esmeraldas,54.8
+2024,Empleo Bruto,Guayas,55.5
+2024,Empleo Bruto,Imbabura,59.5
+2024,Empleo Bruto,Loja,68.4
+2024,Empleo Bruto,Los Ríos,54.3
+2024,Empleo Bruto,Manabí,53.0
+2024,Empleo Bruto,Morona Santiago,83.8
+2024,Empleo Bruto,Napo,89.2
+2024,Empleo Bruto,Pastaza,85.9
+2024,Empleo Bruto,Pichincha,60.6
+2024,Empleo Bruto,Tungurahua,81.0
+2024,Empleo Bruto,Zamora Chinchipe,75.1
+2024,Empleo Bruto,Galápagos,66.1
+2024,Empleo Bruto,Sucumbíos,63.5
+2024,Empleo Bruto,Orellana,92.9
+2024,Empleo Bruto,Santo Domingo,56.9
+2024,Empleo Bruto,Santa Elena,50.9
+2024,Empleo Global,Total,96.3
+2024,Empleo Global,Urbano,95.0
+2024,Empleo Global,Rural,98.6
+2024,Empleo Global,Quito,91.8
+2024,Empleo Global,Guayaquil,96.7
+2024,Empleo Global,Cuenca,95.0
+2024,Empleo Global,Machala,93.6
+2024,Empleo Global,Ambato,94.9
+2024,Empleo Global,Azuay,97.1
+2024,Empleo Global,Bolívar,99.5
+2024,Empleo Global,Cañar,98.8
+2024,Empleo Global,Carchi,95.1
+2024,Empleo Global,Cotopaxi,98.7
+2024,Empleo Global,Chimborazo,98.4
+2024,Empleo Global,El Oro,95.2
+2024,Empleo Global,Esmeraldas,91.4
+2024,Empleo Global,Guayas,97.2
+2024,Empleo Global,Imbabura,93.7
+2024,Empleo Global,Loja,96.4
+2024,Empleo Global,Los Ríos,98.1
+2024,Empleo Global,Manabí,97.6
+2024,Empleo Global,Morona Santiago,99.1
+2024,Empleo Global,Napo,99.2
+2024,Empleo Global,Pastaza,97.6
+2024,Empleo Global,Pichincha,92.7
+2024,Empleo Global,Tungurahua,97.9
+2024,Empleo Global,Zamora Chinchipe,97.4
+2024,Empleo Global,Galápagos,97.2
+2024,Empleo Global,Sucumbíos,95.3
+2024,Empleo Global,Orellana,99.2
+2024,Empleo Global,Santo Domingo,98.2
+2024,Empleo Global,Santa Elena,97.2
+2024,Empleo Adecuado/Pleno,Total,35.9
+2024,Empleo Adecuado/Pleno,Urbano,44.5
+2024,Empleo Adecuado/Pleno,Rural,19.4
+2024,Empleo Adecuado/Pleno,Quito,51.6
+2024,Empleo Adecuado/Pleno,Guayaquil,46.5
+2024,Empleo Adecuado/Pleno,Cuenca,59.0
+2024,Empleo Adecuado/Pleno,Machala,44.7
+2024,Empleo Adecuado/Pleno,Ambato,43.1
+2024,Empleo Adecuado/Pleno,Azuay,41.3
+2024,Empleo Adecuado/Pleno,Bolívar,19.6
+2024,Empleo Adecuado/Pleno,Cañar,20.8
+2024,Empleo Adecuado/Pleno,Carchi,26.4
+2024,Empleo Adecuado/Pleno,Cotopaxi,21.2
+2024,Empleo Adecuado/Pleno,Chimborazo,19.3
+2024,Empleo Adecuado/Pleno,El Oro,43.1
+2024,Empleo Adecuado/Pleno,Esmeraldas,22.3
+2024,Empleo Adecuado/Pleno,Guayas,40.8
+2024,Empleo Adecuado/Pleno,Imbabura,29.1
+2024,Empleo Adecuado/Pleno,Loja,28.4
+2024,Empleo Adecuado/Pleno,Los Ríos,36.3
+2024,Empleo Adecuado/Pleno,Manabí,31.5
+2024,Empleo Adecuado/Pleno,Morona Santiago,14.6
+2024,Empleo Adecuado/Pleno,Napo,13.8
+2024,Empleo Adecuado/Pleno,Pastaza,20.0
+2024,Empleo Adecuado/Pleno,Pichincha,51.2
+2024,Empleo Adecuado/Pleno,Tungurahua,30.0
+2024,Empleo Adecuado/Pleno,Zamora Chinchipe,25.3
+2024,Empleo Adecuado/Pleno,Galápagos,51.1
+2024,Empleo Adecuado/Pleno,Sucumbíos,20.7
+2024,Empleo Adecuado/Pleno,Orellana,10.4
+2024,Empleo Adecuado/Pleno,Santo Domingo,31.5
+2024,Empleo Adecuado/Pleno,Santa Elena,28.7
+2024,Subempleo,Total,21.0
+2024,Subempleo,Urbano,20.4
+2024,Subempleo,Rural,22.2
+2024,Subempleo,Quito,14.7
+2024,Subempleo,Guayaquil,21.5
+2024,Subempleo,Cuenca,12.0
+2024,Subempleo,Machala,22.2
+2024,Subempleo,Ambato,20.1
+2024,Subempleo,Azuay,16.4
+2024,Subempleo,Bolívar,18.3
+2024,Subempleo,Cañar,17.2
+2024,Subempleo,Carchi,20.5
+2024,Subempleo,Cotopaxi,17.3
+2024,Subempleo,Chimborazo,15.7
+2024,Subempleo,El Oro,23.3
+2024,Subempleo,Esmeraldas,24.0
+2024,Subempleo,Guayas,26.0
+2024,Subempleo,Imbabura,19.9
+2024,Subempleo,Loja,19.7
+2024,Subempleo,Los Ríos,24.0
+2024,Subempleo,Manabí,27.3
+2024,Subempleo,Morona Santiago,13.1
+2024,Subempleo,Napo,22.4
+2024,Subempleo,Pastaza,19.5
+2024,Subempleo,Pichincha,14.4
+2024,Subempleo,Tungurahua,21.0
+2024,Subempleo,Zamora Chinchipe,14.1
+2024,Subempleo,Galápagos,7.7
+2024,Subempleo,Sucumbíos,16.8
+2024,Subempleo,Orellana,20.7
+2024,Subempleo,Santo Domingo,25.9
+2024,Subempleo,Santa Elena,31.7
+2024,Empleo no Remunerado,Total,9.5
+2024,Empleo no Remunerado,Urbano,3.9
+2024,Empleo no Remunerado,Rural,20.1
+2024,Empleo no Remunerado,Quito,3.7
+2024,Empleo no Remunerado,Guayaquil,2.7
+2024,Empleo no Remunerado,Cuenca,5.1
+2024,Empleo no Remunerado,Machala,4.0
+2024,Empleo no Remunerado,Ambato,8.8
+2024,Empleo no Remunerado,Azuay,8.5
+2024,Empleo no Remunerado,Bolívar,19.4
+2024,Empleo no Remunerado,Cañar,27.1
+2024,Empleo no Remunerado,Carchi,12.2
+2024,Empleo no Remunerado,Cotopaxi,27.8
+2024,Empleo no Remunerado,Chimborazo,26.9
+2024,Empleo no Remunerado,El Oro,4.4
+2024,Empleo no Remunerado,Esmeraldas,10.8
+2024,Empleo no Remunerado,Guayas,2.9
+2024,Empleo no Remunerado,Imbabura,8.7
+2024,Empleo no Remunerado,Loja,16.0
+2024,Empleo no Remunerado,Los Ríos,4.9
+2024,Empleo no Remunerado,Manabí,4.6
+2024,Empleo no Remunerado,Morona Santiago,35.3
+2024,Empleo no Remunerado,Napo,34.5
+2024,Empleo no Remunerado,Pastaza,27.4
+2024,Empleo no Remunerado,Pichincha,4.0
+2024,Empleo no Remunerado,Tungurahua,15.1
+2024,Empleo no Remunerado,Zamora Chinchipe,22.6
+2024,Empleo no Remunerado,Galápagos,5.1
+2024,Empleo no Remunerado,Sucumbíos,17.0
+2024,Empleo no Remunerado,Orellana,38.5
+2024,Empleo no Remunerado,Santo Domingo,6.9
+2024,Empleo no Remunerado,Santa Elena,3.1
+2024,Otro Empleo no pleno,Total,29.8
+2024,Otro Empleo no pleno,Urbano,26.1
+2024,Otro Empleo no pleno,Rural,36.8
+2024,Otro Empleo no pleno,Quito,21.6
+2024,Otro Empleo no pleno,Guayaquil,25.8
+2024,Otro Empleo no pleno,Cuenca,18.9
+2024,Otro Empleo no pleno,Machala,22.7
+2024,Otro Empleo no pleno,Ambato,22.5
+2024,Otro Empleo no pleno,Azuay,30.9
+2024,Otro Empleo no pleno,Bolívar,42.2
+2024,Otro Empleo no pleno,Cañar,33.7
+2024,Otro Empleo no pleno,Carchi,35.9
+2024,Otro Empleo no pleno,Cotopaxi,32.2
+2024,Otro Empleo no pleno,Chimborazo,36.4
+2024,Otro Empleo no pleno,El Oro,24.4
+2024,Otro Empleo no pleno,Esmeraldas,34.3
+2024,Otro Empleo no pleno,Guayas,27.3
+2024,Otro Empleo no pleno,Imbabura,36.0
+2024,Otro Empleo no pleno,Loja,32.4
+2024,Otro Empleo no pleno,Los Ríos,32.7
+2024,Otro Empleo no pleno,Manabí,34.2
+2024,Otro Empleo no pleno,Morona Santiago,36.1
+2024,Otro Empleo no pleno,Napo,28.4
+2024,Otro Empleo no pleno,Pastaza,30.6
+2024,Otro Empleo no pleno,Pichincha,22.7
+2024,Otro Empleo no pleno,Tungurahua,31.5
+2024,Otro Empleo no pleno,Zamora Chinchipe,35.4
+2024,Otro Empleo no pleno,Galápagos,33.2
+2024,Otro Empleo no pleno,Sucumbíos,40.9
+2024,Otro Empleo no pleno,Orellana,29.4
+2024,Otro Empleo no pleno,Santo Domingo,33.8
+2024,Otro Empleo no pleno,Santa Elena,33.5
+2024,Desempleo,Total,3.7
+2024,Desempleo,Urbano,5.0
+2024,Desempleo,Rural,1.4
+2024,Desempleo,Quito,8.2
+2024,Desempleo,Guayaquil,3.3
+2024,Desempleo,Cuenca,5.0
+2024,Desempleo,Machala,6.4
+2024,Desempleo,Ambato,5.1
+2024,Desempleo,Azuay,2.9
+2024,Desempleo,Bolívar,0.5
+2024,Desempleo,Cañar,1.2
+2024,Desempleo,Carchi,4.9
+2024,Desempleo,Cotopaxi,1.3
+2024,Desempleo,Chimborazo,1.6
+2024,Desempleo,El Oro,4.8
+2024,Desempleo,Esmeraldas,8.6
+2024,Desempleo,Guayas,2.8
+2024,Desempleo,Imbabura,6.3
+2024,Desempleo,Loja,3.6
+2024,Desempleo,Los Ríos,1.9
+2024,Desempleo,Manabí,2.4
+2024,Desempleo,Morona Santiago,0.9
+2024,Desempleo,Napo,0.8
+2024,Desempleo,Pastaza,2.4
+2024,Desempleo,Pichincha,7.3
+2024,Desempleo,Tungurahua,2.1
+2024,Desempleo,Zamora Chinchipe,2.6
+2024,Desempleo,Galápagos,2.8
+2024,Desempleo,Sucumbíos,4.7
+2024,Desempleo,Orellana,0.8
+2024,Desempleo,Santo Domingo,1.8
+2024,Desempleo,Santa Elena,2.8
+2024,Participación Global,Total,64.3
+2024,Participación Global,Urbano,61.0
+2024,Participación Global,Rural,71.6
+2024,Participación Global,Quito,64.4
+2024,Participación Global,Guayaquil,59.0
+2024,Participación Global,Cuenca,65.2
+2024,Participación Global,Machala,63.2
+2024,Participación Global,Ambato,72.0
+2024,Participación Global,Azuay,71.5
+2024,Participación Global,Bolívar,61.2
+2024,Participación Global,Cañar,80.1
+2024,Participación Global,Carchi,68.1
+2024,Participación Global,Cotopaxi,89.0
+2024,Participación Global,Chimborazo,85.3
+2024,Participación Global,El Oro,65.5
+2024,Participación Global,Esmeraldas,59.9
+2024,Participación Global,Guayas,57.1
+2024,Participación Global,Imbabura,63.5
+2024,Participación Global,Loja,70.9
+2024,Participación Global,Los Ríos,55.3
+2024,Participación Global,Manabí,54.3
+2024,Participación Global,Morona Santiago,84.5
+2024,Participación Global,Napo,89.9
+2024,Participación Global,Pastaza,88.0
+2024,Participación Global,Pichincha,65.4
+2024,Participación Global,Tungurahua,82.8
+2024,Participación Global,Zamora Chinchipe,77.1
+2024,Participación Global,Galápagos,68.0
+2024,Participación Global,Sucumbíos,66.6
+2024,Participación Global,Orellana,93.7
+2024,Participación Global,Santo Domingo,57.9
+2024,Participación Global,Santa Elena,52.4
+2024,Participación Bruta,Total,45.7
+2024,Participación Bruta,Urbano,44.0
+2024,Participación Bruta,Rural,49.2
+2024,Participación Bruta,Quito,47.6
+2024,Participación Bruta,Guayaquil,41.1
+2024,Participación Bruta,Cuenca,47.9
+2024,Participación Bruta,Machala,44.9
+2024,Participación Bruta,Ambato,54.2
+2024,Participación Bruta,Azuay,48.9
+2024,Participación Bruta,Bolívar,43.1
+2024,Participación Bruta,Cañar,48.5
+2024,Participación Bruta,Carchi,47.0
+2024,Participación Bruta,Cotopaxi,58.9
+2024,Participación Bruta,Chimborazo,60.7
+2024,Participación Bruta,El Oro,46.5
+2024,Participación Bruta,Esmeraldas,39.2
+2024,Participación Bruta,Guayas,41.4
+2024,Participación Bruta,Imbabura,46.8
+2024,Participación Bruta,Loja,53.2
+2024,Participación Bruta,Los Ríos,40.3
+2024,Participación Bruta,Manabí,39.8
+2024,Participación Bruta,Morona Santiago,45.4
+2024,Participación Bruta,Napo,57.7
+2024,Participación Bruta,Pastaza,53.9
+2024,Participación Bruta,Pichincha,48.4
+2024,Participación Bruta,Tungurahua,62.2
+2024,Participación Bruta,Zamora Chinchipe,49.4
+2024,Participación Bruta,Galápagos,50.0
+2024,Participación Bruta,Sucumbíos,41.2
+2024,Participación Bruta,Orellana,49.0
+2024,Participación Bruta,Santo Domingo,39.3
+2024,Participación Bruta,Santa Elena,35.4
+2024,Sector informal,Total,52.4
+2024,Sector informal,Urbano,40.9
+2024,Sector informal,Rural,73.7
+2024,Sector informal,Quito,27.1
+2024,Sector informal,Guayaquil,46.5
+2024,Sector informal,Cuenca,25.8
+2024,Sector informal,Machala,37.3
+2024,Sector informal,Ambato,23.3
+2024,Sector informal,Azuay,48.8
+2024,Sector informal,Bolívar,75.6
+2024,Sector informal,Cañar,58.8
+2024,Sector informal,Carchi,58.4
+2024,Sector informal,Cotopaxi,69.6
+2024,Sector informal,Chimborazo,71.6
+2024,Sector informal,El Oro,38.1
+2024,Sector informal,Esmeraldas,65.0
+2024,Sector informal,Guayas,51.5
+2024,Sector informal,Imbabura,55.1
+2024,Sector informal,Loja,60.0
+2024,Sector informal,Los Ríos,51.0
+2024,Sector informal,Manabí,64.4
+2024,Sector informal,Morona Santiago,83.3
+2024,Sector informal,Napo,77.7
+2024,Sector informal,Pastaza,70.3
+2024,Sector informal,Pichincha,28.6
+2024,Sector informal,Tungurahua,50.5
+2024,Sector informal,Zamora Chinchipe,72.4
+2024,Sector informal,Galápagos,15.3
+2024,Sector informal,Sucumbíos,70.3
+2024,Sector informal,Orellana,83.0
+2024,Sector informal,Santo Domingo,61.1
+2024,Sector informal,Santa Elena,65.8
+2025,Empleo Bruto,Total,62.0
+2025,Empleo Bruto,Urbano,58.4
+2025,Empleo Bruto,Rural,69.6
+2025,Empleo Bruto,Quito,58.9
+2025,Empleo Bruto,Guayaquil,56.8
+2025,Empleo Bruto,Cuenca,62.1
+2025,Empleo Bruto,Machala,60.1
+2025,Empleo Bruto,Ambato,67.2
+2025,Empleo Bruto,Azuay,67.5
+2025,Empleo Bruto,Bolívar,57.8
+2025,Empleo Bruto,Cañar,69.2
+2025,Empleo Bruto,Carchi,61.8
+2025,Empleo Bruto,Cotopaxi,83.6
+2025,Empleo Bruto,Chimborazo,82.5
+2025,Empleo Bruto,El Oro,62.5
+2025,Empleo Bruto,Esmeraldas,53.0
+2025,Empleo Bruto,Guayas,56.0
+2025,Empleo Bruto,Imbabura,59.9
+2025,Empleo Bruto,Loja,65.0
+2025,Empleo Bruto,Los Ríos,57.6
+2025,Empleo Bruto,Manabí,55.9
+2025,Empleo Bruto,Morona Santiago,89.2
+2025,Empleo Bruto,Napo,89.5
+2025,Empleo Bruto,Pastaza,84.3
+2025,Empleo Bruto,Pichincha,61.0
+2025,Empleo Bruto,Tungurahua,78.8
+2025,Empleo Bruto,Zamora Chinchipe,75.6
+2025,Empleo Bruto,Galápagos,62.1
+2025,Empleo Bruto,Sucumbíos,60.8
+2025,Empleo Bruto,Orellana,90.1
+2025,Empleo Bruto,Santo Domingo,58.4
+2025,Empleo Bruto,Santa Elena,51.4
+2025,Empleo Global,Total,96.4
+2025,Empleo Global,Urbano,95.5
+2025,Empleo Global,Rural,98.1
+2025,Empleo Global,Quito,92.8
+2025,Empleo Global,Guayaquil,97.3
+2025,Empleo Global,Cuenca,96.4
+2025,Empleo Global,Machala,94.9
+2025,Empleo Global,Ambato,96.3
+2025,Empleo Global,Azuay,97.5
+2025,Empleo Global,Bolívar,98.8
+2025,Empleo Global,Cañar,96.4
+2025,Empleo Global,Carchi,95.1
+2025,Empleo Global,Cotopaxi,97.9
+2025,Empleo Global,Chimborazo,98.2
+2025,Empleo Global,El Oro,96.1
+2025,Empleo Global,Esmeraldas,90.9
+2025,Empleo Global,Guayas,97.5
+2025,Empleo Global,Imbabura,93.9
+2025,Empleo Global,Loja,96.0
+2025,Empleo Global,Los Ríos,98.3
+2025,Empleo Global,Manabí,97.5
+2025,Empleo Global,Morona Santiago,99.9
+2025,Empleo Global,Napo,98.8
+2025,Empleo Global,Pastaza,97.9
+2025,Empleo Global,Pichincha,93.4
+2025,Empleo Global,Tungurahua,98.1
+2025,Empleo Global,Zamora Chinchipe,98.4
+2025,Empleo Global,Galápagos,96.9
+2025,Empleo Global,Sucumbíos,93.5
+2025,Empleo Global,Orellana,98.9
+2025,Empleo Global,Santo Domingo,98.7
+2025,Empleo Global,Santa Elena,98.0
+2025,Empleo Adecuado/Pleno,Total,37.1
+2025,Empleo Adecuado/Pleno,Urbano,45.3
+2025,Empleo Adecuado/Pleno,Rural,21.9
+2025,Empleo Adecuado/Pleno,Quito,55.1
+2025,Empleo Adecuado/Pleno,Guayaquil,49.1
+2025,Empleo Adecuado/Pleno,Cuenca,58.9
+2025,Empleo Adecuado/Pleno,Machala,45.9
+2025,Empleo Adecuado/Pleno,Ambato,48.3
+2025,Empleo Adecuado/Pleno,Azuay,44.9
+2025,Empleo Adecuado/Pleno,Bolívar,24.9
+2025,Empleo Adecuado/Pleno,Cañar,31.7
+2025,Empleo Adecuado/Pleno,Carchi,24.4
+2025,Empleo Adecuado/Pleno,Cotopaxi,25.7
+2025,Empleo Adecuado/Pleno,Chimborazo,21.6
+2025,Empleo Adecuado/Pleno,El Oro,42.6
+2025,Empleo Adecuado/Pleno,Esmeraldas,25.0
+2025,Empleo Adecuado/Pleno,Guayas,41.3
+2025,Empleo Adecuado/Pleno,Imbabura,29.3
+2025,Empleo Adecuado/Pleno,Loja,26.8
+2025,Empleo Adecuado/Pleno,Los Ríos,32.5
+2025,Empleo Adecuado/Pleno,Manabí,29.3
+2025,Empleo Adecuado/Pleno,Morona Santiago,9.8
+2025,Empleo Adecuado/Pleno,Napo,11.9
+2025,Empleo Adecuado/Pleno,Pastaza,24.1
+2025,Empleo Adecuado/Pleno,Pichincha,53.0
+2025,Empleo Adecuado/Pleno,Tungurahua,30.5
+2025,Empleo Adecuado/Pleno,Zamora Chinchipe,32.1
+2025,Empleo Adecuado/Pleno,Galápagos,59.6
+2025,Empleo Adecuado/Pleno,Sucumbíos,27.6
+2025,Empleo Adecuado/Pleno,Orellana,17.8
+2025,Empleo Adecuado/Pleno,Santo Domingo,39.4
+2025,Empleo Adecuado/Pleno,Santa Elena,31.5
+2025,Subempleo,Total,19.4
+2025,Subempleo,Urbano,19.2
+2025,Subempleo,Rural,19.8
+2025,Subempleo,Quito,12.7
+2025,Subempleo,Guayaquil,20.1
+2025,Subempleo,Cuenca,9.4
+2025,Subempleo,Machala,19.8
+2025,Subempleo,Ambato,16.8
+2025,Subempleo,Azuay,10.0
+2025,Subempleo,Bolívar,20.3
+2025,Subempleo,Cañar,13.8
+2025,Subempleo,Carchi,15.0
+2025,Subempleo,Cotopaxi,20.5
+2025,Subempleo,Chimborazo,18.6
+2025,Subempleo,El Oro,20.5
+2025,Subempleo,Esmeraldas,22.6
+2025,Subempleo,Guayas,22.9
+2025,Subempleo,Imbabura,18.6
+2025,Subempleo,Loja,14.2
+2025,Subempleo,Los Ríos,28.4
+2025,Subempleo,Manabí,28.5
+2025,Subempleo,Morona Santiago,11.5
+2025,Subempleo,Napo,25.3
+2025,Subempleo,Pastaza,19.7
+2025,Subempleo,Pichincha,13.0
+2025,Subempleo,Tungurahua,19.4
+2025,Subempleo,Zamora Chinchipe,14.7
+2025,Subempleo,Galápagos,6.8
+2025,Subempleo,Sucumbíos,15.7
+2025,Subempleo,Orellana,16.5
+2025,Subempleo,Santo Domingo,18.8
+2025,Subempleo,Santa Elena,27.2
+2025,Empleo no Remunerado,Total,8.8
+2025,Empleo no Remunerado,Urbano,3.6
+2025,Empleo no Remunerado,Rural,18.4
+2025,Empleo no Remunerado,Quito,2.9
+2025,Empleo no Remunerado,Guayaquil,2.5
+2025,Empleo no Remunerado,Cuenca,7.6
+2025,Empleo no Remunerado,Machala,3.9
+2025,Empleo no Remunerado,Ambato,7.9
+2025,Empleo no Remunerado,Azuay,9.9
+2025,Empleo no Remunerado,Bolívar,14.6
+2025,Empleo no Remunerado,Cañar,13.5
+2025,Empleo no Remunerado,Carchi,18.2
+2025,Empleo no Remunerado,Cotopaxi,22.4
+2025,Empleo no Remunerado,Chimborazo,22.8
+2025,Empleo no Remunerado,El Oro,5.7
+2025,Empleo no Remunerado,Esmeraldas,7.0
+2025,Empleo no Remunerado,Guayas,2.9
+2025,Empleo no Remunerado,Imbabura,8.0
+2025,Empleo no Remunerado,Loja,16.2
+2025,Empleo no Remunerado,Los Ríos,3.3
+2025,Empleo no Remunerado,Manabí,4.9
+2025,Empleo no Remunerado,Morona Santiago,42.0
+2025,Empleo no Remunerado,Napo,34.3
+2025,Empleo no Remunerado,Pastaza,24.0
+2025,Empleo no Remunerado,Pichincha,4.3
+2025,Empleo no Remunerado,Tungurahua,15.8
+2025,Empleo no Remunerado,Zamora Chinchipe,19.6
+2025,Empleo no Remunerado,Galápagos,3.2
+2025,Empleo no Remunerado,Sucumbíos,14.6
+2025,Empleo no Remunerado,Orellana,37.9
+2025,Empleo no Remunerado,Santo Domingo,5.3
+2025,Empleo no Remunerado,Santa Elena,3.6
+2025,Otro Empleo no pleno,Total,30.8
+2025,Otro Empleo no pleno,Urbano,27.1
+2025,Otro Empleo no pleno,Rural,37.8
+2025,Otro Empleo no pleno,Quito,21.9
+2025,Otro Empleo no pleno,Guayaquil,25.1
+2025,Otro Empleo no pleno,Cuenca,20.5
+2025,Otro Empleo no pleno,Machala,25.3
+2025,Otro Empleo no pleno,Ambato,23.0
+2025,Otro Empleo no pleno,Azuay,32.7
+2025,Otro Empleo no pleno,Bolívar,38.6
+2025,Otro Empleo no pleno,Cañar,37.5
+2025,Otro Empleo no pleno,Carchi,37.5
+2025,Otro Empleo no pleno,Cotopaxi,29.0
+2025,Otro Empleo no pleno,Chimborazo,35.0
+2025,Otro Empleo no pleno,El Oro,27.3
+2025,Otro Empleo no pleno,Esmeraldas,36.3
+2025,Otro Empleo no pleno,Guayas,30.0
+2025,Otro Empleo no pleno,Imbabura,38.0
+2025,Otro Empleo no pleno,Loja,38.7
+2025,Otro Empleo no pleno,Los Ríos,34.1
+2025,Otro Empleo no pleno,Manabí,34.5
+2025,Otro Empleo no pleno,Morona Santiago,36.6
+2025,Otro Empleo no pleno,Napo,27.3
+2025,Otro Empleo no pleno,Pastaza,30.0
+2025,Otro Empleo no pleno,Pichincha,22.9
+2025,Otro Empleo no pleno,Tungurahua,31.6
+2025,Otro Empleo no pleno,Zamora Chinchipe,32.0
+2025,Otro Empleo no pleno,Galápagos,27.4
+2025,Otro Empleo no pleno,Sucumbíos,35.6
+2025,Otro Empleo no pleno,Orellana,26.6
+2025,Otro Empleo no pleno,Santo Domingo,34.7
+2025,Otro Empleo no pleno,Santa Elena,35.4
+2025,Desempleo,Total,3.6
+2025,Desempleo,Urbano,4.5
+2025,Desempleo,Rural,1.9
+2025,Desempleo,Quito,7.2
+2025,Desempleo,Guayaquil,2.7
+2025,Desempleo,Cuenca,3.6
+2025,Desempleo,Machala,5.1
+2025,Desempleo,Ambato,3.7
+2025,Desempleo,Azuay,2.5
+2025,Desempleo,Bolívar,1.2
+2025,Desempleo,Cañar,3.6
+2025,Desempleo,Carchi,4.9
+2025,Desempleo,Cotopaxi,2.1
+2025,Desempleo,Chimborazo,1.8
+2025,Desempleo,El Oro,3.9
+2025,Desempleo,Esmeraldas,9.1
+2025,Desempleo,Guayas,2.5
+2025,Desempleo,Imbabura,6.1
+2025,Desempleo,Loja,4.0
+2025,Desempleo,Los Ríos,1.7
+2025,Desempleo,Manabí,2.5
+2025,Desempleo,Morona Santiago,0.1
+2025,Desempleo,Napo,1.2
+2025,Desempleo,Pastaza,2.1
+2025,Desempleo,Pichincha,6.6
+2025,Desempleo,Tungurahua,1.9
+2025,Desempleo,Zamora Chinchipe,1.6
+2025,Desempleo,Galápagos,3.1
+2025,Desempleo,Sucumbíos,6.5
+2025,Desempleo,Orellana,1.1
+2025,Desempleo,Santo Domingo,1.3
+2025,Desempleo,Santa Elena,2.0
+2025,Participación Global,Total,64.3
+2025,Participación Global,Urbano,61.2
+2025,Participación Global,Rural,71.0
+2025,Participación Global,Quito,63.5
+2025,Participación Global,Guayaquil,58.4
+2025,Participación Global,Cuenca,64.4
+2025,Participación Global,Machala,63.3
+2025,Participación Global,Ambato,69.8
+2025,Participación Global,Azuay,69.3
+2025,Participación Global,Bolívar,58.4
+2025,Participación Global,Cañar,71.7
+2025,Participación Global,Carchi,64.9
+2025,Participación Global,Cotopaxi,85.4
+2025,Participación Global,Chimborazo,84.0
+2025,Participación Global,El Oro,65.1
+2025,Participación Global,Esmeraldas,58.3
+2025,Participación Global,Guayas,57.5
+2025,Participación Global,Imbabura,63.8
+2025,Participación Global,Loja,67.7
+2025,Participación Global,Los Ríos,58.6
+2025,Participación Global,Manabí,57.3
+2025,Participación Global,Morona Santiago,89.4
+2025,Participación Global,Napo,90.5
+2025,Participación Global,Pastaza,86.1
+2025,Participación Global,Pichincha,65.3
+2025,Participación Global,Tungurahua,80.4
+2025,Participación Global,Zamora Chinchipe,76.8
+2025,Participación Global,Galápagos,64.1
+2025,Participación Global,Sucumbíos,65.1
+2025,Participación Global,Orellana,91.0
+2025,Participación Global,Santo Domingo,59.2
+2025,Participación Global,Santa Elena,52.5
+2025,Participación Bruta,Total,45.7
+2025,Participación Bruta,Urbano,43.6
+2025,Participación Bruta,Rural,50.2
+2025,Participación Bruta,Quito,47.0
+2025,Participación Bruta,Guayaquil,40.7
+2025,Participación Bruta,Cuenca,46.6
+2025,Participación Bruta,Machala,45.2
+2025,Participación Bruta,Ambato,52.1
+2025,Participación Bruta,Azuay,50.6
+2025,Participación Bruta,Bolívar,44.2
+2025,Participación Bruta,Cañar,52.0
+2025,Participación Bruta,Carchi,46.5
+2025,Participación Bruta,Cotopaxi,62.4
+2025,Participación Bruta,Chimborazo,60.6
+2025,Participación Bruta,El Oro,46.6
+2025,Participación Bruta,Esmeraldas,39.1
+2025,Participación Bruta,Guayas,39.9
+2025,Participación Bruta,Imbabura,46.5
+2025,Participación Bruta,Loja,49.2
+2025,Participación Bruta,Los Ríos,41.7
+2025,Participación Bruta,Manabí,41.9
+2025,Participación Bruta,Morona Santiago,41.4
+2025,Participación Bruta,Napo,55.4
+2025,Participación Bruta,Pastaza,56.2
+2025,Participación Bruta,Pichincha,48.4
+2025,Participación Bruta,Tungurahua,59.0
+2025,Participación Bruta,Zamora Chinchipe,48.9
+2025,Participación Bruta,Galápagos,48.0
+2025,Participación Bruta,Sucumbíos,43.2
+2025,Participación Bruta,Orellana,55.2
+2025,Participación Bruta,Santo Domingo,41.1
+2025,Participación Bruta,Santa Elena,36.4
+2025,Sector informal,Total,51.5
+2025,Sector informal,Urbano,40.4
+2025,Sector informal,Rural,71.5
+2025,Sector informal,Quito,25.1
+2025,Sector informal,Guayaquil,43.6
+2025,Sector informal,Cuenca,26.7
+2025,Sector informal,Machala,37.6
+2025,Sector informal,Ambato,24.8
+2025,Sector informal,Azuay,47.2
+2025,Sector informal,Bolívar,77.2
+2025,Sector informal,Cañar,56.4
+2025,Sector informal,Carchi,60.4
+2025,Sector informal,Cotopaxi,63.1
+2025,Sector informal,Chimborazo,68.1
+2025,Sector informal,El Oro,43.3
+2025,Sector informal,Esmeraldas,61.5
+2025,Sector informal,Guayas,51.9
+2025,Sector informal,Imbabura,54.2
+2025,Sector informal,Loja,60.0
+2025,Sector informal,Los Ríos,51.4
+2025,Sector informal,Manabí,61.7
+2025,Sector informal,Morona Santiago,87.4
+2025,Sector informal,Napo,81.5
+2025,Sector informal,Pastaza,66.3
+2025,Sector informal,Pichincha,28.4
+2025,Sector informal,Tungurahua,52.0
+2025,Sector informal,Zamora Chinchipe,63.3
+2025,Sector informal,Galápagos,16.2
+2025,Sector informal,Sucumbíos,61.5
+2025,Sector informal,Orellana,77.1
+2025,Sector informal,Santo Domingo,54.6
+2025,Sector informal,Santa Elena,62.9

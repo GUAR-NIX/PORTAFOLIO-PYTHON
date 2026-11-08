@@ -1,0 +1,17 @@
+{
+  "delitos_domesticos": 1465160,
+  "delitos_no_domesticos": 7015839,
+  "proporcion_domestica_pct": 17.28,
+  "tasa_arresto_domestico_pct": 19.24,
+  "tasa_arresto_no_domestico_pct": 26.41,
+  "tipos_frecuentes_domestico": {
+    "BATTERY": 818641,
+    "OTHER OFFENSE": 196207,
+    "ASSAULT": 166553,
+    "CRIMINAL DAMAGE": 111092,
+    "THEFT": 64816,
+    "OFFENSE INVOLVING CHILDREN": 45861,
+    "CRIMINAL TRESPASS": 11839,
+    "CRIMINAL SEXUAL ASSAULT": 8325
+  }
+}

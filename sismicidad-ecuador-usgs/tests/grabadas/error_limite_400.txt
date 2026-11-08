@@ -1,0 +1,14 @@
+Error 400: Bad Request
+
+39833 matching events exceeds search limit of 20000. Modify the search to match fewer events.
+
+Usage details are available from https://earthquake.usgs.gov/fdsnws/event/1
+
+Request:
+/fdsnws/event/1/query?format=csv&amp;starttime=2010-01-01&amp;endtime=2011-01-01&amp;minmagnitude=2
+
+Request Submitted:
+2026-10-22T00:45:48+00:00
+
+Service version:
+2.8.2

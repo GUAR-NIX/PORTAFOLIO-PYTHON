@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+data/raw/
+
+# Microdatos procesados completos (6 MB, persona a persona): se regeneran con
+# `python descargar_datos.py` o `python -m empleo_enemdu.pipeline`.
+# Solo se versionan los agregados (reports/, serie y estimadores oficiales) y la muestra de 120 UPM para las pruebas.
+data/procesados/enemdu_pet_2025.parquet
+.pytest_tmp*/
+.vscode/
+Thumbs.db
+desktop.ini
+*.pyc

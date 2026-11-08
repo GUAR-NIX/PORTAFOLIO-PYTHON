@@ -1,0 +1,45 @@
+punto,variable,rezago,r,n,n_efectivo,p,p_ingenuo,significativa
+Ambato,precip_pct,1,-0.2374,540,358.5592,0.0000,0.0000,True
+Ambato,tmed,3,0.4099,540,75.5007,0.0002,0.0000,True
+Coca,precip_pct,1,-0.1234,540,359.9696,0.0192,0.0041,True
+Coca,tmed,3,0.3769,540,104.0557,0.0001,0.0000,True
+Cuenca,precip_pct,6,-0.1699,540,409.6203,0.0006,0.0001,True
+Cuenca,tmed,3,0.5052,540,78.1619,0.0000,0.0000,True
+Esmeraldas,precip_pct,0,0.3765,540,167.4154,0.0000,0.0000,True
+Esmeraldas,tmed,1,0.5271,540,40.7839,0.0004,0.0000,True
+Guayaquil,precip_pct,1,0.3630,540,101.1384,0.0002,0.0000,True
+Guayaquil,tmed,0,0.5659,540,38.7479,0.0002,0.0000,True
+Ibarra,precip_pct,0,-0.2471,540,421.6532,0.0000,0.0000,True
+Ibarra,tmed,2,0.5394,540,54.8085,0.0000,0.0000,True
+Latacunga,precip_pct,2,-0.2683,540,357.4291,0.0000,0.0000,True
+Latacunga,tmed,3,0.4406,540,72.0567,0.0001,0.0000,True
+Loja,precip_pct,6,-0.0975,540,350.5701,0.0684,0.0235,False
+Loja,tmed,3,0.5870,540,95.8362,0.0000,0.0000,True
+Macas,precip_pct,2,0.0355,540,312.8923,0.5315,0.4102,False
+Macas,tmed,3,0.4493,540,56.1791,0.0005,0.0000,True
+Machala,precip_pct,1,0.3681,540,98.4373,0.0002,0.0000,True
+Machala,tmed,1,0.6228,540,40.3688,0.0000,0.0000,True
+Manta,precip_pct,3,0.2642,540,140.3591,0.0016,0.0000,True
+Manta,tmed,0,0.5744,540,47.7607,0.0000,0.0000,True
+Nueva Loja,precip_pct,1,-0.1487,540,293.6090,0.0108,0.0005,True
+Nueva Loja,tmed,3,0.3585,540,112.2763,0.0001,0.0000,True
+Portoviejo,precip_pct,1,0.2693,540,117.4730,0.0033,0.0000,True
+Portoviejo,tmed,0,0.5682,540,39.7779,0.0001,0.0000,True
+Puerto Ayora,precip_pct,1,0.3879,495,84.5442,0.0003,0.0000,True
+Puerto Ayora,tmed,0,0.6857,540,44.4549,0.0000,0.0000,True
+Puerto Baquerizo,precip_pct,2,0.3143,450,81.9979,0.0040,0.0000,True
+Puerto Baquerizo,tmed,0,0.6848,540,42.9330,0.0000,0.0000,True
+Puyo,precip_pct,3,-0.1568,540,362.9489,0.0027,0.0003,True
+Puyo,tmed,3,0.4454,540,59.9957,0.0004,0.0000,True
+Quito,precip_pct,0,-0.1847,540,392.4262,0.0002,0.0000,True
+Quito,tmed,2,0.5606,540,75.8918,0.0000,0.0000,True
+Riobamba,precip_pct,6,-0.1631,540,319.9247,0.0034,0.0001,True
+Riobamba,tmed,3,0.5325,540,59.7424,0.0000,0.0000,True
+Salinas,precip_pct,2,0.2577,540,123.4130,0.0039,0.0000,True
+Salinas,tmed,0,0.6134,540,46.0465,0.0000,0.0000,True
+Santo Domingo,precip_pct,0,0.3747,540,109.1915,0.0001,0.0000,True
+Santo Domingo,tmed,1,0.4874,540,31.7021,0.0049,0.0000,True
+Tena,precip_pct,5,-0.0544,540,306.1729,0.3432,0.2073,False
+Tena,tmed,3,0.4242,540,62.6883,0.0005,0.0000,True
+Zamora,precip_pct,0,0.0912,540,405.2564,0.0666,0.0341,False
+Zamora,tmed,4,0.4379,540,134.4140,0.0000,0.0000,True

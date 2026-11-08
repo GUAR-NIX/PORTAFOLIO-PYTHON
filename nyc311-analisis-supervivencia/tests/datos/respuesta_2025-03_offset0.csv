@@ -1,0 +1,3 @@
+"unique_key","created_date","closed_date","agency","complaint_type","descriptor","status","incident_zip","borough","open_data_channel_type"
+"64213898","2025-03-01T00:44:09.000","2025-03-01T01:36:12.000","NYPD","Illegal Parking","Parking Permit Improper Use","Closed","11418","QUEENS","MOBILE"
+"64213972","2025-03-01T00:25:59.000","2025-03-01T06:26:49.000","NYPD","Blocked Driveway","No Access","Closed","11421","QUEENS","PHONE"

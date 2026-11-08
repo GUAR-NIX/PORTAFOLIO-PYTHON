@@ -1,0 +1,8 @@
+variable,minimo,maximo,limite_bajo,limite_alto,fuera
+temp,0.9410,38.2990,-15,45,0
+punto_rocio,-17.9050,29.5490,-40,35,0
+precip,0.0000,32.8000,0,150,0
+radiacion,0.0000,1208.0000,0,1400,0
+viento,0.0000,112.6806,0,200,0
+rafagas,1.0800,103.6800,0,300,0
+humedad,4.6302,100.0000,0,100,0

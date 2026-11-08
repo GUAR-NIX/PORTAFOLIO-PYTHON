@@ -1,0 +1,309 @@
+punto,variable,rezago,r,n,n_efectivo,p,p_ingenuo,significativa
+Ambato,precip_pct,0,-0.2300,540,358.5837,0.0000,0.0000,True
+Ambato,tmed,0,0.3216,540,75.6418,0.0047,0.0000,True
+Ambato,precip_pct,1,-0.2374,540,358.5592,0.0000,0.0000,True
+Ambato,tmed,1,0.3699,540,75.5989,0.0010,0.0000,True
+Ambato,precip_pct,2,-0.2315,540,358.5171,0.0000,0.0000,True
+Ambato,tmed,2,0.3998,540,75.5250,0.0004,0.0000,True
+Ambato,precip_pct,3,-0.2116,540,358.5032,0.0001,0.0000,True
+Ambato,tmed,3,0.4099,540,75.5007,0.0002,0.0000,True
+Ambato,precip_pct,4,-0.1889,540,358.4809,0.0003,0.0000,True
+Ambato,tmed,4,0.4018,540,75.4615,0.0003,0.0000,True
+Ambato,precip_pct,5,-0.1640,540,358.4682,0.0018,0.0001,True
+Ambato,tmed,5,0.3788,540,75.4393,0.0008,0.0000,True
+Ambato,precip_pct,6,-0.1387,540,358.4665,0.0086,0.0012,True
+Ambato,tmed,6,0.3418,540,75.4363,0.0026,0.0000,True
+Coca,precip_pct,0,-0.1091,540,359.9940,0.0386,0.0112,True
+Coca,tmed,0,0.3004,540,104.1942,0.0019,0.0000,True
+Coca,precip_pct,1,-0.1234,540,359.9696,0.0192,0.0041,True
+Coca,tmed,1,0.3465,540,104.1521,0.0003,0.0000,True
+Coca,precip_pct,2,-0.1217,540,359.9277,0.0209,0.0046,True
+Coca,tmed,2,0.3702,540,104.0795,0.0001,0.0000,True
+Coca,precip_pct,3,-0.1134,540,359.9140,0.0314,0.0083,True
+Coca,tmed,3,0.3769,540,104.0557,0.0001,0.0000,True
+Coca,precip_pct,4,-0.1038,540,359.8918,0.0491,0.0158,True
+Coca,tmed,4,0.3697,540,104.0172,0.0001,0.0000,True
+Coca,precip_pct,5,-0.0908,540,359.8792,0.0854,0.0349,False
+Coca,tmed,5,0.3497,540,103.9954,0.0003,0.0000,True
+Coca,precip_pct,6,-0.0726,540,359.8775,0.1694,0.0919,False
+Coca,tmed,6,0.3168,540,103.9924,0.0011,0.0000,True
+Cuenca,precip_pct,0,-0.1058,540,409.7093,0.0322,0.0139,True
+Cuenca,tmed,0,0.4034,540,78.3027,0.0002,0.0000,True
+Cuenca,precip_pct,1,-0.1292,540,409.6907,0.0088,0.0026,True
+Cuenca,tmed,1,0.4582,540,78.2599,0.0000,0.0000,True
+Cuenca,precip_pct,2,-0.1464,540,409.6587,0.0030,0.0006,True
+Cuenca,tmed,2,0.4914,540,78.1861,0.0000,0.0000,True
+Cuenca,precip_pct,3,-0.1573,540,409.6482,0.0014,0.0002,True
+Cuenca,tmed,3,0.5052,540,78.1619,0.0000,0.0000,True
+Cuenca,precip_pct,4,-0.1635,540,409.6312,0.0009,0.0001,True
+Cuenca,tmed,4,0.5020,540,78.1227,0.0000,0.0000,True
+Cuenca,precip_pct,5,-0.1670,540,409.6216,0.0007,0.0001,True
+Cuenca,tmed,5,0.4822,540,78.1005,0.0000,0.0000,True
+Cuenca,precip_pct,6,-0.1699,540,409.6203,0.0006,0.0001,True
+Cuenca,tmed,6,0.4441,540,78.0975,0.0000,0.0000,True
+Esmeraldas,precip_pct,0,0.3765,540,167.4154,0.0000,0.0000,True
+Esmeraldas,tmed,0,0.5170,540,40.8274,0.0006,0.0000,True
+Esmeraldas,precip_pct,1,0.3726,540,167.3758,0.0000,0.0000,True
+Esmeraldas,tmed,1,0.5271,540,40.7839,0.0004,0.0000,True
+Esmeraldas,precip_pct,2,0.3507,540,167.3077,0.0000,0.0000,True
+Esmeraldas,tmed,2,0.5162,540,40.7089,0.0006,0.0000,True
+Esmeraldas,precip_pct,3,0.3182,540,167.2853,0.0000,0.0000,True
+Esmeraldas,tmed,3,0.4865,540,40.6844,0.0013,0.0000,True
+Esmeraldas,precip_pct,4,0.2767,540,167.2492,0.0003,0.0000,True
+Esmeraldas,tmed,4,0.4455,540,40.6446,0.0037,0.0000,True
+Esmeraldas,precip_pct,5,0.2295,540,167.2287,0.0028,0.0000,True
+Esmeraldas,tmed,5,0.3984,540,40.6221,0.0103,0.0000,True
+Esmeraldas,precip_pct,6,0.1744,540,167.2259,0.0241,0.0000,True
+Esmeraldas,tmed,6,0.3490,540,40.6190,0.0261,0.0000,True
+Guayaquil,precip_pct,0,0.3481,540,101.1807,0.0004,0.0000,True
+Guayaquil,tmed,0,0.5659,540,38.7479,0.0002,0.0000,True
+Guayaquil,precip_pct,1,0.3630,540,101.1384,0.0002,0.0000,True
+Guayaquil,tmed,1,0.5641,540,38.7043,0.0002,0.0000,True
+Guayaquil,precip_pct,2,0.3550,540,101.0657,0.0003,0.0000,True
+Guayaquil,tmed,2,0.5449,540,38.6293,0.0004,0.0000,True
+Guayaquil,precip_pct,3,0.3326,540,101.0418,0.0007,0.0000,True
+Guayaquil,tmed,3,0.5129,540,38.6047,0.0009,0.0000,True
+Guayaquil,precip_pct,4,0.2996,540,101.0032,0.0023,0.0000,True
+Guayaquil,tmed,4,0.4779,540,38.5649,0.0022,0.0000,True
+Guayaquil,precip_pct,5,0.2631,540,100.9813,0.0079,0.0000,True
+Guayaquil,tmed,5,0.4404,540,38.5424,0.0053,0.0000,True
+Guayaquil,precip_pct,6,0.2185,540,100.9784,0.0282,0.0000,True
+Guayaquil,tmed,6,0.3958,540,38.5393,0.0132,0.0000,True
+Ibarra,precip_pct,0,-0.2471,540,421.6532,0.0000,0.0000,True
+Ibarra,tmed,0,0.4906,540,54.9265,0.0001,0.0000,True
+Ibarra,precip_pct,1,-0.2416,540,421.6361,0.0000,0.0000,True
+Ibarra,tmed,1,0.5252,540,54.8831,0.0000,0.0000,True
+Ibarra,precip_pct,2,-0.2245,540,421.6067,0.0000,0.0000,True
+Ibarra,tmed,2,0.5394,540,54.8085,0.0000,0.0000,True
+Ibarra,precip_pct,3,-0.1875,540,421.5971,0.0001,0.0000,True
+Ibarra,tmed,3,0.5238,540,54.7841,0.0000,0.0000,True
+Ibarra,precip_pct,4,-0.1490,540,421.5814,0.0022,0.0005,True
+Ibarra,tmed,4,0.4887,540,54.7445,0.0002,0.0000,True
+Ibarra,precip_pct,5,-0.1150,540,421.5726,0.0182,0.0075,True
+Ibarra,tmed,5,0.4396,540,54.7220,0.0008,0.0000,True
+Ibarra,precip_pct,6,-0.0865,540,421.5714,0.0760,0.0445,False
+Ibarra,tmed,6,0.3831,540,54.7190,0.0040,0.0000,True
+Latacunga,precip_pct,0,-0.2494,540,357.4960,0.0000,0.0000,True
+Latacunga,tmed,0,0.3577,540,72.1981,0.0020,0.0000,True
+Latacunga,precip_pct,1,-0.2659,540,357.4714,0.0000,0.0000,True
+Latacunga,tmed,1,0.4053,540,72.1550,0.0004,0.0000,True
+Latacunga,precip_pct,2,-0.2683,540,357.4291,0.0000,0.0000,True
+Latacunga,tmed,2,0.4337,540,72.0810,0.0001,0.0000,True
+Latacunga,precip_pct,3,-0.2527,540,357.4152,0.0000,0.0000,True
+Latacunga,tmed,3,0.4406,540,72.0567,0.0001,0.0000,True
+Latacunga,precip_pct,4,-0.2307,540,357.3927,0.0000,0.0000,True
+Latacunga,tmed,4,0.4298,540,72.0174,0.0002,0.0000,True
+Latacunga,precip_pct,5,-0.2104,540,357.3800,0.0001,0.0000,True
+Latacunga,tmed,5,0.4039,540,71.9952,0.0004,0.0000,True
+Latacunga,precip_pct,6,-0.1930,540,357.3783,0.0002,0.0000,True
+Latacunga,tmed,6,0.3642,540,71.9922,0.0017,0.0000,True
+Loja,precip_pct,0,-0.0666,540,350.6914,0.2135,0.1222,False
+Loja,tmed,0,0.5131,540,95.9755,0.0000,0.0000,True
+Loja,precip_pct,1,-0.0698,540,350.6660,0.1925,0.1054,False
+Loja,tmed,1,0.5622,540,95.9331,0.0000,0.0000,True
+Loja,precip_pct,2,-0.0771,540,350.6224,0.1498,0.0735,False
+Loja,tmed,2,0.5863,540,95.8601,0.0000,0.0000,True
+Loja,precip_pct,3,-0.0817,540,350.6082,0.1269,0.0579,False
+Loja,tmed,3,0.5870,540,95.8362,0.0000,0.0000,True
+Loja,precip_pct,4,-0.0854,540,350.5850,0.1105,0.0474,False
+Loja,tmed,4,0.5702,540,95.7974,0.0000,0.0000,True
+Loja,precip_pct,5,-0.0878,540,350.5719,0.1008,0.0414,False
+Loja,tmed,5,0.5386,540,95.7755,0.0000,0.0000,True
+Loja,precip_pct,6,-0.0975,540,350.5701,0.0684,0.0235,False
+Loja,tmed,6,0.4920,540,95.7725,0.0000,0.0000,True
+Macas,precip_pct,0,0.0221,540,312.9715,0.6968,0.6082,False
+Macas,tmed,0,0.3554,540,56.3214,0.0070,0.0000,True
+Macas,precip_pct,1,0.0276,540,312.9424,0.6270,0.5226,False
+Macas,tmed,1,0.4075,540,56.2781,0.0018,0.0000,True
+Macas,precip_pct,2,0.0355,540,312.8923,0.5315,0.4102,False
+Macas,tmed,2,0.4379,540,56.2035,0.0007,0.0000,True
+Macas,precip_pct,3,0.0301,540,312.8759,0.5953,0.4845,False
+Macas,tmed,3,0.4493,540,56.1791,0.0005,0.0000,True
+Macas,precip_pct,4,0.0169,540,312.8493,0.7656,0.6948,False
+Macas,tmed,4,0.4448,540,56.1395,0.0006,0.0000,True
+Macas,precip_pct,5,0.0119,540,312.8343,0.8337,0.7823,False
+Macas,tmed,5,0.4267,540,56.1171,0.0010,0.0000,True
+Macas,precip_pct,6,0.0138,540,312.8322,0.8075,0.7485,False
+Macas,tmed,6,0.3938,540,56.1141,0.0026,0.0000,True
+Machala,precip_pct,0,0.3492,540,98.4796,0.0004,0.0000,True
+Machala,tmed,0,0.6112,540,40.4123,0.0000,0.0000,True
+Machala,precip_pct,1,0.3681,540,98.4373,0.0002,0.0000,True
+Machala,tmed,1,0.6228,540,40.3688,0.0000,0.0000,True
+Machala,precip_pct,2,0.3671,540,98.3644,0.0002,0.0000,True
+Machala,tmed,2,0.6108,540,40.2938,0.0000,0.0000,True
+Machala,precip_pct,3,0.3546,540,98.3405,0.0003,0.0000,True
+Machala,tmed,3,0.5828,540,40.2693,0.0001,0.0000,True
+Machala,precip_pct,4,0.3357,540,98.3018,0.0007,0.0000,True
+Machala,tmed,4,0.5475,540,40.2295,0.0002,0.0000,True
+Machala,precip_pct,5,0.3035,540,98.2799,0.0023,0.0000,True
+Machala,tmed,5,0.5069,540,40.2069,0.0008,0.0000,True
+Machala,precip_pct,6,0.2570,540,98.2769,0.0105,0.0000,True
+Machala,tmed,6,0.4547,540,40.2039,0.0031,0.0000,True
+Manta,precip_pct,0,0.2300,540,140.4933,0.0062,0.0000,True
+Manta,tmed,0,0.5744,540,47.7607,0.0000,0.0000,True
+Manta,precip_pct,1,0.2542,540,140.4525,0.0024,0.0000,True
+Manta,tmed,1,0.5744,540,47.7173,0.0000,0.0000,True
+Manta,precip_pct,2,0.2630,540,140.3822,0.0017,0.0000,True
+Manta,tmed,2,0.5551,540,47.6425,0.0000,0.0000,True
+Manta,precip_pct,3,0.2642,540,140.3591,0.0016,0.0000,True
+Manta,tmed,3,0.5228,540,47.6180,0.0001,0.0000,True
+Manta,precip_pct,4,0.2520,540,140.3218,0.0026,0.0000,True
+Manta,tmed,4,0.4839,540,47.5783,0.0005,0.0000,True
+Manta,precip_pct,5,0.2301,540,140.3007,0.0062,0.0000,True
+Manta,tmed,5,0.4390,540,47.5558,0.0019,0.0000,True
+Manta,precip_pct,6,0.1949,540,140.2978,0.0209,0.0000,True
+Manta,tmed,6,0.3829,540,47.5528,0.0075,0.0000,True
+Nueva Loja,precip_pct,0,-0.1366,540,293.6398,0.0192,0.0015,True
+Nueva Loja,tmed,0,0.2788,540,112.4139,0.0029,0.0000,True
+Nueva Loja,precip_pct,1,-0.1487,540,293.6090,0.0108,0.0005,True
+Nueva Loja,tmed,1,0.3251,540,112.3720,0.0005,0.0000,True
+Nueva Loja,precip_pct,2,-0.1416,540,293.5559,0.0152,0.0010,True
+Nueva Loja,tmed,2,0.3498,540,112.2999,0.0002,0.0000,True
+Nueva Loja,precip_pct,3,-0.1332,540,293.5385,0.0225,0.0019,True
+Nueva Loja,tmed,3,0.3585,540,112.2763,0.0001,0.0000,True
+Nueva Loja,precip_pct,4,-0.1247,540,293.5103,0.0327,0.0037,True
+Nueva Loja,tmed,4,0.3526,540,112.2380,0.0001,0.0000,True
+Nueva Loja,precip_pct,5,-0.1087,540,293.4943,0.0629,0.0115,False
+Nueva Loja,tmed,5,0.3329,540,112.2163,0.0003,0.0000,True
+Nueva Loja,precip_pct,6,-0.0845,540,293.4922,0.1487,0.0497,False
+Nueva Loja,tmed,6,0.2999,540,112.2134,0.0013,0.0000,True
+Portoviejo,precip_pct,0,0.2561,540,117.5147,0.0052,0.0000,True
+Portoviejo,tmed,0,0.5682,540,39.7779,0.0001,0.0000,True
+Portoviejo,precip_pct,1,0.2693,540,117.4730,0.0033,0.0000,True
+Portoviejo,tmed,1,0.5599,540,39.7344,0.0002,0.0000,True
+Portoviejo,precip_pct,2,0.2649,540,117.4012,0.0038,0.0000,True
+Portoviejo,tmed,2,0.5346,540,39.6594,0.0004,0.0000,True
+Portoviejo,precip_pct,3,0.2534,540,117.3776,0.0058,0.0000,True
+Portoviejo,tmed,3,0.4963,540,39.6348,0.0012,0.0000,True
+Portoviejo,precip_pct,4,0.2336,540,117.3395,0.0111,0.0000,True
+Portoviejo,tmed,4,0.4525,540,39.5950,0.0035,0.0000,True
+Portoviejo,precip_pct,5,0.2089,540,117.3179,0.0236,0.0000,True
+Portoviejo,tmed,5,0.4040,540,39.5725,0.0101,0.0000,True
+Portoviejo,precip_pct,6,0.1742,540,117.3150,0.0600,0.0000,False
+Portoviejo,tmed,6,0.3466,540,39.5694,0.0294,0.0000,True
+Puerto Ayora,precip_pct,0,0.3862,495,84.9658,0.0003,0.0000,True
+Puerto Ayora,tmed,0,0.6857,540,44.4549,0.0000,0.0000,True
+Puerto Ayora,precip_pct,1,0.3879,495,84.5442,0.0003,0.0000,True
+Puerto Ayora,tmed,1,0.6427,540,44.4114,0.0000,0.0000,True
+Puerto Ayora,precip_pct,2,0.3751,495,84.5328,0.0004,0.0000,True
+Puerto Ayora,tmed,2,0.5727,540,44.3365,0.0000,0.0000,True
+Puerto Ayora,precip_pct,3,0.3469,495,84.7672,0.0012,0.0000,True
+Puerto Ayora,tmed,3,0.4871,540,44.3120,0.0008,0.0000,True
+Puerto Ayora,precip_pct,4,0.3190,495,85.0445,0.0029,0.0000,True
+Puerto Ayora,tmed,4,0.3953,540,44.2722,0.0077,0.0000,True
+Puerto Ayora,precip_pct,5,0.2916,495,85.2453,0.0067,0.0000,True
+Puerto Ayora,tmed,5,0.3048,540,44.2497,0.0436,0.0000,True
+Puerto Ayora,precip_pct,6,0.2584,495,85.2536,0.0168,0.0000,True
+Puerto Ayora,tmed,6,0.2203,540,44.2467,0.1495,0.0000,False
+Puerto Baquerizo,precip_pct,0,0.2904,450,83.3014,0.0076,0.0000,True
+Puerto Baquerizo,tmed,0,0.6848,540,42.9330,0.0000,0.0000,True
+Puerto Baquerizo,precip_pct,1,0.3080,450,82.2751,0.0048,0.0000,True
+Puerto Baquerizo,tmed,1,0.6405,540,42.8895,0.0000,0.0000,True
+Puerto Baquerizo,precip_pct,2,0.3143,450,81.9979,0.0040,0.0000,True
+Puerto Baquerizo,tmed,2,0.5637,540,42.8146,0.0001,0.0000,True
+Puerto Baquerizo,precip_pct,3,0.3097,450,82.3134,0.0046,0.0000,True
+Puerto Baquerizo,tmed,3,0.4677,540,42.7900,0.0016,0.0000,True
+Puerto Baquerizo,precip_pct,4,0.3025,450,83.0946,0.0054,0.0000,True
+Puerto Baquerizo,tmed,4,0.3673,540,42.7502,0.0157,0.0000,True
+Puerto Baquerizo,precip_pct,5,0.2925,450,83.7670,0.0070,0.0000,True
+Puerto Baquerizo,tmed,5,0.2742,540,42.7277,0.0761,0.0000,False
+Puerto Baquerizo,precip_pct,6,0.2730,450,84.2769,0.0118,0.0000,True
+Puerto Baquerizo,tmed,6,0.1928,540,42.7247,0.2171,0.0000,False
+Puyo,precip_pct,0,-0.1434,540,363.0278,0.0062,0.0008,True
+Puyo,tmed,0,0.3595,540,60.1378,0.0047,0.0000,True
+Puyo,precip_pct,1,-0.1532,540,363.0038,0.0034,0.0004,True
+Puyo,tmed,1,0.4089,540,60.0945,0.0012,0.0000,True
+Puyo,precip_pct,2,-0.1560,540,362.9625,0.0029,0.0003,True
+Puyo,tmed,2,0.4365,540,60.0201,0.0005,0.0000,True
+Puyo,precip_pct,3,-0.1568,540,362.9489,0.0027,0.0003,True
+Puyo,tmed,3,0.4454,540,59.9957,0.0004,0.0000,True
+Puyo,precip_pct,4,-0.1553,540,362.9270,0.0030,0.0003,True
+Puyo,tmed,4,0.4393,540,59.9562,0.0004,0.0000,True
+Puyo,precip_pct,5,-0.1458,540,362.9146,0.0054,0.0007,True
+Puyo,tmed,5,0.4206,540,59.9338,0.0008,0.0000,True
+Puyo,precip_pct,6,-0.1325,540,362.9129,0.0115,0.0020,True
+Puyo,tmed,6,0.3865,540,59.9308,0.0023,0.0000,True
+Quito,precip_pct,0,-0.1847,540,392.4262,0.0002,0.0000,True
+Quito,tmed,0,0.5195,540,76.0086,0.0000,0.0000,True
+Quito,precip_pct,1,-0.1700,540,392.4055,0.0007,0.0001,True
+Quito,tmed,1,0.5494,540,75.9657,0.0000,0.0000,True
+Quito,precip_pct,2,-0.1496,540,392.3699,0.0030,0.0005,True
+Quito,tmed,2,0.5606,540,75.8918,0.0000,0.0000,True
+Quito,precip_pct,3,-0.1155,540,392.3582,0.0221,0.0072,True
+Quito,tmed,3,0.5414,540,75.8676,0.0000,0.0000,True
+Quito,precip_pct,4,-0.0837,540,392.3394,0.0979,0.0520,False
+Quito,tmed,4,0.5031,540,75.8284,0.0000,0.0000,True
+Quito,precip_pct,5,-0.0586,540,392.3287,0.2472,0.1742,False
+Quito,tmed,5,0.4516,540,75.8062,0.0000,0.0000,True
+Quito,precip_pct,6,-0.0419,540,392.3272,0.4083,0.3316,False
+Quito,tmed,6,0.3931,540,75.8032,0.0005,0.0000,True
+Riobamba,precip_pct,0,-0.1024,540,320.0607,0.0674,0.0173,False
+Riobamba,tmed,0,0.4586,540,59.8846,0.0002,0.0000,True
+Riobamba,precip_pct,1,-0.1214,540,320.0323,0.0299,0.0047,True
+Riobamba,tmed,1,0.5025,540,59.8413,0.0000,0.0000,True
+Riobamba,precip_pct,2,-0.1420,540,319.9834,0.0110,0.0009,True
+Riobamba,tmed,2,0.5298,540,59.7669,0.0000,0.0000,True
+Riobamba,precip_pct,3,-0.1528,540,319.9674,0.0062,0.0004,True
+Riobamba,tmed,3,0.5325,540,59.7424,0.0000,0.0000,True
+Riobamba,precip_pct,4,-0.1592,540,319.9414,0.0043,0.0002,True
+Riobamba,tmed,4,0.5162,540,59.7029,0.0000,0.0000,True
+Riobamba,precip_pct,5,-0.1597,540,319.9267,0.0042,0.0002,True
+Riobamba,tmed,5,0.4817,540,59.6805,0.0001,0.0000,True
+Riobamba,precip_pct,6,-0.1631,540,319.9247,0.0034,0.0001,True
+Riobamba,tmed,6,0.4329,540,59.6775,0.0006,0.0000,True
+Salinas,precip_pct,0,0.2226,540,123.5259,0.0131,0.0000,True
+Salinas,tmed,0,0.6134,540,46.0465,0.0000,0.0000,True
+Salinas,precip_pct,1,0.2496,540,123.4844,0.0053,0.0000,True
+Salinas,tmed,1,0.6098,540,46.0031,0.0000,0.0000,True
+Salinas,precip_pct,2,0.2577,540,123.4130,0.0039,0.0000,True
+Salinas,tmed,2,0.5873,540,45.9282,0.0000,0.0000,True
+Salinas,precip_pct,3,0.2519,540,123.3895,0.0049,0.0000,True
+Salinas,tmed,3,0.5521,540,45.9037,0.0001,0.0000,True
+Salinas,precip_pct,4,0.2321,540,123.3516,0.0097,0.0000,True
+Salinas,tmed,4,0.5126,540,45.8640,0.0003,0.0000,True
+Salinas,precip_pct,5,0.2023,540,123.3301,0.0247,0.0000,True
+Salinas,tmed,5,0.4684,540,45.8415,0.0010,0.0000,True
+Salinas,precip_pct,6,0.1605,540,123.3272,0.0757,0.0002,False
+Salinas,tmed,6,0.4134,540,45.8384,0.0044,0.0000,True
+Santo Domingo,precip_pct,0,0.3747,540,109.1915,0.0001,0.0000,True
+Santo Domingo,tmed,0,0.4762,540,31.7458,0.0061,0.0000,True
+Santo Domingo,precip_pct,1,0.3699,540,109.1495,0.0001,0.0000,True
+Santo Domingo,tmed,1,0.4874,540,31.7021,0.0049,0.0000,True
+Santo Domingo,precip_pct,2,0.3439,540,109.0772,0.0002,0.0000,True
+Santo Domingo,tmed,2,0.4799,540,31.6270,0.0057,0.0000,True
+Santo Domingo,precip_pct,3,0.3103,540,109.0535,0.0010,0.0000,True
+Santo Domingo,tmed,3,0.4549,540,31.6024,0.0094,0.0000,True
+Santo Domingo,precip_pct,4,0.2700,540,109.0151,0.0045,0.0000,True
+Santo Domingo,tmed,4,0.4180,540,31.5625,0.0181,0.0000,True
+Santo Domingo,precip_pct,5,0.2273,540,108.9934,0.0175,0.0000,True
+Santo Domingo,tmed,5,0.3736,540,31.5399,0.0366,0.0000,True
+Santo Domingo,precip_pct,6,0.1794,540,108.9905,0.0620,0.0000,False
+Santo Domingo,tmed,6,0.3235,540,31.5369,0.0731,0.0000,False
+Tena,precip_pct,0,-0.0369,540,306.3130,0.5198,0.3920,False
+Tena,tmed,0,0.3479,540,62.8302,0.0053,0.0000,True
+Tena,precip_pct,1,-0.0455,540,306.2833,0.4272,0.2909,False
+Tena,tmed,1,0.3956,540,62.7870,0.0014,0.0000,True
+Tena,precip_pct,2,-0.0430,540,306.2322,0.4530,0.3182,False
+Tena,tmed,2,0.4194,540,62.7127,0.0006,0.0000,True
+Tena,precip_pct,3,-0.0451,540,306.2154,0.4312,0.2950,False
+Tena,tmed,3,0.4242,540,62.6883,0.0005,0.0000,True
+Tena,precip_pct,4,-0.0531,540,306.1883,0.3543,0.2178,False
+Tena,tmed,4,0.4141,540,62.6488,0.0008,0.0000,True
+Tena,precip_pct,5,-0.0544,540,306.1729,0.3432,0.2073,False
+Tena,tmed,5,0.3924,540,62.6265,0.0015,0.0000,True
+Tena,precip_pct,6,-0.0494,540,306.1708,0.3888,0.2516,False
+Tena,tmed,6,0.3578,540,62.6235,0.0041,0.0000,True
+Zamora,precip_pct,0,0.0912,540,405.2564,0.0666,0.0341,False
+Zamora,tmed,0,0.2999,540,134.5865,0.0004,0.0000,True
+Zamora,precip_pct,1,0.0771,540,405.2372,0.1211,0.0734,False
+Zamora,tmed,1,0.3631,540,134.5455,0.0000,0.0000,True
+Zamora,precip_pct,2,0.0637,540,405.2043,0.2007,0.1393,False
+Zamora,tmed,2,0.4039,540,134.4748,0.0000,0.0000,True
+Zamora,precip_pct,3,0.0442,540,405.1935,0.3747,0.3051,False
+Zamora,tmed,3,0.4284,540,134.4516,0.0000,0.0000,True
+Zamora,precip_pct,4,0.0225,540,405.1760,0.6515,0.6018,False
+Zamora,tmed,4,0.4379,540,134.4140,0.0000,0.0000,True
+Zamora,precip_pct,5,0.0088,540,405.1661,0.8599,0.8384,False
+Zamora,tmed,5,0.4314,540,134.3928,0.0000,0.0000,True
+Zamora,precip_pct,6,-0.0098,540,405.1648,0.8444,0.8206,False
+Zamora,tmed,6,0.4061,540,134.3899,0.0000,0.0000,True

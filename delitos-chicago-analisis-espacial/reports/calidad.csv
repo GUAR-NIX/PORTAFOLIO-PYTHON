@@ -1,0 +1,8 @@
+metrica,valor,unidad
+Total registros brutos,8665676.0,filas
+Duplicados por ID,0.0,filas
+Fechas inválidas o nulas,0.0,filas
+Sin coordenadas geográficas,100954.0,filas
+Coordenadas fuera del polígono de Chicago,149.0,filas
+Total registros limpios retenidos,8665676.0,filas
+Tasa de retención limpia,100.0,%

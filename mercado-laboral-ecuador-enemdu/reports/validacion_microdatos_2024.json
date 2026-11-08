@@ -1,0 +1,55 @@
+{
+  "anio": 2024,
+  "url_microdatos": "https://www.ecuadorencifras.gob.ec/documentos/web-inec/EMPLEO/2024/anual/2_BDD_DATOS_ABIERTOS_ENEMDU_2024_CSV.zip",
+  "sha256_zip": "24244a7e7b525730b6c33081bbabb82c4bd030d6ed4cc278f875e046447a8d95",
+  "bytes_zip": 14138561,
+  "personas": 341394,
+  "upm": 4973,
+  "estratos": 150,
+  "celdas_comparadas": 80,
+  "celdas_coinciden": 80,
+  "dif_max_abs_pp": 0.0,
+  "tolerancia_pp": 0.1,
+  "nacional": {
+    "Empleo Bruto": {
+      "calculado_pct": 61.85,
+      "serie_inec_pct": 61.8
+    },
+    "Empleo Global": {
+      "calculado_pct": 96.25,
+      "serie_inec_pct": 96.3
+    },
+    "Empleo Adecuado/Pleno": {
+      "calculado_pct": 35.88,
+      "serie_inec_pct": 35.9
+    },
+    "Subempleo": {
+      "calculado_pct": 21.02,
+      "serie_inec_pct": 21.0
+    },
+    "Empleo no Remunerado": {
+      "calculado_pct": 9.45,
+      "serie_inec_pct": 9.5
+    },
+    "Otro Empleo no pleno": {
+      "calculado_pct": 29.76,
+      "serie_inec_pct": 29.8
+    },
+    "Desempleo": {
+      "calculado_pct": 3.75,
+      "serie_inec_pct": 3.7
+    },
+    "Participación Global": {
+      "calculado_pct": 64.26,
+      "serie_inec_pct": 64.3
+    },
+    "Participación Bruta": {
+      "calculado_pct": 45.67,
+      "serie_inec_pct": 45.7
+    },
+    "Sector informal": {
+      "calculado_pct": 52.37,
+      "serie_inec_pct": 52.4
+    }
+  }
+}

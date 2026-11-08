@@ -1,0 +1,8 @@
+variable,bloques,horas_solapadas,max_dif_solape
+temperature_2m,95,216,0.0500
+dew_point_2m,95,216,0.0500
+precipitation,95,216,0.1000
+shortwave_radiation,95,216,1.0000
+wind_u_component_10m,95,216,0.1000
+wind_v_component_10m,95,216,0.1000
+wind_gusts_10m,95,216,7.1000

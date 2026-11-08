@@ -1,0 +1,18 @@
+[project]
+name = "nyc311"
+version = "1.0.0"
+description = "Tiempos de resolución del 311 de Nueva York con análisis de supervivencia: Kaplan-Meier, log-rank y Cox con casos censurados"
+authors = [{ name = "Erick Guarnizo" }]
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = [".", "src"]
+testpaths = ["tests"]
+filterwarnings = ["ignore::Warning"]

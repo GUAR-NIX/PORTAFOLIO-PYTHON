@@ -1,0 +1,10 @@
+dimension,grupos,chi2,gl,p_valor
+agencia,10,7051706.130875539,9,0.0
+tipo_queja,21,6128322.068992333,20,0.0
+borough,5,12097.496948214452,4,0.0
+canal,4,834874.2566156127,3,0.0
+borough | Illegal Parking,5,22392.03452389919,4,0.0
+borough | Noise - Residential,5,56251.9903341234,4,0.0
+borough | HEAT/HOT WATER,5,10810.725038771776,4,0.0
+borough | Street Condition,5,1389.5574588350537,4,1.270289821037872e-299
+borough | Rodent,5,1906.6614484977536,4,0.0

@@ -1,0 +1,4 @@
+catalogo,eventos,archivo,mb,llamadas_red_esta_corrida,consultas_en_cache,fecha
+ecuador_m2.5,3215,union_ecuador_m2.5.parquet,0.24,59,56,2026-10-22 00:50 UTC
+mundo_m5,88359,union_mundo_m5.parquet,5.36,59,56,2026-10-22 00:50 UTC
+ecuador_m6_historico,139,union_ecuador_m6_historico.parquet,0.03,59,56,2026-10-22 00:50 UTC

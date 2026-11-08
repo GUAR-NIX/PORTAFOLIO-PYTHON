@@ -1,0 +1,8 @@
+variable,variable_api,dias,dif_media,dif_abs_media,dif_abs_p99,correlacion
+tmed_celda,temperature_2m_mean,16060,-0.0005,0.0248,0.0500,1.0000
+tmax_celda,temperature_2m_max,16060,-0.0559,0.0559,0.3000,0.9999
+tmin_celda,temperature_2m_min,16060,0.0539,0.0555,0.4000,0.9999
+precip,precipitation_sum,16060,-0.0000,0.0000,0.0000,1.0000
+humedad,relative_humidity_2m_mean,16060,-0.0030,0.2512,0.5000,0.9992
+viento_max,wind_speed_10m_max,16060,-0.0153,0.0387,0.0500,0.9880
+radiacion,shortwave_radiation_sum,16060,-0.0000,0.0000,0.0000,1.0000

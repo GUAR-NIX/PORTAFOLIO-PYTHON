@@ -1,0 +1,17 @@
+[project]
+name = "sismos"
+version = "1.0.0"
+description = "Sismicidad del Ecuador y del Cinturón de Fuego: Gutenberg-Richter, periodos de retorno y Omori-Utsu (catálogo USGS)"
+authors = [{ name = "Erick Guarnizo" }]
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::Warning"]
