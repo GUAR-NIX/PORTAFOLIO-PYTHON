@@ -16,7 +16,7 @@ import numpy as np
 import pandas as pd
 from scipy import stats
 
-from delitos_chicago.config import FIGURAS, REPORTES
+from delitos_chicago.config import FIGURAS
 
 
 def intervalo_confianza_proporcion(

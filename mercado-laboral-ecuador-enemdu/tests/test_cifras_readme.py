@@ -1,4 +1,4 @@
-"""Verifica que README.md y la guía citen exactamente las cifras de reports/ (sin desfases)."""
+"""Verifica que README.es.md y la guía citen exactamente las cifras de reports/ (sin desfases)."""
 
 from __future__ import annotations
 
@@ -11,7 +11,7 @@ import pytest
 from empleo_enemdu.cifras_readme import construir_contexto, documentos_esperados, n
 from empleo_enemdu.config import DIR_PROCESADOS, DIR_REPORTS, DIR_TABLAS, RAIZ
 
-README = (RAIZ / "README.md").read_text(encoding="utf-8")
+README = (RAIZ / "README.es.md").read_text(encoding="utf-8")
 GUIA = (RAIZ / "docs" / "GUIA_PASO_A_PASO.md").read_text(encoding="utf-8")
 
 
@@ -94,7 +94,7 @@ def test_guia_tiene_al_menos_ocho_preguntas_con_respuesta() -> None:
         DIR_REPORTS / "validacion_microdatos_2024.json",
         *sorted((RAIZ / "notebooks").glob("*.ipynb")),
         *sorted(DIR_TABLAS.glob("*.csv")),
-        RAIZ / "README.md",
+        RAIZ / "README.es.md",
         *sorted((RAIZ / "docs").rglob("*.md")),
     ],
     ids=lambda p: p.name,

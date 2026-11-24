@@ -1,11 +1,11 @@
-"""Genera README.md y docs/GUIA_PASO_A_PASO.md desde plantillas y desde reports/.
+"""Genera README.es.md y docs/GUIA_PASO_A_PASO.md desde plantillas y desde reports/.
 
 Ninguna cifra de esos documentos se escribe a mano: las plantillas de `scripts/plantillas/` tienen
 marcadores `{{clave}}` que este módulo rellena con `reports/resultados.json` y `reports/tablas/*.csv`.
 La prueba `tests/test_cifras_readme.py` falla si alguien edita el README a mano o si cambian los resultados.
 
 Uso:
-    python -m nyc311.cifras_readme             # regenera README.md y la guía
+    python -m nyc311.cifras_readme             # regenera README.es.md y la guía
     python -m nyc311.cifras_readme --verificar # solo comprueba (código 1 si hay desfase)
 """
 
@@ -26,7 +26,7 @@ from nyc311.etiquetas import BOROUGHS_ES, tipo_es
 
 DIR_PLANTILLAS = RAIZ / "scripts" / "plantillas"
 DOCUMENTOS: dict[str, Path] = {
-    "README.md": RAIZ / "README.md",
+    "README.md": RAIZ / "README.es.md",
     "GUIA_PASO_A_PASO.md": RAIZ / "docs" / "GUIA_PASO_A_PASO.md",
 }
 _MARCADOR = re.compile(r"\{\{\s*([a-z0-9_]+)\s*\}\}")

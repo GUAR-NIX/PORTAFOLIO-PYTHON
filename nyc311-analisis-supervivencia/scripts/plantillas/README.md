@@ -1,4 +1,4 @@
-🇪🇸 **Español** · 🇬🇧 [English (summary)](README.en.md)
+🇪🇸 **Español** · 🇺🇸 [English (summary)](README.md)
 
 # ¿Cuánto tarda Nueva York en resolver una solicitud del 311? · Análisis de supervivencia con casos censurados
 

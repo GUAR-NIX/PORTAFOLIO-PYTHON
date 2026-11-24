@@ -1,4 +1,4 @@
-🇪🇸 **Español** · 🇬🇧 [English (summary)](README.en.md)
+🇪🇸 **Español** · 🇺🇸 [English (summary)](README.md)
 
 # Delitos en Chicago 2001–{{anio_completo}}: dónde se concentran, cómo cambiaron y cuánto se puede anticipar
 

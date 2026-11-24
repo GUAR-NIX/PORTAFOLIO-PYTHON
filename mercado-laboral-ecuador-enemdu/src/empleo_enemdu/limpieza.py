@@ -14,7 +14,6 @@ from empleo_enemdu.config import (
     DIR_MUESTRA,
     DIR_PROCESADOS,
     DIR_RAW,
-    DOMINIOS,
     GRUPO_OCUPACION,
     NIVEL_INSTRUCCION,
     P15_A_ETNIA,

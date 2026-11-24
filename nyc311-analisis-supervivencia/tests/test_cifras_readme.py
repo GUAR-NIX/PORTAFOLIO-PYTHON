@@ -1,4 +1,4 @@
-"""Verifica que README.md y la guía citen exactamente las cifras de reports/ (sin desfases)."""
+"""Verifica que README.es.md y la guía citen exactamente las cifras de reports/ (sin desfases)."""
 
 from __future__ import annotations
 
@@ -10,7 +10,7 @@ import pandas as pd
 from nyc311.cifras_readme import documentos_esperados, duracion, n
 from nyc311.config import DIR_REPORTS, DIR_TABLAS, RAIZ
 
-README = (RAIZ / "README.md").read_text(encoding="utf-8")
+README = (RAIZ / "README.es.md").read_text(encoding="utf-8")
 GUIA = (RAIZ / "docs" / "GUIA_PASO_A_PASO.md").read_text(encoding="utf-8")
 RES = json.loads((DIR_REPORTS / "resultados.json").read_text(encoding="utf-8"))
 
@@ -90,7 +90,7 @@ def test_guia_tiene_al_menos_8_preguntas_de_entrevista() -> None:
 
 def test_sin_rutas_personales_en_documentos_y_reports() -> None:
     patron = re.compile(r"[A-Za-z]:[\\/]+Users[\\/]|/c/Users/", re.IGNORECASE)
-    archivos = [RAIZ / "README.md", RAIZ / "docs" / "GUIA_PASO_A_PASO.md", DIR_REPORTS / "resultados.json"]
+    archivos = [RAIZ / "README.es.md", RAIZ / "docs" / "GUIA_PASO_A_PASO.md", DIR_REPORTS / "resultados.json"]
     archivos += list((RAIZ / "notebooks").glob("*.ipynb"))
     for archivo in archivos:
         assert not patron.search(archivo.read_text(encoding="utf-8")), f"Ruta personal en {archivo.name}"

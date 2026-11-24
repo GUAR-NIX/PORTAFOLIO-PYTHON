@@ -49,7 +49,7 @@ def test_armonizar_en_pandas_y_sql_coinciden() -> None:
     serie = pd.Series(["VIEJO", "NUEVO", "ESTABLE", "O'HARE"])
     esperado = ["NUEVO", "NUEVO", "ESTABLE", "AEROPUERTO"]
     assert armonizar_tipos(serie, mapa).tolist() == esperado
-    df = pd.DataFrame({"tipo_primario": serie})
+    df = pd.DataFrame({"tipo_primario": serie})  # noqa: F841  (DuckDB la lee por nombre)
     sql = duckdb.sql(f"SELECT {expresion_sql(mapa)} AS t FROM df").df()["t"].tolist()
     assert sql == esperado
     assert expresion_sql({}) == "tipo_primario"

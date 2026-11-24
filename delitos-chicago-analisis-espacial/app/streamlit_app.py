@@ -15,7 +15,6 @@ from folium.plugins import HeatMap
 import geopandas as gpd
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objects as go
 import streamlit as st
 
 RAIZ = Path(__file__).resolve().parents[1]
@@ -98,7 +97,7 @@ def main() -> None:
         st.warning("Ejecuta primero el pipeline de ingesta para visualizar los datos.")
         return
 
-    gdf_areas = cargar_geo()
+    cargar_geo()
 
     # ── Barra lateral con filtros ──────────────────────────────────────────────
     st.sidebar.header("Filtros")

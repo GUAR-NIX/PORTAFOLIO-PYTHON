@@ -79,7 +79,7 @@ def fig_01_diseno_muestral_y_reconciliacion(
         color=PALETA["primario"],
         label="Ponderado (fexp) = Oficial INEC",
     )
-    b2 = ax1.barh(
+    ax1.barh(
         y - h / 2,
         sub["sin_ponderar_pct"],
         height=h,

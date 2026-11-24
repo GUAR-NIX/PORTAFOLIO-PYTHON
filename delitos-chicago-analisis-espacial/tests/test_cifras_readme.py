@@ -1,4 +1,4 @@
-"""Verifica que README.md y la guía citen exactamente las cifras de reports/."""
+"""Verifica que README.es.md y la guía citen exactamente las cifras de reports/."""
 from __future__ import annotations
 
 import json
@@ -9,7 +9,7 @@ import pandas as pd
 from delitos_chicago.cifras_readme import documentos_esperados, n, s
 from delitos_chicago.config import RAIZ, REPORTES
 
-README = (RAIZ / "README.md").read_text(encoding="utf-8")
+README = (RAIZ / "README.es.md").read_text(encoding="utf-8")
 GUIA = (RAIZ / "docs" / "GUIA_PASO_A_PASO.md").read_text(encoding="utf-8")
 
 
@@ -85,6 +85,6 @@ def test_sin_rutas_personales_en_salidas_versionadas() -> None:
     """Ningún archivo versionado del proyecto debe contener rutas de la máquina del autor."""
     patron = re.compile(r"[A-Za-z]:[\\/]+Users[\\/]+|/home/[a-z]+/")
     rutas = [*RAIZ.glob("notebooks/*.ipynb"), *REPORTES.glob("*.json"), *REPORTES.glob("*.csv"),
-             RAIZ / "data" / "manifiesto_fuente.json", RAIZ / "README.md"]
+             RAIZ / "data" / "manifiesto_fuente.json", RAIZ / "README.es.md"]
     con_ruta = [p.name for p in rutas if patron.search(p.read_text(encoding="utf-8"))]
     assert not con_ruta, f"Rutas personales en: {con_ruta}"

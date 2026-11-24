@@ -2,10 +2,8 @@
 from __future__ import annotations
 
 import pandas as pd
-import pytest
 
 from delitos_chicago.policial import (
-    analisis_distritos_policiales,
     analisis_violencia_domestica,
     intervalo_confianza_proporcion,
     tasa_arresto_por_tipo,

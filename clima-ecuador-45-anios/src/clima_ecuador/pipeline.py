@@ -65,11 +65,10 @@ def construir_series(avisar=print) -> dict:
 
 
 def analizar(s: dict, avisar=print) -> dict:
-    diario, mensual, anual, celdas = s["diario"], s["mensual"], s["anual"], s["celdas"]
+    diario, mensual, anual = s["diario"], s["mensual"], s["anual"]
     ciudades_diario = agregacion.solo_ciudades(diario)
     ciudades_mensual = agregacion.solo_ciudades(mensual)
     ciudades_anual = agregacion.solo_ciudades(anual)
-    r: dict = {}
 
     # --- Estacionalidad y climatología ---------------------------------------------------------
     clim = clima.climatologia_mensual(ciudades_mensual)

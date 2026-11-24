@@ -1,37 +1,48 @@
-🇪🇸 **Español** · 🇬🇧 [English](README.en.md)
+🇺🇸 **English** · 🇪🇸 [Español](README.es.md)
 
-# Portafolio de Python para análisis de datos
+# Reproducible data analysis in Python
 
-Análisis estadístico y espacial, series de tiempo, encuestas con factores de expansión y análisis de supervivencia con datos abiertos.
+Six analyses of public data with automated tests and uncertainty estimates.
 
-**Herramientas principales:** pandas · Polars/DuckDB · statsmodels · geopandas · Streamlit
+| Project | Measured result | Code | Tests |
+|---|---|---|---|
+| [Labor market with a complex survey design](mercado-laboral-ecuador-enemdu/README.md) | **80 of 80** cells match the official INEC table after rounding | [code](mercado-laboral-ecuador-enemdu/src/empleo_enemdu) | [tests](mercado-laboral-ecuador-enemdu/tests) |
+| [NYC 311 resolution times](nyc311-analisis-supervivencia/README.md) | **7.54 million** requests; Kaplan-Meier median 27.2 days where the naive one says 4.6 (Parks) | [code](nyc311-analisis-supervivencia/src/nyc311) | [tests](nyc311-analisis-supervivencia/tests) |
+| [Crime in Chicago](delitos-chicago-analisis-espacial/README.md) | **8.67 million** records; forecast WAPE **6.21%** vs. 9.16% for the seasonal baseline | [code](delitos-chicago-analisis-espacial/src/delitos_chicago) | [tests](delitos-chicago-analisis-espacial/tests) |
+| [45 years of climate in Ecuador](clima-ecuador-45-anios/README.md) | **11.8 million** hourly records; +0.24 °C per decade (p = 0.002) | [code](clima-ecuador-45-anios/src/clima_ecuador) | [tests](clima-ecuador-45-anios/tests) |
+| [Seismicity with the USGS catalog](sismicidad-ecuador-usgs/README.md) | b = **0.85** [0.72–0.97]; M≥7 every 5.0 years on average [3.3–8.5] | [code](sismicidad-ecuador-usgs/src/sismos) | [tests](sismicidad-ecuador-usgs/tests) |
+| [Growth and CO2 in Latin America](desarrollo-co2-latam/README.md) | 14 of 18 countries decoupled only in relative terms; none in absolute terms (2000–2024) | [code](desarrollo-co2-latam/src/desarrollo_co2) | [tests](desarrollo-co2-latam/tests) |
 
-Cada carpeta es un proyecto independiente, con su propio README (resultados primero), guía paso a paso, pruebas automáticas y cómo reproducirlo. Los datos crudos no se versionan: cada proyecto trae un script que los descarga desde la fuente oficial.
+## Start here
 
-## Proyectos
-
-| Proyecto | De qué trata |
+| If you are looking for… | Go to |
 |---|---|
-| [**🌦️ 45 años de clima en Ecuador: ¿qué cambió y cuánto podemos confiar en la respuesta?**](clima-ecuador-45-anios/) | ¿Se está calentando el Ecuador? ¿Hay más olas de calor o lluvias intensas? ¿Cuánto pesa El Niño? Para responderlo extraigo 11,8 millones de registros horarios del reanálisis ERA5 (1980–2024) para 22 ciudades de la Costa, la… |
-| [**Delitos en Chicago 2001–2025: dónde se concentran, cómo cambiaron y cuánto se puede anticipar**](delitos-chicago-analisis-espacial/) | ¿Dónde y cuándo se concentran los delitos de Chicago? ¿Cuánto cambiaron con la pandemia? ¿Qué zonas tienen más delitos por habitante y cuánto se puede anticipar la demanda por distrito? Para responderlo proceso 8.665.676… |
-| [**🌎 ¿Crecer sin emitir más? Desarrollo y CO2 en América Latina**](desarrollo-co2-latam/) | ¿Los países de América Latina pueden crecer sin aumentar sus emisiones? Uno las cifras del Banco Mundial (PIB real, población, energía, pobreza) con las de Our World in Data / Global Carbon Project (CO2 territorial, de consumo y… |
-| [**Mercado laboral del Ecuador con encuesta ponderada · microdatos INEC ENEMDU 2025 (validados con 2024) y serie oficial 2018–2025**](mercado-laboral-ecuador-enemdu/) | Análisis del mercado laboral ecuatoriano con los microdatos de la Encuesta Nacional de Empleo, Desempleo y Subempleo (ENEMDU anual 2025) del Instituto Nacional de Estadística y Censos (INEC), respetando su diseño muestral… |
-| [**¿Cuánto tarda Nueva York en resolver una solicitud del 311? · Análisis de supervivencia con casos censurados**](nyc311-analisis-supervivencia/) | Análisis de 7.544.678 solicitudes ciudadanas al 311 de Nueva York creadas entre octubre de 2024 y septiembre de 2026, con análisis de supervivencia: el «evento» es el cierre de la solicitud y las que seguían abiertas en la fecha… |
-| [**🌋 ¿Cada cuánto tiembla fuerte en el Ecuador? Sismicidad y Cinturón de Fuego con el catálogo del USGS**](sismicidad-ecuador-usgs/) | Consumo la API FDSN del USGS (paginada, con reintentos y caché) para armar tres catálogos: 3.214 sismos M≥2,5 del Ecuador ampliado (1970–2025), 87.784 sismos M≥5 del mundo (1973–2025) para comparar 13 zonas del Cinturón de Fuego,… |
+| **Validation against an official source** | [Labor market](mercado-laboral-ecuador-enemdu/README.md) |
+| **Large data on one machine** | [Crime in Chicago](delitos-chicago-analisis-espacial/README.md): DuckDB and Parquet |
+| **How it is checked** | [CI workflow](.github/workflows/ci.yml): Ruff, Markdown links and the tests of the six projects |
+| **Design and decisions** | The full README of each project (Spanish) has the architecture, limits and reproduction commands |
 
-## Cómo usar este repositorio
+## How results were measured
+
+- In the labor market, NYC 311 and Chicago projects, README figures are generated from `reports/` and checked by tests.
+- Intervals are 95%; methods and limits are in each project.
+- Own calculations are not official statistics.
+
+## How to use this repository
 
 ```bash
-git clone https://github.com/GUAR-NIX/portafolio-python.git
-cd portafolio-python/<proyecto>
+git clone https://github.com/GUAR-NIX/PORTAFOLIO-PYTHON.git
+cd PORTAFOLIO-PYTHON/<project>
 ```
 
-Dentro de cada proyecto, sigue la sección «Cómo reproducir» de su README y `docs/GUIA_PASO_A_PASO.md`.
+Each project has its own README, tests and `docs/GUIA_PASO_A_PASO.md` (Spanish). Raw data are not versioned: a script gets them from
+the official source. The English page of each project is a summary; the full documentation is in Spanish.
+See [CONTRIBUTING.md](CONTRIBUTING.md) to run the checks.
 
-## Autor
+## Author
 
-**Erick Guarnizo** · [LinkedIn](https://www.linkedin.com/in/erick-g-571a7b3b4)
+**Erick Guarnizo** · [LinkedIn](https://www.linkedin.com/in/erick-g-571a7b3b4) · [GitHub profile](https://github.com/GUAR-NIX)
 
-## Licencia
+## License
 
-El código está bajo licencia [MIT](LICENSE). Los datos de cada proyecto conservan la licencia de su fuente, indicada en su README.
+Code is under the [MIT](LICENSE) license. Each project's data keep the license of their source, stated in its README.

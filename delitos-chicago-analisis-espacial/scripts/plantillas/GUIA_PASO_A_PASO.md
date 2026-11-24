@@ -39,7 +39,7 @@ Con el Parquet ya creado tarda unos {{tiempo_pipeline}} s. Genera:
 - `data/procesados/delitos_parquet/`: datos limpios particionados por año.
 - `data/muestra/`: muestra aleatoria de {{muestra_parquet}} registros en Parquet (la usa la app si no hay Parquet completo) y {{muestra_csv}} en CSV para inspección rápida.
 - `reports/`: {{n_figuras}} figuras, {{n_csv}} CSV, JSON de resultados y dos mapas HTML livianos.
-- `README.md` y esta guía, con las cifras de `reports/`.
+- `README.es.md` y esta guía, con las cifras de `reports/`.
 
 ## 5 · Pruebas
 

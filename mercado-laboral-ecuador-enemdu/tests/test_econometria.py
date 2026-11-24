@@ -9,7 +9,6 @@ import pandas as pd
 import pytest
 
 from empleo_enemdu.desigualdad import curva_lorenz_y_deciles, gini_ponderado
-from empleo_enemdu.mincer import estimar_modelos_mincer
 from empleo_enemdu.oaxaca import brecha_cuantilica_genero, descomposicion_oaxaca_blinder
 
 

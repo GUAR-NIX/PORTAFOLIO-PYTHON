@@ -1,11 +1,11 @@
-"""Genera README.md y docs/GUIA_PASO_A_PASO.md a partir de plantillas y de los resultados en reports/.
+"""Genera README.es.md y docs/GUIA_PASO_A_PASO.md a partir de plantillas y de los resultados en reports/.
 
 Ninguna cifra de esos documentos se escribe a mano: las plantillas de `scripts/plantillas/` tienen
 marcadores `{{clave}}` que este módulo rellena leyendo reports/. La prueba
 `tests/test_cifras_readme.py` falla si alguien edita el README a mano o si cambian los resultados.
 
 Uso:
-    python -m delitos_chicago.cifras_readme             # regenera README.md y la guía
+    python -m delitos_chicago.cifras_readme             # regenera README.es.md y la guía
     python -m delitos_chicago.cifras_readme --verificar # solo comprueba (código 1 si hay desfase)
 """
 from __future__ import annotations
@@ -23,7 +23,7 @@ from delitos_chicago.config import ANIO_CAMBIO_FIN, ANIO_CAMBIO_INI, MUESTRA, RA
 from delitos_chicago.pronostico import MODELOS
 
 DIR_PLANTILLAS = RAIZ / "scripts" / "plantillas"
-DOCUMENTOS = {"README.md": RAIZ / "README.md", "GUIA_PASO_A_PASO.md": RAIZ / "docs" / "GUIA_PASO_A_PASO.md"}
+DOCUMENTOS = {"README.md": RAIZ / "README.es.md", "GUIA_PASO_A_PASO.md": RAIZ / "docs" / "GUIA_PASO_A_PASO.md"}
 _MARCADOR = re.compile(r"\{\{\s*([a-z0-9_]+)\s*\}\}")
 
 TIPOS_ES = {
@@ -157,7 +157,7 @@ def construir_contexto() -> dict[str, str]:
     # Cambio por tipo
     cambio = pd.read_csv(REPORTES / f"cambio_porcentual_{ANIO_CAMBIO_INI}_{ANIO_CAMBIO_FIN}.csv").set_index("tipo_primario")
     c["tabla_cambio"] = _tabla(
-        [f"Tipo (categorías armonizadas)", str(ANIO_CAMBIO_INI), str(ANIO_CAMBIO_FIN), "Δ"], "|---|---:|---:|---:|",
+        ["Tipo (categorías armonizadas)", str(ANIO_CAMBIO_INI), str(ANIO_CAMBIO_FIN), "Δ"], "|---|---:|---:|---:|",
         [[TIPOS_ES[t], n(cambio.loc[t, ci]), n(cambio.loc[t, cf]), f"{s(cambio.loc[t, 'cambio_pct'])} %"] for t in CAMBIO_MOSTRAR],
     )
     for clave, tipo in {"mvt": "MOTOR VEHICLE THEFT", "narc": "NARCOTICS", "juego": "GAMBLING", "stalk": "STALKING"}.items():
@@ -348,7 +348,7 @@ def renderizar(plantilla: str, contexto: dict[str, str]) -> str:
 
 
 def documentos_esperados() -> dict[Path, str]:
-    """Texto que deberían tener README.md y la guía según los resultados actuales."""
+    """Texto que deberían tener README.es.md y la guía según los resultados actuales."""
     contexto = construir_contexto()
     return {
         destino: renderizar((DIR_PLANTILLAS / nombre).read_text(encoding="utf-8"), contexto)

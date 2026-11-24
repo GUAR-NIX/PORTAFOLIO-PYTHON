@@ -1,4 +1,4 @@
-"""Genera README.md y docs/GUIA_PASO_A_PASO.md a partir de plantillas y de los resultados en reports/.
+"""Genera README.es.md y docs/GUIA_PASO_A_PASO.md a partir de plantillas y de los resultados en reports/.
 
 Ninguna cifra de esos documentos se escribe a mano: las plantillas de `scripts/plantillas/` contienen
 marcadores `{{clave}}` que este módulo rellena leyendo `reports/resultados.json`, `reports/tablas/*.csv`,
@@ -6,7 +6,7 @@ la serie oficial del INEC y la validación con microdatos 2024. Así el texto no
 los resultados; la prueba `tests/test_cifras_readme.py` falla si alguien edita el README a mano.
 
 Uso:
-    python -m empleo_enemdu.cifras_readme             # regenera README.md y la guía
+    python -m empleo_enemdu.cifras_readme             # regenera README.es.md y la guía
     python -m empleo_enemdu.cifras_readme --verificar # solo comprueba (código 1 si hay desfase)
 """
 
@@ -26,7 +26,7 @@ from empleo_enemdu.config import DIR_PROCESADOS, DIR_REPORTS, RAIZ
 
 DIR_PLANTILLAS = RAIZ / "scripts" / "plantillas"
 DOCUMENTOS: dict[str, Path] = {
-    "README.md": RAIZ / "README.md",
+    "README.md": RAIZ / "README.es.md",
     "GUIA_PASO_A_PASO.md": RAIZ / "docs" / "GUIA_PASO_A_PASO.md",
 }
 _MARCADOR = re.compile(r"\{\{\s*([a-z0-9_]+)\s*\}\}")
@@ -427,7 +427,7 @@ def renderizar(plantilla: str, contexto: dict[str, str]) -> str:
 
 
 def documentos_esperados(contexto: dict[str, str] | None = None) -> dict[Path, str]:
-    """Texto que deberían tener README.md y la guía según los resultados actuales."""
+    """Texto que deberían tener README.es.md y la guía según los resultados actuales."""
     contexto = contexto or construir_contexto()
     return {
         destino: renderizar((DIR_PLANTILLAS / nombre).read_text(encoding="utf-8"), contexto)
