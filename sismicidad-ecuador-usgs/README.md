@@ -1,3 +1,5 @@
+🇪🇸 **Español** · 🇬🇧 [English (summary)](README.en.md)
+
 # 🌋 ¿Cada cuánto tiembla fuerte en el Ecuador? Sismicidad y Cinturón de Fuego con el catálogo del USGS
 
 Consumo la **API FDSN del USGS** (paginada, con reintentos y caché) para armar tres catálogos: **3.214 sismos M≥2,5 del Ecuador ampliado (1970–2025)**, **87.784 sismos M≥5 del mundo (1973–2025)** para comparar **13 zonas del Cinturón de Fuego**, y los M≥6 desde 1900. Con ellos homogeneízo las magnitudes, ajusto la **ley de Gutenberg-Richter** (Mc y valor b por máxima verosimilitud con IC 95 %), estimo **periodos de retorno de M≥6 y M≥7** y ajusto la **ley de Omori-Utsu** a las réplicas del **terremoto de Pedernales 2016 (M7,8)**.

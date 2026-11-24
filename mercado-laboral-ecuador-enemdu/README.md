@@ -1,5 +1,7 @@
 <!-- Archivo generado por `python -m empleo_enemdu.cifras_readme` desde scripts/plantillas/README.md.
      No lo edites a mano: cambia la plantilla y vuelve a generarlo. Todas las cifras salen de reports/. -->
+🇪🇸 **Español** · 🇬🇧 [English (summary)](README.en.md)
+
 # Mercado laboral del Ecuador con encuesta ponderada · microdatos INEC ENEMDU 2025 (validados con 2024) y serie oficial 2018–2025
 
 ![Python 3.14](https://img.shields.io/badge/Python-3.14-3776AB?logo=python&logoColor=white)

@@ -1,3 +1,5 @@
+🇪🇸 **Español** · 🇬🇧 [English (summary)](README.en.md)
+
 # 🌦️ 45 años de clima en Ecuador: ¿qué cambió y cuánto podemos confiar en la respuesta?
 
 ¿Se está calentando el Ecuador? ¿Hay más olas de calor o lluvias intensas? ¿Cuánto pesa El Niño? Para responderlo extraigo **11,8 millones de registros horarios del reanálisis ERA5** (1980–2024) para **22 ciudades de la Costa, la Sierra, la Amazonía y Galápagos**, más 8 puntos donde hay estaciones de NOAA. Con eso calculo tendencias con **Mann-Kendall corregido por autocorrelación y pendiente de Sen**, anomalías respecto a 1981–2010, **14 índices de extremos** del ETCCDI y la relación con El Niño con rezagos. Al final valido ERA5 contra **estaciones de superficie** para saber en qué se puede confiar y en qué no.

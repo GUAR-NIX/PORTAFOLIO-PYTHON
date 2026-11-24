@@ -1,5 +1,7 @@
 <!-- Archivo generado por `python -m nyc311.cifras_readme` desde scripts/plantillas/README.md.
      No lo edites a mano: cambia la plantilla y vuelve a generarlo. Todas las cifras salen de reports/. -->
+🇪🇸 **Español** · 🇬🇧 [English (summary)](README.en.md)
+
 # ¿Cuánto tarda Nueva York en resolver una solicitud del 311? · Análisis de supervivencia con casos censurados
 
 ![Python 3.14](https://img.shields.io/badge/Python-3.14-3776AB?logo=python&logoColor=white)

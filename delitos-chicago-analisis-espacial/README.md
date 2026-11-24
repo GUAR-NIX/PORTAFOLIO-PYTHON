@@ -1,3 +1,5 @@
+🇪🇸 **Español** · 🇬🇧 [English (summary)](README.en.md)
+
 # Delitos en Chicago 2001–2025: dónde se concentran, cómo cambiaron y cuánto se puede anticipar
 
 ¿Dónde y cuándo se concentran los delitos de Chicago? ¿Cuánto cambiaron con la pandemia? ¿Qué zonas tienen más delitos por habitante y cuánto se puede anticipar la demanda por distrito? Para responderlo proceso **8.665.676 registros reales del Chicago Data Portal** (enero de 2001 al 16-10-2026) con **DuckDB + Parquet**, y los analizo con pandas, statsmodels, geopandas y esda: tendencia anual, patrón hora × día, descomposición **STL**, una **serie temporal interrumpida** para el COVID-19, **tasas anuales por 100 mil habitantes** en las 77 áreas comunitarias, **hotspots Getis-Ord Gi\*** con su estabilidad año a año, tasas de arresto con **IC de Wilson** y un **pronóstico mensual por distrito** evaluado con **backtesting de origen móvil** e intervalos de predicción.

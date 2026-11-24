@@ -1,3 +1,5 @@
+🇪🇸 **Español** · 🇬🇧 [English (summary)](README.en.md)
+
 # 🌎 ¿Crecer sin emitir más? Desarrollo y CO2 en América Latina
 
 ¿Los países de América Latina pueden crecer sin aumentar sus emisiones? Uno las cifras del **Banco Mundial** (PIB real, población, energía, pobreza) con las de **Our World in Data / Global Carbon Project** (CO2 territorial, de consumo y por combustible) para **20 países entre 1990 y 2024** (18 con PIB en PPA completo entran al desacople, a Kaya y a Kuznets; Cuba y Venezuela solo aparecen en las emisiones). Con ese panel mido el **desacople PIB–CO2** de cada país, comparo a **Ecuador** con la región mediante una **descomposición de Kaya**, y pruebo la **curva de Kuznets ambiental**, explicando sus límites con honestidad.
