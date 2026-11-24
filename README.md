@@ -2,6 +2,8 @@
 
 # Reproducible data analysis in Python
 
+[![CI](https://github.com/GUAR-NIX/PORTAFOLIO-PYTHON/actions/workflows/ci.yml/badge.svg)](https://github.com/GUAR-NIX/PORTAFOLIO-PYTHON/actions/workflows/ci.yml)
+
 Six analyses of public data with automated tests and uncertainty estimates.
 
 | Project | Measured result | Code | Tests |
